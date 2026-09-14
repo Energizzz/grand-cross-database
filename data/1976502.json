@@ -1,0 +1,609 @@
+{
+  "nom": "Anghalhad, fille courageuse",
+  "designation": "[Douce tentation]",
+  "titre": "Anghalhad, fille courageuse",
+  "idJeu": "1976502",
+  "attribut": {
+    "nom": "Attribut Puissance",
+    "icone": "assets/commun/icon_filter_attribute_01__bfa1da106b20bf3e.png",
+    "couleur": "#ef6369",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Humain"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [],
+  "portrait": "assets/1976502/images/icon_hero_4koa_anghalhad_0010_s__39ef79ee0e255f3c.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Douce tentation] Anghalhad, fille courageuse possède une compétence qui inflige des dégâts plus élevés proportionnellement à son taux de perforation.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1976502/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1976502/images/hero_illust_4koa_anghalhad_1976502__affff05b59ea10d7.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "evolution": "Niveau maximal 50 · évolution 50",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 540.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 340.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 6100.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 4232
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 185.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 75.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 105.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Livraison maladroite »",
+          "image": "assets/1976502/images/icon_4koa_anghalhad_ssr_type01_skill_03__c50b352e64c250f4.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Perforation[-] égaux à 200 % de l'attaque sur un ennemi.\\n\\n[00D5FF]※Perforation : taux de perforation x3.[-]",
+              "idJeu": 1005621,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "Nullifie les postures sur un ennemi, inflige des dégâts de [00D5FF]Perforation[-] égaux à 200 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Perforation : taux de perforation x3.[-]\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1005622,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Nullifie les postures sur un ennemi, inflige des dégâts de [00D5FF]Perforation[-] égaux à 250 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Perforation : taux de perforation x3.[-]\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1005623,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Débordant d'amour »",
+          "image": "assets/1976502/images/icon_4koa_anghalhad_ssr_type01_skill_04__e5121348ae2d64c8.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 140 % de l’attaque sur tous les ennemis.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 1005631,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "[00D5FF]Retire les postures[-] de tous les ennemis et inflige des dégâts de [00D5FF]Domination[-] égaux à 150 % de l'attaque.\\n\\n[00D5FF]※Domination : dégâts supplémentaires égaux à la résistance de l'ennemi.[-]",
+              "idJeu": 1005632,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "[00D5FF]Retire les postures[-] de tous les ennemis et inflige des dégâts de [00D5FF]Domination[-] égaux à 250 % de l'attaque.\\n\\n[00D5FF]※Domination : dégâts supplémentaires égaux à la résistance de l'ennemi.[-]",
+              "idJeu": 1005633,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Quête de vérité »",
+        "image": "assets/1976502/images/icon_4koa_anghalhad_ssr_type01_special_01__3fcdf873f154ecb6.png",
+        "cible": "un ennemi",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 500.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 500 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 550.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 550 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 600.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 600 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 650.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 650 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 700.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 700 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 750.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 750 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Tentation audacieuse",
+        "image": "assets/1976502/images/icon_exclusive_skill_1976502__4ffaecb68b606b5a.png",
+        "description": "Pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat, augmente leurs stats de base de [FFAE00]6 %[-] et le taux de perforation de [FFAE00]40 %[-].\\n[i][C0C0C0]※Alliés concernés : soi, [Four Knights of the Apocalypse][/i][-]\\n\\n[00D5FF]Augmente le rang des compétences du héros[-] au début du combat. ([FFAE00]Une fois[-] seulement)\\n\\nAu début du combat, applique [00D5FF]Éblouissement[-] sur les [00D5FF]ennemis du clan des humains[-] pendant [FFAE00]2 tours[-] si tous les alliés en combat autres que le héros sont des [00D5FF]héros [Four Knights of the Apocalypse][-].\\n[i][C0C0C0]※Éblouissement : toutes les stats [FFAE00]-10 %[-], défense [FFAE00]-30 %[-].[/i][-]\\n\\nLe héros ne peut pas subir des dégâts supérieurs à [FFAE00]60 %[-] de ses PV max. avec la compétence d'un ennemi qui souffre du malus [00D5FF]Éblouissement[-] pendant le tour ennemi.\\n\\nAugmente l'attaque de [FFAE00]80 %[-] lorsqu'un [00D5FF]allié concerné[-] utilise des compétences sur des ennemis qui souffrent du malus [00D5FF]Éblouissement[-].\\n\\nApplique [00D5FF]Sans défense[-] lorsque le héros utilise une [00D5FF]attaque de groupe[-] sur un ennemi qui souffre du malus [00D5FF]Éblouissement[-] en [00D5FF]JCJ[-].\\n[i][C0C0C0]※Sans défense : attaque après avoir retiré les barrières.[/i][-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat, augmente leurs stats de base de [FFAE00]6 %[-] et le taux de perforation de [FFAE00]40 %[-].\\n[i][C0C0C0]※Alliés concernés : soi, [Four Knights of the Apocalypse][/i][-]\\n\\n[00D5FF]Augmente le rang des compétences du héros[-] au début du combat. ([FFAE00]Une fois[-] seulement)\\n\\nAu début du combat, applique [00D5FF]Éblouissement[-] sur les [00D5FF]ennemis du clan des humains[-] pendant [FFAE00]2 tours[-] si tous les alliés en combat autres que le héros sont des [00D5FF]héros [Four Knights of the Apocalypse][-].\\n[i][C0C0C0]※Éblouissement : toutes les stats [FFAE00]-10 %[-], défense [FFAE00]-30 %[-].[/i][-]\\n\\nLe héros ne peut pas subir des dégâts supérieurs à [FFAE00]60 %[-] de ses PV max. avec la compétence d'un ennemi qui souffre du malus [00D5FF]Éblouissement[-] pendant le tour ennemi.\\n\\nAugmente l'attaque de [FFAE00]80 %[-] lorsqu'un [00D5FF]allié concerné[-] utilise des compétences sur des ennemis qui souffrent du malus [00D5FF]Éblouissement[-].\\n\\nApplique [00D5FF]Sans défense[-] lorsque le héros utilise une [00D5FF]attaque de groupe[-] sur un ennemi qui souffre du malus [00D5FF]Éblouissement[-] en [00D5FF]JCJ[-].\\n[i][C0C0C0]※Sans défense : attaque après avoir retiré les barrières.[/i][-]"
+          }
+        ]
+      },
+      "idForme": 326603,
+      "portrait": "assets/1976502/images/icon_hero_4koa_anghalhad_0009_s__e24dad9fb76e7722.png",
+      "portraitVertical": "assets/1976502/images/icon_skin_4koa_anghalhad_0009_l__917dadee5d8a1e1d.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1976502/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1976502/images/hero_illust_4koa_anghalhad_1976502__affff05b59ea10d7.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 820.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 470.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 8300.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 5056
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 185.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 75.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 105.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Livraison maladroite »",
+          "image": "assets/1976502/images/icon_4koa_anghalhad_ssr_type01_skill_03__c50b352e64c250f4.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Perforation[-] égaux à 200 % de l'attaque sur un ennemi.\\n\\n[00D5FF]※Perforation : taux de perforation x3.[-]",
+              "idJeu": 1005621,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "Nullifie les postures sur un ennemi, inflige des dégâts de [00D5FF]Perforation[-] égaux à 200 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Perforation : taux de perforation x3.[-]\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1005622,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Nullifie les postures sur un ennemi, inflige des dégâts de [00D5FF]Perforation[-] égaux à 250 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Perforation : taux de perforation x3.[-]\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1005623,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Débordant d'amour »",
+          "image": "assets/1976502/images/icon_4koa_anghalhad_ssr_type01_skill_04__e5121348ae2d64c8.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 140 % de l’attaque sur tous les ennemis.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 1005631,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "[00D5FF]Retire les postures[-] de tous les ennemis et inflige des dégâts de [00D5FF]Domination[-] égaux à 150 % de l'attaque.\\n\\n[00D5FF]※Domination : dégâts supplémentaires égaux à la résistance de l'ennemi.[-]",
+              "idJeu": 1005632,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "[00D5FF]Retire les postures[-] de tous les ennemis et inflige des dégâts de [00D5FF]Domination[-] égaux à 250 % de l'attaque.\\n\\n[00D5FF]※Domination : dégâts supplémentaires égaux à la résistance de l'ennemi.[-]",
+              "idJeu": 1005633,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Quête de vérité »",
+        "image": "assets/1976502/images/icon_4koa_anghalhad_ssr_type01_special_01__3fcdf873f154ecb6.png",
+        "cible": "un ennemi",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 500.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 500 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 550.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 550 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 600.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 600 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 650.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 650 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 700.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 700 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 750.0,
+            "description": "Augmente les chances crit. du héros de [FFAE00]80 %[-] et ses dégâts crit. de [FFAE00]100 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Pointe[-] égaux à 750 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Tentation audacieuse",
+        "image": "assets/1976502/images/icon_exclusive_skill_1976502__4ffaecb68b606b5a.png",
+        "description": "Pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat, augmente leurs stats de base de [FFAE00]6 %[-] et le taux de perforation de [FFAE00]40 %[-].\\n[i][C0C0C0]※Alliés concernés : soi, [Four Knights of the Apocalypse][/i][-]\\n\\n[00D5FF]Augmente le rang des compétences du héros[-] au début du combat. ([FFAE00]Une fois[-] seulement)\\n\\nAu début du combat, applique [00D5FF]Éblouissement[-] sur les [00D5FF]ennemis du clan des humains[-] pendant [FFAE00]2 tours[-] si tous les alliés en combat autres que le héros sont des [00D5FF]héros [Four Knights of the Apocalypse][-].\\n[i][C0C0C0]※Éblouissement : toutes les stats [FFAE00]-10 %[-], défense [FFAE00]-30 %[-].[/i][-]\\n\\nLe héros ne peut pas subir des dégâts supérieurs à [FFAE00]60 %[-] de ses PV max. avec la compétence d'un ennemi qui souffre du malus [00D5FF]Éblouissement[-] pendant le tour ennemi.\\n\\nAugmente l'attaque de [FFAE00]80 %[-] lorsqu'un [00D5FF]allié concerné[-] utilise des compétences sur des ennemis qui souffrent du malus [00D5FF]Éblouissement[-].\\n\\nApplique [00D5FF]Sans défense[-] lorsque le héros utilise une [00D5FF]attaque de groupe[-] sur un ennemi qui souffre du malus [00D5FF]Éblouissement[-] en [00D5FF]JCJ[-].\\n[i][C0C0C0]※Sans défense : attaque après avoir retiré les barrières.[/i][-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat, augmente leurs stats de base de [FFAE00]6 %[-] et le taux de perforation de [FFAE00]40 %[-].\\n[i][C0C0C0]※Alliés concernés : soi, [Four Knights of the Apocalypse][/i][-]\\n\\n[00D5FF]Augmente le rang des compétences du héros[-] au début du combat. ([FFAE00]Une fois[-] seulement)\\n\\nAu début du combat, applique [00D5FF]Éblouissement[-] sur les [00D5FF]ennemis du clan des humains[-] pendant [FFAE00]2 tours[-] si tous les alliés en combat autres que le héros sont des [00D5FF]héros [Four Knights of the Apocalypse][-].\\n[i][C0C0C0]※Éblouissement : toutes les stats [FFAE00]-10 %[-], défense [FFAE00]-30 %[-].[/i][-]\\n\\nLe héros ne peut pas subir des dégâts supérieurs à [FFAE00]60 %[-] de ses PV max. avec la compétence d'un ennemi qui souffre du malus [00D5FF]Éblouissement[-] pendant le tour ennemi.\\n\\nAugmente l'attaque de [FFAE00]80 %[-] lorsqu'un [00D5FF]allié concerné[-] utilise des compétences sur des ennemis qui souffrent du malus [00D5FF]Éblouissement[-].\\n\\nApplique [00D5FF]Sans défense[-] lorsque le héros utilise une [00D5FF]attaque de groupe[-] sur un ennemi qui souffre du malus [00D5FF]Éblouissement[-] en [00D5FF]JCJ[-].\\n[i][C0C0C0]※Sans défense : attaque après avoir retiré les barrières.[/i][-]"
+          }
+        ]
+      },
+      "idForme": 326604,
+      "portrait": "assets/1976502/images/icon_hero_4koa_anghalhad_0010_s__39ef79ee0e255f3c.png",
+      "portraitVertical": "assets/1976502/images/icon_skin_4koa_anghalhad_0010_l__072f5d38f34cb9dd.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3326601",
+      "categorie": "Skin",
+      "nom": "Tenue d'aventure",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0004_l__fc0271726fffcb82.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326603",
+      "categorie": "Skin",
+      "nom": "Tenue simple chocolat à la menthe",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0009_l__917dadee5d8a1e1d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326650",
+      "categorie": "Skin",
+      "nom": "Virtuose du kendo",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0005_l__edf4683ee12b1667.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326651",
+      "categorie": "Skin",
+      "nom": "Chevalière noble",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0006_l__71165b4fea4c093a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326652",
+      "categorie": "Skin",
+      "nom": "Cheffe de ruelle",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0007_l__d7298b0c13d0760d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326653",
+      "categorie": "Skin",
+      "nom": "Cuisinier du mois",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0008_l__6967cb2f51eb7953.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326602",
+      "categorie": "Skin",
+      "nom": "Droiture incarnée",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0001_l__a3347a8043a083b0.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326604",
+      "categorie": "Skin",
+      "nom": "Robe adorable chocolat à la menthe",
+      "image": "assets/1976502/images/icon_skin_4koa_anghalhad_0010_l__072f5d38f34cb9dd.png",
+      "rarete": ""
+    },
+    {
+      "id": "878801",
+      "categorie": "Weapon",
+      "nom": "Rapière en argent",
+      "image": "assets/1976502/images/icon_weapon_4koa_anghalhad_0001_l__bfa9984db44f65ef.png",
+      "rarete": ""
+    },
+    {
+      "id": "878802",
+      "categorie": "Weapon",
+      "nom": "Épée de bambou",
+      "image": "assets/1976502/images/icon_weapon_4koa_anghalhad_0005_l__50c9c2de84612e0a.png",
+      "rarete": ""
+    },
+    {
+      "id": "878803",
+      "categorie": "Weapon",
+      "nom": "Épine bleue noble",
+      "image": "assets/1976502/images/icon_weapon_4koa_anghalhad_0006_l__c12082a97a22d77a.png",
+      "rarete": ""
+    },
+    {
+      "id": "878804",
+      "categorie": "Weapon",
+      "nom": "Compagnon de trublionne",
+      "image": "assets/1976502/images/icon_weapon_4koa_anghalhad_0007_l__74c11fc05d9fa517.png",
+      "rarete": ""
+    },
+    {
+      "id": "878805",
+      "categorie": "Weapon",
+      "nom": "Fourchette à dessert",
+      "image": "assets/1976502/images/icon_weapon_4koa_anghalhad_0008_l__6f2d1ac89f73e9dc.png",
+      "rarete": ""
+    },
+    {
+      "id": "878806",
+      "categorie": "Weapon",
+      "nom": "Bâton adorable chocolat à la menthe",
+      "image": "assets/1976502/images/icon_weapon_4koa_anghalhad_0010_l__b862cf4340578965.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007701",
+      "categorie": "Head",
+      "nom": "Coiffure simple",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0001_l__e9547a6ece618b51.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007702",
+      "categorie": "Head",
+      "nom": "Queue-de-cheval mignonne",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0005_l__6fbca45a25ad369e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007703",
+      "categorie": "Head",
+      "nom": "Fierté d'une chevalière",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0006_l__a0e84b04ce0c8923.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007704",
+      "categorie": "Head",
+      "nom": "Trublionne",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0007_l__551d904e6a281230.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007706",
+      "categorie": "Head",
+      "nom": "Apprenti pâtissier",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0008_l__21320beff8704872.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007707",
+      "categorie": "Head",
+      "nom": "Ruban adorable chocolat à la menthe",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0010_l__b03fbc36100eef36.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007705",
+      "categorie": "Head",
+      "nom": "Fille prestigieuse de Sistana",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0002_l__04ac31a6a3c81fe0.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007708",
+      "categorie": "Head",
+      "nom": "Chapeau chocolat à la menthe",
+      "image": "assets/1976502/images/icon_head_4koa_anghalhad_0501_l__0005bd3048af3394.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null,
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+}

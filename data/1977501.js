@@ -1,0 +1,423 @@
+window.fichePreparee={
+  "nom": "King et Diane",
+  "designation": "[Souverains d'une nouvelle ère]",
+  "titre": "King et Diane",
+  "idJeu": "1977501",
+  "attribut": {
+    "nom": "Attribut Vitesse",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Fée",
+      "Géant"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_04__48547a3ab95fac10.png",
+      "assets/commun/icon_filter_kind_02__4320d5376444ecd0.png"
+    ]
+  },
+  "caracteristiques": [
+    "Les [Seven Deadly Sins]"
+  ],
+  "portrait": "assets/1977501/images/icon_hero_dual_kd_0002_s__c900047e9ee01d21.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Souverains d'une nouvelle ère] King et Diane ont une compétence qui inflige d'autant plus de dégâts que leur attaque est élevée.",
+  "commandement": null,
+  "talent": {
+    "nom": "Véritable lance spirituelle Chastiefol, 8e configuration : « Jardin de pollen »",
+    "image": "assets/1977501/images/icon_ability_1977501__3d934cda73bad320.png",
+    "description": "Applique [FFAE00]2[-] effets [00D5FF]Courroux du roi des fées[-] au duo de héros, retire autant de [00D5FF]malus des alliés[-] que le [00D5FF]nombre d'alliés survivants[-], puis les soigne à hauteur de [00FF00]350 %[-] de l'attaque du duo de héros.\\n[00D5FF](Temps de rechargement : [FFAE00]3 tours[-])[-]",
+    "niveauxUltime": [
+      {
+        "niveau": 1,
+        "description": "Applique [FFAE00]2[-] effets [00D5FF]Courroux du roi des fées[-] au duo de héros, retire autant de [00D5FF]malus des alliés[-] que le [00D5FF]nombre d'alliés survivants[-], puis les soigne à hauteur de [00FF00]350 %[-] de l'attaque du duo de héros.\\n[00D5FF](Temps de rechargement : [FFAE00]3 tours[-])[-]"
+      }
+    ],
+    "cadre": "assets/passive-frames/ability_frame_10.png",
+    "idJeu": 540004
+  },
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1977501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1977501/images/hero_illust_dual_kd_1977501__0d778435ba4320a9.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 800.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 550.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 9500.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 5898
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 215.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Unité indivisible\"",
+          "image": "assets/1977501/images/icon_dual_kd_ssr_type01_skill_01__03577cef580ca08e.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Montagne colossale[-] équivalant à 200 % de l'attaque à un ennemi. Réduit la jauge de coup ultime des ennemis de [FFAE00]1 orbe[-] si le duo de héros a [FFAE00]4 orbes[-] ou plus.\\n\\n[00D5FF]※Montagne colossale : taux de perforation [FFAE00]x2[-].\\nInflige des dégâts supplémentaires équivalant à [FFAE00]20 %[-] des PV restants du héros.\\nApplique Pétrification à un ennemi pendant [FFAE00]1 tour[-] en utilisant [FFAE00]1[-] effet Courroux du roi des fées pour infliger des dégâts.[-]",
+              "idJeu": 1006101,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Montagne colossale[-] équivalant à 300 % de l'attaque à un ennemi. Réduit la jauge de coup ultime des ennemis de [FFAE00]1 orbe[-] si le duo de héros a [FFAE00]4 orbes[-] ou plus.\\n\\n[00D5FF]※Montagne colossale : taux de perforation [FFAE00]x2[-].\\nInflige des dégâts supplémentaires équivalant à [FFAE00]20 %[-] des PV restants du héros.\\nApplique Pétrification à un ennemi pendant [FFAE00]1 tour[-] en utilisant [FFAE00]1[-] effet Courroux du roi des fées pour infliger des dégâts.[-]",
+              "idJeu": 1006102,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts de [00D5FF]Montagne colossale[-] équivalant à 500 % de l'attaque à un ennemi. Réduit la jauge de coup ultime des ennemis de [FFAE00]1 orbe[-] si le duo de héros a [FFAE00]4 orbes[-] ou plus.\\n\\n[00D5FF]※Montagne colossale : taux de perforation [FFAE00]x2[-].\\nInflige des dégâts supplémentaires équivalant à [FFAE00]20 %[-] des PV restants du héros.\\nApplique Pétrification à un ennemi pendant [FFAE00]1 tour[-] en utilisant [FFAE00]1[-] effet Courroux du roi des fées pour infliger des dégâts.[-]",
+              "idJeu": 1006103,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Destruction des pousses »",
+          "image": "assets/1977501/images/icon_dual_kd_ssr_type01_skill_02__59a9cde2f167d8d5.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 180 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+              "idJeu": 1006111,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 230.0,
+              "description": "Inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 230 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+              "idJeu": 1006112,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 300 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+              "idJeu": 1006113,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "Attaque combinée : « Jugement universel »",
+        "image": "assets/1977501/images/icon_dual_kd_ssr_type01_special_01__0291dbdb68b33660.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Augmente les dégâts infligés par le duo de héros de [FFAE00]30 %[-] pendant [FF8000]3 tours[-], applique [FF8000]1[-] effet de [00D5FF]Courroux du roi des fées[-] au duo de héros, puis inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 350 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 380.0,
+            "description": "Augmente les dégâts infligés par le duo de héros de [FFAE00]30 %[-] pendant [FF8000]3 tours[-], applique [FF8000]1[-] effet de [00D5FF]Courroux du roi des fées[-] au duo de héros, puis inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 380 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 410.0,
+            "description": "Augmente les dégâts infligés par le duo de héros de [FFAE00]40 %[-] pendant [FF8000]3 tours[-], applique [FF8000]2[-] effets de [00D5FF]Courroux du roi des fées[-] au duo de héros, puis inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 410 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 440.0,
+            "description": "Augmente les dégâts infligés par le duo de héros de [FFAE00]40 %[-] pendant [FF8000]3 tours[-], applique [FF8000]2[-] effets de [00D5FF]Courroux du roi des fées[-] au duo de héros, puis inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 440 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 470.0,
+            "description": "Augmente les dégâts infligés par le duo de héros de [FFAE00]40 %[-] pendant [FF8000]3 tours[-], applique [FF8000]2[-] effets de [00D5FF]Courroux du roi des fées[-] au duo de héros, puis inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 470 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 500.0,
+            "description": "Augmente les dégâts infligés par le duo de héros de [FFAE00]50 %[-] pendant [FF8000]3 tours[-], applique [FF8000]3[-] effets de [00D5FF]Courroux du roi des fées[-] au duo de héros, puis inflige des dégâts de [00D5FF]Point lumineux[-] équivalant à 500 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Point lumineux : chances crit. [FFAE00]x2[-], dégâts crit. [FFAE00]x2[-].\\nAttaque du duo de héros [FFAE00]+60 %[-] lors de l'utilisation de la compétence.\\nDégâts infligés [FFAE00]+30 %[-] contre les cibles qui n'ont pas accumulé la valeur maximale de Courroux terrestre.\\nDégâts infligés [FFAE00]+100 %[-] contre les cibles qui ont accumulé la valeur maximale de Courroux terrestre.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Gardiens de la terre et de la forêt",
+        "image": "assets/1977501/images/icon_exclusive_skill_1977501__6e8ccee1a92a8971.png",
+        "description": "Augmente de [FFAE00]15 %[-] les stats de base des [00D5FF]alliés concernés[-] en combat, [FFAE00]chaque[-] héros augmentant toutes les stats du duo de héros de [FFAE00]7 %[-].\\n[i][C0C0C0]※Alliés concernés : fées, géants, Les [Seven Deadly Sins][/i][-]\\n\\nAu début du tour allié, [00D5FF]Courroux terrestre[-] est appliqué aux ennemis qui ne sont pas affectés par [00D5FF]Courroux terrestre[-].\\n[i][C0C0C0]※Courroux terrestre : accumule jusqu'à [FFAE00]400 000 dégâts[-] subis par la cible. [/i][-]\\n\\nAu début du combat, [00D5FF]Protection de la reine des géants[-] est appliqué au duo de héros et l'effet [00D5FF]Suppression des dégâts subis[-] est appliqué aux [00D5FF]alliés concernés[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0].※Protection de la reine des géants : stats de PV [FFAE00]+20 %[-]\\nImmunité à Pétrification.\\n※Suppression des dégâts subis : chaque compétence ennemie ne peut pas faire perdre plus de [FFAE00]50 %[-] des PV max.[/i][-]\\n\\nLorsqu'un ennemi atteint la valeur maximale de [00D5FF]Courroux terrestre[-], octroie au duo de héros [FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-], (cumulable [FFAE00]3 fois[-]).\\n[i][C0C0C0]※Courroux du roi des fées : stats offensives [FFAE00]+7 %[-], dégâts subis [FFAE00]-40 %[-]\\n(cumulable [FFAE00]5 fois[-])[/i][-]\\n\\nLorsque le duo de héros utilise une [00D5FF]attaque de groupe[-], sauf coup ultime, sur un ennemi affecté par l'effet [00D5FF]Courroux terrestre[-], l'ennemi subit des dégâts supplémentaires équivalant à [FF8000]40 %[-] de la valeur accumulée.\\n\\n[FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-] est retiré du duo de héros [00D5FF]à chaque fois que le duo de héros subit des dégâts[-] d'une compétence adverse pendant le tour ennemi.\\n\\nSi un ennemi souffre de l'effet [00D5FF]Pétrification[-], les dégâts finaux infligés par des compétences ennemies aux [00D5FF]alliés concernés[-] sont réduits de [FF8000]50 %[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente de [FFAE00]15 %[-] les stats de base des [00D5FF]alliés concernés[-] en combat, [FFAE00]chaque[-] héros augmentant toutes les stats du duo de héros de [FFAE00]7 %[-].\\n[i][C0C0C0]※Alliés concernés : fées, géants, Les [Seven Deadly Sins][/i][-]\\n\\nAu début du tour allié, [00D5FF]Courroux terrestre[-] est appliqué aux ennemis qui ne sont pas affectés par [00D5FF]Courroux terrestre[-].\\n[i][C0C0C0]※Courroux terrestre : accumule jusqu'à [FFAE00]400 000 dégâts[-] subis par la cible. [/i][-]\\n\\nAu début du combat, [00D5FF]Protection de la reine des géants[-] est appliqué au duo de héros et l'effet [00D5FF]Suppression des dégâts subis[-] est appliqué aux [00D5FF]alliés concernés[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0].※Protection de la reine des géants : stats de PV [FFAE00]+20 %[-]\\nImmunité à Pétrification.\\n※Suppression des dégâts subis : chaque compétence ennemie ne peut pas faire perdre plus de [FFAE00]50 %[-] des PV max.[/i][-]\\n\\nLorsqu'un ennemi atteint la valeur maximale de [00D5FF]Courroux terrestre[-], octroie au duo de héros [FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-], (cumulable [FFAE00]3 fois[-]).\\n[i][C0C0C0]※Courroux du roi des fées : stats offensives [FFAE00]+7 %[-], dégâts subis [FFAE00]-40 %[-]\\n(cumulable [FFAE00]5 fois[-])[/i][-]\\n\\nLorsque le duo de héros utilise une [00D5FF]attaque de groupe[-], sauf coup ultime, sur un ennemi affecté par l'effet [00D5FF]Courroux terrestre[-], l'ennemi subit des dégâts supplémentaires équivalant à [FF8000]20 %[-] de la valeur accumulée.\\n\\n[FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-] est retiré du duo de héros [00D5FF]à chaque fois que le duo de héros subit des dégâts[-] d'une compétence adverse pendant le tour ennemi.\\n\\nSi un ennemi souffre de l'effet [00D5FF]Pétrification[-], les dégâts finaux infligés par des compétences ennemies aux [00D5FF]alliés concernés[-] sont réduits de [FF8000]20 %[-]."
+          },
+          {
+            "niveau": 2,
+            "description": "Augmente de [FFAE00]15 %[-] les stats de base des [00D5FF]alliés concernés[-] en combat, [FFAE00]chaque[-] héros augmentant toutes les stats du duo de héros de [FFAE00]7 %[-].\\n[i][C0C0C0]※Alliés concernés : fées, géants, Les [Seven Deadly Sins][/i][-]\\n\\nAu début du tour allié, [00D5FF]Courroux terrestre[-] est appliqué aux ennemis qui ne sont pas affectés par [00D5FF]Courroux terrestre[-].\\n[i][C0C0C0]※Courroux terrestre : accumule jusqu'à [FFAE00]400 000 dégâts[-] subis par la cible. [/i][-]\\n\\nAu début du combat, [00D5FF]Protection de la reine des géants[-] est appliqué au duo de héros et l'effet [00D5FF]Suppression des dégâts subis[-] est appliqué aux [00D5FF]alliés concernés[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0].※Protection de la reine des géants : stats de PV [FFAE00]+20 %[-]\\nImmunité à Pétrification.\\n※Suppression des dégâts subis : chaque compétence ennemie ne peut pas faire perdre plus de [FFAE00]50 %[-] des PV max.[/i][-]\\n\\nLorsqu'un ennemi atteint la valeur maximale de [00D5FF]Courroux terrestre[-], octroie au duo de héros [FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-], (cumulable [FFAE00]3 fois[-]).\\n[i][C0C0C0]※Courroux du roi des fées : stats offensives [FFAE00]+7 %[-], dégâts subis [FFAE00]-40 %[-]\\n(cumulable [FFAE00]5 fois[-])[/i][-]\\n\\nLorsque le duo de héros utilise une [00D5FF]attaque de groupe[-], sauf coup ultime, sur un ennemi affecté par l'effet [00D5FF]Courroux terrestre[-], l'ennemi subit des dégâts supplémentaires équivalant à [FF8000]20 %[-] de la valeur accumulée.\\n\\n[FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-] est retiré du duo de héros [00D5FF]à chaque fois que le duo de héros subit des dégâts[-] d'une compétence adverse pendant le tour ennemi.\\n\\nSi un ennemi souffre de l'effet [00D5FF]Pétrification[-], les dégâts finaux infligés par des compétences ennemies aux [00D5FF]alliés concernés[-] sont réduits de [FF8000]30 %[-]."
+          },
+          {
+            "niveau": 3,
+            "description": "Augmente de [FFAE00]15 %[-] les stats de base des [00D5FF]alliés concernés[-] en combat, [FFAE00]chaque[-] héros augmentant toutes les stats du duo de héros de [FFAE00]7 %[-].\\n[i][C0C0C0]※Alliés concernés : fées, géants, Les [Seven Deadly Sins][/i][-]\\n\\nAu début du tour allié, [00D5FF]Courroux terrestre[-] est appliqué aux ennemis qui ne sont pas affectés par [00D5FF]Courroux terrestre[-].\\n[i][C0C0C0]※Courroux terrestre : accumule jusqu'à [FFAE00]400 000 dégâts[-] subis par la cible. [/i][-]\\n\\nAu début du combat, [00D5FF]Protection de la reine des géants[-] est appliqué au duo de héros et l'effet [00D5FF]Suppression des dégâts subis[-] est appliqué aux [00D5FF]alliés concernés[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0].※Protection de la reine des géants : stats de PV [FFAE00]+20 %[-]\\nImmunité à Pétrification.\\n※Suppression des dégâts subis : chaque compétence ennemie ne peut pas faire perdre plus de [FFAE00]50 %[-] des PV max.[/i][-]\\n\\nLorsqu'un ennemi atteint la valeur maximale de [00D5FF]Courroux terrestre[-], octroie au duo de héros [FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-], (cumulable [FFAE00]3 fois[-]).\\n[i][C0C0C0]※Courroux du roi des fées : stats offensives [FFAE00]+7 %[-], dégâts subis [FFAE00]-40 %[-]\\n(cumulable [FFAE00]5 fois[-])[/i][-]\\n\\nLorsque le duo de héros utilise une [00D5FF]attaque de groupe[-], sauf coup ultime, sur un ennemi affecté par l'effet [00D5FF]Courroux terrestre[-], l'ennemi subit des dégâts supplémentaires équivalant à [FF8000]30 %[-] de la valeur accumulée.\\n\\n[FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-] est retiré du duo de héros [00D5FF]à chaque fois que le duo de héros subit des dégâts[-] d'une compétence adverse pendant le tour ennemi.\\n\\nSi un ennemi souffre de l'effet [00D5FF]Pétrification[-], les dégâts finaux infligés par des compétences ennemies aux [00D5FF]alliés concernés[-] sont réduits de [FF8000]35 %[-]."
+          },
+          {
+            "niveau": 4,
+            "description": "Augmente de [FFAE00]15 %[-] les stats de base des [00D5FF]alliés concernés[-] en combat, [FFAE00]chaque[-] héros augmentant toutes les stats du duo de héros de [FFAE00]7 %[-].\\n[i][C0C0C0]※Alliés concernés : fées, géants, Les [Seven Deadly Sins][/i][-]\\n\\nAu début du tour allié, [00D5FF]Courroux terrestre[-] est appliqué aux ennemis qui ne sont pas affectés par [00D5FF]Courroux terrestre[-].\\n[i][C0C0C0]※Courroux terrestre : accumule jusqu'à [FFAE00]400 000 dégâts[-] subis par la cible. [/i][-]\\n\\nAu début du combat, [00D5FF]Protection de la reine des géants[-] est appliqué au duo de héros et l'effet [00D5FF]Suppression des dégâts subis[-] est appliqué aux [00D5FF]alliés concernés[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0].※Protection de la reine des géants : stats de PV [FFAE00]+20 %[-]\\nImmunité à Pétrification.\\n※Suppression des dégâts subis : chaque compétence ennemie ne peut pas faire perdre plus de [FFAE00]50 %[-] des PV max.[/i][-]\\n\\nLorsqu'un ennemi atteint la valeur maximale de [00D5FF]Courroux terrestre[-], octroie au duo de héros [FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-], (cumulable [FFAE00]3 fois[-]).\\n[i][C0C0C0]※Courroux du roi des fées : stats offensives [FFAE00]+7 %[-], dégâts subis [FFAE00]-40 %[-]\\n(cumulable [FFAE00]5 fois[-])[/i][-]\\n\\nLorsque le duo de héros utilise une [00D5FF]attaque de groupe[-], sauf coup ultime, sur un ennemi affecté par l'effet [00D5FF]Courroux terrestre[-], l'ennemi subit des dégâts supplémentaires équivalant à [FF8000]35 %[-] de la valeur accumulée.\\n\\n[FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-] est retiré du duo de héros [00D5FF]à chaque fois que le duo de héros subit des dégâts[-] d'une compétence adverse pendant le tour ennemi.\\n\\nSi un ennemi souffre de l'effet [00D5FF]Pétrification[-], les dégâts finaux infligés par des compétences ennemies aux [00D5FF]alliés concernés[-] sont réduits de [FF8000]40 %[-]."
+          },
+          {
+            "niveau": 5,
+            "description": "Augmente de [FFAE00]15 %[-] les stats de base des [00D5FF]alliés concernés[-] en combat, [FFAE00]chaque[-] héros augmentant toutes les stats du duo de héros de [FFAE00]7 %[-].\\n[i][C0C0C0]※Alliés concernés : fées, géants, Les [Seven Deadly Sins][/i][-]\\n\\nAu début du tour allié, [00D5FF]Courroux terrestre[-] est appliqué aux ennemis qui ne sont pas affectés par [00D5FF]Courroux terrestre[-].\\n[i][C0C0C0]※Courroux terrestre : accumule jusqu'à [FFAE00]400 000 dégâts[-] subis par la cible. [/i][-]\\n\\nAu début du combat, [00D5FF]Protection de la reine des géants[-] est appliqué au duo de héros et l'effet [00D5FF]Suppression des dégâts subis[-] est appliqué aux [00D5FF]alliés concernés[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0].※Protection de la reine des géants : stats de PV [FFAE00]+20 %[-]\\nImmunité à Pétrification.\\n※Suppression des dégâts subis : chaque compétence ennemie ne peut pas faire perdre plus de [FFAE00]50 %[-] des PV max.[/i][-]\\n\\nLorsqu'un ennemi atteint la valeur maximale de [00D5FF]Courroux terrestre[-], octroie au duo de héros [FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-], (cumulable [FFAE00]3 fois[-]).\\n[i][C0C0C0]※Courroux du roi des fées : stats offensives [FFAE00]+7 %[-], dégâts subis [FFAE00]-40 %[-]\\n(cumulable [FFAE00]5 fois[-])[/i][-]\\n\\nLorsque le duo de héros utilise une [00D5FF]attaque de groupe[-], sauf coup ultime, sur un ennemi affecté par l'effet [00D5FF]Courroux terrestre[-], l'ennemi subit des dégâts supplémentaires équivalant à [FF8000]40 %[-] de la valeur accumulée.\\n\\n[FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-] est retiré du duo de héros [00D5FF]à chaque fois que le duo de héros subit des dégâts[-] d'une compétence adverse pendant le tour ennemi.\\n\\nSi un ennemi souffre de l'effet [00D5FF]Pétrification[-], les dégâts finaux infligés par des compétences ennemies aux [00D5FF]alliés concernés[-] sont réduits de [FF8000]45 %[-]."
+          },
+          {
+            "niveau": 6,
+            "description": "Augmente de [FFAE00]15 %[-] les stats de base des [00D5FF]alliés concernés[-] en combat, [FFAE00]chaque[-] héros augmentant toutes les stats du duo de héros de [FFAE00]7 %[-].\\n[i][C0C0C0]※Alliés concernés : fées, géants, Les [Seven Deadly Sins][/i][-]\\n\\nAu début du tour allié, [00D5FF]Courroux terrestre[-] est appliqué aux ennemis qui ne sont pas affectés par [00D5FF]Courroux terrestre[-].\\n[i][C0C0C0]※Courroux terrestre : accumule jusqu'à [FFAE00]400 000 dégâts[-] subis par la cible. [/i][-]\\n\\nAu début du combat, [00D5FF]Protection de la reine des géants[-] est appliqué au duo de héros et l'effet [00D5FF]Suppression des dégâts subis[-] est appliqué aux [00D5FF]alliés concernés[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0].※Protection de la reine des géants : stats de PV [FFAE00]+20 %[-]\\nImmunité à Pétrification.\\n※Suppression des dégâts subis : chaque compétence ennemie ne peut pas faire perdre plus de [FFAE00]50 %[-] des PV max.[/i][-]\\n\\nLorsqu'un ennemi atteint la valeur maximale de [00D5FF]Courroux terrestre[-], octroie au duo de héros [FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-], (cumulable [FFAE00]3 fois[-]).\\n[i][C0C0C0]※Courroux du roi des fées : stats offensives [FFAE00]+7 %[-], dégâts subis [FFAE00]-40 %[-]\\n(cumulable [FFAE00]5 fois[-])[/i][-]\\n\\nLorsque le duo de héros utilise une [00D5FF]attaque de groupe[-], sauf coup ultime, sur un ennemi affecté par l'effet [00D5FF]Courroux terrestre[-], l'ennemi subit des dégâts supplémentaires équivalant à [FF8000]40 %[-] de la valeur accumulée.\\n\\n[FFAE00]1[-] effet [00D5FF]Courroux du roi des fées[-] est retiré du duo de héros [00D5FF]à chaque fois que le duo de héros subit des dégâts[-] d'une compétence adverse pendant le tour ennemi.\\n\\nSi un ennemi souffre de l'effet [00D5FF]Pétrification[-], les dégâts finaux infligés par des compétences ennemies aux [00D5FF]alliés concernés[-] sont réduits de [FF8000]50 %[-]."
+          }
+        ]
+      },
+      "idForme": 327101,
+      "portrait": "assets/1977501/images/icon_hero_dual_kd_0002_s__c900047e9ee01d21.png",
+      "portraitVertical": "assets/1977501/images/icon_skin_dual_kd_0002_l__2ffc240c6ff0b8e4.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3327101",
+      "categorie": "Skin",
+      "nom": "Souverains d'une nouvelle ère",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0002_l__2ffc240c6ff0b8e4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327154",
+      "categorie": "Skin",
+      "nom": "Uniforme du nouveau semestre",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0008_l__95f661396bb2dedc.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327150",
+      "categorie": "Skin",
+      "nom": "Mariage printanier au jardin",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0003_l__093346baac15689a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327151",
+      "categorie": "Skin",
+      "nom": "Lien de la terre et de la forêt",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0004_l__0bd0637ccf31957c.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327152",
+      "categorie": "Skin",
+      "nom": "Partenaires en amour et en magie",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0005_l__52761b015d99b1b2.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327153",
+      "categorie": "Skin",
+      "nom": "MVP du mois",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0006_l__d9548aeb59cc11df.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327102",
+      "categorie": "Skin",
+      "nom": "Tenues de base",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0001_l__c0e351ba870354c5.png",
+      "rarete": ""
+    },
+    {
+      "id": "879301",
+      "categorie": "Weapon",
+      "nom": "Armes de base",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0001_l__a39547f7ba2b4052.png",
+      "rarete": ""
+    },
+    {
+      "id": "879302",
+      "categorie": "Weapon",
+      "nom": "Symbole d'harmonie",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0003_l__bf99a969166b95cc.png",
+      "rarete": ""
+    },
+    {
+      "id": "879303",
+      "categorie": "Weapon",
+      "nom": "Volonté de la terre et de la forêt",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0004_l__6fb035a59e94fff0.png",
+      "rarete": ""
+    },
+    {
+      "id": "879304",
+      "categorie": "Weapon",
+      "nom": "Arme magique de l'amour",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0005_l__6e6fb9f38f37691a.png",
+      "rarete": ""
+    },
+    {
+      "id": "879305",
+      "categorie": "Weapon",
+      "nom": "On ne recule jamais",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0006_l__50e108f0c8f4cf2c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008201",
+      "categorie": "Head",
+      "nom": "Coiffures habituelles",
+      "image": "assets/1977501/images/icon_head_dual_kd_0001_l__eced05d49e7e832c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008207",
+      "categorie": "Head",
+      "nom": "Bandeau des meilleurs amis",
+      "image": "assets/1977501/images/icon_head_dual_kd_0007_l__05d0c93290a8235d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008208",
+      "categorie": "Head",
+      "nom": "Halo d'emblème",
+      "image": "assets/1977501/images/icon_head_dual_kd_0009_l__1faf2e5d73857638.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008202",
+      "categorie": "Head",
+      "nom": "Marche nuptiale",
+      "image": "assets/1977501/images/icon_head_dual_kd_0003_l__2bac15b75290dd83.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008203",
+      "categorie": "Head",
+      "nom": "Souverains de la terre et de la forêt",
+      "image": "assets/1977501/images/icon_head_dual_kd_0004_l__527be1575553901d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008204",
+      "categorie": "Head",
+      "nom": "Magical girl et mascotte",
+      "image": "assets/1977501/images/icon_head_dual_kd_0005_l__4a2433b20d13681b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008206",
+      "categorie": "Head",
+      "nom": "Le duo parfait",
+      "image": "assets/1977501/images/icon_head_dual_kd_0006_l__de4f73dbd090266d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008205",
+      "categorie": "Head",
+      "nom": "Roi des fées et reine des géants",
+      "image": "assets/1977501/images/icon_head_dual_kd_0501_l__1965a2477e683960.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null,
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+};

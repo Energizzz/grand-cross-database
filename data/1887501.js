@@ -1,0 +1,940 @@
+window.fichePreparee={
+  "nom": "Merlin, fille de Belialuin",
+  "designation": "[Protection divine]",
+  "titre": "Merlin, fille de Belialuin",
+  "idJeu": "1887501",
+  "attribut": {
+    "nom": "Attribut PV",
+    "icone": "assets/commun/icon_filter_attribute_02__ea1406c9830f7566.png",
+    "couleur": "#67c778",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Inconnu"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_06__96c3bf184ce60ee4.png"
+    ]
+  },
+  "caracteristiques": [
+    "Les [Seven Deadly Sins]"
+  ],
+  "portrait": "assets/1887501/images/icon_hero_merlin_kid_0012_s__b149106e41254386.png",
+  "rareteParDefaut": "LR",
+  "presentation": "[Protection divine] Merlin, fille de Belialuin possède une compétence d'attaque avec l'effet Domination, ce qui lui permet d'infliger plus de dégâts aux ennemis avec une résistance élevée.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1887501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1887501/images/hero_illust_merlin_kid_1887501__e6c384e1d9f3b5b9.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "evolution": "Niveau maximal 50 · évolution 50",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 520.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 340.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 6800.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 3854
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 65.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 55.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 105.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Stalactite foudroyante »",
+          "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_skill_01__ca01cf3053924a50.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 190.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 190 % de l’attaque sur un ennemi.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 196301,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 285.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 285 % de l’attaque sur un ennemi.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 196302,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 475.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 475 % de l’attaque sur un ennemi.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 196303,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Tornade incandescente »",
+          "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_skill_02__3565633f9298d783.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 110.0,
+              "description": "Inflige des dégâts égaux à 110 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 1 tour(s).\\n\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 196311,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts égaux à 180 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 1 tour(s).\\n\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 196312,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 280.0,
+              "description": "Inflige des dégâts égaux à 280 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 2 tour(s).\\n\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 196313,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Déluge élémentaire »",
+        "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_special_01__9e018fe19a55539a.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 400.0,
+            "description": "Inflige des dégâts égaux à 400 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 5 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Inflige des dégâts égaux à 440 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 6 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Inflige des dégâts égaux à 480 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 8 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Inflige des dégâts égaux à 520 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 11 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Inflige des dégâts égaux à 560 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 15 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Inflige des dégâts égaux à 600 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 20 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Négociations avec les dieux",
+        "image": "assets/1887501/images/icon_exclusive_skill_1887501__ea3d4d434bf04d44.png",
+        "description": "Pendant le tour ennemi, chaque compétence de l'ennemie ne peut pas faire perdre plus de [FFAE00]40 %[-] des PV max. du héros. Augmente les stats offensives de [FFAE00]1 %[-] [FFAE00]tous les 4 %[-] de PV restants lorsqu'il utilise une compétence.\\n[00D5FF](S'applique avant l'activation d'une compétence)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Pendant le tour ennemi, chaque compétence de l'ennemie ne peut pas faire perdre plus de [FFAE00]40 %[-] des PV max. du héros. Augmente les stats offensives de [FFAE00]1 %[-] [FFAE00]tous les 4 %[-] de PV restants lorsqu'il utilise une compétence.\\n[00D5FF](S'applique avant l'activation d'une compétence)[-]"
+          }
+        ]
+      },
+      "idForme": 379001,
+      "portrait": "assets/1887501/images/icon_hero_merlin_kid_0002_s__42d9459f47766d5e.png",
+      "portraitVertical": "assets/1887501/images/icon_skin_merlin_kid_0002_l__b62f61e30146e2ce.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1887501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1887501/images/hero_illust_merlin_kid_1887501__e6c384e1d9f3b5b9.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 680.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 400.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 7600.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 4222
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 65.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 55.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 105.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Stalactite foudroyante »",
+          "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_skill_01__ca01cf3053924a50.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 190.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 190 % de l’attaque sur un ennemi.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 196301,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 285.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 285 % de l’attaque sur un ennemi.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 196302,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 475.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 475 % de l’attaque sur un ennemi.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 196303,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Tornade incandescente »",
+          "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_skill_02__3565633f9298d783.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 110.0,
+              "description": "Inflige des dégâts égaux à 110 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 1 tour(s).\\n\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 196311,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts égaux à 180 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 1 tour(s).\\n\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 196312,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 280.0,
+              "description": "Inflige des dégâts égaux à 280 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 2 tour(s).\\n\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 196313,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Déluge élémentaire »",
+        "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_special_01__9e018fe19a55539a.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 400.0,
+            "description": "Inflige des dégâts égaux à 400 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 5 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Inflige des dégâts égaux à 440 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 6 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Inflige des dégâts égaux à 480 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 8 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Inflige des dégâts égaux à 520 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 11 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Inflige des dégâts égaux à 560 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 15 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Inflige des dégâts égaux à 600 % de l'attaque à tous les ennemis et crée une barrière autour des alliés à hauteur de 20 % des dégâts infligés, qui n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Négociations avec les dieux",
+        "image": "assets/1887501/images/icon_exclusive_skill_1887501__ea3d4d434bf04d44.png",
+        "description": "Pendant le tour ennemi, chaque compétence de l'ennemie ne peut pas faire perdre plus de [FFAE00]40 %[-] des PV max. du héros. Augmente les stats offensives de [FFAE00]1 %[-] [FFAE00]tous les 4 %[-] de PV restants lorsqu'il utilise une compétence.\\n[00D5FF](S'applique avant l'activation d'une compétence)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Pendant le tour ennemi, chaque compétence de l'ennemie ne peut pas faire perdre plus de [FFAE00]40 %[-] des PV max. du héros. Augmente les stats offensives de [FFAE00]1 %[-] [FFAE00]tous les 4 %[-] de PV restants lorsqu'il utilise une compétence.\\n[00D5FF](S'applique avant l'activation d'une compétence)[-]"
+          }
+        ]
+      },
+      "idForme": 379002,
+      "portrait": "assets/1887501/images/icon_hero_merlin_kid_0006_s__951c6dd5a14a4814.png",
+      "portraitVertical": "assets/1887501/images/icon_skin_merlin_kid_0006_l__0bc8e4dce96c6d6b.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1887501/images/hero_illust_merlin_kid_1887501__e6c384e1d9f3b5b9.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 100,
+      "evolution": "Niveau maximal 100 · évolution 100",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 900.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 420.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 5771
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 130.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 230.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 85.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Stalactite foudroyante »",
+          "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_skill_01__ca01cf3053924a50.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 209.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] équivalents à 209 % de l’attaque sur un ennemi.\\n\\n[00D5FF]※Domination : Dégâts supplémentaires équivalents à la résistance de l’ennemi.[-]",
+              "idJeu": 196321,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 310.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] égaux à 310 % de l'attaque à un ennemi, puis remplit la jauge de coup ultime [FFAE00]d'1 orbe[-].\\n\\n[00D5FF]※Domination : dégâts supplémentaires égaux à la résistance de l'ennemi.[-]",
+              "idJeu": 196322,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 512.0,
+              "description": "Inflige des dégâts de [00D5FF]Domination[-] égaux à 512 % de l'attaque à un ennemi, puis remplit la jauge de coup ultime de [FFAE00]2 orbes[-].\\n\\n[00D5FF]※Domination : dégâts supplémentaires égaux à la résistance de l'ennemi.[-]",
+              "idJeu": 196323,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Tornade incandescente »",
+          "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_skill_02__3565633f9298d783.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 110.0,
+              "description": "Inflige des dégâts de [00D5FF]Déluge[-] égaux à 110 % de l'attaque à tous les ennemis et applique [00D5FF]Infection[-] pendant [FFAE00]1 tour[-].\\n\\n[00D5FF]※Déluge : 0.8 % de dégâts supplémentaires pour [FFAE00]chaque pourcentage[-] de PV restant.[-]\\n[00D5FF]※Infection : restreint les stats liées aux soins.[-]",
+              "idJeu": 196331,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts de [00D5FF]Déluge[-] égaux à 180 % de l'attaque à tous les ennemis et applique [00D5FF]Infection[-] pendant [FFAE00]1 tour[-].\\n\\n[00D5FF]※Déluge : 0.8 % de dégâts supplémentaires pour [FFAE00]chaque pourcentage[-] de PV restant.[-]\\n[00D5FF]※Infection : restreint les stats liées aux soins.[-]",
+              "idJeu": 196332,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 280.0,
+              "description": "Inflige des dégâts de [00D5FF]Déluge[-] égaux à 280 % de l'attaque à tous les ennemis et applique [00D5FF]Infection[-] pendant [FFAE00]2 tours[-].\\n\\n[00D5FF]※Déluge : 0.8 % de dégâts supplémentaires pour [FFAE00]chaque pourcentage[-] de PV restant.[-]\\n[00D5FF]※Infection : restreint les stats liées aux soins.[-]",
+              "idJeu": 196333,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Déluge élémentaire »",
+        "image": "assets/1887501/images/icon_merlin_kid_ssr_type01_special_01__9e018fe19a55539a.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 400.0,
+            "description": "Augmente les [00D5FF]stats de PV[-] de tous les alliés de [FFAE00]20 %[-] pendant [FFAE00]2 tours[-], inflige des dégâts égaux à 400 % de l'attaque à tous les ennemis, puis crée une barrière autour des alliés égale à 5 % des dégâts infligés.\\nLa barrière n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Augmente les [00D5FF]stats de PV[-] de tous les alliés de [FFAE00]20 %[-] pendant [FFAE00]2 tours[-], inflige des dégâts égaux à 440 % de l'attaque à tous les ennemis, puis crée une barrière autour des alliés égale à 6 % des dégâts infligés.\\nLa barrière n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Augmente les [00D5FF]stats de PV[-] de tous les alliés de [FFAE00]20 %[-] pendant [FFAE00]2 tours[-], inflige des dégâts égaux à 480 % de l'attaque à tous les ennemis, puis crée une barrière autour des alliés égale à 8 % des dégâts infligés.\\nLa barrière n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Augmente les [00D5FF]stats de PV[-] de tous les alliés de [FFAE00]20 %[-] pendant [FFAE00]2 tours[-], inflige des dégâts égaux à 520 % de l'attaque à tous les ennemis, puis crée une barrière autour des alliés égale à 11 % des dégâts infligés.\\nLa barrière n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Augmente les [00D5FF]stats de PV[-] de tous les alliés de [FFAE00]20 %[-] pendant [FFAE00]2 tours[-], inflige des dégâts égaux à 560 % de l'attaque à tous les ennemis, puis crée une barrière autour des alliés égale à 15 % des dégâts infligés.\\nLa barrière n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Augmente les [00D5FF]stats de PV[-] de tous les alliés de [FFAE00]20 %[-] pendant [FFAE00]2 tours[-], inflige des dégâts égaux à 600 % de l'attaque à tous les ennemis, puis crée une barrière autour des alliés égale à 20 % des dégâts infligés.\\nLa barrière n'encaisse que les dégâts calculés avec les stats de base.\\n[00D5FF](Sauf l'effet Rupture)[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Négociations avec les dieux",
+        "image": "assets/1887501/images/icon_exclusive_skill_1887501__ea3d4d434bf04d44.png",
+        "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et leur attaque de [FFAE00]7 %[-] pour [FFAE00]chaque allié[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, Les [Seven Deadly Sins][-][/i]\\n\\nChaque compétence ne peut pas faire perdre plus de [FFAE00]40 %[-] des PV max. du héros pendant le tour ennemi.\\n\\nAugmente les dégâts crit. du héros de [FFAE00]60 %[-] lorsqu'un [00D5FF]allié concerné[-] utilise une compétence.\\n[00D5FF]([FFAE00]3 fois[-] max.)[-]\\n\\nLorsque le héros utilise une compétence, augmente les stats offensives de [FFAE00]2 %[-] tous les [FFAE00]4 %[-] de PV restants et les chances crit. de [FFAE00]2 %[-] tous les [FFAE00]1 %[-] de [00D5FF]PV perdus[-].\\n[00D5FF](S'applique avant l'activation de la compétence)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et leur attaque de [FFAE00]7 %[-] pour [FFAE00]chaque allié[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, Les [Seven Deadly Sins][-][/i]\\n\\nChaque compétence ne peut pas faire perdre plus de [FFAE00]40 %[-] des PV max. du héros pendant le tour ennemi.\\n\\nAugmente les dégâts crit. du héros de [FFAE00]60 %[-] lorsqu'un [00D5FF]allié concerné[-] utilise une compétence.\\n[00D5FF]([FFAE00]3 fois[-] max.)[-]\\n\\nLorsque le héros utilise une compétence, augmente les stats offensives de [FFAE00]2 %[-] tous les [FFAE00]4 %[-] de PV restants et les chances crit. de [FFAE00]2 %[-] tous les [FFAE00]1 %[-] de [00D5FF]PV perdus[-].\\n[00D5FF](S'applique avant l'activation de la compétence)[-]"
+          }
+        ]
+      },
+      "idForme": 379003,
+      "portrait": "assets/1887501/images/icon_hero_merlin_kid_0012_s__b149106e41254386.png",
+      "portraitVertical": "assets/1887501/images/icon_skin_merlin_kid_0012_l__774a8671f435b7fd.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3379001",
+      "categorie": "Skin",
+      "nom": "La fille de Belialuin",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0002_l__b62f61e30146e2ce.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379004",
+      "categorie": "Skin",
+      "nom": "Combinaison de plongée",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0013_l__81565944e73df65d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379050",
+      "categorie": "Skin",
+      "nom": "Apprentie sorcière",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0003_l__2818c64663ec9893.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379051",
+      "categorie": "Skin",
+      "nom": "Pays des merveilles",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0004_l__2cc03e4a34dd1b7e.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379052",
+      "categorie": "Skin",
+      "nom": "Voyage en mer",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0005_l__8ab7c89448eedf3a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379057",
+      "categorie": "Skin",
+      "nom": "Maillot à volants bleu ciel",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0010_l__4d5e5427895cec02.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379054",
+      "categorie": "Skin",
+      "nom": "Cuisinier du mois",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0007_l__5484024355b5998a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379053",
+      "categorie": "Skin",
+      "nom": "Chemise de nuit",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0001_l__dcfcba1cab355a28.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379055",
+      "categorie": "Skin",
+      "nom": "Costume de célébration des 2,5 ans de Grand Cross",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0008_l__b8fcfd78c0af5fd6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379058",
+      "categorie": "Skin",
+      "nom": "Tenue de héros (violet)",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0011_l__5e839b32b8d83a92.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379056",
+      "categorie": "Skin",
+      "nom": "Armure glorieuse de confrérie",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0009_l__b9833f789b4f20a6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379002",
+      "categorie": "Skin",
+      "nom": "Le Sanglier de la Gourmandise",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0006_l__0bc8e4dce96c6d6b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379005",
+      "categorie": "Skin",
+      "nom": "Chercheuse sous-marine",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0014_l__682b0a7eae2efce2.png",
+      "rarete": ""
+    },
+    {
+      "id": "3379003",
+      "categorie": "Skin",
+      "nom": "Tenue habillée brillante de l'étoile filante",
+      "image": "assets/1887501/images/icon_skin_merlin_kid_0012_l__774a8671f435b7fd.png",
+      "rarete": ""
+    },
+    {
+      "id": "869201",
+      "categorie": "Weapon",
+      "nom": "L'Étoile du Matin Aldan",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0001_l__9255d1f41981a5f2.png",
+      "rarete": ""
+    },
+    {
+      "id": "869202",
+      "categorie": "Weapon",
+      "nom": "Hibou (familier)",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0003_l__99303a689c3a07b5.png",
+      "rarete": ""
+    },
+    {
+      "id": "869203",
+      "categorie": "Weapon",
+      "nom": "Potion de croissance",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0004_l__633de202b6c2d4da.png",
+      "rarete": ""
+    },
+    {
+      "id": "869204",
+      "categorie": "Weapon",
+      "nom": "Symbole de voyage",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0005_l__60272131c5154869.png",
+      "rarete": ""
+    },
+    {
+      "id": "869205",
+      "categorie": "Weapon",
+      "nom": "Moulin à poivre",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0007_l__840da5b8cfddd37a.png",
+      "rarete": ""
+    },
+    {
+      "id": "869207",
+      "categorie": "Weapon",
+      "nom": "Jolie bouée canard",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0010_l__a983b83fd292c7a4.png",
+      "rarete": ""
+    },
+    {
+      "id": "869208",
+      "categorie": "Weapon",
+      "nom": "Compagnon sous-marin",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0014_l__044eed5d5d91b2d4.png",
+      "rarete": ""
+    },
+    {
+      "id": "869209",
+      "categorie": "Weapon",
+      "nom": "Soleil estival",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0501_l__54151b5fd6340d2e.png",
+      "rarete": ""
+    },
+    {
+      "id": "869206",
+      "categorie": "Weapon",
+      "nom": "Pomme d'or d'Idunn",
+      "image": "assets/1887501/images/icon_weapon_merlin_kid_0001_l__9255d1f41981a5f2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136001",
+      "categorie": "Head",
+      "nom": "Coiffure normale",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0001_l__3ca6f60afdf67685.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136002",
+      "categorie": "Head",
+      "nom": "Permanente ondulée",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0003_l__191aac1e520748f3.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136003",
+      "categorie": "Head",
+      "nom": "Bandeau avec nœud bleu",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0004_l__e4a7d6cca4751a03.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136004",
+      "categorie": "Head",
+      "nom": "Chapeau de capitaine",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0005_l__d402a976d37b8c49.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136007",
+      "categorie": "Head",
+      "nom": "Couettes mignonnes",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0010_l__72def2a3c49c2e02.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136009",
+      "categorie": "Head",
+      "nom": "Curiosité sous-marine",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0014_l__b4c99729691f6734.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136008",
+      "categorie": "Head",
+      "nom": "Couronne brillante de l'étoile filante",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0012_l__83ed1b74f0529916.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136006",
+      "categorie": "Head",
+      "nom": "Chignon mignon",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0007_l__9262b0ca43341ac1.png",
+      "rarete": ""
+    },
+    {
+      "id": "4136005",
+      "categorie": "Head",
+      "nom": "Chapeau mignon du 2e anniversaire",
+      "image": "assets/1887501/images/icon_head_merlin_kid_0501_l__bb426f47aff8b82a.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Pomme d'or d'Idunn",
+    "image": "assets/1887501/images/icon_weapon_merlin_kid_0551_s__ce8922d4feb550b7.png",
+    "description": "Relique sacrée de Merlin, fille de Belialuin (arme).\\n[DC143C]Une pomme d'or qui appartient à Idunn, la déesse de la jeunesse. La jeunesse éternelle est accordée à quiconque mange une pomme d'or.[-]",
+    "passif": {
+      "nom": "Pommes d'or d'Idunn",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Augmente l'attaque du héros de [FFAE00]20 %[-] lorsqu'il attaque un ennemi qui souffre de malus.\\n[00D5FF](S'applique avant l'activation de la compétence)[-]"
+    },
+    "bonus": [
+      {
+        "nom": "Attaque",
+        "valeur": 50.0
+      },
+      {
+        "nom": "Défense",
+        "valeur": 300.0
+      },
+      {
+        "nom": "PV",
+        "valeur": 3550.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source du vent",
+        "image": "assets/commun/icon_craft_costume_rare_material_01__391d7091ff4c5016.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Splendeur du Valhalla",
+        "image": "assets/commun/icon_item_drop_nor_0003__fb5417b6b988fed4.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique inconnue",
+        "image": "assets/commun/icon_craft_costume_key_material_16__f15a600e7e4fe219.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Méticulosité d'Eitri",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Hraesvelgr"
+  },
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+};

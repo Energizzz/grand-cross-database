@@ -1,0 +1,252 @@
+{
+  "sourceBundle": "bm/m/61C94F013464C5A381D3209DD956EDA9",
+  "atlasPathID": 7827540370957877313,
+  "ranks": {
+    "1": {
+      "sprite": {
+        "name": "card_frame_bronze",
+        "x": 0,
+        "y": 27,
+        "width": 174,
+        "height": 157,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "borderTop": 71,
+        "borderBottom": 71,
+        "paddingLeft": 4,
+        "paddingRight": 2,
+        "paddingTop": 24,
+        "paddingBottom": 4
+      },
+      "widget": {
+        "mWidth": 184,
+        "mHeight": 336,
+        "mType": 1
+      },
+      "transform": {
+        "x": 1.1399999856948853,
+        "y": 1.1399999856948853,
+        "z": 0.0
+      },
+      "image": "rank-1.png",
+      "stars": [
+        {
+          "name": "Lv1_Star1",
+          "rotationQuaternion": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.12533321976661682,
+            "w": 0.9921147227287292
+          },
+          "rotationDegrees": 14.39999867997936,
+          "gameCenter": [
+            154.52800210309033,
+            683.2880749709607
+          ],
+          "webOffsetCardWidth": [
+            0,
+            0
+          ],
+          "center": [
+            154.52800210309033,
+            683.2880749709607
+          ],
+          "sizeBeforeRotation": [
+            64.00000095367432,
+            67.20000100135803
+          ]
+        }
+      ]
+    },
+    "2": {
+      "sprite": {
+        "name": "card_frame_silver",
+        "x": 211,
+        "y": 575,
+        "width": 177,
+        "height": 167,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "borderTop": 79,
+        "borderBottom": 74,
+        "paddingLeft": 1,
+        "paddingRight": 2,
+        "paddingTop": 17,
+        "paddingBottom": 1
+      },
+      "widget": {
+        "mWidth": 184,
+        "mHeight": 336,
+        "mType": 1
+      },
+      "transform": {
+        "x": 1.1399999856948853,
+        "y": 1.1399999856948853,
+        "z": 0.0
+      },
+      "image": "rank-2.png",
+      "stars": [
+        {
+          "name": "Lv2_Star2",
+          "rotationQuaternion": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.12533321976661682,
+            "w": 0.9921147227287292
+          },
+          "rotationDegrees": 14.39999867997936,
+          "gameCenter": [
+            210.96000005245207,
+            682.3600441801548
+          ],
+          "webOffsetCardWidth": [
+            0.006097560975609756,
+            0
+          ],
+          "center": [
+            213.52097566220817,
+            682.3600441801548
+          ],
+          "sizeBeforeRotation": [
+            64.00000095367432,
+            67.20000100135803
+          ]
+        },
+        {
+          "name": "Lv2_Star1",
+          "rotationQuaternion": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.12533321976661682,
+            "w": 0.9921147227287292
+          },
+          "rotationDegrees": 14.39999867997936,
+          "gameCenter": [
+            153.37600013279916,
+            681.3200440120697
+          ],
+          "webOffsetCardWidth": [
+            0.006097560975609756,
+            0
+          ],
+          "center": [
+            155.93697574255526,
+            681.3200440120697
+          ],
+          "sizeBeforeRotation": [
+            64.00000095367432,
+            67.20000100135803
+          ]
+        }
+      ]
+    },
+    "3": {
+      "sprite": {
+        "name": "card_frame_gold",
+        "x": 0,
+        "y": 341,
+        "width": 177,
+        "height": 179,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "borderTop": 94,
+        "borderBottom": 87,
+        "paddingLeft": 1,
+        "paddingRight": 2,
+        "paddingTop": 5,
+        "paddingBottom": 1
+      },
+      "widget": {
+        "mWidth": 184,
+        "mHeight": 336,
+        "mType": 1
+      },
+      "transform": {
+        "x": 1.1399999856948853,
+        "y": 1.1399999856948853,
+        "z": 0.0
+      },
+      "image": "rank-3.png",
+      "stars": [
+        {
+          "name": "Lv3_Star2",
+          "rotationQuaternion": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.12533321976661682,
+            "w": 0.9921147227287292
+          },
+          "rotationDegrees": 14.39999867997936,
+          "gameCenter": [
+            211.92000010490418,
+            681.9759831240177
+          ],
+          "webOffsetCardWidth": [
+            0,
+            0.006097560975609756
+          ],
+          "center": [
+            211.92000010490418,
+            684.5369587337738
+          ],
+          "sizeBeforeRotation": [
+            64.00000095367432,
+            67.20000100135803
+          ]
+        },
+        {
+          "name": "Lv3_Star3",
+          "rotationQuaternion": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.12533321976661682,
+            "w": 0.9921147227287292
+          },
+          "rotationDegrees": 14.39999867997936,
+          "gameCenter": [
+            268.7039986774921,
+            681.9759831240177
+          ],
+          "webOffsetCardWidth": [
+            0,
+            0.006097560975609756
+          ],
+          "center": [
+            268.7039986774921,
+            684.5369587337738
+          ],
+          "sizeBeforeRotation": [
+            64.00000095367432,
+            67.20000100135803
+          ]
+        },
+        {
+          "name": "Lv3_Star1",
+          "rotationQuaternion": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.12533321976661682,
+            "w": 0.9921147227287292
+          },
+          "rotationDegrees": 14.39999867997936,
+          "gameCenter": [
+            154.20800087761882,
+            681.9759831240177
+          ],
+          "webOffsetCardWidth": [
+            0,
+            0.006097560975609756
+          ],
+          "center": [
+            154.20800087761882,
+            684.5369587337738
+          ],
+          "sizeBeforeRotation": [
+            64.00000095367432,
+            67.20000100135803
+          ]
+        }
+      ]
+    }
+  }
+}

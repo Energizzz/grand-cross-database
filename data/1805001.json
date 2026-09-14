@@ -1,0 +1,737 @@
+{
+  "nom": "Déesse Elizabeth",
+  "designation": "[Guerrière Sacrée]",
+  "titre": "Déesse Elizabeth",
+  "idJeu": "1805001",
+  "attribut": {
+    "nom": "Attribut Vitesse",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Déesse"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_05__153a123cca908e2c.png"
+    ]
+  },
+  "caracteristiques": [],
+  "portrait": "assets/1805001/images/icon_hero_elizabeth_goddess_0002_s__e02ab332465c57a4.png",
+  "rareteParDefaut": "UR",
+  "presentation": "Les compétences de bonus de [Guerrière Sacrée] Déesse Elizabeth peuvent considérablement réduire les dégâts subis par les alliés, ce qui augmente la capacité de survie de l'équipe.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1805001/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1805001/images/hero_illust_elizabeth_goddess_1805001__3aca2a93b4e6e81a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "evolution": "Niveau maximal 50 · évolution 50",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 560.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 350.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 7000.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 3478
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 135.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Que la lumière soit »",
+          "image": "assets/1805001/images/icon_elizabeth_goddess_glove_skill_01__302a63b58cc8cade.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts égaux à 200 % de l'attaque à un ennemi.",
+              "idJeu": 187001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "Annule les postures de un ennemi, inflige des dégâts égaux à 200 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 187002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Annule les postures de un ennemi, inflige des dégâts égaux à 250 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 2 tour(s).\\n\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 187003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Bénédiction divine »",
+          "image": "assets/1805001/images/icon_elizabeth_goddess_glove_skill_02__2e18de7238d0d6c9.png",
+          "type": "Attaque",
+          "cible": "tous les alliés",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Crée une barrière autour de tous les alliés égale à 150 % de l'attaque pendant 1 tour(s). Si attaqué, n'encaisse que les dégâts des stats de base.\\n[00D5FF](Hors Rupture)[-]",
+              "idJeu": 187011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "Crée une barrière autour de tous les alliés égale à 200 % de l'attaque pendant 1 tour(s). Si attaqué, n'encaisse que les dégâts des stats de base.\\n[00D5FF](Hors Rupture)[-]",
+              "idJeu": 187012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Crée une barrière autour de tous les alliés égale à 300 % de l'attaque pendant 2 tour(s). Si attaqué, n'encaisse que les dégâts des stats de base.\\n[00D5FF](Hors Rupture)[-]",
+              "idJeu": 187013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Symbole divin »",
+        "image": "assets/1805001/images/icon_elizabeth_goddess_glove_special_01__29481e04637f6e6a.png",
+        "cible": "tous les alliés",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 30.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 30 % de leurs PV max. [00D5FF]Renvoie[-] 40 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 35.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 35 % de leurs PV max. [00D5FF]Renvoie[-] 50 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 40.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 40 % de leurs PV max. [00D5FF]Renvoie[-] 60 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 50.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 50 % de leurs PV max. [00D5FF]Renvoie[-] 80 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 60.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 60 % de leurs PV max. [00D5FF]Renvoie[-] 100 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 70.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 70 % de leurs PV max. [00D5FF]Renvoie[-] 120 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Étreinte de la Déesse",
+        "image": "assets/1805001/images/icon_exclusive_skill_1805001__aafcade658f6ec07.png",
+        "description": "Quand un allié meurt, il [00D5FF]ressuscite avec le même montant de PV qu'avant sa mort[-].\\n[00D5FF](Une seule fois, s'applique au début du combat. La mort par effet de renvoi empêche la résurrection et annule l'effet.)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Quand un allié meurt, il [00D5FF]ressuscite avec le même montant de PV qu'avant sa mort[-].\\n[00D5FF](Une seule fois, s'applique au début du combat. La mort par effet de renvoi empêche la résurrection et annule l'effet.)[-]"
+          }
+        ]
+      },
+      "idForme": 355001,
+      "portrait": "assets/1805001/images/icon_hero_elizabeth_goddess_0001_s__279130b37aef5d5c.png",
+      "portraitVertical": "assets/1805001/images/icon_skin_elizabeth_goddess_0001_l__61fc30d6e56dd17d.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1805001/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1805001/images/hero_illust_elizabeth_goddess_1805001__3aca2a93b4e6e81a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 680.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 470.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 7400.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 3774
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 135.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Que la lumière soit »",
+          "image": "assets/1805001/images/icon_elizabeth_goddess_glove_skill_01__302a63b58cc8cade.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts égaux à 200 % de l'attaque à un ennemi.",
+              "idJeu": 187001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "Annule les postures de un ennemi, inflige des dégâts égaux à 200 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 187002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Annule les postures de un ennemi, inflige des dégâts égaux à 250 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 2 tour(s).\\n\\n[00D5FF]※Étourdissement : empêche toute action.[-]",
+              "idJeu": 187003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Bénédiction divine »",
+          "image": "assets/1805001/images/icon_elizabeth_goddess_glove_skill_02__2e18de7238d0d6c9.png",
+          "type": "Attaque",
+          "cible": "tous les alliés",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Crée une barrière autour de tous les alliés égale à 150 % de l'attaque pendant 1 tour(s). Si attaqué, n'encaisse que les dégâts des stats de base.\\n[00D5FF](Hors Rupture)[-]",
+              "idJeu": 187011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "Crée une barrière autour de tous les alliés égale à 200 % de l'attaque pendant 1 tour(s). Si attaqué, n'encaisse que les dégâts des stats de base.\\n[00D5FF](Hors Rupture)[-]",
+              "idJeu": 187012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Crée une barrière autour de tous les alliés égale à 300 % de l'attaque pendant 2 tour(s). Si attaqué, n'encaisse que les dégâts des stats de base.\\n[00D5FF](Hors Rupture)[-]",
+              "idJeu": 187013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Symbole divin »",
+        "image": "assets/1805001/images/icon_elizabeth_goddess_glove_special_01__29481e04637f6e6a.png",
+        "cible": "tous les alliés",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 30.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 30 % de leurs PV max. [00D5FF]Renvoie[-] 40 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 35.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 35 % de leurs PV max. [00D5FF]Renvoie[-] 50 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 40.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 40 % de leurs PV max. [00D5FF]Renvoie[-] 60 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 50.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 50 % de leurs PV max. [00D5FF]Renvoie[-] 80 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 60.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 60 % de leurs PV max. [00D5FF]Renvoie[-] 100 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 70.0,
+            "description": "Restaure les PV de tous les alliés à hauteur de 70 % de leurs PV max. [00D5FF]Renvoie[-] 120 % des dégâts reçus durant 2 tour(s), puis soigne la moitié des dégâts renvoyés.\\n\\n[00D5FF]※Renvoi : renvoie une partie des dégâts reçus à l'attaquant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Étreinte de la Déesse",
+        "image": "assets/1805001/images/icon_exclusive_skill_1805001__aafcade658f6ec07.png",
+        "description": "Quand un allié meurt, il [00D5FF]ressuscite avec le même montant de PV qu'avant sa mort[-].\\n[00D5FF](Une seule fois, s'applique au début du combat. La mort par effet de renvoi empêche la résurrection et annule l'effet.)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Quand un allié meurt, il [00D5FF]ressuscite avec le même montant de PV qu'avant sa mort[-].\\n[00D5FF](Une seule fois, s'applique au début du combat. La mort par effet de renvoi empêche la résurrection et annule l'effet.)[-]"
+          }
+        ]
+      },
+      "idForme": 355002,
+      "portrait": "assets/1805001/images/icon_hero_elizabeth_goddess_0002_s__e02ab332465c57a4.png",
+      "portraitVertical": "assets/1805001/images/icon_skin_elizabeth_goddess_0002_l__4015432496b7de13.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3355001",
+      "categorie": "Skin",
+      "nom": "Ailes de déesse",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "3355003",
+      "categorie": "Skin",
+      "nom": "Robe de cerisier",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0010_l__5b2107fd6d89f10b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355053",
+      "categorie": "Skin",
+      "nom": "Tenue de sainte",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0006_l__2d241b4bb2ddf9ca.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355050",
+      "categorie": "Skin",
+      "nom": "Tenue première année",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0003_l__46f444ef56deee2c.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355051",
+      "categorie": "Skin",
+      "nom": "Guerrière de la lumière",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0004_l__978292b92d4a18ec.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355052",
+      "categorie": "Skin",
+      "nom": "Gardienne de la lumière",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0005_l__fa061f16190ed1ac.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355054",
+      "categorie": "Skin",
+      "nom": "Coqueluche ailée",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0007_l__8d3b2f63e0e5072b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355055",
+      "categorie": "Skin",
+      "nom": "Robe de célébration des 2,5 ans de Grand Cross",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0008_l__8bff615b3dac7634.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355056",
+      "categorie": "Skin",
+      "nom": "Armure glorieuse de confrérie",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0009_l__b661128f34bb979d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355002",
+      "categorie": "Skin",
+      "nom": "Papillon violet",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0002_l__4015432496b7de13.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355004",
+      "categorie": "Skin",
+      "nom": "Robe de floraison",
+      "image": "assets/1805001/images/icon_skin_elizabeth_goddess_0011_l__c51a130c7c702183.png",
+      "rarete": ""
+    },
+    {
+      "id": "3355091",
+      "categorie": "Skin",
+      "nom": "Ailes de déesse",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "858001",
+      "categorie": "Weapon",
+      "nom": "Gantelet invisible",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0001_l__d17dd7d65b9277ed.png",
+      "rarete": ""
+    },
+    {
+      "id": "858006",
+      "categorie": "Weapon",
+      "nom": "Bracelet sacré",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0006_l__c6c0885cfc6da737.png",
+      "rarete": ""
+    },
+    {
+      "id": "858002",
+      "categorie": "Weapon",
+      "nom": "Gantelet de vie bleue",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0003_l__7ea9dd1b79f25037.png",
+      "rarete": ""
+    },
+    {
+      "id": "858003",
+      "categorie": "Weapon",
+      "nom": "Gantelet du guerrier",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0004_l__510ed815272e2819.png",
+      "rarete": ""
+    },
+    {
+      "id": "858004",
+      "categorie": "Weapon",
+      "nom": "Gantelet de la gardienne",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0005_l__cba0be1326ab5361.png",
+      "rarete": ""
+    },
+    {
+      "id": "858007",
+      "categorie": "Weapon",
+      "nom": "Joli bracelet lapin",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0007_l__aa0450aee411f6bc.png",
+      "rarete": ""
+    },
+    {
+      "id": "858009",
+      "categorie": "Weapon",
+      "nom": "Bracelets de floraison",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0011_l__6633192dae295d1b.png",
+      "rarete": ""
+    },
+    {
+      "id": "858005",
+      "categorie": "Weapon",
+      "nom": "Gantelet élégant",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0002_l__78837b6cc33685a1.png",
+      "rarete": ""
+    },
+    {
+      "id": "858091",
+      "categorie": "Weapon",
+      "nom": "Gantelet invisible",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0001_l__d17dd7d65b9277ed.png",
+      "rarete": ""
+    },
+    {
+      "id": "858008",
+      "categorie": "Weapon",
+      "nom": "Svalinn",
+      "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0001_l__d17dd7d65b9277ed.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785001",
+      "categorie": "Head",
+      "nom": "Cheveux raides soignés",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0001_l__cd7984deb497b939.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785005",
+      "categorie": "Head",
+      "nom": "Chapeau de sainte",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0006_l__eee2512f7d538f58.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785002",
+      "categorie": "Head",
+      "nom": "Boucles de première année",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0003_l__b42f7f126f4145ea.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785003",
+      "categorie": "Head",
+      "nom": "Couronne ailée de guerrier",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0004_l__199fd8469965a3e7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785004",
+      "categorie": "Head",
+      "nom": "Aura de la gardienne",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0005_l__727c99f7b8eeed29.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785006",
+      "categorie": "Head",
+      "nom": "Coupe bob élégante",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0007_l__8a91e46cc2337b93.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785007",
+      "categorie": "Head",
+      "nom": "Bandeau de célébration du 2e anniversaire",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0501_l__c5c165593885c0c5.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785010",
+      "categorie": "Head",
+      "nom": "Couronne élégante",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0503_l__0f951bb51d998657.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785008",
+      "categorie": "Head",
+      "nom": "Fleurs timides",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0011_l__9d185f7cccaf90d7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785009",
+      "categorie": "Head",
+      "nom": "Fleurs épanouies",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0502_l__6b0f0ea0631cc289.png",
+      "rarete": ""
+    },
+    {
+      "id": "4785091",
+      "categorie": "Head",
+      "nom": "Cheveux raides soignés",
+      "image": "assets/1805001/images/icon_head_elizabeth_goddess_0001_l__cd7984deb497b939.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Svalinn",
+    "image": "assets/1805001/images/icon_weapon_elizabeth_goddess_0551_s__fb2739ade900907e.png",
+    "description": "Relique sacrée de Déesse Elizabeth (arme).\\n[DC143C]Un bouclier divin qui renferme une énergie glaciale. La froideur de Svalinn peut refroidir le soleil.[-]",
+    "passif": {
+      "nom": "Svalinn",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Augmente la valeur de la barrière de [00D5FF]« Bénédiction divine »[-] de [FFAE00]15 %[-]."
+    },
+    "bonus": [
+      {
+        "nom": "Attaque",
+        "valeur": 100.0
+      },
+      {
+        "nom": "Défense",
+        "valeur": 450.0
+      },
+      {
+        "nom": "PV",
+        "valeur": 2700.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source de la rivière",
+        "image": "assets/commun/icon_craft_costume_rare_material_02__e36c06d52934a316.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Sublimité des Valkyries",
+        "image": "assets/commun/icon_craft_costume_material_06__40106a5d96ba9275.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique dorée",
+        "image": "assets/commun/icon_craft_costume_key_material_03__b17c117dc6b293be.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Méticulosité d'Eitri",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Eikthyrnir"
+  },
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+}

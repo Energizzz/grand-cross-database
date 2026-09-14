@@ -1,0 +1,414 @@
+window.fichePreparee={
+  "nom": "Cauchemar Salos",
+  "designation": "[Chaînes du désespoir]",
+  "titre": "Cauchemar Salos",
+  "idJeu": "2000501",
+  "attribut": {
+    "nom": "Attribut PV",
+    "icone": "assets/commun/icon_filter_attribute_02__ea1406c9830f7566.png",
+    "couleur": "#67c778",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Inconnu"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_06__96c3bf184ce60ee4.png"
+    ]
+  },
+  "caracteristiques": [
+    "[Sacrifice]"
+  ],
+  "portrait": "assets/2000501/images/icon_hero_disaster_sallos_0002_s__97b97aedc38d2720.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Chaînes du désespoir] Cauchemar Salos possède une compétence qui peut infliger de gros dégâts aux ennemis qui souffrent de l'effet Chaînes maudites.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": {
+    "nom": "Séquelles cauchemardesques (Union)",
+    "image": "assets/2000501/images/icon_exclusive_skill_2000501_02__ed6a1d7c19dd3b5a.png",
+    "simpleImage": "assets/2000501/images/icon_exclusive_skill_2000501_02_simple__d82c4fd2d91c598b.png",
+    "description": "Augmente les stats de PV des alliés avec un effet d'Union de 15 % et réduit leurs stats défensives de [FFAE00]5 %[-].\\n[00D5FF](L'effet d'augmentation des stats de PV est amélioré selon le niveau du coup ultime.)[-]"
+  },
+  "raretés": [
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/2000501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/2000501/images/hero_illust_disaster_sallos_2000501__b9da54ef3b0d3eb2.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 820.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 550.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 9300.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 5850
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Vague de supplice »",
+          "image": "assets/2000501/images/icon_disaster_sallos_ssr_type01_skill_03__05ca7700961b4175.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Chaîne[-] égaux à 200 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Chaîne : taux de perforation [FFAE00]x5[-].\\nAugmente l'attaque de [FFAE00]+80 %[-] en utilisant la compétence.\\nDégâts infligés [FFAE00]+150 %[-] lorsque l'effet Chaînes de pacte est présent sur le héros.[-]",
+              "idJeu": 1008001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Chaîne[-] égaux à 300 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Chaîne : taux de perforation [FFAE00]x5[-].\\nAugmente l'attaque de [FFAE00]+80 %[-] en utilisant la compétence.\\nDégâts infligés [FFAE00]+150 %[-] lorsque l'effet Chaînes de pacte est présent sur le héros.[-]",
+              "idJeu": 1008002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts de [00D5FF]Chaîne[-] égaux à 500 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Chaîne : taux de perforation [FFAE00]x5[-].\\nAugmente l'attaque de [FFAE00]+80 %[-] en utilisant la compétence.\\nDégâts infligés [FFAE00]+150 %[-] lorsque l'effet Chaînes de pacte est présent sur le héros.[-]",
+              "idJeu": 1008003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Guillotine »",
+          "image": "assets/2000501/images/icon_disaster_sallos_ssr_type01_skill_04__10706ac1a2d5ab63.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 120 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+              "idJeu": 1008011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 180 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+              "idJeu": 1008012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 300 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+              "idJeu": 1008013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Étreinte funeste »",
+        "image": "assets/2000501/images/icon_disaster_sallos_ssr_type01_special_02__7e0b493c227a1034.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Applique [00D5FF]Chaînes maudites[-] sur tous les ennemis pendant [FFAE00]1 tour[-], puis inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 350 % de l'attaque.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 380.0,
+            "description": "Applique [00D5FF]Chaînes maudites[-] sur tous les ennemis pendant [FFAE00]1 tour[-], puis inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 380 % de l'attaque.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 410.0,
+            "description": "Applique [00D5FF]Chaînes maudites[-] sur tous les ennemis pendant [FFAE00]1 tour[-], puis inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 410 % de l'attaque.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 440.0,
+            "description": "Applique [00D5FF]Chaînes maudites[-] sur tous les ennemis pendant [FFAE00]1 tour[-], puis inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 440 % de l'attaque.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 470.0,
+            "description": "Applique [00D5FF]Chaînes maudites[-] sur tous les ennemis pendant [FFAE00]1 tour[-], puis inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 470 % de l'attaque.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 500.0,
+            "description": "Applique [00D5FF]Chaînes maudites[-] sur tous les ennemis pendant [FFAE00]1 tour[-], puis inflige des dégâts de [00D5FF]Chaîne d'entrave[-] égaux à 500 % de l'attaque.\\n\\n[00D5FF]※ Chaîne d'entrave : chances crit. [FFAE00]x3[-] et dégâts crit. [FFAE00]x3[-].\\nAttaque [FFAE00]+70 %[-] pour [FFAE00]chaque[-] effet Chaînes maudites présent sur tous les ennemis en utilisant la compétence.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cauchemar naissant",
+        "image": "assets/2000501/images/icon_exclusive_skill_2000501__5ce74864ea5e9148.png",
+        "description": "Augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]20 %[-] pour [FFAE00]chaque allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, [Sacrifice], [Les Sept Catastrophes][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Chaînes de pacte[-] à soi, ainsi qu'au héros allié [00D5FF][Sacrifice][-] ou [00D5FF][Les Sept Catastrophes] avec les PV les plus élevés[-].\\n[i][C0C0C0]※Chaînes de pacte : toutes les stats [FFAE00]+10 %[-].\\nAugmente les stats de base à hauteur de [FF8000]50 %[-] des stats initiales de Salos.\\nRéduit les dégâts finaux subis de [FF8000]40 %[-] en subissant des dégâts avec une compétence ennemie.\\nImmunité aux réductions de stats.[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] utilise une compétence sur un ennemi, ou lorsqu'un ennemi utilise une compétence sur cet allié, applique [00D5FF]Chaînes maudites[-] sur l'ennemi pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Chaînes maudites : stats offensives [FFAE00]-20 %[-] ([FFAE00]3 fois[-] max.)[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] attaque un ennemi qui souffre du malus [00D5FF]Chaînes maudites[-], augmente ses stats offensives de [FFAE00]30 %[-].\\n\\nInflige des dégâts supplémentaires égaux à [FF8000]600 %[-] de la défense augmentée de la cible lorsque le héros utilise une compétence.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]20 %[-] pour [FFAE00]chaque allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, [Sacrifice], [Les Sept Catastrophes][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Chaînes de pacte[-] à soi, ainsi qu'au héros allié [00D5FF][Sacrifice][-] ou [00D5FF][Les Sept Catastrophes] avec les PV les plus élevés[-].\\n[i][C0C0C0]※Chaînes de pacte : toutes les stats [FFAE00]+10 %[-].\\nAugmente les stats de base à hauteur de [FF8000]30 %[-] des stats initiales de Salos.\\nRéduit les dégâts finaux subis de [FF8000]30 %[-] en subissant des dégâts avec une compétence ennemie.\\nImmunité aux réductions de stats.[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] utilise une compétence sur un ennemi, ou lorsqu'un ennemi utilise une compétence sur cet allié, applique [00D5FF]Chaînes maudites[-] sur l'ennemi pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Chaînes maudites : stats offensives [FFAE00]-20 %[-] ([FFAE00]3 fois[-] max.)[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] attaque un ennemi qui souffre du malus [00D5FF]Chaînes maudites[-], augmente ses stats offensives de [FFAE00]30 %[-].\\n\\nInflige des dégâts supplémentaires égaux à [FF8000]400 %[-] de la défense augmentée de la cible lorsque le héros utilise une compétence."
+          },
+          {
+            "niveau": 2,
+            "description": "Augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]20 %[-] pour [FFAE00]chaque allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, [Sacrifice], [Les Sept Catastrophes][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Chaînes de pacte[-] à soi, ainsi qu'au héros allié [00D5FF][Sacrifice][-] ou [00D5FF][Les Sept Catastrophes] avec les PV les plus élevés[-].\\n[i][C0C0C0]※Chaînes de pacte : toutes les stats [FFAE00]+10 %[-].\\nAugmente les stats de base à hauteur de [FF8000]30 %[-] des stats initiales de Salos.\\nRéduit les dégâts finaux subis de [FF8000]40 %[-] en subissant des dégâts avec une compétence ennemie.\\nImmunité aux réductions de stats.[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] utilise une compétence sur un ennemi, ou lorsqu'un ennemi utilise une compétence sur cet allié, applique [00D5FF]Chaînes maudites[-] sur l'ennemi pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Chaînes maudites : stats offensives [FFAE00]-20 %[-] ([FFAE00]3 fois[-] max.)[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] attaque un ennemi qui souffre du malus [00D5FF]Chaînes maudites[-], augmente ses stats offensives de [FFAE00]30 %[-].\\n\\nInflige des dégâts supplémentaires égaux à [FF8000]400 %[-] de la défense augmentée de la cible lorsque le héros utilise une compétence."
+          },
+          {
+            "niveau": 3,
+            "description": "Augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]20 %[-] pour [FFAE00]chaque allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, [Sacrifice], [Les Sept Catastrophes][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Chaînes de pacte[-] à soi, ainsi qu'au héros allié [00D5FF][Sacrifice][-] ou [00D5FF][Les Sept Catastrophes] avec les PV les plus élevés[-].\\n[i][C0C0C0]※Chaînes de pacte : toutes les stats [FFAE00]+10 %[-].\\nAugmente les stats de base à hauteur de [FF8000]40 %[-] des stats initiales de Salos.\\nRéduit les dégâts finaux subis de [FF8000]40 %[-] en subissant des dégâts avec une compétence ennemie.\\nImmunité aux réductions de stats.[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] utilise une compétence sur un ennemi, ou lorsqu'un ennemi utilise une compétence sur cet allié, applique [00D5FF]Chaînes maudites[-] sur l'ennemi pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Chaînes maudites : stats offensives [FFAE00]-20 %[-] ([FFAE00]3 fois[-] max.)[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] attaque un ennemi qui souffre du malus [00D5FF]Chaînes maudites[-], augmente ses stats offensives de [FFAE00]30 %[-].\\n\\nInflige des dégâts supplémentaires égaux à [FF8000]400 %[-] de la défense augmentée de la cible lorsque le héros utilise une compétence."
+          },
+          {
+            "niveau": 4,
+            "description": "Augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]20 %[-] pour [FFAE00]chaque allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, [Sacrifice], [Les Sept Catastrophes][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Chaînes de pacte[-] à soi, ainsi qu'au héros allié [00D5FF][Sacrifice][-] ou [00D5FF][Les Sept Catastrophes] avec les PV les plus élevés[-].\\n[i][C0C0C0]※Chaînes de pacte : toutes les stats [FFAE00]+10 %[-].\\nAugmente les stats de base à hauteur de [FF8000]40 %[-] des stats initiales de Salos.\\nRéduit les dégâts finaux subis de [FF8000]40 %[-] en subissant des dégâts avec une compétence ennemie.\\nImmunité aux réductions de stats.[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] utilise une compétence sur un ennemi, ou lorsqu'un ennemi utilise une compétence sur cet allié, applique [00D5FF]Chaînes maudites[-] sur l'ennemi pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Chaînes maudites : stats offensives [FFAE00]-20 %[-] ([FFAE00]3 fois[-] max.)[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] attaque un ennemi qui souffre du malus [00D5FF]Chaînes maudites[-], augmente ses stats offensives de [FFAE00]30 %[-].\\n\\nInflige des dégâts supplémentaires égaux à [FF8000]500 %[-] de la défense augmentée de la cible lorsque le héros utilise une compétence."
+          },
+          {
+            "niveau": 5,
+            "description": "Augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]20 %[-] pour [FFAE00]chaque allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, [Sacrifice], [Les Sept Catastrophes][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Chaînes de pacte[-] à soi, ainsi qu'au héros allié [00D5FF][Sacrifice][-] ou [00D5FF][Les Sept Catastrophes] avec les PV les plus élevés[-].\\n[i][C0C0C0]※Chaînes de pacte : toutes les stats [FFAE00]+10 %[-].\\nAugmente les stats de base à hauteur de [FF8000]50 %[-] des stats initiales de Salos.\\nRéduit les dégâts finaux subis de [FF8000]40 %[-] en subissant des dégâts avec une compétence ennemie.\\nImmunité aux réductions de stats.[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] utilise une compétence sur un ennemi, ou lorsqu'un ennemi utilise une compétence sur cet allié, applique [00D5FF]Chaînes maudites[-] sur l'ennemi pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Chaînes maudites : stats offensives [FFAE00]-20 %[-] ([FFAE00]3 fois[-] max.)[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] attaque un ennemi qui souffre du malus [00D5FF]Chaînes maudites[-], augmente ses stats offensives de [FFAE00]30 %[-].\\n\\nInflige des dégâts supplémentaires égaux à [FF8000]500 %[-] de la défense augmentée de la cible lorsque le héros utilise une compétence."
+          },
+          {
+            "niveau": 6,
+            "description": "Augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]4 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]20 %[-] pour [FFAE00]chaque allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : race inconnue, [Sacrifice], [Les Sept Catastrophes][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Chaînes de pacte[-] à soi, ainsi qu'au héros allié [00D5FF][Sacrifice][-] ou [00D5FF][Les Sept Catastrophes] avec les PV les plus élevés[-].\\n[i][C0C0C0]※Chaînes de pacte : toutes les stats [FFAE00]+10 %[-].\\nAugmente les stats de base à hauteur de [FF8000]50 %[-] des stats initiales de Salos.\\nRéduit les dégâts finaux subis de [FF8000]40 %[-] en subissant des dégâts avec une compétence ennemie.\\nImmunité aux réductions de stats.[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] utilise une compétence sur un ennemi, ou lorsqu'un ennemi utilise une compétence sur cet allié, applique [00D5FF]Chaînes maudites[-] sur l'ennemi pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Chaînes maudites : stats offensives [FFAE00]-20 %[-] ([FFAE00]3 fois[-] max.)[-][/i]\\n\\nLorsqu'un allié avec [00D5FF]Chaînes de pacte[-] attaque un ennemi qui souffre du malus [00D5FF]Chaînes maudites[-], augmente ses stats offensives de [FFAE00]30 %[-].\\n\\nInflige des dégâts supplémentaires égaux à [FF8000]600 %[-] de la défense augmentée de la cible lorsque le héros utilise une compétence."
+          }
+        ]
+      },
+      "idForme": 328901,
+      "portrait": "assets/2000501/images/icon_hero_disaster_sallos_0002_s__97b97aedc38d2720.png",
+      "portraitVertical": "assets/2000501/images/icon_skin_disaster_sallos_0002_l__eab4a96d7dba3c7f.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3328901",
+      "categorie": "Skin",
+      "nom": "Vestige cauchemardesque",
+      "image": "assets/2000501/images/icon_skin_disaster_sallos_0002_l__eab4a96d7dba3c7f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3328950",
+      "categorie": "Skin",
+      "nom": "Souveraine corrompue",
+      "image": "assets/2000501/images/icon_skin_disaster_sallos_0003_l__79de0eecea1d409a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3328951",
+      "categorie": "Skin",
+      "nom": "Guérisseuse abyssale",
+      "image": "assets/2000501/images/icon_skin_disaster_sallos_0004_l__1d0dc16e2a69741a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3328952",
+      "categorie": "Skin",
+      "nom": "Joueuse casanière",
+      "image": "assets/2000501/images/icon_skin_disaster_sallos_0005_l__3f00adbb30d40782.png",
+      "rarete": ""
+    },
+    {
+      "id": "3328953",
+      "categorie": "Skin",
+      "nom": "Sollicitude exclusive",
+      "image": "assets/2000501/images/icon_skin_disaster_sallos_0007_l__7280ffe5da49dabc.png",
+      "rarete": ""
+    },
+    {
+      "id": "3328954",
+      "categorie": "Skin",
+      "nom": "Histoire des étoiles",
+      "image": "assets/2000501/images/icon_skin_disaster_sallos_0006_l__4f8603aa8bc3671d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3328902",
+      "categorie": "Skin",
+      "nom": "Ombre du désespoir",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "881101",
+      "categorie": "Weapon",
+      "nom": "Livre des vestiges",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "881102",
+      "categorie": "Weapon",
+      "nom": "Chaînes de souveraine",
+      "image": "assets/2000501/images/icon_weapon_disaster_sallos_0003_l__0e75169b5992ee6f.png",
+      "rarete": ""
+    },
+    {
+      "id": "881103",
+      "categorie": "Weapon",
+      "nom": "Liens de regard détourné",
+      "image": "assets/2000501/images/icon_weapon_disaster_sallos_0004_l__3f6ad34467a609a2.png",
+      "rarete": ""
+    },
+    {
+      "id": "881104",
+      "categorie": "Weapon",
+      "nom": "Micro de maître",
+      "image": "assets/2000501/images/icon_weapon_disaster_sallos_0005_l__19c3ec5d0d06a0f1.png",
+      "rarete": ""
+    },
+    {
+      "id": "881105",
+      "categorie": "Weapon",
+      "nom": "Amour officiel",
+      "image": "assets/2000501/images/icon_weapon_disaster_sallos_0007_l__cf0afdf5fc1d6ef1.png",
+      "rarete": ""
+    },
+    {
+      "id": "881106",
+      "categorie": "Weapon",
+      "nom": "Pouvoir du Taureau",
+      "image": "assets/2000501/images/icon_weapon_disaster_sallos_0006_l__b15dd8f271b7a059.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010001",
+      "categorie": "Head",
+      "nom": "Couronne des ombres",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "4010002",
+      "categorie": "Head",
+      "nom": "Couronne d'épines de souveraine",
+      "image": "assets/2000501/images/icon_head_disaster_sallos_0003_l__a9447b76d6e4f35c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010003",
+      "categorie": "Head",
+      "nom": "Cache-œil de regard détourné",
+      "image": "assets/2000501/images/icon_head_disaster_sallos_0004_l__ec863751c9230361.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010004",
+      "categorie": "Head",
+      "nom": "Murmures de maître",
+      "image": "assets/2000501/images/icon_head_disaster_sallos_0005_l__6c66d5849c33a521.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010006",
+      "categorie": "Head",
+      "nom": "Regard obnubilé",
+      "image": "assets/2000501/images/icon_head_disaster_sallos_0007_l__64e832f23f01100c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010007",
+      "categorie": "Head",
+      "nom": "Mythe du Taureau",
+      "image": "assets/2000501/images/icon_head_disaster_sallos_0006_l__32f2f40395edba35.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010005",
+      "categorie": "Head",
+      "nom": "Lien cauchemardesque",
+      "image": "assets/2000501/images/icon_head_disaster_sallos_0501_l__13138af528e3d362.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null,
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+};

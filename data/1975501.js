@@ -1,0 +1,390 @@
+window.fichePreparee={
+  "nom": "Mael, ange du désespoir",
+  "designation": "[Ailes noircies]",
+  "titre": "Mael, ange du désespoir",
+  "idJeu": "1975501",
+  "attribut": {
+    "nom": "Attribut Ténèbres",
+    "icone": "assets/commun/icon_filter_attribute_05__8b5613471712850c.png",
+    "couleur": "#bf7ee9",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Déesse"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_05__153a123cca908e2c.png"
+    ]
+  },
+  "caracteristiques": [
+    "Commandement",
+    "[Les Quatre Archanges]"
+  ],
+  "portrait": "assets/1975501/images/icon_hero_goddess_mael_veil_0002_s__361af797d3bd4912.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Chaînes maudites] Mael, ange du désespoir possède une compétence qui inflige des dégâts plus élevés proportionnellement à ses stats offensives.",
+  "commandement": {
+    "nom": "Commandements de la [b]Charité[/b], [b]Vérité[/b], [b]Réticence[/b] et [b]Pureté[/b]",
+    "image": "assets/1975501/images/icon_exclusive_skill_1975551__2ce7d73f495436c4.png",
+    "simpleImage": null,
+    "description": "Lorsque le héros utilise une [00D5FF]attaque de groupe[-] autre que le coup ultime, réduit les stats de PV de tous les héros en combat de [FFAE00]7 %[-] pendant [FFAE00]2 tours[-] avant l'activation de la compétence.\\n[00D5FF](S'applique aux alliés et aux ennemis. [FFAE00]2 fois[-] max.)[-]"
+  },
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1975501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1975501/images/hero_illust_goddess_mael_veil_1975501__7b93ab3aa79fccce.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 850.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 560.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 9600.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 5800
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 215.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 75.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Faux du Silence »",
+          "image": "assets/1975501/images/icon_goddess_mael_veil_ssr_type01_skill_01__8d422b147072a0b9.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Punition[-] égaux à 200 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Punition : Augmentation chances crit. [FFAE00]x2[-].\\n Augmentation Dégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.[-]",
+              "idJeu": 1005501,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Punition[-] égaux à 300 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Punition : Augmentation chances crit. [FFAE00]x2[-].\\n Augmentation Dégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.[-]",
+              "idJeu": 1005502,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts de [00D5FF]Punition[-] égaux à 500 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Punition : Augmentation chances crit. [FFAE00]x2[-].\\n Augmentation Dégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.[-]",
+              "idJeu": 1005503,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Cloche de la Vérité »",
+          "image": "assets/1975501/images/icon_goddess_mael_veil_ssr_type01_skill_02__6995c458bd59a702.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts d'[00D5FF]Onde[-] égaux à 180 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Onde : taux de perforation [FFAE00]x3[-].\\nIgnore la défense de l'ennemi.\\nAttaque [FFAE00]+50 %[-] lorsque le héros utilise des compétences.\\nDégâts infligés [FFAE00]+[-]30 % pour [FFAE00]chaque[-] effet Flux punitif présent sur tous les ennemis.[-]",
+              "idJeu": 1005511,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 250.0,
+              "description": "Inflige des dégâts d'[00D5FF]Onde[-] égaux à 250 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Onde : taux de perforation [FFAE00]x3[-].\\nIgnore la défense de l'ennemi.\\nAttaque [FFAE00]+50 %[-] lorsque le héros utilise des compétences.\\nDégâts infligés [FFAE00]+[-]30 % pour [FFAE00]chaque[-] effet Flux punitif présent sur tous les ennemis.[-]",
+              "idJeu": 1005512,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 390.0,
+              "description": "Inflige des dégâts d'[00D5FF]Onde[-] égaux à 390 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Onde : taux de perforation [FFAE00]x3[-].\\nIgnore la défense de l'ennemi.\\nAttaque [FFAE00]+50 %[-] lorsque le héros utilise des compétences.\\nDégâts infligés [FFAE00]+[-]30 % pour [FFAE00]chaque[-] effet Flux punitif présent sur tous les ennemis.[-]",
+              "idJeu": 1005513,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Encens de la Pureté et Orbe de la Charité »",
+        "image": "assets/1975501/images/icon_goddess_mael_veil_ssr_type01_special_01__2709fef8fcbd1a49.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 500.0,
+            "description": "Applique [00D5FF]Marque de châtiment[-] sur tous les ennemis pendant [FFAE00]3 tours[-], puis inflige des dégâts de [00D5FF]Punition[-] égaux à 500 % de l'attaque.\\n\\n[00D5FF]※Marque de châtiment : stats offensives [FFAE00]-20 %[-].\\n※Punition : Augmentation chances crit. [FFAE00]x2[-].\\n Augmentation Dégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 550.0,
+            "description": "Applique [00D5FF]Marque de châtiment[-] sur tous les ennemis pendant [FFAE00]3 tours[-], puis inflige des dégâts de [00D5FF]Punition[-] égaux à 550 % de l'attaque.\\n\\n[00D5FF]※Marque de châtiment : stats offensives [FFAE00]-20 %[-].\\n※Punition : Augmentation chances crit. [FFAE00]x2[-].\\n Augmentation Dégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 600.0,
+            "description": "Applique [00D5FF]Marque de châtiment[-] sur tous les ennemis pendant [FFAE00]3 tours[-], puis inflige des dégâts de [00D5FF]Punition[-] égaux à 600 % de l'attaque.\\n\\n[00D5FF]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-].\\n※Punition : Augmentation chances crit. [FFAE00]x2[-].\\n Augmentation Dégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 650.0,
+            "description": "Applique [00D5FF]Marque de châtiment[-] sur tous les ennemis pendant [FFAE00]3 tours[-], puis inflige des dégâts de [00D5FF]Punition[-] égaux à 650 % de l'attaque.\\n\\n[00D5FF]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-].\\n※Punition : Augmentation chances crit. [FFAE00]x2[-].\\n Augmentation Dégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 700.0,
+            "description": "Applique [00D5FF]Marque de châtiment[-] sur tous les ennemis pendant [FFAE00]3 tours[-], inflige des dégâts de [00D5FF]Punition[-] égaux à 700 % de l'attaque, puis applique [00D5FF]Onde lumineuse[-] pendant 1 tour(s).\\n\\n[00D5FF]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-].\\n※Punition : chances crit. [FFAE00]x2[-].\\nDégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.\\n※Onde lumineuse : fixe les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 750.0,
+            "description": "Applique [00D5FF]Marque de châtiment[-] sur tous les ennemis pendant [FFAE00]3 tours[-], inflige des dégâts de [00D5FF]Punition[-] égaux à 750 % de l'attaque, puis applique [00D5FF]Onde lumineuse[-] pendant 1 tour(s).\\n\\n[00D5FF]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-].\\n※Punition : chances crit. [FFAE00]x2[-].\\nDégâts crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+150 %[-] aux ennemis avec l'effet Marque de châtiment.\\n※Onde lumineuse : fixe les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Ange déchu",
+        "image": "assets/1975501/images/icon_exclusive_skill_1975501__7841d0ba15781fab.png",
+        "description": "Augmente toutes les stats des [00D5FF]alliés du clan des déesses[-] de [FFAE00]4 %[-] pour [FFAE00]chacun[-] de ces alliés en combat.\\n\\nAugmente les stats de base du héros de [FFAE00]2 %[-] pour [FFAE00]chaque[-] [00D5FF]bonus ou malus[-] présent en combat ([FFAE00]20 %[-] max.).\\n\\nOctroie [00D5FF]Marque du bien et du mal[-] aux [00D5FF]alliés du clan des déesses[-] au début du combat pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque du bien et du mal : réduit les dégâts subis à hauteur de [FFAE00]50 %[-] des dégâts finaux lorsque l'attaque ennemie inflige des dégâts crit.\\nImmunise contre les effets de réduction de stat.[/i][-]\\n\\nApplique [00D5FF]Flux punitif[-] sur tous les ennemis au début du combat. Lorsque le héros [00D5FF]utilise une compétence[-] pour infliger des dégâts à un ennemi, applique un effet supplémentaire.\\n[i][C0C0C0]※Flux punitif : dégâts infligés [FFAE00]-20 %[-]. ([FFAE00]3 fois max.[-])[/i][-]\\n\\nLorsque l'effet [00D5FF]Flux punitif[-] atteint le nombre max de cumuls, retire tous les cumuls et les remplace par l'effet [00D5FF]Onde lumineuse[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Onde lumineuse : fixe tous les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[/i][-]\\n\\nLorsque le héros inflige des dégâts à un ennemi avec une [00D5FF]attaque à cible unique[-], applique [00D5FF]Marque de châtiment[-] sur l'ennemi ciblé pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-][/i][-]\\n\\nLorsqu'un ennemi avec l'effet [00D5FF]Marque de châtiment[-] est [00D5FF]vaincu[-] par une [00D5FF]attaque à cible unique[-] du héros, inflige [FFAE00]100 %[-] des dégâts finaux à [FFAE00]1[-] ennemi aléatoire.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente toutes les stats des [00D5FF]alliés du clan des déesses[-] de [FFAE00]4 %[-] pour [FFAE00]chacun[-] de ces alliés en combat.\\n\\nAugmente les stats de base du héros de [FFAE00]2 %[-] pour [FFAE00]chaque[-] [00D5FF]bonus ou malus[-] présent en combat ([FFAE00]20 %[-] max.).\\n\\nOctroie [00D5FF]Marque du bien et du mal[-] aux [00D5FF]alliés du clan des déesses[-] au début du combat pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque du bien et du mal : réduit les dégâts subis à hauteur de [FFAE00]30 %[-] des dégâts finaux lorsque l'attaque ennemie inflige des dégâts crit.\\nImmunise contre les effets de réduction de stat.[/i][-]\\n\\nApplique [00D5FF]Flux punitif[-] sur tous les ennemis au début du combat. Lorsque le héros [00D5FF]utilise une compétence[-] pour infliger des dégâts à un ennemi, applique un effet supplémentaire.\\n[i][C0C0C0]※Flux punitif : dégâts infligés [FFAE00]-20 %[-]. ([FFAE00]3 fois max.[-])[/i][-]\\n\\nLorsque l'effet [00D5FF]Flux punitif[-] atteint le nombre max de cumuls, retire tous les cumuls et les remplace par l'effet [00D5FF]Onde lumineuse[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Onde lumineuse : fixe tous les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[/i][-]\\n\\nLorsque le héros inflige des dégâts à un ennemi avec une [00D5FF]attaque à cible unique[-], applique [00D5FF]Marque de châtiment[-] sur l'ennemi ciblé pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque de châtiment : stats offensives [FFAE00]-20 %[-]-1[/i][-]\\n\\nLorsqu'un ennemi avec l'effet [00D5FF]Marque de châtiment[-] est [00D5FF]vaincu[-] par une [00D5FF]attaque à cible unique[-] du héros, inflige [FFAE00]100 %[-] des dégâts finaux à [FFAE00]1[-] ennemi aléatoire."
+          },
+          {
+            "niveau": 2,
+            "description": "Augmente toutes les stats des [00D5FF]alliés du clan des déesses[-] de [FFAE00]4 %[-] pour [FFAE00]chacun[-] de ces alliés en combat.\\n\\nAugmente les stats de base du héros de [FFAE00]2 %[-] pour [FFAE00]chaque[-] [00D5FF]bonus ou malus[-] présent en combat ([FFAE00]20 %[-] max.).\\n\\nOctroie [00D5FF]Marque du bien et du mal[-] aux [00D5FF]alliés du clan des déesses[-] au début du combat pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque du bien et du mal : réduit les dégâts subis à hauteur de [FFAE00]35 %[-] des dégâts finaux lorsque l'attaque ennemie inflige des dégâts crit.\\nImmunise contre les effets de réduction de stat.[/i][-]\\n\\nApplique [00D5FF]Flux punitif[-] sur tous les ennemis au début du combat. Lorsque le héros [00D5FF]utilise une compétence[-] pour infliger des dégâts à un ennemi, applique un effet supplémentaire.\\n[i][C0C0C0]※Flux punitif : dégâts infligés [FFAE00]-20 %[-]. ([FFAE00]3 fois max.[-])[/i][-]\\n\\nLorsque l'effet [00D5FF]Flux punitif[-] atteint le nombre max de cumuls, retire tous les cumuls et les remplace par l'effet [00D5FF]Onde lumineuse[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Onde lumineuse : fixe tous les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[/i][-]\\n\\nLorsque le héros inflige des dégâts à un ennemi avec une [00D5FF]attaque à cible unique[-], applique [00D5FF]Marque de châtiment[-] sur l'ennemi ciblé pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque de châtiment : stats offensives [FFAE00]-20 %[-]-1[/i][-]\\n\\nLorsqu'un ennemi avec l'effet [00D5FF]Marque de châtiment[-] est [00D5FF]vaincu[-] par une [00D5FF]attaque à cible unique[-] du héros, inflige [FFAE00]100 %[-] des dégâts finaux à [FFAE00]1[-] ennemi aléatoire."
+          },
+          {
+            "niveau": 3,
+            "description": "Augmente toutes les stats des [00D5FF]alliés du clan des déesses[-] de [FFAE00]4 %[-] pour [FFAE00]chacun[-] de ces alliés en combat.\\n\\nAugmente les stats de base du héros de [FFAE00]2 %[-] pour [FFAE00]chaque[-] [00D5FF]bonus ou malus[-] présent en combat ([FFAE00]20 %[-] max.).\\n\\nOctroie [00D5FF]Marque du bien et du mal[-] aux [00D5FF]alliés du clan des déesses[-] au début du combat pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque du bien et du mal : réduit les dégâts subis à hauteur de [FFAE00]35 %[-] des dégâts finaux lorsque l'attaque ennemie inflige des dégâts crit.\\nImmunise contre les effets de réduction de stat.[/i][-]\\n\\nApplique [00D5FF]Flux punitif[-] sur tous les ennemis au début du combat. Lorsque le héros [00D5FF]utilise une compétence[-] pour infliger des dégâts à un ennemi, applique un effet supplémentaire.\\n[i][C0C0C0]※Flux punitif : dégâts infligés [FFAE00]-20 %[-]. ([FFAE00]3 fois max.[-])[/i][-]\\n\\nLorsque l'effet [00D5FF]Flux punitif[-] atteint le nombre max de cumuls, retire tous les cumuls et les remplace par l'effet [00D5FF]Onde lumineuse[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Onde lumineuse : fixe tous les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[/i][-]\\n\\nLorsque le héros inflige des dégâts à un ennemi avec une [00D5FF]attaque à cible unique[-], applique [00D5FF]Marque de châtiment[-] sur l'ennemi ciblé pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-][/i][-]\\n\\nLorsqu'un ennemi avec l'effet [00D5FF]Marque de châtiment[-] est [00D5FF]vaincu[-] par une [00D5FF]attaque à cible unique[-] du héros, inflige [FFAE00]100 %[-] des dégâts finaux à [FFAE00]1[-] ennemi aléatoire."
+          },
+          {
+            "niveau": 4,
+            "description": "Augmente toutes les stats des [00D5FF]alliés du clan des déesses[-] de [FFAE00]4 %[-] pour [FFAE00]chacun[-] de ces alliés en combat.\\n\\nAugmente les stats de base du héros de [FFAE00]2 %[-] pour [FFAE00]chaque[-] [00D5FF]bonus ou malus[-] présent en combat ([FFAE00]20 %[-] max.).\\n\\nOctroie [00D5FF]Marque du bien et du mal[-] aux [00D5FF]alliés du clan des déesses[-] au début du combat pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque du bien et du mal : réduit les dégâts subis à hauteur de [FFAE00]40 %[-] des dégâts finaux lorsque l'attaque ennemie inflige des dégâts crit.\\nImmunise contre les effets de réduction de stat.[/i][-]\\n\\nApplique [00D5FF]Flux punitif[-] sur tous les ennemis au début du combat. Lorsque le héros [00D5FF]utilise une compétence[-] pour infliger des dégâts à un ennemi, applique un effet supplémentaire.\\n[i][C0C0C0]※Flux punitif : dégâts infligés [FFAE00]-20 %[-]. ([FFAE00]3 fois max.[-])[/i][-]\\n\\nLorsque l'effet [00D5FF]Flux punitif[-] atteint le nombre max de cumuls, retire tous les cumuls et les remplace par l'effet [00D5FF]Onde lumineuse[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Onde lumineuse : fixe tous les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[/i][-]\\n\\nLorsque le héros inflige des dégâts à un ennemi avec une [00D5FF]attaque à cible unique[-], applique [00D5FF]Marque de châtiment[-] sur l'ennemi ciblé pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-][/i][-]\\n\\nLorsqu'un ennemi avec l'effet [00D5FF]Marque de châtiment[-] est [00D5FF]vaincu[-] par une [00D5FF]attaque à cible unique[-] du héros, inflige [FFAE00]100 %[-] des dégâts finaux à [FFAE00]1[-] ennemi aléatoire."
+          },
+          {
+            "niveau": 6,
+            "description": "Augmente toutes les stats des [00D5FF]alliés du clan des déesses[-] de [FFAE00]4 %[-] pour [FFAE00]chacun[-] de ces alliés en combat.\\n\\nAugmente les stats de base du héros de [FFAE00]2 %[-] pour [FFAE00]chaque[-] [00D5FF]bonus ou malus[-] présent en combat ([FFAE00]20 %[-] max.).\\n\\nOctroie [00D5FF]Marque du bien et du mal[-] aux [00D5FF]alliés du clan des déesses[-] au début du combat pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque du bien et du mal : réduit les dégâts subis à hauteur de [FFAE00]50 %[-] des dégâts finaux lorsque l'attaque ennemie inflige des dégâts crit.\\nImmunise contre les effets de réduction de stat.[/i][-]\\n\\nApplique [00D5FF]Flux punitif[-] sur tous les ennemis au début du combat. Lorsque le héros [00D5FF]utilise une compétence[-] pour infliger des dégâts à un ennemi, applique un effet supplémentaire.\\n[i][C0C0C0]※Flux punitif : dégâts infligés [FFAE00]-20 %[-]. ([FFAE00]3 fois max.[-])[/i][-]\\n\\nLorsque l'effet [00D5FF]Flux punitif[-] atteint le nombre max de cumuls, retire tous les cumuls et les remplace par l'effet [00D5FF]Onde lumineuse[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Onde lumineuse : fixe tous les dégâts infligés à [FFAE00]1[-], y compris les coups ultimes. ([FFAE00]Une fois[-] max.)[/i][-]\\n\\nLorsque le héros inflige des dégâts à un ennemi avec une [00D5FF]attaque à cible unique[-], applique [00D5FF]Marque de châtiment[-] sur l'ennemi ciblé pendant [FFAE00]3 tours[-].\\n[i][C0C0C0]※Marque de châtiment : stats offensives [FFAE00]-20 %[-], stats défensives [FFAE00]-20 %[-][/i][-]\\n\\nLorsqu'un ennemi avec l'effet [00D5FF]Marque de châtiment[-] est [00D5FF]vaincu[-] par une [00D5FF]attaque à cible unique[-] du héros, inflige [FFAE00]100 %[-] des dégâts finaux à [FFAE00]1[-] ennemi aléatoire."
+          }
+        ]
+      },
+      "idForme": 326501,
+      "portrait": "assets/1975501/images/icon_hero_goddess_mael_veil_0002_s__361af797d3bd4912.png",
+      "portraitVertical": "assets/1975501/images/icon_skin_goddess_mael_veil_0002_l__16b9b91f2e932885.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3326501",
+      "categorie": "Skin",
+      "nom": "Ange du désespoir",
+      "image": "assets/1975501/images/icon_skin_goddess_mael_veil_0002_l__16b9b91f2e932885.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326550",
+      "categorie": "Skin",
+      "nom": "Observateur cosmique",
+      "image": "assets/1975501/images/icon_skin_goddess_mael_veil_0003_l__eb1611ecbc02a759.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326551",
+      "categorie": "Skin",
+      "nom": "Dieu de la mort funeste",
+      "image": "assets/1975501/images/icon_skin_goddess_mael_veil_0004_l__a46e3cbf4a692eb8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326552",
+      "categorie": "Skin",
+      "nom": "Mal sans nom",
+      "image": "assets/1975501/images/icon_skin_goddess_mael_veil_0005_l__e2351af61c4dc401.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326553",
+      "categorie": "Skin",
+      "nom": "Cuisinier du mois",
+      "image": "assets/1975501/images/icon_skin_goddess_mael_veil_0006_l__2717ff70fbeb43ce.png",
+      "rarete": ""
+    },
+    {
+      "id": "3326502",
+      "categorie": "Skin",
+      "nom": "Incarnation de la rancune",
+      "image": "assets/1975501/images/icon_skin_goddess_mael_veil_0001_l__aba0b3a8c0d34d8e.png",
+      "rarete": ""
+    },
+    {
+      "id": "878701",
+      "categorie": "Weapon",
+      "nom": "Mains nues",
+      "image": "assets/1975501/images/icon_weapon_goddess_mael_veil_0001_l__20574d2b7c22a514.png",
+      "rarete": ""
+    },
+    {
+      "id": "878702",
+      "categorie": "Weapon",
+      "nom": "Mains d'observateur",
+      "image": "assets/1975501/images/icon_weapon_goddess_mael_veil_0003_l__4df7436c0d34db0e.png",
+      "rarete": ""
+    },
+    {
+      "id": "878703",
+      "categorie": "Weapon",
+      "nom": "Étreinte du dieu de la mort",
+      "image": "assets/1975501/images/icon_weapon_goddess_mael_veil_0004_l__8a933e288de601d8.png",
+      "rarete": ""
+    },
+    {
+      "id": "878704",
+      "categorie": "Weapon",
+      "nom": "Gantelets du dieu maléfique",
+      "image": "assets/1975501/images/icon_weapon_goddess_mael_veil_0005_l__842630fcb404b72a.png",
+      "rarete": ""
+    },
+    {
+      "id": "878705",
+      "categorie": "Weapon",
+      "nom": "Maniques",
+      "image": "assets/1975501/images/icon_weapon_goddess_mael_veil_0006_l__d722bd6e9a029291.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007601",
+      "categorie": "Head",
+      "nom": "Quatre Commandements",
+      "image": "assets/1975501/images/icon_head_goddess_mael_veil_0001_l__0e697334c8b5837d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007602",
+      "categorie": "Head",
+      "nom": "Témoin impartial",
+      "image": "assets/1975501/images/icon_head_goddess_mael_veil_0003_l__ecf159eca868a2be.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007603",
+      "categorie": "Head",
+      "nom": "Voile du dieu de la mort",
+      "image": "assets/1975501/images/icon_head_goddess_mael_veil_0004_l__b7e9facb3a4a15fc.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007604",
+      "categorie": "Head",
+      "nom": "Chapeau en bambou du dieu maléfique",
+      "image": "assets/1975501/images/icon_head_goddess_mael_veil_0005_l__4476b7866438ada2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007606",
+      "categorie": "Head",
+      "nom": "Pizzaïolo",
+      "image": "assets/1975501/images/icon_head_goddess_mael_veil_0006_l__e86efbdfd81fd967.png",
+      "rarete": ""
+    },
+    {
+      "id": "4007605",
+      "categorie": "Head",
+      "nom": "Couronne du soleil déchu",
+      "image": "assets/1975501/images/icon_head_goddess_mael_veil_0501_l__a38f5c307fa5c47a.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null,
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+};

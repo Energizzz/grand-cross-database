@@ -1,0 +1,982 @@
+window.fichePreparee={
+  "nom": "Meliodas Lostvayne",
+  "designation": "« Doubles virtuels »",
+  "titre": "Meliodas Lostvayne",
+  "idJeu": "1395001",
+  "attribut": {
+    "nom": "Attribut Puissance",
+    "icone": "assets/commun/icon_filter_attribute_01__bfa1da106b20bf3e.png",
+    "couleur": "#ef6369",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Démon"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_01__b2dfe4e53bdd1bf4.png"
+    ]
+  },
+  "caracteristiques": [
+    "Les [Seven Deadly Sins]"
+  ],
+  "portrait": "assets/1395001/images/icon_hero_meliodas_0065_s__9159df16c403c04d.png",
+  "rareteParDefaut": "LR",
+  "presentation": "Meliodas Lostvayne « Doubles virtuels » possède une compétence qui remplit sa propre jauge de coup ultime, ce qui lui permet d'utiliser rapidement son coup ultime, ainsi qu'une compétence qui ignore la défense de l'ennemi.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1395001/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1395001/images/hero_illust_meliodas_1395001__24deb7e8e8c7408a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "evolution": "Niveau maximal 50 · évolution 50",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 560.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 350.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 7000.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 3810
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 60.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Impact de fragmentation »",
+          "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_skill_01__26343b71988026aa.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à un ennemi.",
+              "idJeu": 148001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts égaux à 300 % de l'attaque à un ennemi et remplit la jauge de coup ultime de 1 [FFAE00]orbe(s)[-].",
+              "idJeu": 148002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts égaux à 500 % de l'attaque à un ennemi et remplit la jauge de coup ultime de 2 [FFAE00]orbe(s)[-].",
+              "idJeu": 148003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Triple avatar »",
+          "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_skill_02__7efea04b5c15895a.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 130.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 130 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 148011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 195.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 195 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 148012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 325.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 325 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 148013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Doubles virtuels »",
+        "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_special_01__39832156830e4b36.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 300 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]20 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 330.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 330 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]28 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 360.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 360 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]36 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 390.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 390 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]44 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 420 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]52 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 450.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 450 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]60 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Ristourne",
+        "image": "assets/1395001/images/icon_exclusive_skill_1395001__b061e5ded951ee7a.png",
+        "description": "[00D5FF]Augmente le rang[-] de toutes les compétences du héros quand celui-ci subit des dégâts crit. pendant le tour ennemi.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "[00D5FF]Augmente le rang[-] de toutes les compétences du héros quand celui-ci subit des dégâts crit. pendant le tour ennemi."
+          }
+        ]
+      },
+      "idForme": 304901,
+      "portrait": "assets/1395001/images/icon_hero_meliodas_0005_s__0818997ac305c4ea.png",
+      "portraitVertical": "assets/1395001/images/icon_skin_meliodas_0005_l__8bfd5140b70b999f.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1395001/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1395001/images/hero_illust_meliodas_1395001__24deb7e8e8c7408a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 700.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 430.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 7400.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 4094
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 60.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Impact de fragmentation »",
+          "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_skill_01__26343b71988026aa.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à un ennemi.",
+              "idJeu": 148001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts égaux à 300 % de l'attaque à un ennemi et remplit la jauge de coup ultime de 1 [FFAE00]orbe(s)[-].",
+              "idJeu": 148002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts égaux à 500 % de l'attaque à un ennemi et remplit la jauge de coup ultime de 2 [FFAE00]orbe(s)[-].",
+              "idJeu": 148003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Triple avatar »",
+          "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_skill_02__7efea04b5c15895a.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 130.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 130 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 148011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 195.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 195 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 148012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 325.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 325 % de l'attaque à tous les ennemis.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 148013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Doubles virtuels »",
+        "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_special_01__39832156830e4b36.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 300 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]20 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 330.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 330 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]28 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 360.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 360 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]36 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 390.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 390 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]44 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 420 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]52 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 450.0,
+            "description": "Inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 450 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe l'attribut concerné.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]60 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Ristourne",
+        "image": "assets/1395001/images/icon_exclusive_skill_1395001__b061e5ded951ee7a.png",
+        "description": "[00D5FF]Augmente le rang[-] de toutes les compétences du héros quand celui-ci subit des dégâts crit. pendant le tour ennemi.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "[00D5FF]Augmente le rang[-] de toutes les compétences du héros quand celui-ci subit des dégâts crit. pendant le tour ennemi."
+          }
+        ]
+      },
+      "idForme": 304902,
+      "portrait": "assets/1395001/images/icon_hero_meliodas_0013_s__4fddcb33f7a1bac0.png",
+      "portraitVertical": "assets/1395001/images/icon_skin_meliodas_0013_l__4ff2539d4b454ef9.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1395001/images/hero_illust_meliodas_1395001__24deb7e8e8c7408a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 100,
+      "evolution": "Niveau maximal 100 · évolution 100",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 950.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 480.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 9400.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 5614
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 130.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 220.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Impact de fragmentation »",
+          "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_skill_01__26343b71988026aa.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 264.0,
+              "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 264 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Lésion : Augmentation des chances crit. x3.[-]",
+              "idJeu": 148041,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 330.0,
+              "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 330 % de l'attaque à un ennemi et remplit la jauge de coup ultime de 1 [FFAE00] orbe(s)[-].\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+              "idJeu": 148042,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 550.0,
+              "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 550 % de l'attaque à un ennemi et remplit la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+              "idJeu": 148043,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Triple avatar »",
+          "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_skill_05__59aa0adf08c4fc33.png",
+          "type": "Attaque",
+          "cible": "tous les ennemis",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 130.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 130 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 1 tour(s).\\n\\n[00D5FF]※Charge : ignore la défense.[-]\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 148051,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 195.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 195 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 1 tour(s).\\n\\n[00D5FF]※Charge : ignore la défense.[-]\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 148052,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 325.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 325 % de l'attaque à tous les ennemis. Applique [00D5FF]Infection[-] pendant 2 tour(s).\\n\\n[00D5FF]※Charge : ignore la défense.[-]\\n[00D5FF]※Infection : Bloque les effets des sorts de soins.[-]",
+              "idJeu": 148053,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Doubles virtuels »",
+        "image": "assets/1395001/images/icon_meliodas_lostvayne_ssr_type01_special_01__39832156830e4b36.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]3 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 300 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe les attributs concernés.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]20 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 330.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]5 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 330 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe les attributs concernés.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]30 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 360.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]7 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 360 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe les attributs concernés.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]40 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 390.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]10 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 390 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe les attributs concernés.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]50 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 420.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]15 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 420 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe les attributs concernés.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]65 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 450.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]20 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Technique secrète[-] égaux à 450 % de l'attaque à tous les ennemis en bénéficiant de l'avantage d'attribut, peu importe les attributs concernés.\\n\\n[00D5FF]※Technique secrète : [FFAE00]+[-]80 % de dégâts supplémentaires par compétence de héros.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Ristourne",
+        "image": "assets/1395001/images/icon_exclusive_skill_1395001__b061e5ded951ee7a.png",
+        "description": "[00D5FF]Augmente le rang[-] de toutes les compétences du héros et augmente sa défense crit. de [FFAE00]30 %[-] ([FFAE00]90 %[-] max.) quand celui-ci subit des dégâts crit. pendant le tour ennemi. Augmente également les stats offensives du héros de [FFAE00]10 %[-] pendant [FFAE00]3 tours[-] lorsque la [00D5FF]compétence unique du héros augmente le rang des compétences[-].\\n[00D5FF]([FFAE00]5 fois max.[-])[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "[00D5FF]Augmente le rang[-] de toutes les compétences du héros et augmente sa défense crit. de [FFAE00]30 %[-] ([FFAE00]90 %[-] max.) quand celui-ci subit des dégâts crit. pendant le tour ennemi. Augmente également les stats offensives du héros de [FFAE00]10 %[-] pendant [FFAE00]3 tours[-] lorsque la [00D5FF]compétence unique du héros augmente le rang des compétences[-].\\n[00D5FF]([FFAE00]5 fois max.[-])[-]"
+          }
+        ]
+      },
+      "idForme": 304905,
+      "portrait": "assets/1395001/images/icon_hero_meliodas_0065_s__9159df16c403c04d.png",
+      "portraitVertical": "assets/1395001/images/icon_skin_meliodas_0065_l__8d1a89d451b6f5d9.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3304901",
+      "categorie": "Skin",
+      "nom": "Tenue d'intérieur soignée",
+      "image": "assets/1395001/images/icon_skin_meliodas_0005_l__8bfd5140b70b999f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304903",
+      "categorie": "Skin",
+      "nom": "Tenue d'exploration du chef",
+      "image": "assets/1395001/images/icon_skin_meliodas_0052_l__adc146e1f4556b06.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304957",
+      "categorie": "Skin",
+      "nom": "Tenue de combat de guerrier",
+      "image": "assets/1395001/images/icon_skin_meliodas_0048_l__08e7619b8da22199.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304951",
+      "categorie": "Skin",
+      "nom": "Gourou culinaire",
+      "image": "assets/1395001/images/icon_skin_meliodas_0043_l__7dc35d243082e732.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304952",
+      "categorie": "Skin",
+      "nom": "Uniforme de la flamme rouge",
+      "image": "assets/1395001/images/icon_skin_meliodas_0031_l__f0c808f7c02336cd.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304954",
+      "categorie": "Skin",
+      "nom": "Sweat à capuche vert pâle",
+      "image": "assets/1395001/images/icon_skin_meliodas_0045_l__5cbf663fe1c1aad1.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304958",
+      "categorie": "Skin",
+      "nom": "Capitaine de la plage",
+      "image": "assets/1395001/images/icon_skin_meliodas_0053_l__99759d943d07077d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304962",
+      "categorie": "Skin",
+      "nom": "Skateur pro",
+      "image": "assets/1395001/images/icon_skin_meliodas_0066_l__9df115424d81e375.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304956",
+      "categorie": "Skin",
+      "nom": "Tenue de héros",
+      "image": "assets/commun/icon_skin_meliodas_0047_l__2cebe948e443808b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304961",
+      "categorie": "Skin",
+      "nom": "Manteau douillet de célébration",
+      "image": "assets/1395001/images/icon_skin_meliodas_0061_l__5c6f1f094e2b16d9.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304959",
+      "categorie": "Skin",
+      "nom": "Costume de célébration des 2,5 ans de Grand Cross",
+      "image": "assets/1395001/images/icon_skin_meliodas_0056_l__1aeea4e76a3ee368.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304902",
+      "categorie": "Skin",
+      "nom": "Carapace cramoisie",
+      "image": "assets/1395001/images/icon_skin_meliodas_0013_l__4ff2539d4b454ef9.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304904",
+      "categorie": "Skin",
+      "nom": "Habits épais d'hiver",
+      "image": "assets/1395001/images/icon_skin_meliodas_0046_l__a9d9a3e895808aed.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304905",
+      "categorie": "Skin",
+      "nom": "Armure éclatante de dragon rouge",
+      "image": "assets/1395001/images/icon_skin_meliodas_0065_l__8d1a89d451b6f5d9.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304955",
+      "categorie": "Skin",
+      "nom": "Tenue d'intérieur simple",
+      "image": "assets/1395001/images/icon_skin_meliodas_0028_l__c036cf705d9e684f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3304960",
+      "categorie": "Skin",
+      "nom": "Armure glorieuse de confrérie",
+      "image": "assets/1395001/images/icon_skin_meliodas_0057_l__d47907860857418f.png",
+      "rarete": ""
+    },
+    {
+      "id": "857601",
+      "categorie": "Weapon",
+      "nom": "Fourreau de l'épée démoniaque Lostvayne",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857611",
+      "categorie": "Weapon",
+      "nom": "Fourreau ailé",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857603",
+      "categorie": "Weapon",
+      "nom": "Fourreau de gourou",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857604",
+      "categorie": "Weapon",
+      "nom": "Fourreau de la flamme rouge",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857606",
+      "categorie": "Weapon",
+      "nom": "Sac bandoulière",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857607",
+      "categorie": "Weapon",
+      "nom": "Fourreau de gilet de sauvetage",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857613",
+      "categorie": "Weapon",
+      "nom": "Sac à dos de skateur",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857612",
+      "categorie": "Weapon",
+      "nom": "Souvenir des 3,5 ans de Grand Cross",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857605",
+      "categorie": "Weapon",
+      "nom": "Fourreau de vieux souvenirs",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857608",
+      "categorie": "Weapon",
+      "nom": "Fourreau magique de Fáfnir",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "857614",
+      "categorie": "Weapon",
+      "nom": "Fourreau du dragon cramoisi stellaire",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "4395001",
+      "categorie": "Head",
+      "nom": "Cheveux en bataille",
+      "image": "assets/commun/icon_head_meliodas_0001_l__1530c469aecb6756.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395007",
+      "categorie": "Head",
+      "nom": "Casque de guerrier",
+      "image": "assets/1395001/images/icon_head_meliodas_0048_l__6d67ae7eb6712785.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395003",
+      "categorie": "Head",
+      "nom": "Chapeau de gourou",
+      "image": "assets/1395001/images/icon_head_meliodas_0043_l__8695b49dde67f1bf.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395004",
+      "categorie": "Head",
+      "nom": "Raie soignée",
+      "image": "assets/1395001/images/icon_head_meliodas_0031_l__f4faabbd5cc8ae71.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395006",
+      "categorie": "Head",
+      "nom": "Lunettes de protection",
+      "image": "assets/1395001/images/icon_head_meliodas_0045_l__404ca0460796f7d6.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395010",
+      "categorie": "Head",
+      "nom": "Chapeau de paille cool",
+      "image": "assets/1395001/images/icon_head_meliodas_0053_l__658e604e662f037e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395013",
+      "categorie": "Head",
+      "nom": "Casque de sécurité pro",
+      "image": "assets/1395001/images/icon_head_meliodas_0066_l__f695d917104dbad1.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395008",
+      "categorie": "Head",
+      "nom": "Bandeau de célébration du 2e anniversaire",
+      "image": "assets/1395001/images/icon_head_meliodas_0508_l__18ebfb8d9d0eb321.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395011",
+      "categorie": "Head",
+      "nom": "Couronne luxueuse de célébration",
+      "image": "assets/1395001/images/icon_head_meliodas_0061_l__0cb7e165ce333248.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395012",
+      "categorie": "Head",
+      "nom": "Couronne éclatante de dragon rouge",
+      "image": "assets/1395001/images/icon_head_meliodas_0065_l__5089f209d0822ab4.png",
+      "rarete": ""
+    },
+    {
+      "id": "4395009",
+      "categorie": "Head",
+      "nom": "Cache-oreille confortable",
+      "image": "assets/1395001/images/icon_head_meliodas_0046_l__b58f5af0f9bb3849.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Fourreau magique de Fáfnir",
+    "image": "assets/1395001/images/icon_weapon_meliodas_lostvayne_0551_s__2a2389ca1dfe119d.png",
+    "description": "Relique sacrée de Meliodas Lostvayne (arme).\\n[DC143C]Fourreau conçu à partir de la carcasse de Fáfnir. Le fourreau et ses ornements sont maudits par la rancune de Fáfnir, après sa défaite.[-]",
+    "passif": {
+      "nom": "Fourreau magique de Fáfnir",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Augmente les dégâts infligés par le héros de [FFAE00]10 %[-] pour [FFAE00]chaque orbe[-] de la jauge de coup ultime du héros."
+    },
+    "bonus": [
+      {
+        "nom": "Attaque",
+        "valeur": 500.0
+      },
+      {
+        "nom": "Défense",
+        "valeur": 350.0
+      },
+      {
+        "nom": "PV",
+        "valeur": 3600.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Origine de la corruption des racines",
+        "image": "assets/commun/icon_craft_costume_rare_material_04__4083e9decd2eb5e0.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Cristal rouge obscur",
+        "image": "assets/commun/icon_craft_costume_material_08__53b70f5c9ddcb41a.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique noire",
+        "image": "assets/commun/icon_craft_costume_key_material_02__c45289b47672f7a7.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Méticulosité d'Eitri",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Nídhögg"
+  },
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+};

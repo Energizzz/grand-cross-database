@@ -1,0 +1,361 @@
+{
+  "ultimate-normal-1.png": [
+    {
+      "sprite": "card_frame_special",
+      "path": "Skill_Rank_Special/Tier_1/Special_Frame/Sprite_Frame",
+      "depth": 41
+    },
+    {
+      "sprite": "card_frame_special_jewelry_01",
+      "path": "Skill_Rank_Special/Tier_1/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_1/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_1/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_shield",
+      "path": "Skill_Rank_Special/Tier_1/Special_Frame/Sprite_Deco_1",
+      "depth": 50
+    }
+  ],
+  "ultimate-normal-2.png": [
+    {
+      "sprite": "card_frame_special_jewelry_02",
+      "path": "Skill_Rank_Special/Tier_2/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_2/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_2/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_2/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 49
+    },
+    {
+      "sprite": "card_frame_special_shield",
+      "path": "Skill_Rank_Special/Tier_2/Special_Frame/Sprite_Deco_1",
+      "depth": 50
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_2/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 49
+    },
+    {
+      "sprite": "card_frame_special",
+      "path": "Skill_Rank_Special/Tier_2/Special_Frame/Sprite_Frame",
+      "depth": 41
+    }
+  ],
+  "ultimate-normal-3.png": [
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 49
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Deco_1/Sprite_Wing (1)",
+      "depth": 46
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 49
+    },
+    {
+      "sprite": "card_frame_special_shield",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Deco_1",
+      "depth": 50
+    },
+    {
+      "sprite": "card_frame_special_jewelry_03",
+      "path": "Skill_Rank_Special/Tier_3/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Deco_1/Sprite_Wing (2)",
+      "depth": 47
+    },
+    {
+      "sprite": "card_frame_special",
+      "path": "Skill_Rank_Special/Tier_3/Special_Frame/Sprite_Frame",
+      "depth": 41
+    }
+  ],
+  "ultimate-normal-4.png": [
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 49
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Frame",
+      "depth": 41
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 49
+    },
+    {
+      "sprite": "card_frame_special_jewelry_04",
+      "path": "Skill_Rank_Special/Tier_4/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_sword",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1/Sprite_SwordBig",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_shield",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1",
+      "depth": 50
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1/Sprite_Wing (2)",
+      "depth": 47
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_4/Special_Frame/Sprite_Deco_1/Sprite_Wing (1)",
+      "depth": 46
+    }
+  ],
+  "ultimate-normal-5.png": [
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_Wing (2)",
+      "depth": 45
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_sword",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_SwordBig",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 47
+    },
+    {
+      "sprite": "card_frame_special_shield",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1",
+      "depth": 50
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_Wing (1)",
+      "depth": 45
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 47
+    },
+    {
+      "sprite": "card_frame_special",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Frame",
+      "depth": 41
+    },
+    {
+      "sprite": "card_frame_special_jewelry_05",
+      "path": "Skill_Rank_Special/Tier_5/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_shield_bg",
+      "path": "Skill_Rank_Special/Tier_5/Special_Frame/Sprite_Deco_1/Sprite_BackFrame",
+      "depth": 49
+    }
+  ],
+  "ultimate-normal-6.png": [
+    {
+      "sprite": "card_frame_special_shield_bg",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_BackFrame",
+      "depth": 49
+    },
+    {
+      "sprite": "card_frame_special_jewelry_06",
+      "path": "Skill_Rank_Special/Tier_6/Sprite_Jewel",
+      "depth": 80
+    },
+    {
+      "sprite": "card_frame_special",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Frame",
+      "depth": 41
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Wing (1)",
+      "depth": 45
+    },
+    {
+      "sprite": "card_frame_special_sword",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_SwordBig",
+      "depth": 53
+    },
+    {
+      "sprite": "tier06_deco",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Side_Deco(2)",
+      "depth": 45
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 47
+    },
+    {
+      "sprite": "card_frame_special_shield",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1",
+      "depth": 50
+    },
+    {
+      "sprite": "card_frame_special_sword_2",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Sword",
+      "depth": 52
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Wing",
+      "depth": 47
+    },
+    {
+      "sprite": "card_frame_special_wing",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Wing (2)",
+      "depth": 45
+    },
+    {
+      "sprite": "tier06_deco",
+      "path": "Skill_Rank_Special/Tier_6/Special_Frame/Sprite_Deco_1/Sprite_Side_Deco (1)",
+      "depth": 45
+    }
+  ],
+  "ultimate-LR-1.png": [
+    {
+      "sprite": "card_frame_special_jewelry_01",
+      "path": "Skill_Rank_Special/Tier_1/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_LR",
+      "path": "Skill_Rank_Special/Tier_1/Sprite_Frame_LR/Sprite_Frame",
+      "depth": 50
+    }
+  ],
+  "ultimate-LR-2.png": [
+    {
+      "sprite": "card_frame_special_jewelry_02",
+      "path": "Skill_Rank_Special/Tier_2/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_LR",
+      "path": "Skill_Rank_Special/Tier_2/Sprite_Frame_LR/Sprite_Frame",
+      "depth": 50
+    }
+  ],
+  "ultimate-LR-3.png": [
+    {
+      "sprite": "card_frame_special_LR",
+      "path": "Skill_Rank_Special/Tier_3/Sprite_Frame_LR/Sprite_Frame",
+      "depth": 50
+    },
+    {
+      "sprite": "card_frame_special_jewelry_03",
+      "path": "Skill_Rank_Special/Tier_3/Sprite_Jewel",
+      "depth": 53
+    }
+  ],
+  "ultimate-LR-4.png": [
+    {
+      "sprite": "card_frame_special_jewelry_04",
+      "path": "Skill_Rank_Special/Tier_4/Sprite_Jewel",
+      "depth": 53
+    },
+    {
+      "sprite": "card_frame_special_LR",
+      "path": "Skill_Rank_Special/Tier_4/Sprite_Frame_LR/Sprite_Frame",
+      "depth": 50
+    }
+  ],
+  "ultimate-LR-5.png": [
+    {
+      "sprite": "card_frame_special_LR",
+      "path": "Skill_Rank_Special/Tier_5/Sprite_Frame_LR/Sprite_Frame",
+      "depth": 50
+    },
+    {
+      "sprite": "card_frame_special_jewelry_05",
+      "path": "Skill_Rank_Special/Tier_5/Sprite_Jewel",
+      "depth": 53
+    }
+  ],
+  "ultimate-LR-6.png": [
+    {
+      "sprite": "card_frame_special_jewelry_06",
+      "path": "Skill_Rank_Special/Tier_6/Sprite_Jewel",
+      "depth": 80
+    },
+    {
+      "sprite": "card_frame_special_LR",
+      "path": "Skill_Rank_Special/Tier_6/Sprite_Frame_LR/Sprite_Frame",
+      "depth": 50
+    }
+  ]
+}

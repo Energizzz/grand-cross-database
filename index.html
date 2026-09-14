@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Fiche personnage · Grand Cross</title>
+<link rel="stylesheet" href="style.css?v=20260914-29" />
+   </head>
+   <body>
+      <a class="skip" href="#contenu">Aller à la fiche</a>
+      <header class="site-header">
+         <div class="top">
+            <a class="brand" href="index.html#home" aria-label="Accueil">
+               <span class="mark">7</span>
+            </a>
+            <nav class="main-nav" aria-label="Navigation principale">
+               <a href="index.html#home">Accueil</a>
+               <a href="index.html#heroes">Héros</a>
+               <a href="index.html#events">Évènements</a>
+               <a href="index.html#costumes">Costume</a>
+               <a href="index.html#other">Autre</a>
+            </nav>
+         </div>
+      </header>
+      <div class="wrap">
+         <div id="loading" class="load-panel">
+            <h1>Personnages</h1>
+            <p id="load-message">Chargement…</p>
+            <div id="catalogue"></div>
+            <button id="choose" hidden></button>
+            <input id="file" type="file" hidden />
+         </div>
+         <main id="landing" hidden></main>
+         <main id="contenu" hidden></main>
+         <footer class="foot">
+            <span>Grand Cross Archives · Projet de fan</span>
+            <span id="status" class="status" role="status" aria-live="polite">
+            </span>
+            <div class="foot-actions">
+               <button id="reload" hidden>↻ Actualiser</button>
+               <button id="change">Charger un JSON</button>
+            </div>
+         </footer>
+      </div>
+      <script>
+         "use strict";
+         const $ = (id) => document.getElementById(id);
+         const esc = (v) =>
+            String(v ?? "").replace(
+               /[&<>"']/g,
+               (c) =>
+                  ({
+                     "&": "&amp;",
+                     "<": "&lt;",
+                     ">": "&gt;",
+                     '"': "&quot;",
+                     "'": "'",
+                  })[c],
+            );
+         const fmt = (v) =>
+            v == null
+               ? "—"
+               : typeof v === "number"
+                 ? new Intl.NumberFormat("fr-FR").format(v)
+                 : esc(v);
+         const safeImage = (v) => {
+            const p = String(v || "");
+            return /^((?:images|assets)\/)[a-zA-Z0-9_.\/-]+$/.test(p) &&
+               !p.includes("..")
+               ? esc(p)
+               : "";
+         };
+         const img = (src, alt, cls = "") =>
+            `<img src="${safeImage(src)}" alt="${esc(alt)}" class="${cls}" loading="${cls === "art" ? "eager" : "lazy"}">`;
+         const specialIcon = (src, alt, frame, aura = "") => {
+            const frameSrc = safeImage(`assets/passive-frames/${frame}`);
+            const frameClass = `frame-${frame.replace(/[^a-z0-9]+/gi, "-")}`;
+            const auraImage = aura
+               ? `<img src="${safeImage(`assets/passive-frames/${aura}`)}" alt="" class="special-aura" aria-hidden="true">`
+               : "";
+            return `<span class="special-icon ${frameClass}">${auraImage}${img(src, alt, "special-art")}<img src="${frameSrc}" alt="" class="special-frame" aria-hidden="true"></span>`;
+         };
+         const attributeColor = (attribute) => {
+            const source = Array.isArray(attribute) ? attribute[0] : attribute;
+            if (String(source).includes("type_icon_dual"))
+               return "linear-gradient(100deg,#f1c54f,#bf7ee9)";
+            const number = String(source).match(/attribute_0?([1-5])(?:_|\.)/i)?.[1];
+            return {
+               1: "#ef6369",
+               2: "#67c778",
+               3: "#50b8ea",
+               4: "#f1c54f",
+               5: "#bf7ee9",
+            }[number] || "#4a3a52";
+         };
+         const rich = (v) => {
+            let s = esc(v ?? ""),
+               tags = [];
+            s = s.replace(/\[(?:[0-9A-Fa-f]{6}|-)\]|\[\/?(?:b|i)\]/gi, (m) =>
+               String.fromCharCode(0xe000 + tags.push(m) - 1),
+            );
+            s = s.replace(
+               /(^|[^A-Za-z])((?:\+?\d+(?:[.,]\d+)?)(?:\s*%|\s*(?:orbe\(s\)|tour\(s\)|fois(?:\s+max\.)?))?)/gi,
+               '$1<span style="color:#FFAE00">$2</span>',
+            );
+            s = s.replace(
+               /[\uE000-\uF8FF]/g,
+               (c) => tags[c.charCodeAt(0) - 0xe000],
+            );
+            s = s
+               .replace(
+                  /\[([0-9A-Fa-f]{6})\]/g,
+                  (_, c) => `<span style="color:#${c}">`,
+               )
+               .replace(/\[-\]/g, "</span>")
+               .replace(/\[b\]/gi, "<strong>")
+               .replace(/\[\/b\]/gi, "</strong>")
+               .replace(/\[i\]/gi, "<em>")
+               .replace(/\[\/i\]/gi, "</em>")
+               .replace(/\\n/g, "<br>")
+               .replace(/\r?\n/g, "<br>");
+            return s;
+         };
+         let data,
+            rarity,
+            raw = "",
+            handle = null,
+            mode = "http",
+            filter = "Tous",
+            busy = false;
+         const ranks = {},
+            levels = {},
+            specialLevels = {};
+         function validate(d) {
+            if (
+               !d ||
+               typeof d.nom !== "string" ||
+               !Array.isArray(d["raretés"]) ||
+               !d["raretés"].length ||
+               !d.attribut ||
+               !Array.isArray(d.costumes)
+            )
+               throw Error(
+                  "Le JSON ne contient pas les champs de la fiche (nom, raretés, attribut, costumes).",
+               );
+            for (const r of d["raretés"])
+               if (
+                  !r.id ||
+                  !r.statistiques ||
+                  !Array.isArray(r.statistiques.principales) ||
+                  !Array.isArray(r.competences) ||
+                  !r.ultime?.niveaux?.length ||
+                  !r.passif ||
+                  r.competences.some((s) => !s.rangs?.length)
+               )
+                  throw Error(
+                     "Une rareté contient des statistiques ou compétences incomplètes.",
+                  );
+            if (
+               new Set(d["raretés"].map((r) => r.id)).size !==
+               d["raretés"].length
+            )
+               throw Error(
+                  "Les identifiants des raretés doivent être uniques.",
+               );
+            return d;
+         }
+         function accept(text) {
+            const parsed = validate(JSON.parse(text));
+            if (text === raw) return;
+            data = parsed;
+            raw = text;
+            if (!data["raretés"].some((r) => r.id === rarity))
+               rarity = data.rareteParDefaut || data["raretés"][0].id;
+            if (!data["raretés"].some((r) => r.id === rarity))
+               rarity = data["raretés"][0].id;
+            render();
+            $("loading").hidden = true;
+            $("contenu").hidden = false;
+            $("reload").hidden = false;
+            setStatus(
+               mode === "file"
+                  ? "JSON chargé · réimporte après modification"
+                  : "Données à jour · synchronisation automatique",
+            );
+         }
+         function setStatus(text, error = false) {
+            $("status").textContent = text;
+            $("status").className = "status" + (error ? " error" : "");
+         }
+         function skillCard(s, rank) {
+            if (!rank.cadre) return img(s.image, s.nom, "card-image");
+            return `<span class="skill-card" data-card-rank="${rank.rang}">${img(s.image, s.nom, "skill-card-art")}${img(rank.cadre, "", "skill-card-frame")}${rank.iconeType ? img(rank.iconeType, "", "skill-card-type") : ""}</span>`;
+         }
+         function skillMarkup(s) {
+            let selected =
+               s.rangs.find((x) => x.rang === ranks[s.id]) ||
+               s.rangs.find((x) => x.rang === 3) ||
+               s.rangs.at(-1) ||
+               s.rangs[0];
+            return `<article class="skill"><div class="skill-top">${skillCard(s, selected)}<div class="skill-content"><p class="skill-kind">${esc(s.type)}</p><h3>${rich(s.nom)}</h3><div class="target">${esc(s.cible)}</div><div class="ranks" aria-label="Rang de ${esc(s.nom)}">${s.rangs.map((x) => `<button data-skill="${esc(s.id)}" data-rank="${x.rang}" class="${x.rang === selected.rang ? "active" : ""}" aria-pressed="${x.rang === selected.rang}">${"✦".repeat(x.rang)}</button>`).join("")}</div></div></div><p class="skill-desc">${rich(selected.description)}</p></article>`;
+         }
+         function ultimateCard(u, n) {
+            if (!n.cadre) return img(u.image, u.nom, "card-image");
+            return `<span class="ultimate-card" data-ultimate-level="${n.niveau}">${img(u.image, u.nom, "ultimate-card-art")}${img(n.cadre, "", "ultimate-card-frame")}</span>`;
+         }
+         function renderSkills() {
+            const r = data["raretés"].find((x) => x.id === rarity);
+            $("attacks").innerHTML = r.competences.map(skillMarkup).join("");
+            const u = r.ultime,
+               n =
+                  u.niveaux.find((x) => x.niveau === levels[rarity]) ||
+                  u.niveaux.find((x) => x.niveau === 6) ||
+                  u.niveaux.at(-1) ||
+                  u.niveaux[0];
+            $("ultimate").innerHTML =
+               `<div class="skill-top">${ultimateCard(u, n)}<div class="skill-content"><p class="skill-kind">Coup ultime · ${esc(u.cible)}</p><h3>${rich(u.nom)}</h3><div class="ranks" aria-label="Niveau du coup ultime">${u.niveaux.map((x) => `<button data-level="${x.niveau}" class="${x.niveau === n.niveau ? "active" : ""}" aria-pressed="${x.niveau === n.niveau}"><img src="assets/skill-frames/card_frame_special_jewelry_0${x.niveau}.png" alt="${x.niveau}/${u.niveaux.length}" /></button>`).join("")}</div><p class="skill-desc">${rich(n.description)}</p></div></div>`;
+         }
+         function renderCostumes() {
+            const categories = [
+               "Tous",
+               ...new Set(data.costumes.map((c) => c.categorie)),
+            ];
+            if (!categories.includes(filter)) filter = "Tous";
+            $("filters").innerHTML = categories
+               .map(
+                  (c) =>
+                     `<button data-filter="${esc(c)}" class="${filter === c ? "active" : ""}" aria-pressed="${filter === c}">${esc(c)} <span class="caption">${c === "Tous" ? data.costumes.length : data.costumes.filter((x) => x.categorie === c).length}</span></button>`,
+               )
+               .join("");
+            $("costumes").innerHTML =
+               data.costumes
+                  .filter((c) => filter === "Tous" || c.categorie === filter)
+                  .map(
+                     (c) =>
+                        `<article class="costume"><div class="costume-art">${img(c.image, c.nom)}${c.rarete ? `<span class="costume-rarity">${esc(c.rarete)}</span>` : ""}</div><div class="costume-copy"><small>${esc(c.categorie)}</small><h3>${rich(c.nom)}</h3>${c.note ? `<p>${rich(c.note)}</p>` : ""}${c.bonus ? `<p>${rich(c.bonus)}</p>` : ""}</div></article>`,
+                  )
+                  .join("") ||
+               '<p class="empty">Aucun costume dans cette catégorie.</p>';
+         }
+         function specialDescription(ability, key) {
+            const variants = ability.niveauxUltime || [];
+            if (variants.length < 2) return `<p>${rich(ability.description)}</p>`;
+            const selected = specialLevels[key] || variants.at(-1).niveau;
+            const current = variants.find((v) => v.niveau === selected) || variants.at(-1);
+            return `<div class="rank-tabs special-levels">${variants.map((v) => `<button data-special="${esc(key)}" data-special-level="${v.niveau}" class="${v.niveau === current.niveau ? "active" : ""}"><img src="assets/skill-frames/card_frame_special_jewelry_0${v.niveau}.png" alt="${v.niveau}/6" /></button>`).join("")}</div><p>${rich(current.description)}</p>`;
+         }
+         function render() {
+            const r = data["raretés"].find((x) => x.id === rarity),
+               stats = r.statistiques;
+            document.title = `${data.nom} ${data.designation} · ${r.nom} · Grand Cross`;
+            document.documentElement.style.setProperty(
+               "--accent",
+               /^#[a-fA-F0-9]{6}$/.test(data.attribut.couleur)
+                  ? data.attribut.couleur
+                  : "#ef6369",
+            );
+            $("contenu").innerHTML = `
+
+             <div class="hero">
+             <div class="hero-copy">
+             <div class="hero-name">
+             <div class="character-mark">
+             <img src="${safeImage(r.fond)}" alt="" class="portrait-bg" aria-hidden="true">${img(r.portrait || data.portrait, `${data.nom} ${data.designation}`, "portrait-frame")}${
+                r.id === "LR"
+                   ? `<span class="card-frame LR" role="img" aria-label="Cadre LR" style="border-image-source:url('${safeImage(r.cadre)}')">
+                     </span>`
+                   : img(r.cadre, `${r.nom} — cadre`, "card-frame " + r.id)
+             }${img(r.coin, `${r.nom} attribute slot`, "corner-frame")}${img(data.attribut.icone, data.attribut.nom, data.attribut.icone?.includes("type_icon_dual") ? "attribute-mark dual-attribute" : "attribute-mark")}</div>
+                     <h1>
+                       ${data.designation ? `<span class="nickname">${rich(data.designation)}</span>` : ""}
+                       <span class="real-name">${rich(data.nom)}</span>
+                     </h1>
+                   </div>
+                   <div class="badges">
+                     <span class="badge attribute${data.attribut.icone?.includes("type_icon_dual") ? " double-attribute" : ""}" title="${esc(data.attribut.detail)}">${Array.isArray(data.attribut.icone) ? data.attribut.icone.map((x) => img(x, data.attribut.nom)).join("") : img(data.attribut.icone, data.attribut.nom)}<span class="attribute-name">${esc(data.attribut.nom)}</span></span>
+                     <span class="badge">${Array.isArray(data.race.icone) ? data.race.icone.map((x) => img(x, "")).join("") : img(data.race.icone, Array.isArray(data.race.nom) ? data.race.nom.join(" · ") : data.race.nom)}${esc(Array.isArray(data.race.nom) ? data.race.nom.join(" · ") : data.race.nom)}</span>${(data.caracteristiques || []).map((t) => `<span class="badge">${esc(t)}</span>`).join("")}</div>
+                     <p class="intro">${rich(data.presentation)}</p>
+                     <div class="evolution-label">Évolution du personnage</div>
+                     <div class="rarities" aria-label="Rareté du personnage">${data["raretés"].map((v, i) => `${i ? '<span class="arrow" aria-hidden="true">→</span>' : ""}<button data-rarity="${esc(v.id)}" class="${v.id === rarity ? "active" : ""}" aria-pressed="${v.id === rarity}">${img(v.icone, v.nom)}</button>`).join("")}</div>
+                   </div>
+                   <div class="stage">
+                     <span class="watermark" aria-hidden="true">${esc(r.nom)}</span>${img(r.image, `${data.nom} ${data.designation} — ${r.legendeImage}`, "art")}</div>
+                   </div>
+<nav class="section-nav" aria-label="Sections de la fiche">
+<a href="#statistiques">Statistiques</a>
+<a href="#competences">Compétences</a>
+<a href="#garde-robe">Costumes</a>
+</nav>
+<section id="statistiques">
+<div class="heading">
+<h2>
+<span class="section-no">01</span>Statistiques</h2>
+</div>
+<div class="stats">${stats.principales
+               .map(
+                  (s) => `<div class="stat">
+<div class="label">${esc(s.nom)}</div>
+<div class="value">${fmt(s.valeur)}</div>
+</div>`,
+               )
+               .join("")}</div>${
+               stats.secondaires?.length
+                  ? `<div class="substats">${stats.secondaires
+                       .map(
+                          (s) => `<div class="substat">
+<span>${esc(s.nom)}</span>
+<strong>${fmt(s.valeur)} ${esc(s.unite)}</strong>
+</div>`,
+                       )
+                       .join("")}</div>`
+                  : ""
+            }</section>
+<section id="competences">
+<div class="heading">
+<h2>
+<span class="section-no">02</span>Compétences</h2>
+</div>
+<div class="two-col" id="attacks">
+</div>
+<article id="ultimate" class="skill ultimate">
+</article>
+<div class="passives">
+<article class="passive unique">
+<div class="passive-head">${specialIcon(r.passif.image, r.passif.nom, r.id === "LR" ? "exclusivelegend_frame.png" : "exclusivenormal_frame.png")}<div>
+<p class="skill-kind">Compétence unique</p>
+<h3>${rich(r.passif.nom)}</h3>
+</div>
+</div>
+${specialDescription(r.passif, `unique-${r.id}`)}
+</article>${
+               data.relique
+                  ? `<article class="passive extra relic-card">
+<div class="passive-head relic-head">
+   <img class="relic-art" src="${esc(data.relique.image)}" alt="${esc(data.relique.nom)}">
+   <div>
+      <p class="skill-kind">Relique sacrée</p>
+      <h3>${rich(data.relique.nom)}</h3>
+      <p class="relic-description">${rich(data.relique.description)}</p>
+   </div>
+</div>
+<section class="relic-passive" aria-label="Passif de la relique">
+   <img src="${esc(data.relique.passif?.image || data.relique.image)}" alt="">
+   <div><span>Passif</span><strong>${rich(data.relique.passif?.nom || data.relique.nom)}</strong><p>${rich(data.relique.passif?.description || "")}</p></div>
+</section>
+<div class="relic-stats">${(data.relique.bonus || []).map((x) => `<span><small>${esc(x.nom)}</small><b>+${fmt(x.valeur)}</b></span>`).join("")}</div>
+${(data.relique.materiaux || []).length ? `<section class="relic-materials"><p class="skill-kind">Matériaux requis</p><div>${data.relique.materiaux.map((x) => `<span title="${esc(x.nom)}"><img src="${esc(x.image)}" alt="${esc(x.nom)}"><b>${fmt(x.quantite)}</b><small>${esc(x.nom)}</small></span>`).join("")}</div></section>` : ""}
+${data.relique.provenance ? `<p class="relic-source"><span>Provenance</span>${esc(data.relique.provenance)}</p>` : ""}
+</article>`
+                  : ""
+            }${
+               data.commandement
+                  ? `<article class="passive extra">
+<div class="passive-head">${specialIcon(data.commandement.image, data.commandement.nom, "exclusivetaboo_frame.png")}<div>
+<p class="skill-kind">Commandement</p>
+<h3>${rich(data.commandement.nom)}</h3>
+</div>
+</div>
+${specialDescription(data.commandement, "commandement")}
+</article>`
+                  : ""
+            }${
+               data.grace
+                  ? `<article class="passive extra">
+<div class="passive-head">${specialIcon(data.grace.image, data.grace.nom, "exclusivegrace_frame.png")}<div>
+<p class="skill-kind">Grâce</p>
+<h3>${rich(data.grace.nom)}</h3>
+</div>
+</div>
+${specialDescription(data.grace, "grace")}
+</article>`
+                  : ""
+            }${
+               data.union
+                  ? `<article class="passive extra">
+<div class="passive-head">${specialIcon(data.union.image, data.union.nom, "exclusivesolidarity_frame.png")}<div>
+<p class="skill-kind">Union</p>
+<h3>${rich(data.union.nom)}</h3>
+</div>
+</div>
+${specialDescription(data.union, "union")}
+</article>`
+                  : ""
+            }${
+               data.talent
+                  ? `<article class="passive extra">
+<div class="passive-head">${specialIcon(data.talent.image, data.talent.nom, String(data.talent.cadre || "assets/passive-frames/ability_frame_15.png").split("/").pop())}<div>
+<p class="skill-kind">Talent</p>
+<h3>${rich(data.talent.nom)}</h3>
+</div>
+</div>
+${specialDescription(data.talent, "talent")}
+</article>`
+                  : ""
+            }</div>
+</section>
+<section id="garde-robe">
+<div class="heading">
+<h2>
+<span class="section-no">03</span>Costumes & accessoires</h2>
+<span class="caption">${data.costumes.length} éléments documentés</span>
+</div>
+<div id="filters" class="filters" aria-label="Catégories de costumes">
+</div>
+<div id="costumes" class="costumes">
+</div>
+</section>
+`;
+            renderSkills();
+            renderCostumes();
+         }
+         document.addEventListener("click", (e) => {
+            const b = e.target.closest("button");
+            if (!b) return;
+            const focusAfter = () =>
+               document
+                  .querySelector(
+                     `[${b.hasAttribute("data-rarity") ? "data-rarity" : b.hasAttribute("data-filter") ? "data-filter" : "data-level"}="${CSS.escape(b.dataset.rarity || b.dataset.filter || b.dataset.level || "")}"]`,
+                  )
+                  ?.focus({ preventScroll: true });
+            if (b.dataset.rarity) {
+               rarity = b.dataset.rarity;
+               const form = data["raretés"].find((r) => r.id === rarity);
+               if (form?.idForme) {
+                  requested = String(form.idForme);
+                  const url = new URL(location.href);
+                  url.searchParams.set("perso", requested);
+                  history.replaceState(null, "", url);
+               }
+               render();
+               focusAfter();
+            } else if (b.dataset.skill) {
+               ranks[b.dataset.skill] = Number(b.dataset.rank);
+               renderSkills();
+               document
+                  .querySelector(
+                     `[data-skill="${CSS.escape(b.dataset.skill)}"][data-rank="${b.dataset.rank}"]`,
+                  )
+                  ?.focus({ preventScroll: true });
+            } else if (b.dataset.level) {
+               levels[rarity] = Number(b.dataset.level);
+               renderSkills();
+               focusAfter();
+            } else if (b.dataset.special) {
+               specialLevels[b.dataset.special] = Number(b.dataset.specialLevel);
+               render();
+               focusAfter();
+            } else if (b.dataset.filter) {
+               filter = b.dataset.filter;
+               renderCostumes();
+               focusAfter();
+            }
+         });
+         const scriptLoad = (url) =>
+            new Promise((resolve, reject) => {
+               const el = document.createElement("script");
+               el.src = url;
+               el.onload = () => {
+                  el.remove();
+                  resolve();
+               };
+               el.onerror = () => {
+                  el.remove();
+                  reject(Error("Données introuvables"));
+               };
+               document.head.appendChild(el);
+            });
+         const catalogFilters = {
+            search: "",
+            attribute: "",
+            race: "",
+            characteristic: "",
+            lr: false,
+            relic: false,
+            portrait: false,
+            initialGrade: false,
+         };
+         const normalized = (value) =>
+            String(value || "")
+               .normalize("NFD")
+               .replace(/[\u0300-\u036f]/g, "")
+               .toLocaleLowerCase("fr");
+         const asList = (value) =>
+            Array.isArray(value) ? value.filter(Boolean) : value ? [value] : [];
+         const catalogValues = (key) =>
+            [...new Set(window.cataloguePersonnages.flatMap((hero) => asList(hero[key])))]
+               .filter(Boolean)
+               .sort((a, b) => String(a).localeCompare(String(b), "fr"));
+         function makeChoice(c) {
+            const form = catalogFilters.initialGrade
+               ? c.formes[0]
+               : c.formes[c.formes.length - 1];
+            const a = document.createElement("a");
+            a.href = "?perso=" + encodeURIComponent(form.id);
+            a.className = "character-choice";
+            a.setAttribute(
+               "aria-label",
+               `${c.designation} · ${c.nom} — ${form.rarete}`,
+            );
+            a.style.setProperty("--attribute-color", attributeColor(c.attribut));
+            const attribute = Array.isArray(c.attribut) ? c.attribut[0] : c.attribut;
+            const usePortraitFrame = catalogFilters.portrait;
+            const verticalFrame = safeImage(form.cadre);
+            const frame = usePortraitFrame
+               ? `<span class="choice-frame sliced vertical-frame" style="border-image-source:url('${verticalFrame}')"></span>`
+               : form.cadre
+                 ? form.rarete === "LR"
+                    ? `<span class="choice-frame LR" style="border-image-source:url('${safeImage(form.cadre)}')"></span>`
+                    : `<img class="choice-frame" src="${safeImage(form.cadre)}" alt="" />`
+                 : "";
+            const portrait = usePortraitFrame
+               ? form.iconeVerticale || form.icone
+               : form.icone;
+            const attributeKind = attribute?.match(/attribute_0([1-5])|dual/)?.[1] || (attribute?.includes("dual") ? "dual" : "");
+            const visual = usePortraitFrame
+               ? `<span class="choice-visual"><img class="choice-portrait" src="${safeImage(portrait)}" alt="" /></span>`
+               : `<img class="choice-portrait" src="${safeImage(portrait)}" alt="" />`;
+            const card = portrait
+               ? `<span class="choice-card">${form.fond ? `<img class="choice-bg" src="${safeImage(form.fond)}" alt="" />` : ""}${visual}${frame}${form.coin ? `<img class="choice-corner" src="${safeImage(form.coin)}" alt="" />` : ""}${attribute ? `<span class="choice-attribute-shell attribute-${attributeKind}"><img class="choice-attribute${attribute.includes("type_icon_dual") ? " dual-attribute" : ""}" src="${safeImage(attribute)}" alt="" /></span>` : ""}${usePortraitFrame && form.iconeRarete ? `<img class="choice-rarity" src="${safeImage(form.iconeRarete)}" alt="${esc(form.rarete)}" />` : ""}</span>`
+               : `<span class="choice-card">${esc(c.nom.slice(0, 1))}</span>`;
+            a.innerHTML = `${card}<span class="choice-caption"><strong><span>${rich(c.nom)}</span></strong>${c.designation ? `<small><span>${rich(c.designation)}</span></small>` : ""}</span>`;
+            return a;
+         }
+         function measureCaptions() {
+            document.querySelectorAll(".choice-caption > strong, .choice-caption > small").forEach((label) => {
+               const distance = label.scrollWidth - label.clientWidth;
+               if (distance > 1) {
+                  label.classList.add("is-long");
+                  label.style.setProperty("--scroll-distance", `${distance}px`);
+               }
+            });
+         }
+         function renderCatalogue() {
+            const box = $("catalogue");
+            const search = normalized(catalogFilters.search);
+            const visible = window.cataloguePersonnages.filter((hero) => {
+               const text = normalized(`${hero.nom} ${hero.designation}`);
+               return (
+                  (!search || text.includes(search)) &&
+                  (!catalogFilters.attribute ||
+                     hero.attributNom === catalogFilters.attribute) &&
+                  (!catalogFilters.race ||
+                     asList(hero.races).includes(catalogFilters.race)) &&
+                  (!catalogFilters.characteristic ||
+                     asList(hero.caracteristiques).includes(
+                        catalogFilters.characteristic,
+                     )) &&
+                  (!catalogFilters.lr || hero.eveilLR) &&
+                  (!catalogFilters.relic || hero.reliqueSacre)
+               );
+            });
+            box.classList.toggle("portrait-grid", catalogFilters.portrait);
+            box.replaceChildren(...visible.map(makeChoice));
+            if (!visible.length)
+               box.innerHTML =
+                  '<p class="catalogue-empty">Aucun héros ne correspond à ces critères.</p>';
+            if (typeof requestAnimationFrame === "function")
+               requestAnimationFrame(measureCaptions);
+         }
+         function configureCatalogue() {
+            const box = $("catalogue");
+            box.insertAdjacentHTML(
+               "beforebegin",
+               `<section class="catalogue-tools" aria-label="Recherche et filtres des héros">
+                  <label class="hero-search" for="hero-search">Rechercher un héros<input id="hero-search" type="search" placeholder="Nom ou sous-titre" autocomplete="off"></label>
+                  <div class="catalogue-filters">
+                     <label>Attribut<select id="filter-attribute"><option value="">Tous les attributs</option></select></label>
+                     <label>Race<select id="filter-race"><option value="">Toutes les races</option></select></label>
+                     <label>Caractéristique<select id="filter-characteristic"><option value="">Toutes les caractéristiques</option></select></label>
+                     <button type="button" class="catalogue-toggle" data-catalog-filter="lr" aria-pressed="false">Éveil LR</button>
+                     <button type="button" class="catalogue-toggle" data-catalog-filter="relic" aria-pressed="false">Relique sacrée</button>
+                     <button type="button" class="catalogue-toggle" data-catalog-initial aria-pressed="false">Grade de départ</button>
+                     <button type="button" class="catalogue-view-toggle" data-catalog-view aria-pressed="false" aria-label="Activer l'affichage vertical" title="Affichage vertical"><span aria-hidden="true">▯</span></button>
+                  </div>
+               </section>`,
+            );
+            const setOptions = (id, values) => {
+               const select = $(id);
+               select.insertAdjacentHTML(
+                  "beforeend",
+                  values.map((value) => `<option value="${esc(value)}">${esc(value)}</option>`).join(""),
+               );
+            };
+            setOptions("filter-attribute", catalogValues("attributNom"));
+            setOptions("filter-race", catalogValues("races"));
+            setOptions("filter-characteristic", catalogValues("caracteristiques"));
+            $("hero-search").addEventListener("input", (event) => {
+               catalogFilters.search = event.target.value;
+               renderCatalogue();
+            });
+            [
+               ["filter-attribute", "attribute"],
+               ["filter-race", "race"],
+               ["filter-characteristic", "characteristic"],
+            ].forEach(([id, key]) =>
+               $(id).addEventListener("change", (event) => {
+                  catalogFilters[key] = event.target.value;
+                  renderCatalogue();
+               }),
+            );
+            document
+               .querySelectorAll("[data-catalog-filter]")
+               .forEach((button) =>
+                  button.addEventListener("click", () => {
+                     const key = button.dataset.catalogFilter;
+                     catalogFilters[key] = !catalogFilters[key];
+                     button.classList.toggle("active", catalogFilters[key]);
+                     button.setAttribute("aria-pressed", String(catalogFilters[key]));
+                     renderCatalogue();
+                  }),
+               );
+            const initialButton = document.querySelector("[data-catalog-initial]");
+            initialButton.addEventListener("click", () => {
+               catalogFilters.initialGrade = !catalogFilters.initialGrade;
+               initialButton.classList.toggle("active", catalogFilters.initialGrade);
+               initialButton.setAttribute(
+                  "aria-pressed",
+                  String(catalogFilters.initialGrade),
+               );
+               renderCatalogue();
+            });
+            const viewButton = document.querySelector("[data-catalog-view]");
+            viewButton.addEventListener("click", () => {
+               catalogFilters.portrait = !catalogFilters.portrait;
+               viewButton.classList.toggle("active", catalogFilters.portrait);
+               viewButton.setAttribute("aria-pressed", String(catalogFilters.portrait));
+               viewButton.setAttribute(
+                  "aria-label",
+                  catalogFilters.portrait
+                     ? "Activer l'affichage carré"
+                     : "Activer l'affichage vertical",
+               );
+               viewButton.title = catalogFilters.portrait
+                  ? "Affichage carré"
+                  : "Affichage vertical";
+               renderCatalogue();
+            });
+            renderCatalogue();
+         }
+         let requested = new URLSearchParams(location.search).get("perso");
+         const pages = new Set(["home", "heroes", "events", "costumes", "other"]);
+         const currentPage = () => {
+            const page = location.hash.slice(1);
+            return pages.has(page) ? page : "home";
+         };
+         function showPage() {
+            if (requested) return;
+            const page = currentPage();
+            const isHeroes = page === "heroes";
+            document.querySelector(".wrap").classList.toggle("catalogue-wrap", isHeroes);
+            $("contenu").hidden = true;
+            $("loading").hidden = !isHeroes;
+            $("loading").classList.toggle("hero-catalogue", isHeroes);
+            $("landing").hidden = page !== "home";
+            $("landing").innerHTML =
+               page === "home"
+                  ? `<section class="home-page"><h1>Grand Cross</h1><p>Une archive de personnages, de compétences, de costumes et de données issues du jeu <em>The Seven Deadly Sins: Grand Cross</em>.</p></section>`
+                  : "";
+            document.querySelectorAll(".main-nav a").forEach((link) => {
+               const active = link.hash === `#${page}`;
+               link.classList.toggle("active", active);
+               active
+                  ? link.setAttribute("aria-current", "page")
+                  : link.removeAttribute("aria-current");
+            });
+            document.title = page === "home" ? "Grand Cross" : "Héros · Grand Cross";
+         }
+         async function readData() {
+            try {
+               if (!requested) return;
+               const entry = window.cataloguePersonnages.find(
+                  (x) =>
+                     x.formes.some((f) => f.id === requested) ||
+                     String(x.id) === requested,
+               );
+               if (!entry)
+                  throw Error(
+                     "Ce personnage ne possède pas encore de fiche préparée.",
+                  );
+               let d;
+               if (location.protocol === "file:") {
+                  await scriptLoad("data/" + entry.id + ".js?t=" + Date.now());
+                  d = window.fichePreparee;
+               } else {
+                  const r = await fetch("data/" + entry.id + ".json", {
+                     cache: "no-store",
+                  });
+                  if (!r.ok) throw Error("Données introuvables");
+                  d = await r.json();
+               }
+               const selected = entry.formes.find((f) => f.id === requested);
+               if (selected) rarity = selected.rarete;
+               accept(JSON.stringify(d));
+               document.title = d.nom + " · Grand Cross";
+               setStatus("Données locales du jeu");
+            } catch (e) {
+               $("load-message").textContent = e.message;
+               setStatus(e.message, true);
+            }
+         }
+         $("reload").onclick = readData;
+         $("change").textContent = "Personnages";
+         $("change").onclick = () => (location.href = "index.html#heroes");
+         async function start() {
+            try {
+               await scriptLoad("data/catalogue.js");
+               const box = $("catalogue");
+               box.className = "character-grid";
+               configureCatalogue();
+               $("load-message").textContent = "";
+               if (requested) await readData();
+               else showPage();
+            } catch (e) {
+               $("load-message").textContent = e.message;
+            }
+         }
+         queueMicrotask(start);
+         if (typeof window.addEventListener === "function")
+            window.addEventListener("hashchange", showPage);
+         function repositionTitle() {
+            const title = document.querySelector(".hero-copy>.eyebrow"),
+               name = document.querySelector(".hero-copy h1");
+            if (title && name) {
+               title.remove();
+               name.appendChild(title);
+            }
+         }
+         const _render = render;
+         render = () => {
+            _render();
+            repositionTitle();
+         };
+      </script>
+   </body>
+</html>

@@ -1,0 +1,945 @@
+window.fichePreparee={
+  "nom": "Estarossa de la [b]Charité[/b]",
+  "designation": "[Démon d'élite]",
+  "titre": "Estarossa de la [b]Charité[/b]",
+  "idJeu": "1585002",
+  "attribut": {
+    "nom": "Attribut PV",
+    "icone": "assets/commun/icon_filter_attribute_02__ea1406c9830f7566.png",
+    "couleur": "#67c778",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "Démon"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_01__b2dfe4e53bdd1bf4.png"
+    ]
+  },
+  "caracteristiques": [
+    "Commandement"
+  ],
+  "portrait": "assets/1585002/images/icon_hero_estarossa_0016_s__7637d8f828c8ff64.png",
+  "rareteParDefaut": "LR",
+  "presentation": "[Démon d'élite] Estarossa de la [b]Charité[/b] possède une compétence de posture qui peut provoquer les ennemis et contre-attaquer, ce qui empêche l'ennemi d'utiliser des compétences offensives.",
+  "commandement": {
+    "nom": "Commandement de la [b]Charité[/b]",
+    "image": "assets/1585002/images/icon_exclusive_skill_1585051__f115c205769642f5.png",
+    "simpleImage": "assets/1585002/images/icon_exclusive_skill_1585051_simple__7a259d0cb2e1e5da.png",
+    "description": "Réduit les stats offensives de [FFAE00]20 %[-] pendant [FFAE00]3 tours[-] en infligeant des dégâts avec une compétence.\\n[00D5FF](S'applique aux alliés et aux ennemis à l'entrée au combat, mais pas en affrontement)[-]"
+  },
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1585002/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1585002/images/hero_illust_estarossa_1585002__afc15b3946827e7a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "evolution": "Niveau maximal 50 · évolution 50",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 560.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 380.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 6700.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 3384
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 15.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Guillotine »",
+          "image": "assets/1585002/images/icon_estarossa_ssr_type01_skill_03__da668057372cd1e1.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 200 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 170021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 300 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 170022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 500 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 170023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Contre total »",
+          "image": "assets/1585002/images/icon_estarossa_ssr_type01_skill_04__54d4db2a5bc87261.png",
+          "type": "Attaque",
+          "cible": "le héros",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 1 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts égaux à 240 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire les attaques des ennemis sur soi.[-]",
+              "idJeu": 170031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 1 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts égaux à 360 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire les attaques des ennemis sur soi.[-]",
+              "idJeu": 170032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 2 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts égaux à 600 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire les attaques des ennemis sur soi.[-]",
+              "idJeu": 170033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Évanouissement »",
+        "image": "assets/1585002/images/icon_estarossa_ssr_type01_special_01__0f1e9a5a6e71fe63.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 300 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 330.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 330 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 360.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 360 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 390.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 390 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 420.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 420 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 450.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 450 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cœur brave",
+        "image": "assets/1585002/images/icon_exclusive_skill_1585002__c1c86c4bd4501a3c.png",
+        "description": "Retire les malus des alliés quand ils utilisent une compétence de posture et leur octroie Immunité aux malus pendant [FFAE00]2 tours[-].\\n[00D5FF](Hors coups ultimes)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Retire les malus des alliés quand ils utilisent une compétence de posture et leur octroie Immunité aux malus pendant [FFAE00]2 tours[-].\\n[00D5FF](Hors coups ultimes)[-]"
+          }
+        ]
+      },
+      "idForme": 321003,
+      "portrait": "assets/1585002/images/icon_hero_estarossa_0007_s__5226c2ff132de4e1.png",
+      "portraitVertical": "assets/1585002/images/icon_skin_estarossa_0007_l__7f3901aa58ae8deb.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1585002/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1585002/images/hero_illust_estarossa_1585002__afc15b3946827e7a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "evolution": "Niveau maximal 60 · évolution 60",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 720.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 430.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 9200.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 4084
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 15.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Guillotine »",
+          "image": "assets/1585002/images/icon_estarossa_ssr_type01_skill_03__da668057372cd1e1.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 200 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 170021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 300 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 170022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts de [00D5FF]Charge[-] égaux à 500 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Charge : ignore la défense.[-]",
+              "idJeu": 170023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Contre total »",
+          "image": "assets/1585002/images/icon_estarossa_ssr_type01_skill_04__54d4db2a5bc87261.png",
+          "type": "Attaque",
+          "cible": "le héros",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 1 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts égaux à 240 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire les attaques des ennemis sur soi.[-]",
+              "idJeu": 170031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 1 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts égaux à 360 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire les attaques des ennemis sur soi.[-]",
+              "idJeu": 170032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 2 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts égaux à 600 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire les attaques des ennemis sur soi.[-]",
+              "idJeu": 170033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Évanouissement »",
+        "image": "assets/1585002/images/icon_estarossa_ssr_type01_special_01__0f1e9a5a6e71fe63.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 300 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 330.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 330 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 360.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 360 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 390.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 390 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 420.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 420 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 450.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 450 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cœur brave",
+        "image": "assets/1585002/images/icon_exclusive_skill_1585002__c1c86c4bd4501a3c.png",
+        "description": "Retire les malus des alliés quand ils utilisent une compétence de posture et leur octroie Immunité aux malus pendant [FFAE00]2 tours[-].\\n[00D5FF](Hors coups ultimes)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Retire les malus des alliés quand ils utilisent une compétence de posture et leur octroie Immunité aux malus pendant [FFAE00]2 tours[-].\\n[00D5FF](Hors coups ultimes)[-]"
+          }
+        ]
+      },
+      "idForme": 321004,
+      "portrait": "assets/1585002/images/icon_hero_estarossa_0008_s__984012ef2e413151.png",
+      "portraitVertical": "assets/1585002/images/icon_skin_estarossa_0008_l__2109df326f2ffd39.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1585002/images/hero_illust_estarossa_1585002__afc15b3946827e7a.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 100,
+      "evolution": "Niveau maximal 100 · évolution 100",
+      "changement": "Données de la table DB_skin_base",
+      "statistiques": {
+        "contexte": "Valeurs de base issues de DB_skin_base",
+        "statut": "Extrait du jeu",
+        "principales": [
+          {
+            "nom": "Attaque",
+            "valeur": 800.0
+          },
+          {
+            "nom": "Défense",
+            "valeur": 500.0
+          },
+          {
+            "nom": "PV",
+            "valeur": 9500.0
+          },
+          {
+            "nom": "Classe de Combat",
+            "valeur": 5990
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "Chance de critique",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Dégâts critiques",
+            "valeur": 200.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "Résistance crit.",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Défense crit.",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de perforation",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de régénération",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Taux de récupération",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "Vampirisme",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Guillotine »",
+          "image": "assets/1585002/images/icon_estarossa_ssr_type01_skill_03__da668057372cd1e1.png",
+          "type": "Attaque",
+          "cible": "un ennemi",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 220.0,
+              "description": "Inflige des dégâts d'[00D5FF]Érosion[-] égaux à 220 % de l'attaque à un ennemi.\\n\\n[00D5FF]※Érosion : ignore la défense et la résistance.\\nAugmente les dégâts infligés de [FFAE00]80 %[-] du taux de perforation.[-]",
+              "idJeu": 170051,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 330.0,
+              "description": "Inflige des dégâts d'[00D5FF]Érosion[-] égaux à 330 % de l'attaque à un ennemi, puis remplit la jauge de coup ultime du héros de 1 [FFAE00]orbe(s)[-].\\n\\n[00D5FF]※Érosion : ignore la défense et la résistance de l'ennemi.\\nAugmente les dégâts infligés de [FFAE00]80 %[-] du taux de perforation.[-]",
+              "idJeu": 170052,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 550.0,
+              "description": "Inflige des dégâts d'[00D5FF]Érosion[-] égaux à 550 % de l'attaque à un ennemi, puis remplit la jauge de coup ultime du héros de 2 [FFAE00]orbe(s)[-].\\n\\n[00D5FF]※Érosion : ignore la défense et la résistance de l'ennemi.\\nAugmente les dégâts infligés de [FFAE00]80 %[-] du taux de perforation.[-]",
+              "idJeu": 170053,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Contre total »",
+          "image": "assets/1585002/images/icon_estarossa_ssr_type01_skill_04__54d4db2a5bc87261.png",
+          "type": "Attaque",
+          "cible": "le héros",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 1 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts de [00D5FF]Répression[-] égaux à 240 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire toutes les attaques sur soi.[-]\\n[00D5FF]※Répression : [FFAE00]+50 %[-] de dégâts supplémentaires par effet de posture sur soi.[-]",
+              "idJeu": 170061,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 1 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts de [00D5FF]Répression[-] égaux à 360 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire toutes les attaques sur soi.[-]\\n[00D5FF]※Répression : [FFAE00]+50 %[-] de dégâts supplémentaires par effet de posture sur soi.[-]",
+              "idJeu": 170062,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Adopte une posture pendant 2 tour(s) qui [00D5FF]provoque[-] les ennemis et inflige des dégâts de [00D5FF]Répression[-] égaux à 600 % de l'attaque à chaque attaque subie.\\n\\n[00D5FF]※Provocation : attire toutes les attaques sur soi.[-]\\n[00D5FF]※Répression : [FFAE00]+50 %[-] de dégâts supplémentaires par effet de posture sur soi.[-]",
+              "idJeu": 170063,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/pose.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Évanouissement »",
+        "image": "assets/1585002/images/icon_estarossa_ssr_type01_special_01__0f1e9a5a6e71fe63.png",
+        "cible": "tous les ennemis",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 300 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 330.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 330 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 360.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 360 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 390.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 390 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 420.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 420 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 450.0,
+            "description": "Adopte une posture pendant 1 tour(s) et prépare une [00D5FF]Frappe préventive[-] qui inflige 450 % de l'attaque avant qu'un allié ne soit attaqué et [00D5FF]neutralise toutes les compétences[-].\\n\\n[00D5FF]※Frappe préventive : immunise contre les effets de diminution de la jauge de coup ultime et effectue une attaque avant celle de l'ennemi.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cœur brave",
+        "image": "assets/1585002/images/icon_exclusive_skill_1585002__c1c86c4bd4501a3c.png",
+        "description": "Pour [FFAE00]chaque[-] [00D5FF]allié du clan des démons[-] en combat, augmente leurs stats de base de [FFAE00]6 %[-] et la jauge de coup ultime du héros de [FFAE00]1 orbe[-].\\n\\nLorsqu'un allié utilise une compétence de posture, retire tous les effets de malus qui les affectent et octroie [00D5FF]Immunité aux malus[-] pendant [FFAE00]2 tours[-]. Lorsqu'un [00D5FF]allié du clan des démons[-] utilise une compétence de posture, octroie également [00D5FF]Sombre voile[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Sombre voile : infecte la cible pendant [FFAE00]2 tours[-] en réussissant un contre.[-][/i]\\n\\nTant que le héros bénéficie de l'effet [00D5FF]Sombre voile[-], augmente sa jauge de coup ultime de [FFAE00]1 orbe[-] lorsqu'il utilise une compétence d'attaque.\\n\\nLorsqu'un [00D5FF]allié du clan des démons[-] adopte une posture, réduit les dégâts finaux causés au héros par les contres et les compétences ennemies de [FFAE00]40 %[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Pour [FFAE00]chaque[-] [00D5FF]allié du clan des démons[-] en combat, augmente leurs stats de base de [FFAE00]6 %[-] et la jauge de coup ultime du héros de [FFAE00]1 orbe[-].\\n\\nLorsqu'un allié utilise une compétence de posture, retire tous les effets de malus qui les affectent et octroie [00D5FF]Immunité aux malus[-] pendant [FFAE00]2 tours[-]. Lorsqu'un [00D5FF]allié du clan des démons[-] utilise une compétence de posture, octroie également [00D5FF]Sombre voile[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Sombre voile : infecte la cible pendant [FFAE00]2 tours[-] en réussissant un contre.[-][/i]\\n\\nTant que le héros bénéficie de l'effet [00D5FF]Sombre voile[-], augmente sa jauge de coup ultime de [FFAE00]1 orbe[-] lorsqu'il utilise une compétence d'attaque.\\n\\nLorsqu'un [00D5FF]allié du clan des démons[-] adopte une posture, réduit les dégâts finaux causés au héros par les contres et les compétences ennemies de [FFAE00]40 %[-]."
+          }
+        ]
+      },
+      "idForme": 321005,
+      "portrait": "assets/1585002/images/icon_hero_estarossa_0016_s__7637d8f828c8ff64.png",
+      "portraitVertical": "assets/1585002/images/icon_skin_estarossa_0016_l__24ef59df177e86ba.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3321001",
+      "categorie": "Skin",
+      "nom": "Uniforme bleu marine",
+      "image": "assets/1585002/images/icon_skin_estarossa_0001_l__efc3ee3aee59e459.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321003",
+      "categorie": "Skin",
+      "nom": "Combinaison d'élite",
+      "image": "assets/1585002/images/icon_skin_estarossa_0007_l__7f3901aa58ae8deb.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321057",
+      "categorie": "Skin",
+      "nom": "Vice-président de l'équipe de tennis",
+      "image": "assets/1585002/images/icon_skin_estarossa_0015_l__9660f11a4052801d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321050",
+      "categorie": "Skin",
+      "nom": "Tenue d'extérieur à boutons",
+      "image": "assets/1585002/images/icon_skin_estarossa_0004_l__86d3e14ade748452.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321051",
+      "categorie": "Skin",
+      "nom": "Cuirasse de combat",
+      "image": "assets/1585002/images/icon_skin_estarossa_0006_l__3e4c2ee9c70ccd30.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321052",
+      "categorie": "Skin",
+      "nom": "Uniforme de vétéran",
+      "image": "assets/1585002/images/icon_skin_estarossa_0005_l__551c74051f0c9dbe.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321054",
+      "categorie": "Skin",
+      "nom": "Jeune noble du tennis",
+      "image": "assets/1585002/images/icon_skin_estarossa_0010_l__f7da9a796fc7bd9a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321055",
+      "categorie": "Skin",
+      "nom": "Gentilhomme de la nuit noire",
+      "image": "assets/1585002/images/icon_skin_estarossa_0011_l__d754137f216e0acd.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321002",
+      "categorie": "Skin",
+      "nom": "Armure du Commandement de la [b]Charité[/b]",
+      "image": "assets/1585002/images/icon_skin_estarossa_0003_l__a4c048a9086b2d20.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321004",
+      "categorie": "Skin",
+      "nom": "Tenue de combat de super élite",
+      "image": "assets/1585002/images/icon_skin_estarossa_0008_l__2109df326f2ffd39.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321005",
+      "categorie": "Skin",
+      "nom": "Faucheur de rancœur profane",
+      "image": "assets/1585002/images/icon_skin_estarossa_0016_l__24ef59df177e86ba.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321053",
+      "categorie": "Skin",
+      "nom": "Jean troué",
+      "image": "assets/1585002/images/icon_skin_estarossa_0009_l__914b962ed33dd3b8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3321056",
+      "categorie": "Skin",
+      "nom": "Érosion du cauchemar corrompu",
+      "image": "assets/1585002/images/icon_skin_estarossa_0013_l__43e9b176ee772c9b.png",
+      "rarete": ""
+    },
+    {
+      "id": "856101",
+      "categorie": "Weapon",
+      "nom": "Rébellion",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0001_l__cfc602f4eedbba61.png",
+      "rarete": ""
+    },
+    {
+      "id": "856102",
+      "categorie": "Weapon",
+      "nom": "Clé de destruction",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0004_l__3488b402000f1de8.png",
+      "rarete": ""
+    },
+    {
+      "id": "856103",
+      "categorie": "Weapon",
+      "nom": "Épée aux yeux bleus",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0006_l__0a79a28391a7cd19.png",
+      "rarete": ""
+    },
+    {
+      "id": "856104",
+      "categorie": "Weapon",
+      "nom": "Dague classique",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0005_l__db9207f3c4e33640.png",
+      "rarete": ""
+    },
+    {
+      "id": "856105",
+      "categorie": "Weapon",
+      "nom": "Dignité de jeune noble",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0010_l__90301cc392a0eb3c.png",
+      "rarete": ""
+    },
+    {
+      "id": "856106",
+      "categorie": "Weapon",
+      "nom": "Épée de la nuit rouge",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0011_l__e9072757469b4987.png",
+      "rarete": ""
+    },
+    {
+      "id": "856108",
+      "categorie": "Weapon",
+      "nom": "Raquette de vice-président",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0015_l__83ba2b61e9cc2469.png",
+      "rarete": ""
+    },
+    {
+      "id": "856107",
+      "categorie": "Weapon",
+      "nom": "Magie du cauchemar corrompu",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0013_l__1377b403d9d5b273.png",
+      "rarete": ""
+    },
+    {
+      "id": "856109",
+      "categorie": "Weapon",
+      "nom": "Dague du chaos d'Élivágar",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0001_l__cfc602f4eedbba61.png",
+      "rarete": ""
+    },
+    {
+      "id": "856110",
+      "categorie": "Weapon",
+      "nom": "Dague stellaire de rancœur",
+      "image": "assets/1585002/images/icon_weapon_estarossa_0016_l__83ea3791246ca42c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615001",
+      "categorie": "Head",
+      "nom": "Cheveux argentés",
+      "image": "assets/1585002/images/icon_head_estarossa_0001_l__30bd282d43ac0999.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615002",
+      "categorie": "Head",
+      "nom": "Accessoire élégant",
+      "image": "assets/1585002/images/icon_head_estarossa_0004_l__c497dd5bb87b9d38.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615003",
+      "categorie": "Head",
+      "nom": "Cheveux plaqués",
+      "image": "assets/1585002/images/icon_head_estarossa_0006_l__2255f76fd749ddc2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615004",
+      "categorie": "Head",
+      "nom": "Bouc brossé",
+      "image": "assets/1585002/images/icon_head_estarossa_0005_l__f165077c70ec63a9.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615006",
+      "categorie": "Head",
+      "nom": "Jeune noble",
+      "image": "assets/1585002/images/icon_head_estarossa_0010_l__105af0829640c327.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615007",
+      "categorie": "Head",
+      "nom": "Dignité de gentleman",
+      "image": "assets/1585002/images/icon_head_estarossa_0011_l__0254e2b0124d0322.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615009",
+      "categorie": "Head",
+      "nom": "Masque de rancœur profane",
+      "image": "assets/1585002/images/icon_head_estarossa_0016_l__bf00000b5cbcaadd.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615005",
+      "categorie": "Head",
+      "nom": "Garçon soigné",
+      "image": "assets/1585002/images/icon_head_estarossa_0501_l__107fcf5213c940ee.png",
+      "rarete": ""
+    },
+    {
+      "id": "4615008",
+      "categorie": "Head",
+      "nom": "Malédiction du cauchemar corrompu",
+      "image": "assets/1585002/images/icon_head_estarossa_0013_l__642fd741fc164b9b.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Dague du chaos d'Élivágar",
+    "image": "assets/1585002/images/icon_weapon_estarossa_0551_s__89998271dce6365f.png",
+    "description": "Relique sacrée pour Estarossa de la [b]Charité[/b] (arme).\\n[DC143C]Une épée forgée dans les onze rivières d'Élivágar. Sa lame est imprégnée de nombreuses énergies différentes, aussi variées que le cours de ces rivières. On dit qu'elle distordrait l'esprit de quiconque y fait face.[-]",
+    "passif": {
+      "nom": "Dague du chaos d'Élivágar",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Pour [FFAE00]chaque[-] [00D5FF]allié du clan des démons[-] en combat, leurs [00D5FF]dégâts subis[-] réduisent de [FFAE00]20 %[-].\\n\\nLorsque le héros adopte une posture, augmente ses stats offensives de [FFAE00]30 %[-] et réduit les stats défensives de tous les ennemis de [FFAE00]20 %[-]."
+    },
+    "bonus": [
+      {
+        "nom": "Attaque",
+        "valeur": 350.0
+      },
+      {
+        "nom": "Défense",
+        "valeur": 400.0
+      },
+      {
+        "nom": "PV",
+        "valeur": 4150.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source du cycle",
+        "image": "assets/commun/icon_craft_costume_rare_material_05__19b8fbecda8796b5.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Fruit d'Yggdrasil",
+        "image": "assets/commun/icon_craft_costume_material_09__a8fd9d110158c0cc.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique noire",
+        "image": "assets/commun/icon_craft_costume_key_material_02__c45289b47672f7a7.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Ténacité de Völund",
+        "image": "assets/commun/icon_craft_costume_material_12__931f89e710e00615.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Ratatoskr"
+  },
+  "sources": [
+    {
+      "type": "jeu",
+      "table": "DB_hero_base, DB_skin_base, DB_skin_skill, DB_skill_card_base, DB_skill_card_resource"
+    }
+  ]
+};
