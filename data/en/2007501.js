@@ -1,0 +1,635 @@
+window.fichePreparee={
+  "nom": "Nemesis Meliodas",
+  "designation": "[The Seven Deadly Sins]",
+  "titre": "Nemesis Meliodas",
+  "idJeu": "2007501",
+  "attribut": {
+    "nom": "@attribute.5",
+    "icone": "assets/commun/icon_filter_attribute_05__8b5613471712850c.png",
+    "couleur": "#bf7ee9",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.1"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_01__b2dfe4e53bdd1bf4.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/2007501/images/icon_hero_meliodas_assemble_0002_s__0c184e576539bc09.png",
+  "rareteParDefaut": "LR",
+  "presentation": "[The Seven Deadly Sins] Nemesis Meliodas has a skill which can deal greater damage the higher his Attack.",
+  "commandement": null,
+  "talent": {
+    "nom": "\"Blessing in Disguise\"",
+    "image": "assets/2007501/images/icon_ability_2007501__8dbf1d09313e0f6a.png",
+    "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage. Grants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]",
+    "niveauxUltime": [
+      {
+        "niveau": 1,
+        "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※\"Assault Mode\": Attack-related stats [FF8000]+30%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage. Grants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]2 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]"
+      },
+      {
+        "niveau": 2,
+        "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage. Grants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]2 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]"
+      },
+      {
+        "niveau": 3,
+        "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage. Grants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]"
+      }
+    ],
+    "cadre": "assets/passive-frames/ability_frame_11.png",
+    "idJeu": 540008
+  },
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/2007501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/2007501/images/hero_illust_meliodas_assemble_2007501__82eaed23bb76fea4.png",
+      "legendeImage": "meliodas_assemble_0001",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 780.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 500.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7800.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5645
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 120.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Abyssal Strike\"",
+          "image": "assets/2007501/images/icon_meliodas_assemble_ssr_type01_skill_01__73bdb9e488389d47.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Dark Destruction[-] damage equal to 200 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Dark Destruction: [FFAE00]3x[-] Crit Chance and [FFAE00]3x[-] Crit Damage Increase.\\nDamage dealt [FFAE00]+70 %[-] to enemies affected by \"Hell Blaze.\"[-]",
+              "idJeu": 1009501,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Dark Destruction[-] damage equal to 300 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Dark Destruction: [FFAE00]3x[-] Crit Chance and [FFAE00]3x[-] Crit Damage Increase.\\nDamage dealt [FFAE00]+70 %[-] to enemies affected by \"Hell Blaze.\"[-]",
+              "idJeu": 1009502,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Dark Destruction[-] damage equal to 500 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Dark Destruction: [FFAE00]3x[-] Crit Chance and [FFAE00]3x[-] Crit Damage Increase.\\nDamage dealt [FFAE00]+70 %[-] to enemies affected by \"Hell Blaze.\"[-]",
+              "idJeu": 1009503,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Violet Lightning Flash\"",
+          "image": "assets/2007501/images/icon_meliodas_assemble_ssr_type01_skill_02__8407b1051a768c6e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 180 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+              "idJeu": 1009511,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 270.0,
+              "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 270 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+              "idJeu": 1009512,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 390.0,
+              "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 390 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+              "idJeu": 1009513,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "[The Seven Deadly Sins] Combined Attack: \"Nemesis\"",
+        "image": "assets/2007501/images/icon_meliodas_assemble_ssr_type01_special_01__87575e061d6c927b.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 400.0,
+            "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 400 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 440 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 480 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 520 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 560 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 600 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "The Final Battle",
+        "image": "assets/2007501/images/icon_exclusive_skill_2007501__bb507474df108a0d.png",
+        "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]15%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]40%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]5 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]10%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+30%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]2 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]50%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 2,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]10%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]2 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]50%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 3,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]13%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]50%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 4,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]13%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]40%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 5,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]15%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]40%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]5 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          }
+        ]
+      },
+      "idForme": 329501,
+      "portrait": "assets/2007501/images/icon_hero_meliodas_assemble_0001_s__1dd50b3187debe07.png",
+      "portraitVertical": "assets/2007501/images/icon_skin_meliodas_assemble_0001_l__78aef29db09ff100.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/2007501/images/hero_illust_meliodas_assemble_2007501__82eaed23bb76fea4.png",
+      "legendeImage": "meliodas_assemble_0002",
+      "niveau": 100,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 900.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 550.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 6045
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 120.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Abyssal Strike\"",
+          "image": "assets/2007501/images/icon_meliodas_assemble_ssr_type01_skill_01__73bdb9e488389d47.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Dark Destruction[-] damage equal to 200 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Dark Destruction: [FFAE00]3x[-] Crit Chance and [FFAE00]3x[-] Crit Damage Increase.\\nDamage dealt [FFAE00]+70 %[-] to enemies affected by \"Hell Blaze.\"[-]",
+              "idJeu": 1009501,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Dark Destruction[-] damage equal to 300 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Dark Destruction: [FFAE00]3x[-] Crit Chance and [FFAE00]3x[-] Crit Damage Increase.\\nDamage dealt [FFAE00]+70 %[-] to enemies affected by \"Hell Blaze.\"[-]",
+              "idJeu": 1009502,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Dark Destruction[-] damage equal to 500 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Dark Destruction: [FFAE00]3x[-] Crit Chance and [FFAE00]3x[-] Crit Damage Increase.\\nDamage dealt [FFAE00]+70 %[-] to enemies affected by \"Hell Blaze.\"[-]",
+              "idJeu": 1009503,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Violet Lightning Flash\"",
+          "image": "assets/2007501/images/icon_meliodas_assemble_ssr_type01_skill_02__8407b1051a768c6e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 180 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+              "idJeu": 1009511,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 270.0,
+              "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 270 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+              "idJeu": 1009512,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 390.0,
+              "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 390 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+              "idJeu": 1009513,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "[The Seven Deadly Sins] Combined Attack: \"Nemesis\"",
+        "image": "assets/2007501/images/icon_meliodas_assemble_ssr_type01_special_01__87575e061d6c927b.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 400.0,
+            "description": "Inflicts [00D5FF]Dark Assault[-] damage equal to 400 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 440 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 480 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 520 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 560 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Enters [00D5FF]\"Assault Mode\"[-] for [FFAE00]1 turn[-], inflicts [00D5FF]Shadow Engulfment[-] on @target.allEnemies for [FFAE00]1 turn[-], then inflicts [00D5FF]Dark Assault[-] damage equal to 600 % of Attack.\\n\\n[00D5FF]※Dark Assault: [FFAE00]3x[-] Pierce Rate and [FFAE00]3x[-] Crit Damage Increase.\\nAdditional damage equal to [FFAE00]100%[-] of the hero's increased Attack.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "The Final Battle",
+        "image": "assets/2007501/images/icon_exclusive_skill_2007501__bb507474df108a0d.png",
+        "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]15%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]40%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]5 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]10%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+30%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]2 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]50%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 2,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]10%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]2 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]50%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 3,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]13%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]50%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 4,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]13%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]40%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]3 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          },
+          {
+            "niveau": 5,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FF8000]15%[-], and increases all stats of the hero by [FFAE00]7%[-] for [FFAE00]each[-] Applicable Ally.\\n[i][C0C0C0]※Applicable Allies: Demons and [The Seven Deadly Sins][-][/i]\\n\\n\\nWhen all allies participating in battle are [00D5FF]Applicable Allies[-] and the hero is not in [00D5FF]\"Assault Mode\"[-], the hero gains [00D5FF]Trillion Revenge[-] at the start of the battle and at the end of the allies' turn. The effect is removed at the end of the enemy's turn.[i][C0C0C0]※Trillion Revenge: Immune to Debuff effects.\\nImmune to Stance Cancel if applied at the start of the battle.\\nCounters and exacts Vengeance when an ally is attacked.\\n※Vengeance: Inflicts damage equal to [FFAE00]70%[-] of the initial Max HP.\\nAdditional damage equal to [FFAE00]150%[-] of damage taken.\\n※\"Assault Mode\": Attack-related stats [FF8000]+50%[-], damage dealt [FFAE00]+70%[-].\\nDoes not take Reflect or Counter damage.\\nGrants Immortality and Stat Decrease Immunity.\\nRemoves barrier buffs before unleashing all-target attacks.\\n(Limit [FF8000]3 times[-])\\n(\"Assault Mode\" effect is enhanced according to Ultimate Move level)[-][/i]\\n\\nIf there are [FFAE00]2[-] or more surviving [00D5FF]Applicable Allies[-] while the hero has [00D5FF]Trillion Revenge[-], they are granted a [FF8000]40%[-] [00D5FF]Damage Taken Suppression[-] and their final damage taken decreases by [FFAE00]30%[-].\\n\\nGrants [00D5FF]Applicable Allies[-] [00D5FF]Debuff Immunity[-] for [FFAE00]1 turn[-] at the start of the battle.\\n\\nWhen the hero uses a [00D5FF]single-target attack[-], [00D5FF]\"Hell Blaze\"[-] is applied to up to [FFAE00]1[-] enemy for [FFAE00]3 turns[-]. When the hero uses a skill on an affected enemy, their [00D5FF]Damage Taken Suppression[-] is [00D5FF]halved[-].\\n[i][C0C0C0]※\"Hell Blaze\": Damage taken [FFAE00]+70%[-].\\nDecreases final Recovery Rate by [FFAE00]7%[-] for every [FFAE00]5%[-] of the target's diminished HP.\\nThe hero is immune to \"Hell Blaze\".[-][/i]\\n\\nIf the hero does not take damage from an enemy skill during the enemy's turn, all enemies are inflicted with the [00D5FF]Shadow Engulfment[-] effect for [FFAE00]1 turn[-]. If the hero does not die from an enemy's Ultimate Move, the Ultimate Move Gauge fills by [FF8000]5 orbs[-] (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Shadow Engulfment: All stats [FFAE00]-50%[-].[-][/i]"
+          }
+        ]
+      },
+      "idForme": 329502,
+      "portrait": "assets/2007501/images/icon_hero_meliodas_assemble_0002_s__0c184e576539bc09.png",
+      "portraitVertical": "assets/2007501/images/icon_skin_meliodas_assemble_0002_l__b3036ce3d38ca002.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3329501",
+      "categorie": "Skin",
+      "nom": "\"Assault Mode\"",
+      "image": "assets/2007501/images/icon_skin_meliodas_assemble_0001_l__78aef29db09ff100.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329554",
+      "categorie": "Skin",
+      "nom": "Hero Suit",
+      "image": "assets/2007501/images/icon_skin_meliodas_assemble_0007_l__2cebe948e443808b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329550",
+      "categorie": "Skin",
+      "nom": "Evil Dragon Armor",
+      "image": "assets/2007501/images/icon_skin_meliodas_assemble_0003_l__1b26a2f232dd5c6c.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329551",
+      "categorie": "Skin",
+      "nom": "Groom of May",
+      "image": "assets/2007501/images/icon_skin_meliodas_assemble_0004_l__e9db22496edd4cc9.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329552",
+      "categorie": "Skin",
+      "nom": "Red Avenger",
+      "image": "assets/2007501/images/icon_skin_meliodas_assemble_0005_l__5e594d6dc22b0ce1.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329553",
+      "categorie": "Skin",
+      "nom": "Tropical Getaway",
+      "image": "assets/2007501/images/icon_skin_meliodas_assemble_0006_l__53881778a37b899f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329502",
+      "categorie": "Skin",
+      "nom": "Unholy Ruler of Profane Darkness",
+      "image": "assets/2007501/images/icon_skin_meliodas_assemble_0002_l__b3036ce3d38ca002.png",
+      "rarete": ""
+    },
+    {
+      "id": "881701",
+      "categorie": "Weapon",
+      "nom": "Lostvayne",
+      "image": "assets/2007501/images/icon_weapon_meliodas_assemble_0001_l__61dd7973fc58e78d.png",
+      "rarete": ""
+    },
+    {
+      "id": "881702",
+      "categorie": "Weapon",
+      "nom": "Evil Dragon's Wrath",
+      "image": "assets/2007501/images/icon_weapon_meliodas_assemble_0003_l__c409abe678fd2a3c.png",
+      "rarete": ""
+    },
+    {
+      "id": "881703",
+      "categorie": "Weapon",
+      "nom": "Eternal Oath",
+      "image": "assets/2007501/images/icon_weapon_meliodas_assemble_0004_l__528402319dd42e12.png",
+      "rarete": ""
+    },
+    {
+      "id": "881704",
+      "categorie": "Weapon",
+      "nom": "Avenging Blade",
+      "image": "assets/2007501/images/icon_weapon_meliodas_assemble_0005_l__7fb9afcd6f84215c.png",
+      "rarete": ""
+    },
+    {
+      "id": "881706",
+      "categorie": "Weapon",
+      "nom": "Plastic Shovel",
+      "image": "assets/2007501/images/icon_weapon_meliodas_assemble_0006_l__3c52662bc3225b96.png",
+      "rarete": ""
+    },
+    {
+      "id": "881705",
+      "categorie": "Weapon",
+      "nom": "Blade of Profane Darkness",
+      "image": "assets/2007501/images/icon_weapon_meliodas_assemble_0501_l__03d911a8b3aeb07c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010601",
+      "categorie": "Head",
+      "nom": "Usual Hairstyle",
+      "image": "assets/2007501/images/icon_head_meliodas_assemble_0001_l__4b599613413dfcd3.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010607",
+      "categorie": "Head",
+      "nom": "Fun Plushie Headband",
+      "image": "assets/2007501/images/icon_head_meliodas_assemble_0007_l__6b370eddbc1435c8.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010602",
+      "categorie": "Head",
+      "nom": "Evil Dragon Horns",
+      "image": "assets/2007501/images/icon_head_meliodas_assemble_0003_l__7a1b23083eb16a20.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010603",
+      "categorie": "Head",
+      "nom": "Dark and Romantic",
+      "image": "assets/2007501/images/icon_head_meliodas_assemble_0004_l__10990ac77c038d21.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010604",
+      "categorie": "Head",
+      "nom": "Vindictive Mask",
+      "image": "assets/2007501/images/icon_head_meliodas_assemble_0005_l__fb7c4e75e5c883d7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010606",
+      "categorie": "Head",
+      "nom": "Summer Breeze Sunglasses",
+      "image": "assets/2007501/images/icon_head_meliodas_assemble_0006_l__871249d96f58362b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010605",
+      "categorie": "Head",
+      "nom": "Unholy Crown of Profane Darkness",
+      "image": "assets/2007501/images/icon_head_meliodas_assemble_0002_l__921d140c930f9417.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null
+};

@@ -1,0 +1,1097 @@
+window.fichePreparee={
+  "nom": "Ban aventurier",
+  "designation": "[b]Le Renard de l'Avarice[/b]",
+  "titre": "Ban aventurier",
+  "idJeu": "1075002",
+  "attribut": {
+    "nom": "@attribute.2",
+    "icone": "assets/commun/icon_filter_attribute_02__ea1406c9830f7566.png",
+    "couleur": "#67c778",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/1075002/images/icon_hero_ban_0050_s__47b979d9226c8c38.png",
+  "rareteParDefaut": "LR",
+  "presentation": "[b]Le Renard de l'Avarice[/b] Ban aventurier possède une compétence qui ajoute du vampirisme aux dégâts infligés, utile pour survivre longtemps.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1075002/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1075002/images/hero_illust_ban_nunchuk_1075002__b64b1e28324d8440.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 480.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 270.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3251
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Vol »",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_04__d3d11c977a425092.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies.",
+              "idJeu": 146021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies et applique [00D5FF]Vampirisme[-] sur 30 % des dégâts.\\n\\n[00D5FF]※Vampirisme : soigne l'utilisateur d'une partie des dégâts infligés.[-]",
+              "idJeu": 146022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Inflige des dégâts égaux à 250 % de l'attaque à @target.allEnemies et applique [00D5FF]Vampirisme[-] sur 30 % des dégâts.\\n\\n[00D5FF]※Vampirisme : soigne l'utilisateur d'une partie des dégâts infligés.[-]",
+              "idJeu": 146023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Détournement »",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_01__2ea491cb39579f7e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 20 % de l’attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 30 % de l’attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 50 % de l’attaque et de la défense pendant 3 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Chasse du renard »",
+        "image": "assets/1075002/images/icon_ban_nunchaku_special_01__a6d6197a67bb9cf9.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Inflige des dégâts égaux à 350 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 385.0,
+            "description": "Inflige des dégâts égaux à 385 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts égaux à 420 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 455.0,
+            "description": "Inflige des dégâts égaux à 455 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 490.0,
+            "description": "Inflige des dégâts égaux à 490 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 525.0,
+            "description": "Inflige des dégâts égaux à 525 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Extorsion de vie",
+        "image": "assets/1075002/images/icon_exclusive_skill_1075002__a9e0e37db6987f3f.png",
+        "description": "Réduit les stats de PV de tous les ennemis de [FFAE00]10 % %[-] au début du tour allié si le héros ne subit aucun dégât.\\n[00D5FF](5 fois max., se réinitialise quand une attaque est subie)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Réduit les stats de PV de tous les ennemis de [FFAE00]10 % %[-] au début du tour allié si le héros ne subit aucun dégât.\\n[00D5FF](5 fois max., se réinitialise quand une attaque est subie)[-]"
+          }
+        ]
+      },
+      "idForme": 300406,
+      "portrait": "assets/1075002/images/icon_hero_ban_0011_s__9650817881ddcff0.png",
+      "portraitVertical": "assets/1075002/images/icon_skin_ban_0011_l__94984e5aada9a17f.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1075002/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1075002/images/hero_illust_ban_nunchuk_1075002__b64b1e28324d8440.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 600.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 330.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3819
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Vol »",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_04__d3d11c977a425092.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies.",
+              "idJeu": 146021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies et applique [00D5FF]Vampirisme[-] sur 30 % des dégâts.\\n\\n[00D5FF]※Vampirisme : soigne l'utilisateur d'une partie des dégâts infligés.[-]",
+              "idJeu": 146022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Inflige des dégâts égaux à 250 % de l'attaque à @target.allEnemies et applique [00D5FF]Vampirisme[-] sur 30 % des dégâts.\\n\\n[00D5FF]※Vampirisme : soigne l'utilisateur d'une partie des dégâts infligés.[-]",
+              "idJeu": 146023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Détournement »",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_01__2ea491cb39579f7e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 20 % de l’attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 30 % de l’attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 50 % de l’attaque et de la défense pendant 3 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Chasse du renard »",
+        "image": "assets/1075002/images/icon_ban_nunchaku_special_01__a6d6197a67bb9cf9.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Inflige des dégâts égaux à 350 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 385.0,
+            "description": "Inflige des dégâts égaux à 385 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts égaux à 420 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 455.0,
+            "description": "Inflige des dégâts égaux à 455 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 490.0,
+            "description": "Inflige des dégâts égaux à 490 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 525.0,
+            "description": "Inflige des dégâts égaux à 525 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Extorsion de vie",
+        "image": "assets/1075002/images/icon_exclusive_skill_1075002__a9e0e37db6987f3f.png",
+        "description": "Réduit les stats de PV de tous les ennemis de [FFAE00]10 % %[-] au début du tour allié si le héros ne subit aucun dégât.\\n[00D5FF](5 fois max., se réinitialise quand une attaque est subie)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Réduit les stats de PV de tous les ennemis de [FFAE00]10 % %[-] au début du tour allié si le héros ne subit aucun dégât.\\n[00D5FF](5 fois max., se réinitialise quand une attaque est subie)[-]"
+          }
+        ]
+      },
+      "idForme": 300408,
+      "portrait": "assets/1075002/images/icon_hero_ban_0007_s__d6a1d4180016f7ea.png",
+      "portraitVertical": "assets/1075002/images/icon_skin_ban_0007_l__40c246b31a8ffb04.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1075002/images/hero_illust_ban_nunchuk_1075002__b64b1e28324d8440.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 100,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 770.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 480.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9800.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5819
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 220.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 85.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Vol »",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_04__d3d11c977a425092.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 200 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+              "idJeu": 146061,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 250.0,
+              "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 250 % de l'attaque à @target.allEnemies et applique [00D5FF]Vampirisme[-] sur 35 % des dégâts infligés.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]\\n[00D5FF]※Vampirisme : soigne l'utilisateur d'une partie des dégâts infligés.[-]",
+              "idJeu": 146062,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 300 % de l'attaque à @target.allEnemies et applique [00D5FF]Vampirisme[-] sur 40 % des dégâts infligés.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]\\n[00D5FF]※Vampirisme : soigne l'utilisateur d'une partie des dégâts infligés.[-]",
+              "idJeu": 146063,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Détournement »",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_01__2ea491cb39579f7e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 25 % de l’attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146071,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 35 % de l’attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146072,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Applique [00D5FF]Extorsion[-] à @target.allEnemies pour 50 % de l’attaque et de la défense pendant 3 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.allEnemies et augmente ses propres stats du même montant.[-]",
+              "idJeu": 146073,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Chasse du renard »",
+        "image": "assets/1075002/images/icon_ban_nunchaku_special_01__a6d6197a67bb9cf9.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Inflige des dégâts de [00D5FF]Pointe[-] égaux à 350 % de l'attaque à @target.oneEnemy, puis applique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.\\n※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 385.0,
+            "description": "Inflige des dégâts de [00D5FF]Pointe[-] égaux à 385 % de l'attaque à @target.oneEnemy, puis applique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.\\n※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts de [00D5FF]Pointe[-] égaux à 420 % de l'attaque à @target.oneEnemy, puis applique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.\\n※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 455.0,
+            "description": "Inflige des dégâts de [00D5FF]Pointe[-] égaux à 455 % de l'attaque à @target.oneEnemy, puis applique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.\\n※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 490.0,
+            "description": "Inflige des dégâts de [00D5FF]Pointe[-] égaux à 490 % de l'attaque à @target.oneEnemy, puis applique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.\\n※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 525.0,
+            "description": "Inflige des dégâts de [00D5FF]Pointe[-] égaux à 525 % de l'attaque à @target.oneEnemy, puis applique [00D5FF]Extorsion[-] pour 50 % de l'attaque et de la défense pendant 2 tour(s).\\n\\n[00D5FF]※Extorsion : réduit les stats de @target.oneEnemy et augmente ses propres stats du même montant.\\n※Pointe : dégâts crit. x2.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Extorsion de vie",
+        "image": "assets/1075002/images/icon_exclusive_skill_1075002__a9e0e37db6987f3f.png",
+        "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] pour [FFAE00]chacun[-] d'entre eux en combat.\\n[i][C0C0C0]※Alliés concernés : humains, fées, Les [Seven Deadly Sins][/i][-]\\n\\nOctroie [00D5FF]Chasseur[-] au héros et applique [00D5FF]Marque du chasseur[-] sur tous les ennemis au début du combat.\\n[i][C0C0C0]※Chasseur : augmente le vampirisme de [FFAE00]1 %[-] ([FFAE00]30 %[-] max.) pour chaque portion de [FFAE00]3 %[-] de PV perdus lorsque le héros utilise une compétence. Augmente les dégâts infligés avec les compétences d'attaque de groupe de [FFAE00]50 %[-].\\n※Marque du chasseur : toutes les stats [FFAE00]-10 %[-] (se réinitialise en subissant des dégâts).[/i][-]\\n\\nPour [FFAE00]chaque[-] effet [00D5FF]Extorsion[-] présent sur les ennemis, augmente les dégâts crit. du héros de [FFAE00]70 %[-] et ses PV de [FFAE00]10 %[-].\\n\\nSi le héros ne subit pas de dégâts pendant le tour ennemi, applique [00D5FF]Marque du chasseur[-] sur tous les ennemis au début du tour allié. [FFAE00](3 fois max.)[-]\\n\\nAugmente les stats de base du héros de [FFAE00]5 %[-] ([FFAE00]15 %[-] max.) pour [FFAE00]chaque[-] effet [00D5FF]Marque du chasseur[-] présent sur les ennemis.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] pour [FFAE00]chacun[-] d'entre eux en combat.\\n[i][C0C0C0]※Alliés concernés : humains, fées, Les [Seven Deadly Sins][/i][-]\\n\\nOctroie [00D5FF]Chasseur[-] au héros et applique [00D5FF]Marque du chasseur[-] sur tous les ennemis au début du combat.\\n[i][C0C0C0]※Chasseur : augmente le vampirisme de [FFAE00]1 %[-] ([FFAE00]30 %[-] max.) pour chaque portion de [FFAE00]3 %[-] de PV perdus lorsque le héros utilise une compétence. Augmente les dégâts infligés avec les compétences d'attaque de groupe de [FFAE00]50 %[-].\\n※Marque du chasseur : toutes les stats [FFAE00]-10 %[-] (se réinitialise en subissant des dégâts).[/i][-]\\n\\nPour [FFAE00]chaque[-] effet [00D5FF]Extorsion[-] présent sur les ennemis, augmente les dégâts crit. du héros de [FFAE00]70 %[-] et ses PV de [FFAE00]10 %[-].\\n\\nSi le héros ne subit pas de dégâts pendant le tour ennemi, applique [00D5FF]Marque du chasseur[-] sur tous les ennemis au début du tour allié. [FFAE00](3 fois max.)[-]\\n\\nAugmente les stats de base du héros de [FFAE00]5 %[-] ([FFAE00]15 %[-] max.) pour [FFAE00]chaque[-] effet [00D5FF]Marque du chasseur[-] présent sur les ennemis."
+          }
+        ]
+      },
+      "idForme": 300409,
+      "portrait": "assets/1075002/images/icon_hero_ban_0050_s__47b979d9226c8c38.png",
+      "portraitVertical": "assets/1075002/images/icon_skin_ban_0050_l__f47c42ddf135cf65.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3300403",
+      "categorie": "Skin",
+      "nom": "Bandit",
+      "image": "assets/1075002/images/icon_skin_ban_0006_l__36e67b693754c911.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300406",
+      "categorie": "Skin",
+      "nom": "Armure de Chevalier Sacré",
+      "image": "assets/1075002/images/icon_skin_ban_0011_l__94984e5aada9a17f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310407",
+      "categorie": "Skin",
+      "nom": "Vêtements de riche",
+      "image": "assets/1075002/images/icon_skin_ban_0017_l__75d5c13c6c26d1f6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300452",
+      "categorie": "Skin",
+      "nom": "Tenue de combat de la Flamme noire",
+      "image": "assets/1075002/images/icon_skin_ban_0026_l__cb5e60a9cffb65e6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300453",
+      "categorie": "Skin",
+      "nom": "Armure de chevalier très malveillant",
+      "image": "assets/1075002/images/icon_skin_ban_0023_l__f569b302e5ce83b6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300451",
+      "categorie": "Skin",
+      "nom": "Puissance du roi des fées",
+      "image": "assets/1075002/images/icon_skin_ban_0012_l__4a08db61d5a994ce.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300450",
+      "categorie": "Skin",
+      "nom": "Garçon de café gentil",
+      "image": "assets/1075002/images/icon_skin_ban_0008_l__e3e5700a650fa451.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300404",
+      "categorie": "Skin",
+      "nom": "Cristal de puissance bleue",
+      "image": "assets/1075002/images/hero_ban_body_0016_D__4bf0ea20b64ca8bd.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300459",
+      "categorie": "Skin",
+      "nom": "Surfeur",
+      "image": "assets/1075002/images/icon_skin_ban_0014_l__d5b30c3cb313bc7f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300462",
+      "categorie": "Skin",
+      "nom": "Garde forestier rapide",
+      "image": "assets/1075002/images/icon_skin_ban_0040_l__61eb75fa410170be.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300405",
+      "categorie": "Skin",
+      "nom": "Chef des gardes forestiers",
+      "image": "assets/1075002/images/icon_skin_ban_0009_l__d762983b53372c2a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300408",
+      "categorie": "Skin",
+      "nom": "Armure ([b]Le Renard de l'Avarice[/b])",
+      "image": "assets/1075002/images/icon_skin_ban_0007_l__40c246b31a8ffb04.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310405",
+      "categorie": "Skin",
+      "nom": "À la mode d'automne",
+      "image": "assets/1075002/images/icon_skin_ban_0003_l__4a6c64dae1589631.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300409",
+      "categorie": "Skin",
+      "nom": "Armure brillante du renard rouge",
+      "image": "assets/1075002/images/icon_skin_ban_0050_l__f47c42ddf135cf65.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310460",
+      "categorie": "Skin",
+      "nom": "Érosion de l'ombre corrompue",
+      "image": "assets/1075002/images/icon_skin_ban_0038_l__7ff2fda86742e06b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310463",
+      "categorie": "Skin",
+      "nom": "Uniforme vert d'acclamation",
+      "image": "assets/1075002/images/icon_skin_ban_0042_l__7933d622b7e39565.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310464",
+      "categorie": "Skin",
+      "nom": "Cuisinier d'hiver",
+      "image": "assets/1075002/images/icon_skin_ban_0035_l__0f3dd730235b3f8a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310467",
+      "categorie": "Skin",
+      "nom": "Tenue de héros (noir)",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "3310470",
+      "categorie": "Skin",
+      "nom": "Sweat à capuche de Lancelot",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "3310471",
+      "categorie": "Skin",
+      "nom": "Uniforme azur d'acclamation",
+      "image": "assets/1075002/images/icon_skin_ban_0047_l__451122d63990ad14.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017021",
+      "categorie": "Skin",
+      "nom": "Tenue préférée",
+      "image": "assets/1075002/images/icon_skin_ban_0037_l__5bc2def0a6d24afd.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017024",
+      "categorie": "Skin",
+      "nom": "Tenue préférée",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017026",
+      "categorie": "Skin",
+      "nom": "À la mode d'automne",
+      "image": "assets/1075002/images/icon_skin_ban_0008_l__e3e5700a650fa451.png",
+      "rarete": ""
+    },
+    {
+      "id": "850401",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties du voleur",
+      "image": "assets/1075002/images/icon_weapon_ban_101_l__0d57b156d21aeee4.png",
+      "rarete": ""
+    },
+    {
+      "id": "850403",
+      "categorie": "Weapon",
+      "nom": "Griffe rouge",
+      "image": "assets/1075002/images/icon_weapon_ban_103_l__e9ea2025208132f1.png",
+      "rarete": ""
+    },
+    {
+      "id": "850404",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties du roi des fées",
+      "image": "assets/1075002/images/icon_weapon_ban_104_l__3f30adf0085b4507.png",
+      "rarete": ""
+    },
+    {
+      "id": "850405",
+      "categorie": "Weapon",
+      "nom": "Lame ensanglantée",
+      "image": "assets/1075002/images/icon_weapon_ban_105_l__ab3a0cc3b4e3a30e.png",
+      "rarete": ""
+    },
+    {
+      "id": "850454",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties du sauveteur",
+      "image": "assets/1075002/images/icon_weapon_ban_0014_l__1b0ba70fac99bd72.png",
+      "rarete": ""
+    },
+    {
+      "id": "850455",
+      "categorie": "Weapon",
+      "nom": "Arme de la Flamme noire",
+      "image": "assets/1075002/images/icon_weapon_ban_0026_l__89d1c2602c246ea1.png",
+      "rarete": ""
+    },
+    {
+      "id": "850456",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties magie noire",
+      "image": "assets/1075002/images/icon_weapon_ban_0023_l__fb3380393ec3aafe.png",
+      "rarete": ""
+    },
+    {
+      "id": "850458",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties de garde forestier",
+      "image": "assets/1075002/images/icon_weapon_ban_0040_l__04d788b41a4a5c87.png",
+      "rarete": ""
+    },
+    {
+      "id": "850451",
+      "categorie": "Weapon",
+      "nom": "Bouchon de collectionneur",
+      "image": "assets/1075002/images/icon_weapon_ban_501_l__230776594ac8b095.png",
+      "rarete": ""
+    },
+    {
+      "id": "850459",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties maudit",
+      "image": "assets/1075002/images/icon_weapon_ban_0507_l__3d753e10024c8205.png",
+      "rarete": ""
+    },
+    {
+      "id": "850460",
+      "categorie": "Weapon",
+      "nom": "Bâton bonbon en trois parties",
+      "image": "assets/1075002/images/icon_weapon_ban_0035_l__481c46e155ca0e00.png",
+      "rarete": ""
+    },
+    {
+      "id": "850406",
+      "categorie": "Weapon",
+      "nom": "Queue de serpent",
+      "image": "assets/1075002/images/icon_weapon_ban_504_l__2722708c30676d04.png",
+      "rarete": ""
+    },
+    {
+      "id": "850452",
+      "categorie": "Weapon",
+      "nom": "Larme de l'Avarice",
+      "image": "assets/1075002/images/icon_weapon_ban_502_l__c449aed5d233c166.png",
+      "rarete": ""
+    },
+    {
+      "id": "850453",
+      "categorie": "Weapon",
+      "nom": "Plainte du dragon bleu",
+      "image": "assets/1075002/images/icon_weapon_ban_503_l__5a6567c196e9764c.png",
+      "rarete": ""
+    },
+    {
+      "id": "850407",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties du voleur (alt.)",
+      "image": "assets/1075002/images/icon_weapon_ban_505_l__1abd44b6fd9f71db.png",
+      "rarete": ""
+    },
+    {
+      "id": "850408",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties (ballon magique)",
+      "image": "assets/1075002/images/icon_weapon_ban_506_l__3a33a207bd37f472.png",
+      "rarete": ""
+    },
+    {
+      "id": "850457",
+      "categorie": "Weapon",
+      "nom": "Magie d'ombre corrompue",
+      "image": "assets/1075002/images/icon_weapon_ban_0038_l__5a9e4430f1b187ad.png",
+      "rarete": ""
+    },
+    {
+      "id": "850461",
+      "categorie": "Weapon",
+      "nom": "Gleipnir",
+      "image": "assets/1075002/images/icon_weapon_ban_0014_l__1b0ba70fac99bd72.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075001",
+      "categorie": "Head",
+      "nom": "Aventurier",
+      "image": "assets/1075002/images/icon_head_ban_0001_l__4ea3ef3504818020.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075009",
+      "categorie": "Head",
+      "nom": "Casquette de la Flamme noire",
+      "image": "assets/1075002/images/icon_head_ban_0026_l__bb791fcfcfc0456f.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075011",
+      "categorie": "Head",
+      "nom": "Confrérie très malveillante",
+      "image": "assets/1075002/images/icon_head_ban_0511_l__31c50d5d1e855588.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075013",
+      "categorie": "Head",
+      "nom": "Coiffure de rue",
+      "image": "assets/1075002/images/icon_head_ban_0040_l__f511111fdf403824.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075003",
+      "categorie": "Head",
+      "nom": "Bandeau simple",
+      "image": "assets/1075002/images/icon_head_ban_0510_l__587a049dfbc4e859.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075005",
+      "categorie": "Head",
+      "nom": "Œil blessé",
+      "image": "assets/1075002/images/icon_head_ban_0506_l__18ab49d619030df1.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075007",
+      "categorie": "Head",
+      "nom": "Bases de la cuisine",
+      "image": "assets/1075002/images/icon_head_ban_0507_l__8dfeebb17e63d0de.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075002",
+      "categorie": "Head",
+      "nom": "Assassin silencieux",
+      "image": "assets/1075002/images/icon_head_ban_0508_l__9ef42b170a59a975.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075006",
+      "categorie": "Head",
+      "nom": "Bandeau à la mode",
+      "image": "assets/1075002/images/icon_head_ban_0509_l__e85f2cc9d3424b6e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075010",
+      "categorie": "Head",
+      "nom": "Allergique au soleil",
+      "image": "assets/1075002/images/icon_head_ban_0014_l__a4da890ef53033d3.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075018",
+      "categorie": "Head",
+      "nom": "Couronne brillante du renard rouge",
+      "image": "assets/1075002/images/icon_head_ban_0050_l__66bed05900d91625.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075008",
+      "categorie": "Head",
+      "nom": "Pression silencieuse",
+      "image": "assets/1075002/images/icon_head_ban_0501_l__abe4cc76b19b675a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075012",
+      "categorie": "Head",
+      "nom": "Malédiction de l'ombre corrompue",
+      "image": "assets/1075002/images/icon_head_ban_0001_l__4ea3ef3504818020.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075016",
+      "categorie": "Head",
+      "nom": "Marque de l'Avarice",
+      "image": "assets/1075002/images/icon_head_ban_0512_l__555ca3ba9c19c473.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075014",
+      "categorie": "Head",
+      "nom": "Chapeau vert d'acclamation",
+      "image": "assets/1075002/images/icon_head_ban_0042_l__3c19c2255a3cec2a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075015",
+      "categorie": "Head",
+      "nom": "Bois de renne",
+      "image": "assets/1075002/images/icon_head_ban_0035_l__67a7374c3442b10f.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Gleipnir",
+    "image": "assets/1075002/images/icon_weapon_ban_0552_s__5004195b6eda4e56.png",
+    "description": "Relique sacrée de Ban aventurier (arme).\\n[DC143C]Les chaînes magiques du nain forgeron qui ont attaché Fenrir. Même les dieux ne peuvent pas les briser.[-]",
+    "passif": {
+      "nom": "Gleipnir",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Lorsque le héros effectue un coup critique sur un ennemi, l'attaque du héros est augmentée de [FFAE00]10 %[-].\\n[00D5FF](5 fois seulement)[-]"
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 400.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 150.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 2400.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source du vent",
+        "image": "assets/commun/icon_craft_costume_rare_material_01__391d7091ff4c5016.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Splendeur du Valhalla",
+        "image": "assets/commun/icon_item_drop_nor_0003__fb5417b6b988fed4.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique bleue",
+        "image": "assets/commun/icon_craft_costume_key_material_01__8bc67ed6369368ff.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Méticulosité d'Eitri",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Hraesvelgr"
+  }
+};

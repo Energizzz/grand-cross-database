@@ -3,29 +3,35 @@
    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <title>Fiche personnage · Grand Cross</title>
-<link rel="stylesheet" href="style.css?v=20260914-29" />
+      <title>Heroes · Grand Cross</title>
+<link rel="stylesheet" href="style.css?v=20260914-30" />
    </head>
    <body>
-      <a class="skip" href="#contenu">Aller à la fiche</a>
+      <a class="skip" href="#contenu" data-i18n="skip">Aller à la fiche</a>
       <header class="site-header">
          <div class="top">
-            <a class="brand" href="index.html#home" aria-label="Accueil">
+            <a class="brand" href="index.html#home" aria-label="Accueil" data-i18n-aria="home">
                <span class="mark">7</span>
             </a>
             <nav class="main-nav" aria-label="Navigation principale">
-               <a href="index.html#home">Accueil</a>
-               <a href="index.html#heroes">Héros</a>
-               <a href="index.html#events">Évènements</a>
-               <a href="index.html#costumes">Costume</a>
-               <a href="index.html#other">Autre</a>
+               <a href="index.html#home" data-i18n="home">Accueil</a>
+               <a href="index.html#heroes" data-i18n="heroes">Héros</a>
+               <a href="index.html#events" data-i18n="events">Évènements</a>
+               <a href="index.html#costumes" data-i18n="costumes">Costume</a>
+               <a href="index.html#other" data-i18n="other">Autre</a>
             </nav>
+            <label class="language-picker" aria-label="Langue du site" data-i18n-aria="siteLanguage">
+               <select id="language" aria-label="Choisir la langue" data-i18n-aria="chooseLanguage">
+                  <option value="fr">FR</option>
+                  <option value="en">EN</option>
+               </select>
+            </label>
          </div>
       </header>
       <div class="wrap">
          <div id="loading" class="load-panel">
-            <h1>Personnages</h1>
-            <p id="load-message">Chargement…</p>
+            <h1 data-i18n="heroes">Héros</h1>
+            <p id="load-message" data-i18n="loading">Chargement…</p>
             <div id="catalogue"></div>
             <button id="choose" hidden></button>
             <input id="file" type="file" hidden />
@@ -33,18 +39,90 @@
          <main id="landing" hidden></main>
          <main id="contenu" hidden></main>
          <footer class="foot">
-            <span>Grand Cross Archives · Projet de fan</span>
+            <span data-i18n="fanProject">Grand Cross Archives · Projet de fan</span>
             <span id="status" class="status" role="status" aria-live="polite">
             </span>
             <div class="foot-actions">
-               <button id="reload" hidden>↻ Actualiser</button>
-               <button id="change">Charger un JSON</button>
+               <button id="reload" hidden data-i18n="refresh">↻ Actualiser</button>
+               <button id="change" data-i18n="heroes">Héros</button>
             </div>
          </footer>
       </div>
       <script>
          "use strict";
          const $ = (id) => document.getElementById(id);
+         const interfaceText = {
+            fr: {
+               skip: "Aller à la fiche", home: "Accueil", heroes: "Héros",
+               events: "Évènements", costumes: "Costume", other: "Autre",
+               siteLanguage: "Langue du site", chooseLanguage: "Choisir la langue",
+               loading: "Chargement…", fanProject: "Grand Cross · Projet de fan",
+               refresh: "↻ Actualiser", statistics: "Statistiques", skills: "Compétences",
+               wardrobe: "Costumes", characterEvolution: "Évolution du personnage",
+               ultimate: "Coup ultime", unique: "Compétence unique", commandment: "Commandement",
+               grace: "Grâce", union: "Union", talent: "Talent", sacredRelic: "Relique sacrée",
+               passive: "Passif", requiredMaterials: "Matériaux requis", source: "Provenance",
+               documentedItems: "éléments documentés", noCostume: "Aucun costume dans cette catégorie.",
+               noHero: "Aucun héros ne correspond à ces critères.", searchHero: "Rechercher un héros",
+               searchPlaceholder: "Nom ou sous-titre", attribute: "Attribut", race: "Race",
+               characteristic: "Caractéristique", allAttributes: "Tous les attributs",
+               allRaces: "Toutes les races", allCharacteristics: "Toutes les caractéristiques",
+               lrAwakening: "Éveil LR", sacredRelicFilter: "Relique sacrée", initialGrade: "Grade de départ",
+               verticalView: "Affichage vertical", squareView: "Affichage carré", rankOf: "Rang de", ultimateLevel: "Niveau du coup ultime",
+               homeDescription: "Une archive de personnages, de compétences, de costumes et de données issues du jeu",
+            },
+            en: {
+               skip: "Skip to hero details", home: "Home", heroes: "Heroes",
+               events: "Events", costumes: "Costumes", other: "Other",
+               siteLanguage: "Site language", chooseLanguage: "Choose language",
+               loading: "Loading…", fanProject: "Grand Cross · Fan project",
+               refresh: "↻ Refresh", statistics: "Statistics", skills: "Skills",
+               wardrobe: "Costumes", characterEvolution: "Character Evolution",
+               ultimate: "Ultimate Move", unique: "Unique", commandment: "Commandment",
+               grace: "Grace", union: "Unity", talent: "Talent", sacredRelic: "Holy Relic",
+               passive: "Passive", requiredMaterials: "Required Materials", source: "Source",
+               documentedItems: "documented items", noCostume: "No costumes in this category.",
+               noHero: "No heroes match these criteria.", searchHero: "Search for a hero",
+               searchPlaceholder: "Name or subtitle", attribute: "Attribute", race: "Race",
+               characteristic: "Characteristic", allAttributes: "All attributes",
+               allRaces: "All races", allCharacteristics: "All characteristics",
+               lrAwakening: "LR Awakening", sacredRelicFilter: "Holy Relic", initialGrade: "Starting Grade",
+               verticalView: "Vertical view", squareView: "Square view", rankOf: "Rank of", ultimateLevel: "Ultimate Move level",
+               homeDescription: "An archive of heroes, skills, costumes, and game data from",
+            },
+         };
+         const languagePicker = $("language");
+         const savedLanguage =
+            (typeof localStorage !== "undefined" &&
+               localStorage.getItem("grand-cross-language")) ||
+            "fr";
+         languagePicker.value = savedLanguage;
+         document.documentElement.lang = savedLanguage;
+         const t = (key) => (interfaceText[languagePicker.value] || interfaceText.fr)[key] || key;
+         const dataLabel = (value) => {
+            const raw = String(value ?? "");
+            return raw.startsWith("@")
+               ? window.localisationDonnees?.[raw.slice(1)] || raw.slice(1)
+               : raw;
+         };
+         const applyInterfaceLanguage = () => {
+            document.documentElement.lang = languagePicker.value;
+            document.querySelectorAll("[data-i18n]").forEach((element) => {
+               element.textContent = t(element.dataset.i18n);
+            });
+            document.querySelectorAll("[data-i18n-aria]").forEach((element) => {
+               element.setAttribute("aria-label", t(element.dataset.i18nAria));
+            });
+         };
+         applyInterfaceLanguage();
+         languagePicker.addEventListener("change", () => {
+            const language = languagePicker.value;
+            if (typeof localStorage !== "undefined")
+               localStorage.setItem("grand-cross-language", language);
+            // Les fiches sont organisées par langue : recharge la même page
+            // afin de conserver le héros éventuellement ouvert.
+            location.reload();
+         });
          const esc = (v) =>
             String(v ?? "").replace(
                /[&<>"']/g,
@@ -61,7 +139,7 @@
             v == null
                ? "—"
                : typeof v === "number"
-                 ? new Intl.NumberFormat("fr-FR").format(v)
+                 ? new Intl.NumberFormat(languagePicker.value === "en" ? "en-US" : "fr-FR").format(v)
                  : esc(v);
          const safeImage = (v) => {
             const p = String(v || "");
@@ -98,10 +176,6 @@
                tags = [];
             s = s.replace(/\[(?:[0-9A-Fa-f]{6}|-)\]|\[\/?(?:b|i)\]/gi, (m) =>
                String.fromCharCode(0xe000 + tags.push(m) - 1),
-            );
-            s = s.replace(
-               /(^|[^A-Za-z])((?:\+?\d+(?:[.,]\d+)?)(?:\s*%|\s*(?:orbe\(s\)|tour\(s\)|fois(?:\s+max\.)?))?)/gi,
-               '$1<span style="color:#FFAE00">$2</span>',
             );
             s = s.replace(
                /[\uE000-\uF8FF]/g,
@@ -198,7 +272,7 @@
                s.rangs.find((x) => x.rang === 3) ||
                s.rangs.at(-1) ||
                s.rangs[0];
-            return `<article class="skill"><div class="skill-top">${skillCard(s, selected)}<div class="skill-content"><p class="skill-kind">${esc(s.type)}</p><h3>${rich(s.nom)}</h3><div class="target">${esc(s.cible)}</div><div class="ranks" aria-label="Rang de ${esc(s.nom)}">${s.rangs.map((x) => `<button data-skill="${esc(s.id)}" data-rank="${x.rang}" class="${x.rang === selected.rang ? "active" : ""}" aria-pressed="${x.rang === selected.rang}">${"✦".repeat(x.rang)}</button>`).join("")}</div></div></div><p class="skill-desc">${rich(selected.description)}</p></article>`;
+            return `<article class="skill"><div class="skill-top">${skillCard(s, selected)}<div class="skill-content"><p class="skill-kind">${esc(dataLabel(s.type))}</p><h3>${rich(s.nom)}</h3><div class="target">${esc(dataLabel(s.cible))}</div><div class="ranks" aria-label="${t("rankOf")} ${esc(s.nom)}">${s.rangs.map((x) => `<button data-skill="${esc(s.id)}" data-rank="${x.rang}" class="${x.rang === selected.rang ? "active" : ""}" aria-pressed="${x.rang === selected.rang}">${"✦".repeat(x.rang)}</button>`).join("")}</div></div></div><p class="skill-desc">${rich(selected.description)}</p></article>`;
          }
          function ultimateCard(u, n) {
             if (!n.cadre) return img(u.image, u.nom, "card-image");
@@ -214,7 +288,7 @@
                   u.niveaux.at(-1) ||
                   u.niveaux[0];
             $("ultimate").innerHTML =
-               `<div class="skill-top">${ultimateCard(u, n)}<div class="skill-content"><p class="skill-kind">Coup ultime · ${esc(u.cible)}</p><h3>${rich(u.nom)}</h3><div class="ranks" aria-label="Niveau du coup ultime">${u.niveaux.map((x) => `<button data-level="${x.niveau}" class="${x.niveau === n.niveau ? "active" : ""}" aria-pressed="${x.niveau === n.niveau}"><img src="assets/skill-frames/card_frame_special_jewelry_0${x.niveau}.png" alt="${x.niveau}/${u.niveaux.length}" /></button>`).join("")}</div><p class="skill-desc">${rich(n.description)}</p></div></div>`;
+               `<div class="skill-top">${ultimateCard(u, n)}<div class="skill-content"><p class="skill-kind">${t("ultimate")} · ${esc(dataLabel(u.cible))}</p><h3>${rich(u.nom)}</h3><div class="ranks" aria-label="${t("ultimateLevel")}">${u.niveaux.map((x) => `<button data-level="${x.niveau}" class="${x.niveau === n.niveau ? "active" : ""}" aria-pressed="${x.niveau === n.niveau}"><img src="assets/skill-frames/card_frame_special_jewelry_0${x.niveau}.png" alt="${x.niveau}/${u.niveaux.length}" /></button>`).join("")}</div><p class="skill-desc">${rich(n.description)}</p></div></div>`;
          }
          function renderCostumes() {
             const categories = [
@@ -236,7 +310,7 @@
                         `<article class="costume"><div class="costume-art">${img(c.image, c.nom)}${c.rarete ? `<span class="costume-rarity">${esc(c.rarete)}</span>` : ""}</div><div class="costume-copy"><small>${esc(c.categorie)}</small><h3>${rich(c.nom)}</h3>${c.note ? `<p>${rich(c.note)}</p>` : ""}${c.bonus ? `<p>${rich(c.bonus)}</p>` : ""}</div></article>`,
                   )
                   .join("") ||
-               '<p class="empty">Aucun costume dans cette catégorie.</p>';
+               `<p class="empty">${t("noCostume")}</p>`;
          }
          function specialDescription(ability, key) {
             const variants = ability.niveauxUltime || [];
@@ -273,29 +347,29 @@
                      </h1>
                    </div>
                    <div class="badges">
-                     <span class="badge attribute${data.attribut.icone?.includes("type_icon_dual") ? " double-attribute" : ""}" title="${esc(data.attribut.detail)}">${Array.isArray(data.attribut.icone) ? data.attribut.icone.map((x) => img(x, data.attribut.nom)).join("") : img(data.attribut.icone, data.attribut.nom)}<span class="attribute-name">${esc(data.attribut.nom)}</span></span>
-                     <span class="badge">${Array.isArray(data.race.icone) ? data.race.icone.map((x) => img(x, "")).join("") : img(data.race.icone, Array.isArray(data.race.nom) ? data.race.nom.join(" · ") : data.race.nom)}${esc(Array.isArray(data.race.nom) ? data.race.nom.join(" · ") : data.race.nom)}</span>${(data.caracteristiques || []).map((t) => `<span class="badge">${esc(t)}</span>`).join("")}</div>
+                     <span class="badge attribute${data.attribut.icone?.includes("type_icon_dual") ? " double-attribute" : ""}" title="${esc(data.attribut.detail)}">${Array.isArray(data.attribut.icone) ? data.attribut.icone.map((x) => img(x, dataLabel(data.attribut.nom))).join("") : img(data.attribut.icone, dataLabel(data.attribut.nom))}<span class="attribute-name">${esc(dataLabel(data.attribut.nom))}</span></span>
+                     <span class="badge">${Array.isArray(data.race.icone) ? data.race.icone.map((x) => img(x, "")).join("") : img(data.race.icone, dataLabel(Array.isArray(data.race.nom) ? data.race.nom[0] : data.race.nom))}${esc((Array.isArray(data.race.nom) ? data.race.nom : [data.race.nom]).map(dataLabel).join(" · "))}</span>${(data.caracteristiques || []).map((value) => `<span class="badge">${esc(dataLabel(value))}</span>`).join("")}</div>
                      <p class="intro">${rich(data.presentation)}</p>
-                     <div class="evolution-label">Évolution du personnage</div>
-                     <div class="rarities" aria-label="Rareté du personnage">${data["raretés"].map((v, i) => `${i ? '<span class="arrow" aria-hidden="true">→</span>' : ""}<button data-rarity="${esc(v.id)}" class="${v.id === rarity ? "active" : ""}" aria-pressed="${v.id === rarity}">${img(v.icone, v.nom)}</button>`).join("")}</div>
+                     <div class="evolution-label">${t("characterEvolution")}</div>
+                     <div class="rarities" aria-label="${t("characterEvolution")}">${data["raretés"].map((v, i) => `${i ? '<span class="arrow" aria-hidden="true">→</span>' : ""}<button data-rarity="${esc(v.id)}" class="${v.id === rarity ? "active" : ""}" aria-pressed="${v.id === rarity}">${img(v.icone, v.nom)}</button>`).join("")}</div>
                    </div>
                    <div class="stage">
                      <span class="watermark" aria-hidden="true">${esc(r.nom)}</span>${img(r.image, `${data.nom} ${data.designation} — ${r.legendeImage}`, "art")}</div>
                    </div>
-<nav class="section-nav" aria-label="Sections de la fiche">
-<a href="#statistiques">Statistiques</a>
-<a href="#competences">Compétences</a>
-<a href="#garde-robe">Costumes</a>
+<nav class="section-nav" aria-label="${t("heroes")}">
+<a href="#statistiques">${t("statistics")}</a>
+<a href="#competences">${t("skills")}</a>
+<a href="#garde-robe">${t("wardrobe")}</a>
 </nav>
 <section id="statistiques">
 <div class="heading">
 <h2>
-<span class="section-no">01</span>Statistiques</h2>
+<span class="section-no">01</span>${t("statistics")}</h2>
 </div>
 <div class="stats">${stats.principales
                .map(
                   (s) => `<div class="stat">
-<div class="label">${esc(s.nom)}</div>
+<div class="label">${esc(dataLabel(s.nom))}</div>
 <div class="value">${fmt(s.valeur)}</div>
 </div>`,
                )
@@ -304,7 +378,7 @@
                   ? `<div class="substats">${stats.secondaires
                        .map(
                           (s) => `<div class="substat">
-<span>${esc(s.nom)}</span>
+<span>${esc(dataLabel(s.nom))}</span>
 <strong>${fmt(s.valeur)} ${esc(s.unite)}</strong>
 </div>`,
                        )
@@ -314,7 +388,7 @@
 <section id="competences">
 <div class="heading">
 <h2>
-<span class="section-no">02</span>Compétences</h2>
+<span class="section-no">02</span>${t("skills")}</h2>
 </div>
 <div class="two-col" id="attacks">
 </div>
@@ -323,7 +397,7 @@
 <div class="passives">
 <article class="passive unique">
 <div class="passive-head">${specialIcon(r.passif.image, r.passif.nom, r.id === "LR" ? "exclusivelegend_frame.png" : "exclusivenormal_frame.png")}<div>
-<p class="skill-kind">Compétence unique</p>
+<p class="skill-kind">${t("unique")}</p>
 <h3>${rich(r.passif.nom)}</h3>
 </div>
 </div>
@@ -334,25 +408,25 @@ ${specialDescription(r.passif, `unique-${r.id}`)}
 <div class="passive-head relic-head">
    <img class="relic-art" src="${esc(data.relique.image)}" alt="${esc(data.relique.nom)}">
    <div>
-      <p class="skill-kind">Relique sacrée</p>
+      <p class="skill-kind">${t("sacredRelic")}</p>
       <h3>${rich(data.relique.nom)}</h3>
       <p class="relic-description">${rich(data.relique.description)}</p>
    </div>
 </div>
-<section class="relic-passive" aria-label="Passif de la relique">
+<section class="relic-passive" aria-label="${t("passive")}">
    <img src="${esc(data.relique.passif?.image || data.relique.image)}" alt="">
-   <div><span>Passif</span><strong>${rich(data.relique.passif?.nom || data.relique.nom)}</strong><p>${rich(data.relique.passif?.description || "")}</p></div>
+   <div><span>${t("passive")}</span><strong>${rich(data.relique.passif?.nom || data.relique.nom)}</strong><p>${rich(data.relique.passif?.description || "")}</p></div>
 </section>
-<div class="relic-stats">${(data.relique.bonus || []).map((x) => `<span><small>${esc(x.nom)}</small><b>+${fmt(x.valeur)}</b></span>`).join("")}</div>
-${(data.relique.materiaux || []).length ? `<section class="relic-materials"><p class="skill-kind">Matériaux requis</p><div>${data.relique.materiaux.map((x) => `<span title="${esc(x.nom)}"><img src="${esc(x.image)}" alt="${esc(x.nom)}"><b>${fmt(x.quantite)}</b><small>${esc(x.nom)}</small></span>`).join("")}</div></section>` : ""}
-${data.relique.provenance ? `<p class="relic-source"><span>Provenance</span>${esc(data.relique.provenance)}</p>` : ""}
+<div class="relic-stats">${(data.relique.bonus || []).map((x) => `<span><small>${esc(dataLabel(x.nom))}</small><b>+${fmt(x.valeur)}</b></span>`).join("")}</div>
+${(data.relique.materiaux || []).length ? `<section class="relic-materials"><p class="skill-kind">${t("requiredMaterials")}</p><div>${data.relique.materiaux.map((x) => `<span title="${esc(x.nom)}"><img src="${esc(x.image)}" alt="${esc(x.nom)}"><b>${fmt(x.quantite)}</b><small>${esc(x.nom)}</small></span>`).join("")}</div></section>` : ""}
+${data.relique.provenance ? `<p class="relic-source"><span>${t("source")}</span>${esc(data.relique.provenance)}</p>` : ""}
 </article>`
                   : ""
             }${
                data.commandement
                   ? `<article class="passive extra">
 <div class="passive-head">${specialIcon(data.commandement.image, data.commandement.nom, "exclusivetaboo_frame.png")}<div>
-<p class="skill-kind">Commandement</p>
+<p class="skill-kind">${t("commandment")}</p>
 <h3>${rich(data.commandement.nom)}</h3>
 </div>
 </div>
@@ -363,7 +437,7 @@ ${specialDescription(data.commandement, "commandement")}
                data.grace
                   ? `<article class="passive extra">
 <div class="passive-head">${specialIcon(data.grace.image, data.grace.nom, "exclusivegrace_frame.png")}<div>
-<p class="skill-kind">Grâce</p>
+<p class="skill-kind">${t("grace")}</p>
 <h3>${rich(data.grace.nom)}</h3>
 </div>
 </div>
@@ -374,7 +448,7 @@ ${specialDescription(data.grace, "grace")}
                data.union
                   ? `<article class="passive extra">
 <div class="passive-head">${specialIcon(data.union.image, data.union.nom, "exclusivesolidarity_frame.png")}<div>
-<p class="skill-kind">Union</p>
+<p class="skill-kind">${t("union")}</p>
 <h3>${rich(data.union.nom)}</h3>
 </div>
 </div>
@@ -385,7 +459,7 @@ ${specialDescription(data.union, "union")}
                data.talent
                   ? `<article class="passive extra">
 <div class="passive-head">${specialIcon(data.talent.image, data.talent.nom, String(data.talent.cadre || "assets/passive-frames/ability_frame_15.png").split("/").pop())}<div>
-<p class="skill-kind">Talent</p>
+<p class="skill-kind">${t("talent")}</p>
 <h3>${rich(data.talent.nom)}</h3>
 </div>
 </div>
@@ -397,8 +471,8 @@ ${specialDescription(data.talent, "talent")}
 <section id="garde-robe">
 <div class="heading">
 <h2>
-<span class="section-no">03</span>Costumes & accessoires</h2>
-<span class="caption">${data.costumes.length} éléments documentés</span>
+<span class="section-no">03</span>${t("wardrobe")}</h2>
+<span class="caption">${data.costumes.length} ${t("documentedItems")}</span>
 </div>
 <div id="filters" class="filters" aria-label="Catégories de costumes">
 </div>
@@ -465,6 +539,35 @@ ${specialDescription(data.talent, "talent")}
                };
                document.head.appendChild(el);
             });
+         const applyCatalogueTranslation = (entry, translated) => {
+            entry.nom = translated.nom;
+            entry.designation = translated.designation;
+            entry.attributNom = translated.attribut?.nom || entry.attributNom;
+            entry.races = translated.race?.nom || entry.races;
+            entry.caracteristiques = translated.caracteristiques || entry.caracteristiques;
+         };
+         async function localizeCatalogue() {
+            const language = languagePicker.value;
+            if (language === "fr") return;
+            for (const entry of window.cataloguePersonnages || []) {
+               const path = "data/" + language + "/" + entry.id;
+               try {
+                  let translated;
+                  if (location.protocol === "file:") {
+                     await scriptLoad(path + ".js?t=" + Date.now());
+                     translated = window.fichePreparee;
+                  } else {
+                     const response = await fetch(path + ".json", { cache: "no-store" });
+                     if (!response.ok) continue;
+                     translated = await response.json();
+                  }
+                  if (translated) applyCatalogueTranslation(entry, translated);
+               } catch (_) {
+                  // La fiche n'est pas encore traduite : le catalogue garde
+                  // son libellé français sans empêcher les autres traductions.
+               }
+            }
+         }
          const catalogFilters = {
             search: "",
             attribute: "",
@@ -553,7 +656,7 @@ ${specialDescription(data.talent, "talent")}
             box.replaceChildren(...visible.map(makeChoice));
             if (!visible.length)
                box.innerHTML =
-                  '<p class="catalogue-empty">Aucun héros ne correspond à ces critères.</p>';
+                  `<p class="catalogue-empty">${t("noHero")}</p>`;
             if (typeof requestAnimationFrame === "function")
                requestAnimationFrame(measureCaptions);
          }
@@ -561,16 +664,16 @@ ${specialDescription(data.talent, "talent")}
             const box = $("catalogue");
             box.insertAdjacentHTML(
                "beforebegin",
-               `<section class="catalogue-tools" aria-label="Recherche et filtres des héros">
-                  <label class="hero-search" for="hero-search">Rechercher un héros<input id="hero-search" type="search" placeholder="Nom ou sous-titre" autocomplete="off"></label>
+               `<section class="catalogue-tools" aria-label="${t("searchHero")}">
+                  <label class="hero-search" for="hero-search">${t("searchHero")}<input id="hero-search" type="search" placeholder="${t("searchPlaceholder")}" autocomplete="off"></label>
                   <div class="catalogue-filters">
-                     <label>Attribut<select id="filter-attribute"><option value="">Tous les attributs</option></select></label>
-                     <label>Race<select id="filter-race"><option value="">Toutes les races</option></select></label>
-                     <label>Caractéristique<select id="filter-characteristic"><option value="">Toutes les caractéristiques</option></select></label>
-                     <button type="button" class="catalogue-toggle" data-catalog-filter="lr" aria-pressed="false">Éveil LR</button>
-                     <button type="button" class="catalogue-toggle" data-catalog-filter="relic" aria-pressed="false">Relique sacrée</button>
-                     <button type="button" class="catalogue-toggle" data-catalog-initial aria-pressed="false">Grade de départ</button>
-                     <button type="button" class="catalogue-view-toggle" data-catalog-view aria-pressed="false" aria-label="Activer l'affichage vertical" title="Affichage vertical"><span aria-hidden="true">▯</span></button>
+                     <label>${t("attribute")}<select id="filter-attribute"><option value="">${t("allAttributes")}</option></select></label>
+                     <label>${t("race")}<select id="filter-race"><option value="">${t("allRaces")}</option></select></label>
+                     <label>${t("characteristic")}<select id="filter-characteristic"><option value="">${t("allCharacteristics")}</option></select></label>
+                     <button type="button" class="catalogue-toggle" data-catalog-filter="lr" aria-pressed="false">${t("lrAwakening")}</button>
+                     <button type="button" class="catalogue-toggle" data-catalog-filter="relic" aria-pressed="false">${t("sacredRelicFilter")}</button>
+                     <button type="button" class="catalogue-toggle" data-catalog-initial aria-pressed="false">${t("initialGrade")}</button>
+                     <button type="button" class="catalogue-view-toggle" data-catalog-view aria-pressed="false" aria-label="${t("verticalView")}" title="${t("verticalView")}"><span aria-hidden="true">▯</span></button>
                   </div>
                </section>`,
             );
@@ -578,7 +681,7 @@ ${specialDescription(data.talent, "talent")}
                const select = $(id);
                select.insertAdjacentHTML(
                   "beforeend",
-                  values.map((value) => `<option value="${esc(value)}">${esc(value)}</option>`).join(""),
+                  values.map((value) => `<option value="${esc(value)}">${esc(dataLabel(value))}</option>`).join(""),
                );
             };
             setOptions("filter-attribute", catalogValues("attributNom"));
@@ -627,12 +730,12 @@ ${specialDescription(data.talent, "talent")}
                viewButton.setAttribute(
                   "aria-label",
                   catalogFilters.portrait
-                     ? "Activer l'affichage carré"
-                     : "Activer l'affichage vertical",
+                     ? t("squareView")
+                     : t("verticalView"),
                );
                viewButton.title = catalogFilters.portrait
-                  ? "Affichage carré"
-                  : "Affichage vertical";
+                  ? t("squareView")
+                  : t("verticalView");
                renderCatalogue();
             });
             renderCatalogue();
@@ -654,7 +757,7 @@ ${specialDescription(data.talent, "talent")}
             $("landing").hidden = page !== "home";
             $("landing").innerHTML =
                page === "home"
-                  ? `<section class="home-page"><h1>Grand Cross</h1><p>Une archive de personnages, de compétences, de costumes et de données issues du jeu <em>The Seven Deadly Sins: Grand Cross</em>.</p></section>`
+                  ? `<section class="home-page"><h1>Grand Cross</h1><p>${t("homeDescription")} <em>The Seven Deadly Sins: Grand Cross</em>.</p></section>`
                   : "";
             document.querySelectorAll(".main-nav a").forEach((link) => {
                const active = link.hash === `#${page}`;
@@ -663,7 +766,7 @@ ${specialDescription(data.talent, "talent")}
                   ? link.setAttribute("aria-current", "page")
                   : link.removeAttribute("aria-current");
             });
-            document.title = page === "home" ? "Grand Cross" : "Héros · Grand Cross";
+            document.title = page === "home" ? "Grand Cross" : `${t("heroes")} · Grand Cross`;
          }
          async function readData() {
             try {
@@ -675,16 +778,31 @@ ${specialDescription(data.talent, "talent")}
                );
                if (!entry)
                   throw Error(
-                     "Ce personnage ne possède pas encore de fiche préparée.",
+                     languagePicker.value === "en"
+                        ? "This hero does not have a prepared profile yet."
+                        : "Ce personnage ne possède pas encore de fiche préparée.",
                   );
+               const language = languagePicker.value || "fr";
+               const dataPath = "data/" + language + "/" + entry.id;
                let d;
                if (location.protocol === "file:") {
-                  await scriptLoad("data/" + entry.id + ".js?t=" + Date.now());
+                  try {
+                     await scriptLoad(dataPath + ".js?t=" + Date.now());
+                  } catch (error) {
+                     if (language === "fr") throw error;
+                     await scriptLoad("data/fr/" + entry.id + ".js?t=" + Date.now());
+                  }
                   d = window.fichePreparee;
                } else {
-                  const r = await fetch("data/" + entry.id + ".json", {
+                  let r = await fetch(dataPath + ".json", {
                      cache: "no-store",
                   });
+                  // Tant qu'une traduction n'est pas publiée, la fiche
+                  // française reste consultable au lieu de casser la page.
+                  if (!r.ok && language !== "fr")
+                     r = await fetch("data/fr/" + entry.id + ".json", {
+                        cache: "no-store",
+                     });
                   if (!r.ok) throw Error("Données introuvables");
                   d = await r.json();
                }
@@ -703,7 +821,9 @@ ${specialDescription(data.talent, "talent")}
          $("change").onclick = () => (location.href = "index.html#heroes");
          async function start() {
             try {
-               await scriptLoad("data/catalogue.js");
+               await scriptLoad("data/i18n/" + languagePicker.value + ".js");
+               await scriptLoad("data/fr/catalogue.js");
+               await localizeCatalogue();
                const box = $("catalogue");
                box.className = "character-grid";
                configureCatalogue();

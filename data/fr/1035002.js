@@ -1,0 +1,884 @@
+window.fichePreparee={
+  "nom": "Princesse Elizabeth",
+  "designation": "[Une nouvelle aventure]",
+  "titre": "Princesse Elizabeth",
+  "idJeu": "1035002",
+  "attribut": {
+    "nom": "@attribute.3",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.5"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_05__153a123cca908e2c.png"
+    ]
+  },
+  "caracteristiques": [],
+  "portrait": "assets/1035002/images/icon_hero_elizabeth_0006_s__4cb6331804229eef.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Une nouvelle aventure] Princesse Elizabeth possède une compétence qui neutralise les compétences de malus de l'ennemi et une autre qui accorde une immunité aux malus aux alliés.\\nElle est donc efficace contre les ennemis qui utilisent des malus.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1035002/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1035002/images/hero_illust_elizabeth_1035002__b624bf6d82a9a121.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 520.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 280.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 6000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3189
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 40.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Explosion lumineuse »",
+          "image": "assets/1035002/images/icon_elizabeth_support_skill_02__9618d9123630b7fb.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Neutralise les compétences de malus[-] de @target.allEnemies pendant 1 tour(s).",
+              "idJeu": 137011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 120.0,
+              "description": "Inflige des dégâts égaux à 120 % de l'attaque à @target.allEnemies.\\n[00D5FF]Neutralise les compétences de malus[-] pendant 1 tour(s).",
+              "idJeu": 137012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts égaux à 180 % de l'attaque à @target.allEnemies.\\n[00D5FF]Neutralise les compétences de malus[-] pendant 2 tour(s).",
+              "idJeu": 137013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Protection brillante »",
+          "image": "assets/1035002/images/icon_elizabeth_support_skill_05__6bf354a1232211fa.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneAlly",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Retire les malus[-] de @target.oneAlly.",
+              "idJeu": 137041,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/heal.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Retire les malus[-] et soigne les PV de @target.oneAlly à hauteur de 300 % de l'attaque.\\nOctroie [00D5FF]Immunité aux malus[-] pendant 2 tour(s).",
+              "idJeu": 137042,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/heal.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Retire les malus[-] et soigne les PV de @target.allAllies à hauteur de 300 % de l'attaque.\\nOctroie [00D5FF]Immunité aux malus[-] pendant 2 tour(s).",
+              "idJeu": 137043,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Responsabilité de vie »",
+        "image": "assets/commun/icon_elizabeth_support_special_01__ea40c0fcad45c5ae.png",
+        "cible": "@target.allAllies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 420 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 462 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 504 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 546 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 588 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 630 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cœur assidu",
+        "image": "assets/1035002/images/icon_exclusive_skill_1035002__188934400286c965.png",
+        "description": "Quand le héros meurt : retire les malus de tous les alliés, soigne tous leurs PV et remplit la jauge de coup ultime de [FFAE00]2  orbe(s)[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Quand le héros meurt : retire les malus de tous les alliés, soigne tous leurs PV et remplit la jauge de coup ultime de [FFAE00]2  orbe(s)[-]."
+          }
+        ]
+      },
+      "idForme": 300211,
+      "portrait": "assets/1035002/images/icon_hero_elizabeth_0025_s__159d41749d381aa0.png",
+      "portraitVertical": "assets/commun/icon_skin_elizabeth_0025_l__938d9bfde2e2cb03.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1035002/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1035002/images/hero_illust_elizabeth_1035002__b624bf6d82a9a121.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 660.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 440.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7700.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3797
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 40.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Explosion lumineuse »",
+          "image": "assets/1035002/images/icon_elizabeth_support_skill_02__9618d9123630b7fb.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Neutralise les compétences de malus[-] de @target.allEnemies pendant 1 tour(s).",
+              "idJeu": 137011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 120.0,
+              "description": "Inflige des dégâts égaux à 120 % de l'attaque à @target.allEnemies.\\n[00D5FF]Neutralise les compétences de malus[-] pendant 1 tour(s).",
+              "idJeu": 137012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts égaux à 180 % de l'attaque à @target.allEnemies.\\n[00D5FF]Neutralise les compétences de malus[-] pendant 2 tour(s).",
+              "idJeu": 137013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Protection brillante »",
+          "image": "assets/1035002/images/icon_elizabeth_support_skill_05__6bf354a1232211fa.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneAlly",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Retire les malus[-] de @target.oneAlly.",
+              "idJeu": 137041,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/heal.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Retire les malus[-] et soigne les PV de @target.oneAlly à hauteur de 300 % de l'attaque.\\nOctroie [00D5FF]Immunité aux malus[-] pendant 2 tour(s).",
+              "idJeu": 137042,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/heal.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Retire les malus[-] et soigne les PV de @target.allAllies à hauteur de 300 % de l'attaque.\\nOctroie [00D5FF]Immunité aux malus[-] pendant 2 tour(s).",
+              "idJeu": 137043,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Responsabilité de vie »",
+        "image": "assets/commun/icon_elizabeth_support_special_01__ea40c0fcad45c5ae.png",
+        "cible": "@target.allAllies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 420 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 462 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 504 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 546 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 588 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "Soigne les PV de @target.allAllies à hauteur de 630 % de l'attaque et [00D5FF]remplit[-] la jauge de coup ultime de 2 [FFAE00] orbe(s)[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cœur assidu",
+        "image": "assets/1035002/images/icon_exclusive_skill_1035002__188934400286c965.png",
+        "description": "Quand le héros meurt : retire les malus de tous les alliés, soigne tous leurs PV et remplit la jauge de coup ultime de [FFAE00]2  orbe(s)[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Quand le héros meurt : retire les malus de tous les alliés, soigne tous leurs PV et remplit la jauge de coup ultime de [FFAE00]2  orbe(s)[-]."
+          }
+        ]
+      },
+      "idForme": 300205,
+      "portrait": "assets/1035002/images/icon_hero_elizabeth_0006_s__4cb6331804229eef.png",
+      "portraitVertical": "assets/commun/icon_skin_elizabeth_0006_l__b1f6fa07fb05d2e1.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3300212",
+      "categorie": "Skin",
+      "nom": "Robe bleu clair",
+      "image": "assets/commun/icon_skin_elizabeth_0026_l__a1002eea5cd1dce4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300211",
+      "categorie": "Skin",
+      "nom": "Bretelle tour du cou (ruban rose)",
+      "image": "assets/commun/icon_skin_elizabeth_0025_l__938d9bfde2e2cb03.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300217",
+      "categorie": "Skin",
+      "nom": "Habits douillets d'hiver",
+      "image": "assets/commun/icon_skin_elizabeth_0039_l__265bd697ebe09ed4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300264",
+      "categorie": "Skin",
+      "nom": "Tenue de combat de la Flamme noire",
+      "image": "assets/commun/icon_skin_elizabeth_0028_l__2002eb38f32cab3b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300270",
+      "categorie": "Skin",
+      "nom": "Tenue sacrée",
+      "image": "assets/commun/icon_skin_elizabeth_0044_l__450647720142e46d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300251",
+      "categorie": "Skin",
+      "nom": "Ciel d'Azur",
+      "image": "assets/commun/icon_skin_elizabeth_0027_l__5b1ba4175507b859.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300263",
+      "categorie": "Skin",
+      "nom": "Serveuse mascotte",
+      "image": "assets/commun/icon_skin_elizabeth_0024_l__40481ce6f183a25a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300258",
+      "categorie": "Skin",
+      "nom": "Robe antique",
+      "image": "assets/commun/icon_skin_elizabeth_0005_l__1dc1d88d747f0b17.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300202",
+      "categorie": "Skin",
+      "nom": "Héroïne de Liones",
+      "image": "assets/commun/icon_skin_elizabeth_0008_l__7314d2aedaba9e4f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300262",
+      "categorie": "Skin",
+      "nom": "Aventure palpitante",
+      "image": "assets/commun/icon_skin_elizabeth_0035_l__2bcb7b267548a807.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300277",
+      "categorie": "Skin",
+      "nom": "Cavalière élégante",
+      "image": "assets/commun/icon_skin_elizabeth_0068_l__fdda61d552c46be8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300215",
+      "categorie": "Skin",
+      "nom": "Tenue basique",
+      "image": "assets/commun/icon_skin_elizabeth_0007_l__1a82609758cdec10.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300213",
+      "categorie": "Skin",
+      "nom": "Disciple de la Déesse",
+      "image": "assets/commun/icon_skin_elizabeth_0001_l__3e973558156f2842.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300204",
+      "categorie": "Skin",
+      "nom": "Robe de princesse",
+      "image": "assets/commun/icon_skin_elizabeth_0002_l__34a4392c90aef727.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300205",
+      "categorie": "Skin",
+      "nom": "Prêtresse druide",
+      "image": "assets/commun/icon_skin_elizabeth_0006_l__b1f6fa07fb05d2e1.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300218",
+      "categorie": "Skin",
+      "nom": "Bénédiction du flocon bleu",
+      "image": "assets/commun/icon_skin_elizabeth_0047_l__6545e5e5e2a27d77.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300219",
+      "categorie": "Skin",
+      "nom": "Robe resplendissante du flocon",
+      "image": "assets/commun/icon_skin_elizabeth_0064_l__e6715e051fa89049.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300216",
+      "categorie": "Skin",
+      "nom": "Serveuse royale",
+      "image": "assets/commun/icon_skin_elizabeth_0013_l__83d218b23dff23db.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300257",
+      "categorie": "Skin",
+      "nom": "Pyjama de rêve",
+      "image": "assets/commun/icon_skin_elizabeth_0036_l__2eae55eb2fbfc5b5.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300267",
+      "categorie": "Skin",
+      "nom": "Robe stellaire des 100 nuits",
+      "image": "assets/commun/icon_skin_elizabeth_0046_l__8810f40dbbacf4f3.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300268",
+      "categorie": "Skin",
+      "nom": "Bienvenue au Chapeau du cochon",
+      "image": "assets/commun/icon_skin_elizabeth_0033_l__26d0b6763df0f694.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300274",
+      "categorie": "Skin",
+      "nom": "Uniforme vert d'acclamation",
+      "image": "assets/commun/icon_skin_elizabeth_0053_l__721236931e2aa949.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300276",
+      "categorie": "Skin",
+      "nom": "Souvenir de Saint-Valentin",
+      "image": "assets/commun/icon_skin_elizabeth_0054_l__f33ad7eb388ed062.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300272",
+      "categorie": "Skin",
+      "nom": "Érosion de l'ombre corrompue",
+      "image": "assets/commun/icon_skin_elizabeth_0048_l__074d463c9ed88c75.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017025",
+      "categorie": "Skin",
+      "nom": "Tenue basique",
+      "image": "assets/commun/icon_skin_elizabeth_0008_l__7314d2aedaba9e4f.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017064",
+      "categorie": "Skin",
+      "nom": "Sweat à capuche de la [b]Trombe[/b]",
+      "image": "assets/commun/hero_elizabeth_body_0049_D__833c59c2f2239916.png",
+      "rarete": ""
+    },
+    {
+      "id": "952101",
+      "categorie": "Weapon",
+      "nom": "Anneau de la princesse",
+      "image": "assets/commun/icon_weapon_elizabeth_0026_l__1a0dc5cb46107f13.png",
+      "rarete": ""
+    },
+    {
+      "id": "952102",
+      "categorie": "Weapon",
+      "nom": "Anneau en saphir bleu",
+      "image": "assets/commun/icon_weapon_elizabeth_0027_l__c23ddc7944cdded9.png",
+      "rarete": ""
+    },
+    {
+      "id": "952103",
+      "categorie": "Weapon",
+      "nom": "Anneau fleur printanière",
+      "image": "assets/commun/icon_weapon_elizabeth_0005_l__316318c4b2f87d47.png",
+      "rarete": ""
+    },
+    {
+      "id": "952104",
+      "categorie": "Weapon",
+      "nom": "Anneau scintillant",
+      "image": "assets/commun/icon_weapon_elizabeth_0046_l__9668fb3ca47362b2.png",
+      "rarete": ""
+    },
+    {
+      "id": "952108",
+      "categorie": "Weapon",
+      "nom": "Anneau de la victoire",
+      "image": "assets/commun/icon_weapon_elizabeth_0068_l__eb453e236eee965f.png",
+      "rarete": ""
+    },
+    {
+      "id": "952105",
+      "categorie": "Weapon",
+      "nom": "Anneau des ténèbres",
+      "image": "assets/commun/icon_weapon_elizabeth_0048_l__74c805ae30f61c93.png",
+      "rarete": ""
+    },
+    {
+      "id": "952106",
+      "categorie": "Weapon",
+      "nom": "Anneau des vœux",
+      "image": "assets/commun/icon_weapon_elizabeth_0054_l__695013cc5fc80173.png",
+      "rarete": ""
+    },
+    {
+      "id": "952107",
+      "categorie": "Weapon",
+      "nom": "Essence d'Yggdrasil",
+      "image": "assets/commun/icon_weapon_elizabeth_0005_l__316318c4b2f87d47.png",
+      "rarete": ""
+    },
+    {
+      "id": "952109",
+      "categorie": "Weapon",
+      "nom": "Anneau hivernal stellaire",
+      "image": "assets/commun/icon_weapon_elizabeth_0064_l__8991c08427b3fa73.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035001",
+      "categorie": "Head",
+      "nom": "Princesse",
+      "image": "assets/commun/icon_head_elizabeth_0004_l__87d47162e626b6b2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035013",
+      "categorie": "Head",
+      "nom": "Casquette de la Flamme noire",
+      "image": "assets/commun/icon_head_elizabeth_0028_l__3d45e843372e7cc0.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035018",
+      "categorie": "Head",
+      "nom": "Chapeau de sainte",
+      "image": "assets/commun/icon_head_elizabeth_0044_l__d2f2bcc035232f1e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035003",
+      "categorie": "Head",
+      "nom": "Lapin bondissant",
+      "image": "assets/commun/icon_head_elizabeth_0504_l__61da2536a0d3b528.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035009",
+      "categorie": "Head",
+      "nom": "Lapin mignon",
+      "image": "assets/commun/icon_head_elizabeth_0505_l__6e5bbdef6fb2ae99.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035005",
+      "categorie": "Head",
+      "nom": "Ruban rose",
+      "image": "assets/commun/icon_head_elizabeth_0507_l__01e5b98ebfaaaa3d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035007",
+      "categorie": "Head",
+      "nom": "Princesse stellaire",
+      "image": "assets/commun/icon_head_elizabeth_0508_l__ab2d534050f348fb.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035008",
+      "categorie": "Head",
+      "nom": "Diadème divin",
+      "image": "assets/commun/icon_head_elizabeth_0503_l__0a36567fd40035a4.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035012",
+      "categorie": "Head",
+      "nom": "Serre-tête floral",
+      "image": "assets/commun/icon_head_elizabeth_0506_l__2b60e0422b94cfa9.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035024",
+      "categorie": "Head",
+      "nom": "Bombe d'équitation",
+      "image": "assets/commun/icon_head_elizabeth_0068_l__5847b90e7d50a1d2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035023",
+      "categorie": "Head",
+      "nom": "Couronne resplendissante du flocon",
+      "image": "assets/commun/icon_head_elizabeth_0064_l__0ea947235ed7e054.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035006",
+      "categorie": "Head",
+      "nom": "Comme Veronica !",
+      "image": "assets/commun/icon_head_elizabeth_0502_l__d6e3a37c310e6b8e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035010",
+      "categorie": "Head",
+      "nom": "Cheveux attachés",
+      "image": "assets/commun/icon_head_elizabeth_0039_l__82c22c479b98cfc7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035014",
+      "categorie": "Head",
+      "nom": "Tiare stellaire des 100 nuits",
+      "image": "assets/commun/icon_head_elizabeth_0046_l__e2a143e7a9bc7f43.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035015",
+      "categorie": "Head",
+      "nom": "Chapeau de fête des 100 jours",
+      "image": "assets/commun/icon_head_elizabeth_0509_l__7dde6d83ddf53908.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035016",
+      "categorie": "Head",
+      "nom": "Bandeau de fête des 100 jours",
+      "image": "assets/commun/icon_head_elizabeth_0510_l__97e569454585037a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035017",
+      "categorie": "Head",
+      "nom": "Ouvert au commerce",
+      "image": "assets/commun/icon_head_elizabeth_0033_l__52b09536d3fa8215.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035021",
+      "categorie": "Head",
+      "nom": "Chapeau vert d'acclamation",
+      "image": "assets/commun/icon_head_elizabeth_0053_l__f675f33f908d1f91.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035022",
+      "categorie": "Head",
+      "nom": "Ruban blanc",
+      "image": "assets/commun/icon_head_elizabeth_0054_l__301c82cc4d9de10e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035019",
+      "categorie": "Head",
+      "nom": "Chapeau de fortune",
+      "image": "assets/commun/icon_head_elizabeth_0047_l__83055089a665b453.png",
+      "rarete": ""
+    },
+    {
+      "id": "4035020",
+      "categorie": "Head",
+      "nom": "Malédiction de l'ombre corrompue",
+      "image": "assets/commun/icon_head_elizabeth_0048_l__32f5471dcb5ae4b3.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Essence d'Yggdrasil",
+    "image": "assets/commun/icon_weapon_elizabeth_0551_s__32ed97daa51e0438.png",
+    "description": "Relique sacrée d'Elizabeth, serveuse et de Princesse Elizabeth (arme).\\n[DC143C]L'essence d'Yggdrasil, qui renferme une énergie vitale infinie. Son énergie intarissable est une source de vitalité infinie.[-]",
+    "passif": {
+      "nom": "Essence d'Yggdrasil",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Augmente les stats de PV des alliés de [FFAE00]15 %[-]."
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 140.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 500.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 4800.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source de la rivière",
+        "image": "assets/commun/icon_craft_costume_rare_material_02__e36c06d52934a316.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Sublimité des Valkyries",
+        "image": "assets/commun/icon_craft_costume_material_06__40106a5d96ba9275.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique dorée",
+        "image": "assets/commun/icon_craft_costume_key_material_03__b17c117dc6b293be.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Méticulosité d'Eitri",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Eikthyrnir"
+  }
+};

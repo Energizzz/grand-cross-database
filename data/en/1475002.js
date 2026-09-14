@@ -1,0 +1,1069 @@
+window.fichePreparee={
+  "nom": "Holy Knight Escanor",
+  "designation": "\"Sunshine\"",
+  "titre": "Holy Knight Escanor",
+  "idJeu": "1475002",
+  "attribut": {
+    "nom": "@attribute.2",
+    "icone": "assets/commun/icon_filter_attribute_02__ea1406c9830f7566.png",
+    "couleur": "#67c778",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/1475002/images/icon_hero_escanor_0026_s__ac888f87a341fd86.png",
+  "rareteParDefaut": "LR",
+  "presentation": "\"Sunshine\" Holy Knight Escanor has a skill which fills an additional orb in his Ultimate Move Gauge when used and another skill which removes Buffs and Ignites the target. His Ultimate Move inflicts great damage on one enemy.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1475002/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1475002/images/hero_illust_escanor_1475002__9a4f0f4e0a2c114b.png",
+      "legendeImage": "escanor_0009",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 560.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 380.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3659
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Elegant Blow\"",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_01__0311625cef8f81ed.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflicts damage equal to 240 % of Attack on @target.oneEnemy.",
+              "idJeu": 157001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts damage equal to 300 % of Attack on @target.oneEnemy and fills 1 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 157002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts damage equal to 500 % of Attack on @target.oneEnemy and fills 2 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 157003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Cruel Sun\"",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_04__01778afba00a0c2d.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflicts damage equal to 180 % of Attack on @target.oneEnemy. [00D5FF]Ignites[-] for 3 tour(s).\\n\\n[00D5FF]※Ignite: Damage taken by target(s) [FFAE00]+[-]10 % (Can be stacked).[-]",
+              "idJeu": 157031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "[00D5FF]Removes Buffs[-] from @target.oneEnemy and inflicts damage equal to 180 % of Attack. [00D5FF]Ignites[-] for 3 tour(s).\\n\\n[00D5FF]※Ignite: Damage taken by target(s) [FFAE00]+[-]10 % (Can be stacked).[-]",
+              "idJeu": 157032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Removes Buffs[-] from @target.oneEnemy and inflicts damage equal to 300 % of Attack. Applies [FFAE00]2[-] [00D5FF]Ignite[-] effects for 4 tour(s).\\n\\n[00D5FF]※Ignite: Damage taken by target(s) [FFAE00]+[-]10 % (Can be stacked)[-].",
+              "idJeu": 157033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Punishment\"",
+        "image": "assets/1475002/images/icon_escanor_ssr_type01_special_01__b36cb13445f119bf.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 840.0,
+            "description": "Inflicts damage equal to 840 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 924.0,
+            "description": "Inflicts damage equal to 924 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 1008.0,
+            "description": "Inflicts damage equal to 1008 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 1092.0,
+            "description": "Inflicts damage equal to 1092 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 1176.0,
+            "description": "Inflicts damage equal to 1176 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 1260.0,
+            "description": "Inflicts damage equal to 1260 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "The One at the Pinnacle",
+        "image": "assets/1475002/images/icon_exclusive_skill_1475002__ff2db41925434dea.png",
+        "description": "Removes Buffs and Debuffs from self and becomes immune to such effects when the hero's Ultimate Move Gauge is completely filled.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Removes Buffs and Debuffs from self and becomes immune to such effects when the hero's Ultimate Move Gauge is completely filled."
+          }
+        ]
+      },
+      "idForme": 312003,
+      "portrait": "assets/1475002/images/icon_hero_escanor_0009_s__882542f805ebdfec.png",
+      "portraitVertical": "assets/1475002/images/icon_skin_escanor_0009_l__6b8a34e4ab9fae8b.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1475002/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1475002/images/hero_illust_escanor_1475002__9a4f0f4e0a2c114b.png",
+      "legendeImage": "escanor_0010",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 720.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 430.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4259
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Elegant Blow\"",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_01__0311625cef8f81ed.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflicts damage equal to 240 % of Attack on @target.oneEnemy.",
+              "idJeu": 157001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts damage equal to 300 % of Attack on @target.oneEnemy and fills 1 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 157002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts damage equal to 500 % of Attack on @target.oneEnemy and fills 2 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 157003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Cruel Sun\"",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_04__01778afba00a0c2d.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflicts damage equal to 180 % of Attack on @target.oneEnemy. [00D5FF]Ignites[-] for 3 tour(s).\\n\\n[00D5FF]※Ignite: Damage taken by target(s) [FFAE00]+[-]10 % (Can be stacked).[-]",
+              "idJeu": 157031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "[00D5FF]Removes Buffs[-] from @target.oneEnemy and inflicts damage equal to 180 % of Attack. [00D5FF]Ignites[-] for 3 tour(s).\\n\\n[00D5FF]※Ignite: Damage taken by target(s) [FFAE00]+[-]10 % (Can be stacked).[-]",
+              "idJeu": 157032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Removes Buffs[-] from @target.oneEnemy and inflicts damage equal to 300 % of Attack. Applies [FFAE00]2[-] [00D5FF]Ignite[-] effects for 4 tour(s).\\n\\n[00D5FF]※Ignite: Damage taken by target(s) [FFAE00]+[-]10 % (Can be stacked)[-].",
+              "idJeu": 157033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Punishment\"",
+        "image": "assets/1475002/images/icon_escanor_ssr_type01_special_01__b36cb13445f119bf.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 840.0,
+            "description": "Inflicts damage equal to 840 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 924.0,
+            "description": "Inflicts damage equal to 924 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 1008.0,
+            "description": "Inflicts damage equal to 1008 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 1092.0,
+            "description": "Inflicts damage equal to 1092 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 1176.0,
+            "description": "Inflicts damage equal to 1176 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 1260.0,
+            "description": "Inflicts damage equal to 1260 % of Attack on @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "The One at the Pinnacle",
+        "image": "assets/1475002/images/icon_exclusive_skill_1475002__ff2db41925434dea.png",
+        "description": "Removes Buffs and Debuffs from self and becomes immune to such effects when the hero's Ultimate Move Gauge is completely filled.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Removes Buffs and Debuffs from self and becomes immune to such effects when the hero's Ultimate Move Gauge is completely filled."
+          }
+        ]
+      },
+      "idForme": 312004,
+      "portrait": "assets/1475002/images/icon_hero_escanor_0010_s__6b8d32068a5ee3ca.png",
+      "portraitVertical": "assets/1475002/images/icon_skin_escanor_0010_l__e4ebe8a9b3ae1780.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1475002/images/hero_illust_escanor_1475002__9a4f0f4e0a2c114b.png",
+      "legendeImage": "escanor_0026",
+      "niveau": 100,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 850.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 450.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9300.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5690
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 120.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 230.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Elegant Blow\"",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_01__0311625cef8f81ed.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 264.0,
+              "description": "Inflicts [00D5FF]Blast[-] damage equal to 264 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Blast: [FFAE00]+40 %[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+              "idJeu": 157041,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 330.0,
+              "description": "Inflicts [00D5FF]Blast[-] damage equal to 330 % of Attack on @target.oneEnemy, then fills the Ultimate Move Gauge by 1 % [FFAE00]orb(s)[-].\\n\\n[00D5FF]※Blast: [FFAE00]+40%[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+              "idJeu": 157042,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 550.0,
+              "description": "Inflicts [00D5FF]Blast[-] damage equal to 550 % of Attack on @target.oneEnemy, then fills the Ultimate Move Gauge by 2 % [FFAE00]orb(s)[-].\\n\\n[00D5FF]※Blast: [FFAE00]+40%[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+              "idJeu": 157043,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Cruel Sun\"",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_04__01778afba00a0c2d.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "[00D5FF]Removes Buffs[-] from @target.oneEnemy and inflicts damage equal to 180 % of Attack. Applies [FFAE00]2[-] [00D5FF]Burn[-] effects for 2 tour(s).\\n\\n[00D5FF]※Burn: Damage taken [FFAE00]+[-]10 %.\\nInflicts additional damage equal to [FFAE00]5%[-] of remaining HP at the end of every turn.\\n(Can be stacked)[-]",
+              "idJeu": 157051,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 220.0,
+              "description": "[00D5FF]Removes Buffs and Stances[-] from @target.oneEnemy and inflicts damage equal to 220 % of Attack. Applies [FFAE00]3[-] [00D5FF]Burn[-] effects for 2 tour(s).\\n\\n[00D5FF]※Burn: Damage taken [FFAE00]+[-]10 %.\\nInflicts additional damage equal to [FFAE00]5%[-] of remaining HP at the end of every turn.\\n(Can be stacked)[-]",
+              "idJeu": 157052,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Removes Buffs and Stances[-] from @target.oneEnemy and inflicts damage equal to 300 % of Attack. Applies [FFAE00]4[-] [00D5FF]Burn[-] effects for 2 tour(s).\\n\\n[00D5FF]※Burn: Damage taken [FFAE00]+[-]10 %.\\nInflicts additional damage equal to [FFAE00]5%[-] of remaining HP at the end of every turn.\\n(Can be stacked)[-]",
+              "idJeu": 157053,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Punishment\"",
+        "image": "assets/1475002/images/icon_escanor_ssr_type01_special_01__b36cb13445f119bf.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 840.0,
+            "description": "Inflicts [00D5FF]Blast[-] damage equal to 840 % of Attack on @target.oneEnemy, ignoring 30 % of Crit Resistance.\\n\\n[00D5FF]※Blast: [FFAE00]+40 %[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 924.0,
+            "description": "Inflicts [00D5FF]Blast[-] damage equal to 924 % of Attack on @target.oneEnemy, ignoring 40 % of Crit Resistance.\\n\\n[00D5FF]※Blast: [FFAE00]+40 %[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 1008.0,
+            "description": "Inflicts [00D5FF]Blast[-] damage equal to 1008 % of Attack on @target.oneEnemy, ignoring 50 % of Crit Resistance.\\n\\n[00D5FF]※Blast: [FFAE00]+40 %[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 1092.0,
+            "description": "Inflicts [00D5FF]Blast[-] damage equal to 1092 % of Attack on @target.oneEnemy, ignoring 65 % of Crit Resistance.\\n\\n[00D5FF]※Blast: [FFAE00]+40 %[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 1176.0,
+            "description": "Inflicts [00D5FF]Blast[-] damage equal to 1176 % of Attack on @target.oneEnemy, ignoring 80 % of Crit Resistance.\\n\\n[00D5FF]※Blast: [FFAE00]+40 %[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 1260.0,
+            "description": "Inflicts [00D5FF]Blast[-] damage equal to 1260 % of Attack on @target.oneEnemy, ignoring 100 % of Crit Resistance.\\n\\n[00D5FF]※Blast: [FFAE00]+40 %[-] damage dealt per Eternal Flame and Burn effect on target.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "The One at the Pinnacle",
+        "image": "assets/1475002/images/icon_exclusive_skill_1475002__ff2db41925434dea.png",
+        "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, Applicable Allies' basic stats increase by [FFAE00]4%[-] and all of the hero's stats increase by [FFAE00]3%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nIf all allies are [00D5FF]Applicable Allies[-] [00D5FF]including in the Secondary Slot[-], all enemies are inflicted with [FFAE00]2[-] stacks of [00D5FF]Eternal Flame[-] for [FFAE00]3 turns[-] at the start of the battle, and [FFAE00]1[-] [00D5FF]Eternal Flame[-] for [FFAE00]3 turns[-] at the start of the allies' turn.\\n[i][C0C0C0]※Eternal Flame: Damage dealt [FFAE00]-30%[-], damage taken [FFAE00]+30%[-].\\n(Stacks [FFAE00]4 times[-])[-][/i]\\n\\nAfter the hero uses a skill, [FFAE00]each[-] [00D5FF]Eternal Flame[-] on enemies inflicts additional damage equal to [FFAE00]5%[-] of the hero's Max HP, then increases the hero's Attack-related stats by [FFAE00]5%[-] up to a maximum of [FFAE00]60%[-].\\n\\nWhen the hero's Ultimate Move Gauge is completely filled, the hero [00D5FF]removes all Buffs and Debuff effects[-] from self and becomes [00D5FF]immune[-] to them.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, Applicable Allies' basic stats increase by [FFAE00]4%[-] and all of the hero's stats increase by [FFAE00]3%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nIf all allies are [00D5FF]Applicable Allies[-] [00D5FF]including in the Secondary Slot[-], all enemies are inflicted with [FFAE00]2[-] stacks of [00D5FF]Eternal Flame[-] for [FFAE00]3 turns[-] at the start of the battle, and [FFAE00]1[-] [00D5FF]Eternal Flame[-] for [FFAE00]3 turns[-] at the start of the allies' turn.\\n[i][C0C0C0]※Eternal Flame: Damage dealt [FFAE00]-30%[-], damage taken [FFAE00]+30%[-].\\n(Stacks [FFAE00]4 times[-])[-][/i]\\n\\nAfter the hero uses a skill, [FFAE00]each[-] [00D5FF]Eternal Flame[-] on enemies inflicts additional damage equal to [FFAE00]5%[-] of the hero's Max HP, then increases the hero's Attack-related stats by [FFAE00]5%[-] up to a maximum of [FFAE00]60%[-].\\n\\nWhen the hero's Ultimate Move Gauge is completely filled, the hero [00D5FF]removes all Buffs and Debuff effects[-] from self and becomes [00D5FF]immune[-] to them."
+          }
+        ]
+      },
+      "idForme": 312005,
+      "portrait": "assets/1475002/images/icon_hero_escanor_0026_s__ac888f87a341fd86.png",
+      "portraitVertical": "assets/1475002/images/icon_skin_escanor_0026_l__0a2afa262573b41d.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3312001",
+      "categorie": "Skin",
+      "nom": "Light Battle Armor",
+      "image": "assets/1475002/images/icon_skin_escanor_0003_l__cc87566653c35667.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312003",
+      "categorie": "Skin",
+      "nom": "Everyday Clothes",
+      "image": "assets/1475002/images/icon_skin_escanor_0009_l__6b8a34e4ab9fae8b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312053",
+      "categorie": "Skin",
+      "nom": "Black Flame Battle Uniform",
+      "image": "assets/1475002/images/icon_skin_escanor_0012_l__3b4da36f56268168.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312054",
+      "categorie": "Skin",
+      "nom": "Most Malevolent Knight Armor",
+      "image": "assets/1475002/images/icon_skin_escanor_0008_l__7986d2da84f72c37.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312055",
+      "categorie": "Skin",
+      "nom": "Dignity of the Blue Snowflake",
+      "image": "assets/1475002/images/icon_skin_escanor_0013_l__e09276bc30d32654.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312056",
+      "categorie": "Skin",
+      "nom": "Holy Knight of Justice",
+      "image": "assets/1475002/images/icon_skin_escanor_0017_l__53c1096cf5c38c13.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312050",
+      "categorie": "Skin",
+      "nom": "Tavern Owner",
+      "image": "assets/1475002/images/icon_skin_escanor_0004_l__9306c78e255ff7a7.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312051",
+      "categorie": "Skin",
+      "nom": "Mysteries of the East",
+      "image": "assets/1475002/images/icon_skin_escanor_0005_l__b3dd8c678dd2d98a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312052",
+      "categorie": "Skin",
+      "nom": "Sun God",
+      "image": "assets/1475002/images/icon_skin_escanor_0007_l__167bc5a7639f1da0.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312002",
+      "categorie": "Skin",
+      "nom": "Holy Knight Armor",
+      "image": "assets/1475002/images/icon_skin_escanor_0006_l__a685c9da60ad4375.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312004",
+      "categorie": "Skin",
+      "nom": "Wild Combat Outfit",
+      "image": "assets/1475002/images/icon_skin_escanor_0010_l__e4ebe8a9b3ae1780.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312005",
+      "categorie": "Skin",
+      "nom": "Brilliant Combat Suit",
+      "image": "assets/1475002/images/icon_skin_escanor_0026_l__0a2afa262573b41d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312049",
+      "categorie": "Skin",
+      "nom": "Mint Green Cheering Uniform",
+      "image": "assets/1475002/images/icon_skin_escanor_0021_l__461fb5db67486b3b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312048",
+      "categorie": "Skin",
+      "nom": "Hero Suit - Yellow",
+      "image": "assets/1475002/images/icon_skin_escanor_0020_l__077f01fe51e84e8d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312058",
+      "categorie": "Skin",
+      "nom": "Blue Wind Cheering Uniform",
+      "image": "assets/1475002/images/icon_skin_escanor_0025_l__88a6d698fd4a22a0.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312057",
+      "categorie": "Skin",
+      "nom": "Erosion of the Corrupted Shadow",
+      "image": "assets/1475002/images/icon_skin_escanor_0018_l__5eedd491284b71d1.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017022",
+      "categorie": "Skin",
+      "nom": "Sun God",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017023",
+      "categorie": "Skin",
+      "nom": "Sun God",
+      "image": "assets/1475002/images/icon_skin_escanor_0002_l__aaa0248f8c2f814b.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017028",
+      "categorie": "Skin",
+      "nom": "Sun God",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017039",
+      "categorie": "Skin",
+      "nom": "Sun God",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017040",
+      "categorie": "Skin",
+      "nom": "Sun God",
+      "image": "assets/1475002/images/hero_escanor_11h59m_body_0001_D__cfa36c022599e7df.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017057",
+      "categorie": "Skin",
+      "nom": "Tornado Hoodie",
+      "image": "assets/1475002/images/hero_escanor_body_0024_D__3d904b7c9f01fda6.png",
+      "rarete": ""
+    },
+    {
+      "id": "855001",
+      "categorie": "Weapon",
+      "nom": "Sturdy Hatchet",
+      "image": "assets/1475002/images/icon_weapon_escanor_0509_l__910d86f4b0aaa567.png",
+      "rarete": ""
+    },
+    {
+      "id": "855002",
+      "categorie": "Weapon",
+      "nom": "Chipped Battle Axe",
+      "image": "assets/1475002/images/icon_weapon_escanor_0501_l__bf732565b754f1cd.png",
+      "rarete": ""
+    },
+    {
+      "id": "855003",
+      "categorie": "Weapon",
+      "nom": "Cracked Earth",
+      "image": "assets/1475002/images/icon_weapon_escanor_0502_l__455369063ce6b9db.png",
+      "rarete": ""
+    },
+    {
+      "id": "855004",
+      "categorie": "Weapon",
+      "nom": "Sun God's Smite",
+      "image": "assets/1475002/images/icon_weapon_escanor_0503_l__dda369b8b06e969b.png",
+      "rarete": ""
+    },
+    {
+      "id": "855010",
+      "categorie": "Weapon",
+      "nom": "Sacred Axe Rhitta",
+      "image": "assets/1475002/images/icon_weapon_escanor_0001_l__1690a77e8c1214b7.png",
+      "rarete": ""
+    },
+    {
+      "id": "855050",
+      "categorie": "Weapon",
+      "nom": "Black Flame Battle Weapon",
+      "image": "assets/1475002/images/icon_weapon_escanor_0012_l__58d0ae0eef9d0618.png",
+      "rarete": ""
+    },
+    {
+      "id": "855051",
+      "categorie": "Weapon",
+      "nom": "Dark Magic Axe",
+      "image": "assets/1475002/images/icon_weapon_escanor_0008_l__452098500858a271.png",
+      "rarete": ""
+    },
+    {
+      "id": "855052",
+      "categorie": "Weapon",
+      "nom": "Blue Avalanche",
+      "image": "assets/1475002/images/icon_weapon_escanor_0013_l__66b4a88453dc11f7.png",
+      "rarete": ""
+    },
+    {
+      "id": "855053",
+      "categorie": "Weapon",
+      "nom": "Steel Guarding Axe",
+      "image": "assets/1475002/images/icon_weapon_escanor_0017_l__d9081e7fefbd92b5.png",
+      "rarete": ""
+    },
+    {
+      "id": "855006",
+      "categorie": "Weapon",
+      "nom": "Ominously Twisted Axe",
+      "image": "assets/1475002/images/icon_weapon_escanor_0505_l__7f310cd67e4c7412.png",
+      "rarete": ""
+    },
+    {
+      "id": "855007",
+      "categorie": "Weapon",
+      "nom": "Planetary Explosion",
+      "image": "assets/1475002/images/icon_weapon_escanor_0506_l__b74476fd82e0be64.png",
+      "rarete": ""
+    },
+    {
+      "id": "855008",
+      "categorie": "Weapon",
+      "nom": "War Addict's Axe",
+      "image": "assets/1475002/images/icon_weapon_escanor_0507_l__142ca94ccfbe0481.png",
+      "rarete": ""
+    },
+    {
+      "id": "855009",
+      "categorie": "Weapon",
+      "nom": "Crimson Axe of the Victor",
+      "image": "assets/1475002/images/icon_weapon_escanor_0508_l__a5c145a37fcd29fd.png",
+      "rarete": ""
+    },
+    {
+      "id": "855005",
+      "categorie": "Weapon",
+      "nom": "Tomahawk Steak",
+      "image": "assets/1475002/images/icon_weapon_escanor_0504_l__e1d89f13048edaec.png",
+      "rarete": ""
+    },
+    {
+      "id": "855011",
+      "categorie": "Weapon",
+      "nom": "Corrupted Shadow's Magic",
+      "image": "assets/1475002/images/icon_weapon_escanor_0018_l__ea8829fc58eaba60.png",
+      "rarete": ""
+    },
+    {
+      "id": "855012",
+      "categorie": "Weapon",
+      "nom": "Forseti's Golden Axe",
+      "image": "assets/1475002/images/icon_weapon_escanor_0001_l__1690a77e8c1214b7.png",
+      "rarete": ""
+    },
+    {
+      "id": "855013",
+      "categorie": "Weapon",
+      "nom": "Starlit Axe of the Sun",
+      "image": "assets/1475002/images/icon_weapon_escanor_0026_l__321db0710e12761c.png",
+      "rarete": ""
+    },
+    {
+      "id": "850003",
+      "categorie": "Weapon",
+      "nom": "NONE DB",
+      "image": "assets/1475002/images/icon_weapon_escanor_0001_l__1690a77e8c1214b7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465001",
+      "categorie": "Head",
+      "nom": "Holy Knight",
+      "image": "assets/1475002/images/icon_head_escanor_0001_l__b5cf5f45177fc59a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465006",
+      "categorie": "Head",
+      "nom": "Black Flame Battle Cap",
+      "image": "assets/1475002/images/icon_head_escanor_0012_l__78177cc9f6586f2b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465007",
+      "categorie": "Head",
+      "nom": "Most Malevolent Knighthood",
+      "image": "assets/1475002/images/icon_head_escanor_0505_l__0aa98c6e46cbfc4a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465008",
+      "categorie": "Head",
+      "nom": "Blue Snowflake",
+      "image": "assets/1475002/images/icon_head_escanor_0013_l__9420512540b6ab02.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465009",
+      "categorie": "Head",
+      "nom": "A Great Big Bushy Beard",
+      "image": "assets/1475002/images/icon_head_escanor_0017_l__1d7f1cdfa9442490.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465002",
+      "categorie": "Head",
+      "nom": "Sunglasses",
+      "image": "assets/1475002/images/icon_head_escanor_0501_l__489ed86f6f7f4151.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465003",
+      "categorie": "Head",
+      "nom": "Clean Face",
+      "image": "assets/1475002/images/icon_head_escanor_0502_l__47e088f5f0611ff0.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465004",
+      "categorie": "Head",
+      "nom": "Aura",
+      "image": "assets/1475002/images/icon_head_escanor_0503_l__6ba38577f1601efa.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465014",
+      "categorie": "Head",
+      "nom": "Brilliant Sun",
+      "image": "assets/1475002/images/icon_head_escanor_0026_l__852fe5483bbdf473.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465005",
+      "categorie": "Head",
+      "nom": "Gentleman's Dignity",
+      "image": "assets/1475002/images/icon_head_escanor_0504_l__474f7b13309f7cc7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465011",
+      "categorie": "Head",
+      "nom": "Mint Green Cheering Hat",
+      "image": "assets/1475002/images/icon_head_escanor_0021_l__b18e40bdd7772788.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465010",
+      "categorie": "Head",
+      "nom": "Curse of the Corrupted Shadow",
+      "image": "assets/1475002/images/icon_head_escanor_0018_l__2dcb56de9bd48eb9.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465012",
+      "categorie": "Head",
+      "nom": "Mark of the Sun",
+      "image": "assets/1475002/images/icon_head_escanor_0506_l__aedebebbde85bb79.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Forseti's Golden Axe",
+    "image": "assets/1475002/images/icon_weapon_escanor_0551_s__2ba6ca957b39f510.png",
+    "description": "Holy Knight Escanor's Holy Relic (Weapon).\\n[DC143C]The golden axe of Forseti, the god of justice. The blade shines gloriously and judges injustice.",
+    "passif": {
+      "nom": "Forseti's Golden Axe",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Increases Attack by a value equal to [FFAE00]50 %[-] of the hero's Defense at the start of the battle."
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 300.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 450.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 1700.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Gold",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Wind Source",
+        "image": "assets/commun/icon_craft_costume_rare_material_01__391d7091ff4c5016.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Magnificence of Valhalla",
+        "image": "assets/commun/icon_item_drop_nor_0003__fb5417b6b988fed4.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Blue Magic Essence",
+        "image": "assets/commun/icon_craft_costume_key_material_01__8bc67ed6369368ff.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Eitri's Meticulousness",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Hraesvelgr"
+  }
+};

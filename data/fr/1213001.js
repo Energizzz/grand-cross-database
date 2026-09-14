@@ -1,0 +1,1000 @@
+window.fichePreparee={
+  "nom": "Twigo, apprenti Chevalier Sacré",
+  "designation": "[Confirmation]",
+  "titre": "Twigo, apprenti Chevalier Sacré",
+  "idJeu": "1213001",
+  "attribut": {
+    "nom": "@attribute.1",
+    "icone": "assets/commun/icon_filter_attribute_01__bfa1da106b20bf3e.png",
+    "couleur": "#ef6369",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [],
+  "portrait": "assets/1213001/images/icon_hero_twigo_0004_s__6f0a21b3862de764.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Confirmation] Twigo, apprenti Chevalier Sacré possède des\\ncompétences sans effets secondaires, mais qui infligent beaucoup de dégâts.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "R",
+      "nom": "R",
+      "icone": "assets/commun/icon_filter_grade_R__ad268444e6a94da1.png",
+      "cadre": "assets/1213001/images/icon_frame_small_r__a5b06545cf2d5d59.png",
+      "fond": "assets/commun/icon_hero_basic_s_3__061ad8f74fc2a91a.png",
+      "coin": "assets/commun/common_level_frame_rank_r.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1213001/images/hero_illust_twigo_1213001__bd3f93bd6f8259d2.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 30,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 240.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 100.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 2800.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 1600
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 160.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Frappe sanguine »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_04__f3b7ed362b127261.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 360.0,
+              "description": "Inflige des dégâts égaux à 360 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 600.0,
+              "description": "Inflige des dégâts égaux à 600 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Frappe décisive »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_02__9dc0c47d26a45fb5.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 225.0,
+              "description": "Inflige des dégâts égaux à 225 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 375.0,
+              "description": "Inflige des dégâts égaux à 375 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Frappe destructrice »",
+        "image": "assets/1213001/images/icon_twigo_sword_special_01__7d4e2112acf66826.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 420 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 462 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 504 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 546 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 588 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 630 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Confirmé !",
+        "image": "assets/1213001/images/icon_exclusive_skill_1213001__5403d3700e3a6e52.png",
+        "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-]."
+          }
+        ]
+      },
+      "idForme": 302901,
+      "portrait": "assets/1213001/images/icon_hero_twigo_0001_s__42f5dbe39e2e8171.png",
+      "portraitVertical": "assets/1213001/images/icon_skin_twigo_0001_l__4d5f157f7c56f5e8.png"
+    },
+    {
+      "id": "SR",
+      "nom": "SR",
+      "icone": "assets/commun/icon_filter_grade_SR__cc09bcf3e7213a06.png",
+      "cadre": "assets/1213001/images/icon_frame_small_sr__c14285dca5b2bf1b.png",
+      "fond": "assets/commun/icon_hero_basic_s_4__d8de890911c49b3d.png",
+      "coin": "assets/commun/common_level_frame_rank_sr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1213001/images/hero_illust_twigo_1213001__bd3f93bd6f8259d2.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 40,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 360.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 160.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 4400.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 2088
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 160.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Frappe sanguine »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_04__f3b7ed362b127261.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 360.0,
+              "description": "Inflige des dégâts égaux à 360 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 600.0,
+              "description": "Inflige des dégâts égaux à 600 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Frappe décisive »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_02__9dc0c47d26a45fb5.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 225.0,
+              "description": "Inflige des dégâts égaux à 225 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 375.0,
+              "description": "Inflige des dégâts égaux à 375 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Frappe destructrice »",
+        "image": "assets/1213001/images/icon_twigo_sword_special_01__7d4e2112acf66826.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 420 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 462 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 504 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 546 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 588 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 630 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Confirmé !",
+        "image": "assets/1213001/images/icon_exclusive_skill_1213001__5403d3700e3a6e52.png",
+        "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-]."
+          }
+        ]
+      },
+      "idForme": 302902,
+      "portrait": "assets/1213001/images/icon_hero_twigo_0002_s__9bbb21c6ca88827a.png",
+      "portraitVertical": "assets/1213001/images/icon_skin_twigo_0002_l__c0994b669666c4e1.png"
+    },
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1213001/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1213001/images/hero_illust_twigo_1213001__bd3f93bd6f8259d2.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 480.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 220.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 6000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 2576
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 160.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Frappe sanguine »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_04__f3b7ed362b127261.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 360.0,
+              "description": "Inflige des dégâts égaux à 360 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 600.0,
+              "description": "Inflige des dégâts égaux à 600 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Frappe décisive »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_02__9dc0c47d26a45fb5.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 225.0,
+              "description": "Inflige des dégâts égaux à 225 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 375.0,
+              "description": "Inflige des dégâts égaux à 375 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Frappe destructrice »",
+        "image": "assets/1213001/images/icon_twigo_sword_special_01__7d4e2112acf66826.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 420 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 462 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 504 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 546 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 588 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 630 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Confirmé !",
+        "image": "assets/1213001/images/icon_exclusive_skill_1213001__5403d3700e3a6e52.png",
+        "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-]."
+          }
+        ]
+      },
+      "idForme": 302903,
+      "portrait": "assets/1213001/images/icon_hero_twigo_0011_s__149d92797ee640a6.png",
+      "portraitVertical": "assets/1213001/images/icon_skin_twigo_0011_l__e01b311ff070805f.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1213001/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1213001/images/hero_illust_twigo_1213001__bd3f93bd6f8259d2.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 600.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 280.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7600.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3064
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 160.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Frappe sanguine »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_04__f3b7ed362b127261.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 360.0,
+              "description": "Inflige des dégâts égaux à 360 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 600.0,
+              "description": "Inflige des dégâts égaux à 600 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 115033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Frappe décisive »",
+          "image": "assets/1213001/images/icon_twigo_sword_skill_02__9dc0c47d26a45fb5.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflige des dégâts égaux à 150 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115011,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 225.0,
+              "description": "Inflige des dégâts égaux à 225 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115012,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 375.0,
+              "description": "Inflige des dégâts égaux à 375 % de l'attaque à @target.allEnemies.",
+              "idJeu": 115013,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Frappe destructrice »",
+        "image": "assets/1213001/images/icon_twigo_sword_special_01__7d4e2112acf66826.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 420 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 462 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 504 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 546 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 588 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "Inflige des dégâts de [00D5FF]Lésion[-] égaux à 630 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Lésion : chances crit. x3.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Confirmé !",
+        "image": "assets/1213001/images/icon_exclusive_skill_1213001__5403d3700e3a6e52.png",
+        "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les PV des héros d'attribut « Puissance » de [FFAE00]30 %[-]."
+          }
+        ]
+      },
+      "idForme": 302904,
+      "portrait": "assets/1213001/images/icon_hero_twigo_0004_s__6f0a21b3862de764.png",
+      "portraitVertical": "assets/1213001/images/icon_skin_twigo_0004_l__549601954314511e.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3302901",
+      "categorie": "Skin",
+      "nom": "Rien à confirmer",
+      "image": "assets/1213001/images/icon_skin_twigo_0001_l__4d5f157f7c56f5e8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3302950",
+      "categorie": "Skin",
+      "nom": "Serveur pro",
+      "image": "assets/1213001/images/icon_skin_twigo_0003_l__6495bfb1b01150c9.png",
+      "rarete": ""
+    },
+    {
+      "id": "3302902",
+      "categorie": "Skin",
+      "nom": "Armure d'apprenti Chevalier Sacré",
+      "image": "assets/1213001/images/icon_skin_twigo_0002_l__c0994b669666c4e1.png",
+      "rarete": ""
+    },
+    {
+      "id": "3302903",
+      "categorie": "Skin",
+      "nom": "Armure de confirmation",
+      "image": "assets/1213001/images/icon_skin_twigo_0011_l__e01b311ff070805f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3302904",
+      "categorie": "Skin",
+      "nom": "Super armure lourde, confirmée !",
+      "image": "assets/1213001/images/icon_skin_twigo_0004_l__549601954314511e.png",
+      "rarete": ""
+    },
+    {
+      "id": "3302905",
+      "categorie": "Skin",
+      "nom": "Érosion du cauchemar corrompu",
+      "image": "assets/1213001/images/icon_skin_twigo_0005_l__affa944829dc03d1.png",
+      "rarete": ""
+    },
+    {
+      "id": "852901",
+      "categorie": "Weapon",
+      "nom": "Épée de la confirmation",
+      "image": "assets/1213001/images/icon_weapon_twigo_101_l__fec22f111358ff29.png",
+      "rarete": ""
+    },
+    {
+      "id": "852902",
+      "categorie": "Weapon",
+      "nom": "Épée d'apprenti Chevalier Sacré",
+      "image": "assets/1213001/images/icon_weapon_twigo_102_l__1dbade69f256107e.png",
+      "rarete": ""
+    },
+    {
+      "id": "852951",
+      "categorie": "Weapon",
+      "nom": "Épée de confirmation absolue",
+      "image": "assets/1213001/images/icon_weapon_twigo_501_l__3f6842277f5bd554.png",
+      "rarete": ""
+    },
+    {
+      "id": "852903",
+      "categorie": "Weapon",
+      "nom": "Épée des Einherjar",
+      "image": "assets/1213001/images/icon_weapon_twigo_101_l__fec22f111358ff29.png",
+      "rarete": ""
+    },
+    {
+      "id": "4213001",
+      "categorie": "Head",
+      "nom": "Apprenti Chevalier Sacré",
+      "image": "assets/1213001/images/icon_head_twigo_0001_l__2467cb6361877254.png",
+      "rarete": ""
+    },
+    {
+      "id": "4213002",
+      "categorie": "Head",
+      "nom": "Danger d'incendie !",
+      "image": "assets/1213001/images/icon_head_twigo_0501_l__11852a1b3b8e809d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4213004",
+      "categorie": "Head",
+      "nom": "Rendez-vous surprise",
+      "image": "assets/1213001/images/icon_head_twigo_0503_l__f86842cbcdb0caeb.png",
+      "rarete": ""
+    },
+    {
+      "id": "4213003",
+      "categorie": "Head",
+      "nom": "Jugement !",
+      "image": "assets/1213001/images/icon_head_twigo_0502_l__00e034d97e5d32eb.png",
+      "rarete": ""
+    },
+    {
+      "id": "4213005",
+      "categorie": "Head",
+      "nom": "Malédiction du cauchemar corrompu",
+      "image": "assets/1213001/images/icon_head_twigo_0005_l__e8f24b8bb4dd04de.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Épée des Einherjar",
+    "image": "assets/1213001/images/icon_weapon_twigo_0551_s__b8e4bbc983f18328.png",
+    "description": "Relique sacrée de Twigo, apprenti Chevalier Sacré (arme).\\n[DC143C]Une épée utilisée par les Einherjar, l'armée d'Odin. Le pouvoir des dieux lui donne une lueur bleue.[-]",
+    "passif": {
+      "nom": "Épée des Einherjar",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Applique un effet sur le héros pendant [FFAE00]2 tours[-], augmentant les stats de PV de [FFAE00]30 %[-], et [00D5FF]provoque[-] les ennemis au début du combat."
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 120.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 225.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 3500.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 2000000
+      },
+      {
+        "nom": "Splendeur du Valhalla",
+        "image": "assets/commun/icon_item_drop_nor_0003__fb5417b6b988fed4.png",
+        "quantite": 25
+      },
+      {
+        "nom": "Essence magique bleue",
+        "image": "assets/commun/icon_craft_costume_key_material_01__8bc67ed6369368ff.png",
+        "quantite": 70
+      },
+      {
+        "nom": "Force de Brokk",
+        "image": "assets/commun/icon_craft_costume_material_10__00badc74edfb288c.png",
+        "quantite": 70
+      }
+    ],
+    "provenance": "Hraesvelgr"
+  }
+};

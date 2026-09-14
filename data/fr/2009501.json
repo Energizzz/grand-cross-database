@@ -1,0 +1,587 @@
+{
+  "nom": "Meliodas, alter ego",
+  "designation": "[Monde inversé]",
+  "titre": "Meliodas, alter ego",
+  "idJeu": "2009501",
+  "attribut": {
+    "nom": "@attribute.5",
+    "icone": "assets/commun/icon_filter_attribute_05__8b5613471712850c.png",
+    "couleur": "#bf7ee9",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.1"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_01__b2dfe4e53bdd1bf4.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6",
+    "@characteristic.10"
+  ],
+  "portrait": "assets/2009501/images/icon_hero_meliodas_another_0002_s__86f39f92c064ce8c.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Monde inversé] Meliodas, alter ego possède une compétence qui inflige des dégâts proportionnels aux PV restants de la cible.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/2009501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/2009501/images/hero_illust_meliodas_another_2009501__ec3f7585e338dbaf.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 620.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 420.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 6600.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5011
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Lame obscure »",
+          "image": "assets/2009501/images/icon_meliodas_another_ssr_type01_skill_01__723828effa20433e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "[00D5FF]Retire les postures[-] de @target.oneEnemy et inflige des dégâts de [00D5FF]Transgression[-] égaux à 200 % de l'attaque.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi.\\nDégâts [FFAE00]x2[-] contre les ennemis souffrant d'un malus.[-]",
+              "idJeu": 1010101,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "[00D5FF]Retire les postures[-] de @target.oneEnemy, inflige des dégâts de [00D5FF]Transgression[-] égaux à 200 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.\\n※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1010102,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "[00D5FF]Retire les postures[-] de @target.oneEnemy, inflige des dégâts de [00D5FF]Transgression[-] égaux à 250 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 2 tour(s).\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.\\n※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1010103,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Cyclone ténébreux »",
+          "image": "assets/2009501/images/icon_meliodas_another_ssr_type01_skill_02__6a1685e5d62934d0.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Applique [00D5FF]Infection[-] pendant [FFAE00]1 tour[-] et inflige des dégâts de [00D5FF]Marque obscure[-] égaux à 140 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Infection : restreint les stats liées aux soins.\\n※Marque obscure : dégâts supplémentaires égaux à 10 % des PV restants de @target.allEnemies.[-]",
+              "idJeu": 1010111,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 170.0,
+              "description": "Applique [00D5FF]Infection[-] pendant [FFAE00]1 tour[-] et inflige des dégâts de [00D5FF]Marque obscure[-] égaux à 170 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Infection : restreint les stats liées aux soins.\\n※Marque obscure : dégâts supplémentaires égaux à 10 % des PV restants de @target.allEnemies.[-]",
+              "idJeu": 1010112,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 230.0,
+              "description": "Applique [00D5FF]Infection[-] pendant [FFAE00]2 tours[-] et inflige des dégâts de [00D5FF]Marque obscure[-] égaux à 230 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Infection : restreint les stats liées aux soins.\\n※Marque obscure : dégâts supplémentaires égaux à 10 % des PV restants de @target.allEnemies.[-]",
+              "idJeu": 1010113,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Couronnement diabolique »",
+        "image": "assets/2009501/images/icon_meliodas_another_ssr_type01_special_01__2af4cd18cb082298.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 450.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 450 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 500.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 500 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 550.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 550 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 600.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 600 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 650.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 650 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 700.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 700 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Reine de l'été",
+        "image": "assets/2009501/images/icon_exclusive_skill_2009501__75af019d69a1ca89.png",
+        "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]10 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]50 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]15 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]5 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]30 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]10 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          },
+          {
+            "niveau": 2,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]5 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]40 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]10 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          },
+          {
+            "niveau": 3,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]10 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]50 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]10 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          },
+          {
+            "niveau": 4,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]10 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]50 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]15 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          }
+        ]
+      },
+      "idForme": 330101,
+      "portrait": "assets/2009501/images/icon_hero_meliodas_another_0001_s__0e8462f8b4f5f1ae.png",
+      "portraitVertical": "assets/2009501/images/icon_skin_meliodas_another_0001_l__e053bbb2860e51c7.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/2009501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/2009501/images/hero_illust_meliodas_another_2009501__ec3f7585e338dbaf.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 850.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 550.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 8300.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5685
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Lame obscure »",
+          "image": "assets/2009501/images/icon_meliodas_another_ssr_type01_skill_01__723828effa20433e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "[00D5FF]Retire les postures[-] de @target.oneEnemy et inflige des dégâts de [00D5FF]Transgression[-] égaux à 200 % de l'attaque.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi.\\nDégâts [FFAE00]x2[-] contre les ennemis souffrant d'un malus.[-]",
+              "idJeu": 1010101,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "[00D5FF]Retire les postures[-] de @target.oneEnemy, inflige des dégâts de [00D5FF]Transgression[-] égaux à 200 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 1 tour(s).\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.\\n※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1010102,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "[00D5FF]Retire les postures[-] de @target.oneEnemy, inflige des dégâts de [00D5FF]Transgression[-] égaux à 250 % de l'attaque, puis applique [00D5FF]Étourdissement[-] pendant 2 tour(s).\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.\\n※Étourdissement : empêche toute action.[-]",
+              "idJeu": 1010103,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Cyclone ténébreux »",
+          "image": "assets/2009501/images/icon_meliodas_another_ssr_type01_skill_02__6a1685e5d62934d0.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Applique [00D5FF]Infection[-] pendant [FFAE00]1 tour[-] et inflige des dégâts de [00D5FF]Marque obscure[-] égaux à 140 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Infection : restreint les stats liées aux soins.\\n※Marque obscure : dégâts supplémentaires égaux à 10 % des PV restants de @target.allEnemies.[-]",
+              "idJeu": 1010111,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 170.0,
+              "description": "Applique [00D5FF]Infection[-] pendant [FFAE00]1 tour[-] et inflige des dégâts de [00D5FF]Marque obscure[-] égaux à 170 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Infection : restreint les stats liées aux soins.\\n※Marque obscure : dégâts supplémentaires égaux à 10 % des PV restants de @target.allEnemies.[-]",
+              "idJeu": 1010112,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 230.0,
+              "description": "Applique [00D5FF]Infection[-] pendant [FFAE00]2 tours[-] et inflige des dégâts de [00D5FF]Marque obscure[-] égaux à 230 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Infection : restreint les stats liées aux soins.\\n※Marque obscure : dégâts supplémentaires égaux à 10 % des PV restants de @target.allEnemies.[-]",
+              "idJeu": 1010113,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Couronnement diabolique »",
+        "image": "assets/2009501/images/icon_meliodas_another_ssr_type01_special_01__2af4cd18cb082298.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 450.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 450 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 500.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 500 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 550.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 550 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 600.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 600 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 650.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 650 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 700.0,
+            "description": "Augmente les stats offensives de [FFAE00]50 %[-] pendant [FFAE00]2 tours[-], puis inflige des dégâts de [00D5FF]Transgression[-] égaux à 700 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Transgression : taux de perforation [FFAE00]x5[-]. Ignore [FFAE00]100 %[-] de la défense crit. de l'ennemi. [FFAE00]Dégâts x2[-] contre les ennemis souffrant d'un malus.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Reine de l'été",
+        "image": "assets/2009501/images/icon_exclusive_skill_2009501__75af019d69a1ca89.png",
+        "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]10 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]50 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]15 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]5 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]30 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]10 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          },
+          {
+            "niveau": 2,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]5 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]40 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]10 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          },
+          {
+            "niveau": 3,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]10 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]50 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]10 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          },
+          {
+            "niveau": 4,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et leurs PV max. de [FFAE00]20 %[-].\\nUtiliser une compétence ou un contre inflige des dégâts supplémentaires égaux à [FF8000]10 %[-] des PV max. du héros.\\n[i][C0C0C0]※Alliés concernés : démons et Les [Seven Deadly Sins][-][/i]\\n\\nLorsque tous les alliés appartiennent au [00D5FF]clan des démons[-] ou aux [00D5FF][Seven Deadly Sins][-], [00D5FF]y compris le héros dans l'emplacement secondaire[-], octroie [00D5FF]Jugement de transgression[-] et [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-].\\n[i][C0C0C0]※Jugement de transgression : augmente la valeur de réduction des dégâts subis à hauteur de la valeur d'augmentation des dégâts infligés des ennemis qui utilisent des compétences sur le héros.[-][/i]\\n\\nOctroie [00D5FF]Provocation[-] pendant [FFAE00]1 tour[-] après avoir utilisé au moins [FFAE00]2[-] compétences en [FFAE00]1 tour[-]. ([FFAE00]Une fois[-] max.)\\nLorsque le héros utilise l'effet [00D5FF]Provocation[-], réduit les dégâts finaux subis de [FF8000]50 %[-].\\n\\nAu début du combat et lorsqu'un ennemi utilise une compétence d'attaque pendant le tour ennemi, applique [00D5FF]Transgression[-] sur tous les ennemis pendant [FFAE00]3 tours[-]. [FFAE00]Chaque[-] cumul de [00D5FF]Transgression[-] augmente les stats défensives des [00D5FF]alliés concernés[-] de [FF8000]15 %[-].\\n[i][C0C0C0]※Transgression : stats offensives [FFAE00]-20 %[-], taux de perforation [FFAE00]-20 %[-]. ([FFAE00]2 fois[-] max.)[-][/i]\\n\\nLorsqu'un [00D5FF]allié concerné[-] utilise une compétence pendant le tour allié, retire tous les cumuls de [00D5FF]Transgression[-] présents sur les ennemis.\\nPour [FFAE00]chaque[-] cumul de [00D5FF]Transgression[-] retiré, augmente toutes les stats des [00D5FF]alliés concernés[-] de [FFAE00]3 %[-]. [FFAE00](5 fois max.)[-]"
+          }
+        ]
+      },
+      "idForme": 330102,
+      "portrait": "assets/2009501/images/icon_hero_meliodas_another_0002_s__86f39f92c064ce8c.png",
+      "portraitVertical": "assets/2009501/images/icon_skin_meliodas_another_0002_l__189f91a3f2311728.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3330101",
+      "categorie": "Skin",
+      "nom": "Une héroïne déguisée",
+      "image": "assets/2009501/images/icon_skin_meliodas_another_0001_l__e053bbb2860e51c7.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330150",
+      "categorie": "Skin",
+      "nom": "Mascotte féminine de la taverne",
+      "image": "assets/2009501/images/icon_skin_meliodas_another_0003_l__154d8a2173451d36.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330151",
+      "categorie": "Skin",
+      "nom": "Chevalière de la Colère",
+      "image": "assets/2009501/images/icon_skin_meliodas_another_0004_l__25ceddc4f6f750b4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330152",
+      "categorie": "Skin",
+      "nom": "Vacances estivales",
+      "image": "assets/2009501/images/icon_skin_meliodas_another_0005_l__e904c311f4085367.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330153",
+      "categorie": "Skin",
+      "nom": "Histoire des étoiles",
+      "image": "assets/2009501/images/icon_skin_meliodas_another_0006_l__12318e7255b23614.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330102",
+      "categorie": "Skin",
+      "nom": "Maîtresse de la taverne",
+      "image": "assets/2009501/images/icon_skin_meliodas_another_0002_l__189f91a3f2311728.png",
+      "rarete": ""
+    },
+    {
+      "id": "882301",
+      "categorie": "Weapon",
+      "nom": "Lostvayne",
+      "image": "assets/2009501/images/icon_weapon_meliodas_another_0001_l__61dd7973fc58e78d.png",
+      "rarete": ""
+    },
+    {
+      "id": "882302",
+      "categorie": "Weapon",
+      "nom": "Article du menu fait maison spécial",
+      "image": "assets/2009501/images/icon_weapon_meliodas_another_0003_l__9c56b291d6758d7a.png",
+      "rarete": ""
+    },
+    {
+      "id": "882303",
+      "categorie": "Weapon",
+      "nom": "Serment de la Colère",
+      "image": "assets/2009501/images/icon_weapon_meliodas_another_0004_l__b4780d27bcba795d.png",
+      "rarete": ""
+    },
+    {
+      "id": "882304",
+      "categorie": "Weapon",
+      "nom": "Divertissement estival",
+      "image": "assets/2009501/images/icon_weapon_meliodas_another_0005_l__491a0485a81e2e78.png",
+      "rarete": ""
+    },
+    {
+      "id": "882305",
+      "categorie": "Weapon",
+      "nom": "Pouvoir de la Vierge",
+      "image": "assets/2009501/images/icon_weapon_meliodas_another_0006_l__d7e940e7ff5fe3d2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011201",
+      "categorie": "Head",
+      "nom": "Cheveux blonds soignés",
+      "image": "assets/2009501/images/icon_head_meliodas_another_0001_l__4f767f1e121b7ef9.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011202",
+      "categorie": "Head",
+      "nom": "Longue chevelure familière",
+      "image": "assets/2009501/images/icon_head_meliodas_another_0003_l__9a1f0d2e650a97c3.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011203",
+      "categorie": "Head",
+      "nom": "Incarnation de la Colère",
+      "image": "assets/2009501/images/icon_head_meliodas_another_0004_l__d4306240f72daa10.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011204",
+      "categorie": "Head",
+      "nom": "Lunettes de soleil estivales",
+      "image": "assets/2009501/images/icon_head_meliodas_another_0005_l__43ba660cb3e91bd7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011206",
+      "categorie": "Head",
+      "nom": "Mythe de la Vierge",
+      "image": "assets/2009501/images/icon_head_meliodas_another_0006_l__554171a747028603.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011205",
+      "categorie": "Head",
+      "nom": "Cheveux blonds ébouriffés",
+      "image": "assets/2009501/images/icon_head_meliodas_another_0501_l__593036aaa4268ee8.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null
+}

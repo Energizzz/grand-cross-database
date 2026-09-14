@@ -1,0 +1,684 @@
+window.fichePreparee={
+  "nom": "Queen Hel",
+  "designation": "[Shepherd of Souls]",
+  "titre": "Queen Hel",
+  "idJeu": "1943501",
+  "attribut": {
+    "nom": "@attribute.5",
+    "icone": "assets/commun/icon_filter_attribute_05__8b5613471712850c.png",
+    "couleur": "#bf7ee9",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.6"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_06__96c3bf184ce60ee4.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.4",
+    "@characteristic.7"
+  ],
+  "portrait": "assets/1943501/images/icon_hero_nor_hel_0002_s__0f9a08c18a6c74a3.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Shepherd of Souls] Queen Hel can deal great damage against enemies with the Source of Pain effect and has a skill which can decrease the enemy's Crit Chance and Crit Damage.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1943501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1943501/images/hero_illust_nor_hel_1943501__9e24012854f73fc5.png",
+      "legendeImage": "nor_hel_0001",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 670.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 370.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 6600.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4596
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 95.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 200.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Soul Drain\"",
+          "image": "assets/1943501/images/icon_nor_hel_ssr_type01_skill_01__03eb58233b52b7af.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Pain[-] damage equal to 200 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Pain: Attack-related stats +12 % for [FFAE00]every[-] Source of Pain on the target.[-]",
+              "idJeu": 1002301,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Pain[-] damage equal to 300 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Pain: Attack-related stats +12 % for [FFAE00]every[-] Source of Pain on the target.[-]",
+              "idJeu": 1002302,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Pain[-] damage equal to 500 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Pain: Attack-related stats +12 % for [FFAE00]every[-] Source of Pain on the target.[-]",
+              "idJeu": 1002303,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Reaping Death\"",
+          "image": "assets/1943501/images/icon_nor_hel_ssr_type01_skill_02__2241f9e569f77ec7.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Inflicts damage equal to 140 % of Attack on @target.allEnemies. Decreases [00D5FF]Crit Chance and Crit Damage[-] by 30 % for 2 tour(s).",
+              "idJeu": 1002311,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 210.0,
+              "description": "Inflicts damage equal to 210 % of Attack on @target.allEnemies. Decreases [00D5FF]Crit Chance and Crit Damage[-] by 50 % for 2 tour(s).",
+              "idJeu": 1002312,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 350.0,
+              "description": "Inflicts damage equal to 350 % of Attack on @target.allEnemies. Decreases [00D5FF]Crit Chance and Crit Damage[-] by 80 % for 3 tour(s).",
+              "idJeu": 1002313,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Damnation\"",
+        "image": "assets/1943501/images/icon_nor_hel_ssr_type01_special_01__cca3c993519541f3.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 500.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]10%[-] and the damage taken of @target.allEnemies by [FFAE00]10%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 500 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing the Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, [FFAE00]does not stack[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 550.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]15%[-] and the damage taken of @target.allEnemies by [FFAE00]15%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 550 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing the Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, [FFAE00]does not stack[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 600.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]20%[-] and the damage taken of @target.allEnemies by [FFAE00]20%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 600 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing the Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, [FFAE00]does not stack[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 650.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]30%[-] and the damage taken of @target.allEnemies by [FFAE00]30%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 650 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing [FFAE00]1[-] Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, stacks up to [FFAE00]2 times[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 700.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]40%[-] and the damage taken of @target.allEnemies by [FFAE00]40%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 700 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing [FFAE00]1[-] Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, stacks up to [FFAE00]2 times[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 750.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]50%[-] and the damage taken of @target.allEnemies by [FFAE00]50%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 750 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing [FFAE00]1[-] Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, stacks up to [FFAE00]3 times[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Pain's Guidance",
+        "image": "assets/1943501/images/icon_exclusive_skill_1943501__0f7f02a1314eeb19.png",
+        "description": "[00D5FF]If the hero uses a skill[-] or an [00D5FF]applicable ally[-] takes damage from a skill during the enemy's turn, the enemy who attacked is afflicted with [00D5FF]Source of Pain[-] effects for [FFAE00]2 turns[-], equal to the number of [00D5FF]applicable allies[-] who took damage. [FFAE00]Each[-] [00D5FF]Source of Pain[-] effect the enemy has increases all of the hero's stats by [FFAE00]3%[-], up to [FFAE00]24%[-]. The hero's Attack increases by [FFAE00]7%[-] for [FFAE00]every[-] [00D5FF]applicable ally[-] participating in battle.\\n[00D5FF](The hero is immune to Source of Pain effects.)[-]\\n\\n[00D5FF]※Applicable Ally: [Ragnarok], Unknown Race\\n※Source of Pain: [FFAE00]+5%[-] damage taken, additional damage equal to [FFAE00]10%[-] of remaining HP at the end of the turn.\\n(Stacks up to [FFAE00]5 times[-])[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "[00D5FF]If the hero uses a skill[-] or an [00D5FF]applicable ally[-] takes damage from a skill during the enemy's turn, the enemy who attacked is afflicted with [00D5FF]Source of Pain[-] effects for [FFAE00]2 turns[-], equal to the number of [00D5FF]applicable allies[-] who took damage. [FFAE00]Each[-] [00D5FF]Source of Pain[-] effect the enemy has increases all of the hero's stats by [FFAE00]3%[-], up to [FFAE00]24%[-]. The hero's Attack increases by [FFAE00]7%[-] for [FFAE00]every[-] [00D5FF]applicable ally[-] participating in battle.\\n[00D5FF](The hero is immune to Source of Pain effects.)[-]\\n\\n[00D5FF]※Applicable Ally: [Ragnarok], Unknown Race\\n※Source of Pain: [FFAE00]+5%[-] damage taken, additional damage equal to [FFAE00]10%[-] of remaining HP at the end of the turn.\\n(Stacks up to [FFAE00]5 times[-])[-]"
+          }
+        ]
+      },
+      "idForme": 315801,
+      "portrait": "assets/1943501/images/icon_hero_nor_hel_0001_s__438684a99eb333a5.png",
+      "portraitVertical": "assets/1943501/images/icon_skin_nor_hel_0001_l__78e70b376910bed4.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1943501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1943501/images/hero_illust_nor_hel_1943501__9e24012854f73fc5.png",
+      "legendeImage": "nor_hel_0002",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 820.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 470.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9600.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5426
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 95.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 200.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Soul Drain\"",
+          "image": "assets/1943501/images/icon_nor_hel_ssr_type01_skill_01__03eb58233b52b7af.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Pain[-] damage equal to 200 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Pain: Attack-related stats +12 % for [FFAE00]every[-] Source of Pain on the target.[-]",
+              "idJeu": 1002301,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Pain[-] damage equal to 300 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Pain: Attack-related stats +12 % for [FFAE00]every[-] Source of Pain on the target.[-]",
+              "idJeu": 1002302,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Pain[-] damage equal to 500 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Pain: Attack-related stats +12 % for [FFAE00]every[-] Source of Pain on the target.[-]",
+              "idJeu": 1002303,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Reaping Death\"",
+          "image": "assets/1943501/images/icon_nor_hel_ssr_type01_skill_02__2241f9e569f77ec7.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Inflicts damage equal to 140 % of Attack on @target.allEnemies. Decreases [00D5FF]Crit Chance and Crit Damage[-] by 30 % for 2 tour(s).",
+              "idJeu": 1002311,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 210.0,
+              "description": "Inflicts damage equal to 210 % of Attack on @target.allEnemies. Decreases [00D5FF]Crit Chance and Crit Damage[-] by 50 % for 2 tour(s).",
+              "idJeu": 1002312,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 350.0,
+              "description": "Inflicts damage equal to 350 % of Attack on @target.allEnemies. Decreases [00D5FF]Crit Chance and Crit Damage[-] by 80 % for 3 tour(s).",
+              "idJeu": 1002313,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Damnation\"",
+        "image": "assets/1943501/images/icon_nor_hel_ssr_type01_special_01__cca3c993519541f3.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 500.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]10%[-] and the damage taken of @target.allEnemies by [FFAE00]10%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 500 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing the Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, [FFAE00]does not stack[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 550.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]15%[-] and the damage taken of @target.allEnemies by [FFAE00]15%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 550 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing the Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, [FFAE00]does not stack[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 600.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]20%[-] and the damage taken of @target.allEnemies by [FFAE00]20%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 600 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing the Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, [FFAE00]does not stack[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 650.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]30%[-] and the damage taken of @target.allEnemies by [FFAE00]30%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 650 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing [FFAE00]1[-] Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, stacks up to [FFAE00]2 times[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 700.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]40%[-] and the damage taken of @target.allEnemies by [FFAE00]40%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 700 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing [FFAE00]1[-] Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, stacks up to [FFAE00]2 times[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 750.0,
+            "description": "Increases the hero's damage dealt by [FFAE00]50%[-] and the damage taken of @target.allEnemies by [FFAE00]50%[-] for [FFAE00]2 turns[-], then inflicts damage equal to 750 % of Attack.\\n\\nIf the hero is participating in battle and a [00D5FF][Ragnarok] or Unknown race ally[-] dies, [00D5FF]Undying Shepherd[-] is applied to the hero.\\n\\n[00D5FF]※Undying Shepherd: The hero's immunity to Source of Pain is removed and revives with [FFAE00]1[-] HP when taking fatal damage by consuming all orbs in the Ultimate Move Gauge, removing [FFAE00]1[-] Undying Shepherd effect.\\n(Does not revive when dying from reflected damage, stacks up to [FFAE00]3 times[-])[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Pain's Guidance",
+        "image": "assets/1943501/images/icon_exclusive_skill_1943501__0f7f02a1314eeb19.png",
+        "description": "[00D5FF]If the hero uses a skill[-] or an [00D5FF]applicable ally[-] takes damage from a skill during the enemy's turn, the enemy who attacked is afflicted with [00D5FF]Source of Pain[-] effects for [FFAE00]2 turns[-], equal to the number of [00D5FF]applicable allies[-] who took damage. [FFAE00]Each[-] [00D5FF]Source of Pain[-] effect the enemy has increases all of the hero's stats by [FFAE00]3%[-], up to [FFAE00]24%[-]. The hero's Attack increases by [FFAE00]7%[-] for [FFAE00]every[-] [00D5FF]applicable ally[-] participating in battle.\\n[00D5FF](The hero is immune to Source of Pain effects.)[-]\\n\\n[00D5FF]※Applicable Ally: [Ragnarok], Unknown Race\\n※Source of Pain: [FFAE00]+5%[-] damage taken, additional damage equal to [FFAE00]10%[-] of remaining HP at the end of the turn.\\n(Stacks up to [FFAE00]5 times[-])[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "[00D5FF]If the hero uses a skill[-] or an [00D5FF]applicable ally[-] takes damage from a skill during the enemy's turn, the enemy who attacked is afflicted with [00D5FF]Source of Pain[-] effects for [FFAE00]2 turns[-], equal to the number of [00D5FF]applicable allies[-] who took damage. [FFAE00]Each[-] [00D5FF]Source of Pain[-] effect the enemy has increases all of the hero's stats by [FFAE00]3%[-], up to [FFAE00]24%[-]. The hero's Attack increases by [FFAE00]7%[-] for [FFAE00]every[-] [00D5FF]applicable ally[-] participating in battle.\\n[00D5FF](The hero is immune to Source of Pain effects.)[-]\\n\\n[00D5FF]※Applicable Ally: [Ragnarok], Unknown Race\\n※Source of Pain: [FFAE00]+5%[-] damage taken, additional damage equal to [FFAE00]10%[-] of remaining HP at the end of the turn.\\n(Stacks up to [FFAE00]5 times[-])[-]"
+          }
+        ]
+      },
+      "idForme": 315802,
+      "portrait": "assets/1943501/images/icon_hero_nor_hel_0002_s__0f9a08c18a6c74a3.png",
+      "portraitVertical": "assets/1943501/images/icon_skin_nor_hel_0002_l__f870a39935b7ad7f.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3315801",
+      "categorie": "Skin",
+      "nom": "Guide of the Underworld",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0001_l__78e70b376910bed4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315850",
+      "categorie": "Skin",
+      "nom": "Moonlight Fairy Dress",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0003_l__d5e11d58dbb362d7.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315851",
+      "categorie": "Skin",
+      "nom": "Wolf Trainer",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0004_l__1a2b35e53c7febb1.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315852",
+      "categorie": "Skin",
+      "nom": "Raucous Goblin",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0005_l__53f9d79c82958838.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315853",
+      "categorie": "Skin",
+      "nom": "Queen of Fascination",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0006_l__058576b72154692a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315854",
+      "categorie": "Skin",
+      "nom": "Final MVP",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0008_l__0d77b15fb13b0162.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315855",
+      "categorie": "Skin",
+      "nom": "Spirit Monarch's Dress",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0007_l__c5b4058576c5a191.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315802",
+      "categorie": "Skin",
+      "nom": "Queen of Helheim",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0002_l__f870a39935b7ad7f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315856",
+      "categorie": "Skin",
+      "nom": "Shadow of the End",
+      "image": "assets/1943501/images/icon_skin_nor_hel_0009_l__9d6c46f5ded328b3.png",
+      "rarete": ""
+    },
+    {
+      "id": "875501",
+      "categorie": "Weapon",
+      "nom": "Lantern of the Dead",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0001_l__15c2f778af99207a.png",
+      "rarete": ""
+    },
+    {
+      "id": "875502",
+      "categorie": "Weapon",
+      "nom": "Fairy Lantern",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0003_l__1a79a137fa4a604b.png",
+      "rarete": ""
+    },
+    {
+      "id": "875503",
+      "categorie": "Weapon",
+      "nom": "Sweet Discipline",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0004_l__221dc5a23785b4f3.png",
+      "rarete": ""
+    },
+    {
+      "id": "875504",
+      "categorie": "Weapon",
+      "nom": "Cackling Lantern",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0005_l__657d925693228bd0.png",
+      "rarete": ""
+    },
+    {
+      "id": "875505",
+      "categorie": "Weapon",
+      "nom": "Fascinated Souls",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0006_l__1fda7c109479977a.png",
+      "rarete": ""
+    },
+    {
+      "id": "875506",
+      "categorie": "Weapon",
+      "nom": "Championship Trophy",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0008_l__3fb91225e69b0ca7.png",
+      "rarete": ""
+    },
+    {
+      "id": "875509",
+      "categorie": "Weapon",
+      "nom": "Fragment of the End",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0009_l__672296452b412a6f.png",
+      "rarete": ""
+    },
+    {
+      "id": "875507",
+      "categorie": "Weapon",
+      "nom": "Spirit Monarch's Lantern",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0007_l__85f0ce8bdd670db0.png",
+      "rarete": ""
+    },
+    {
+      "id": "875508",
+      "categorie": "Weapon",
+      "nom": "Key of Eljudnir",
+      "image": "assets/1943501/images/icon_weapon_nor_hel_0001_l__15c2f778af99207a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004301",
+      "categorie": "Head",
+      "nom": "Crown of Death",
+      "image": "assets/1943501/images/icon_head_nor_hel_0001_l__bea4914e823b1519.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004302",
+      "categorie": "Head",
+      "nom": "Moonlight Butterfly Hairpin",
+      "image": "assets/1943501/images/icon_head_nor_hel_0003_l__8d2637506d1c5eb1.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004303",
+      "categorie": "Head",
+      "nom": "Red Ribbon",
+      "image": "assets/1943501/images/icon_head_nor_hel_0004_l__9ccbbe61c975f402.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004304",
+      "categorie": "Head",
+      "nom": "Goblin Horns",
+      "image": "assets/1943501/images/icon_head_nor_hel_0005_l__864390af39cb260b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004306",
+      "categorie": "Head",
+      "nom": "The Queen's Charms",
+      "image": "assets/1943501/images/icon_head_nor_hel_0006_l__17b1e47c127a921c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004307",
+      "categorie": "Head",
+      "nom": "Baller Hairband",
+      "image": "assets/1943501/images/icon_head_nor_hel_0008_l__0d7e5793bfeecfa4.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004308",
+      "categorie": "Head",
+      "nom": "Spirit Monarch's Eye Patch",
+      "image": "assets/1943501/images/icon_head_nor_hel_0007_l__0a10f27de4161e16.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004305",
+      "categorie": "Head",
+      "nom": "Goth Queen",
+      "image": "assets/1943501/images/icon_head_nor_hel_0501_l__f022c90723da3591.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004309",
+      "categorie": "Head",
+      "nom": "Omen of the End",
+      "image": "assets/1943501/images/icon_head_nor_hel_0009_l__028ae32ec0f037cd.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Key of Eljudnir",
+    "image": "assets/1943501/images/icon_weapon_nor_hel_0551_s__e8914792d2f62921.png",
+    "description": "Queen Hel's Holy Relic (Weapon).\\n[DC143C]The key to Eljudnir, the palace of Queen Hel. It is infused with a chill that freezes the souls of all intruders who covet the treasures of Eljudnir.[-]",
+    "passif": {
+      "nom": "Key of Eljudnir",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Increases the hero's Crit Chance and Crit Damage by [FFAE00]10%[-] for [FFAE00]each[-] [00D5FF]Source of Pain[-] on the enemy, up to [FFAE00]50%[-].\\nIn addition, every time [00D5FF]Undying Shepherd[-] is removed from the hero, they recover [FFAE00]30%[-] of their Max HP."
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 360.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 375.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 4200.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Gold",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source of the Cycle",
+        "image": "assets/commun/icon_craft_costume_rare_material_05__19b8fbecda8796b5.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Fruit of Yggdrasil",
+        "image": "assets/commun/icon_craft_costume_material_09__a8fd9d110158c0cc.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Unknown Magic Essence",
+        "image": "assets/commun/icon_craft_costume_key_material_16__f15a600e7e4fe219.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Volundr's Tenacity",
+        "image": "assets/commun/icon_craft_costume_material_12__931f89e710e00615.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Ratatoskr"
+  }
+};

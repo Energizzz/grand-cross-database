@@ -1,0 +1,1097 @@
+{
+  "nom": "Adventurer Ban",
+  "designation": "[b]The Fox Sin of Greed[/b]",
+  "titre": "Adventurer Ban",
+  "idJeu": "1075002",
+  "attribut": {
+    "nom": "@attribute.2",
+    "icone": "assets/commun/icon_filter_attribute_02__ea1406c9830f7566.png",
+    "couleur": "#67c778",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/1075002/images/icon_hero_ban_0050_s__47b979d9226c8c38.png",
+  "rareteParDefaut": "LR",
+  "presentation": "[b]The Fox Sin of Greed[/b] Adventurer Ban has a skill which adds Lifesteal to a portion of damage dealt and is very good at staying alive.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1075002/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1075002/images/hero_illust_ban_nunchuk_1075002__b64b1e28324d8440.png",
+      "legendeImage": "ban_0011",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 480.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 270.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3251
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Drain\"",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_04__d3d11c977a425092.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflicts damage equal to 150 % of Attack on @target.allEnemies.",
+              "idJeu": 146021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "Inflicts damage equal to 150 % of Attack on @target.allEnemies and [00D5FF]Lifesteals[-] 30 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+              "idJeu": 146022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Inflicts damage equal to 250 % of Attack on @target.allEnemies and [00D5FF]Lifesteals[-] 30 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+              "idJeu": 146023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Snatch\"",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_01__2ea491cb39579f7e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 20 % Attack and Defense from @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 30 % Attack and Defense from @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 50 % Attack and Defense from @target.allEnemies for 3 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Fox Hunt\"",
+        "image": "assets/1075002/images/icon_ban_nunchaku_special_01__a6d6197a67bb9cf9.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Inflicts damage equal to 350 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 385.0,
+            "description": "Inflicts damage equal to 385 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 420.0,
+            "description": "Inflicts damage equal to 420 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 455.0,
+            "description": "Inflicts damage equal to 455 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 490.0,
+            "description": "Inflicts damage equal to 490 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 525.0,
+            "description": "Inflicts damage equal to 525 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Extort Life",
+        "image": "assets/1075002/images/icon_exclusive_skill_1075002__a9e0e37db6987f3f.png",
+        "description": "Decreases all enemies' HP-related stats by [FFAE00]10 %%[-] at the start of the allies' turn if the hero doesn't take damage.\\n[00D5FF](Limit 5 time(s), resets upon taking damage)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Decreases all enemies' HP-related stats by [FFAE00]10 %%[-] at the start of the allies' turn if the hero doesn't take damage.\\n[00D5FF](Limit 5 time(s), resets upon taking damage)[-]"
+          }
+        ]
+      },
+      "idForme": 300406,
+      "portrait": "assets/1075002/images/icon_hero_ban_0011_s__9650817881ddcff0.png",
+      "portraitVertical": "assets/1075002/images/icon_skin_ban_0011_l__94984e5aada9a17f.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1075002/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1075002/images/hero_illust_ban_nunchuk_1075002__b64b1e28324d8440.png",
+      "legendeImage": "ban_0007",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 600.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 330.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3819
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 30.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Drain\"",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_04__d3d11c977a425092.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "Inflicts damage equal to 150 % of Attack on @target.allEnemies.",
+              "idJeu": 146021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "Inflicts damage equal to 150 % of Attack on @target.allEnemies and [00D5FF]Lifesteals[-] 30 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+              "idJeu": 146022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Inflicts damage equal to 250 % of Attack on @target.allEnemies and [00D5FF]Lifesteals[-] 30 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+              "idJeu": 146023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Snatch\"",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_01__2ea491cb39579f7e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 20 % Attack and Defense from @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 30 % Attack and Defense from @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 50 % Attack and Defense from @target.allEnemies for 3 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Fox Hunt\"",
+        "image": "assets/1075002/images/icon_ban_nunchaku_special_01__a6d6197a67bb9cf9.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Inflicts damage equal to 350 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 385.0,
+            "description": "Inflicts damage equal to 385 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 420.0,
+            "description": "Inflicts damage equal to 420 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 455.0,
+            "description": "Inflicts damage equal to 455 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 490.0,
+            "description": "Inflicts damage equal to 490 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 525.0,
+            "description": "Inflicts damage equal to 525 % of Attack on @target.oneEnemy. [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Extort Life",
+        "image": "assets/1075002/images/icon_exclusive_skill_1075002__a9e0e37db6987f3f.png",
+        "description": "Decreases all enemies' HP-related stats by [FFAE00]10 %%[-] at the start of the allies' turn if the hero doesn't take damage.\\n[00D5FF](Limit 5 time(s), resets upon taking damage)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Decreases all enemies' HP-related stats by [FFAE00]10 %%[-] at the start of the allies' turn if the hero doesn't take damage.\\n[00D5FF](Limit 5 time(s), resets upon taking damage)[-]"
+          }
+        ]
+      },
+      "idForme": 300408,
+      "portrait": "assets/1075002/images/icon_hero_ban_0007_s__d6a1d4180016f7ea.png",
+      "portraitVertical": "assets/1075002/images/icon_skin_ban_0007_l__40c246b31a8ffb04.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1075002/images/hero_illust_ban_nunchuk_1075002__b64b1e28324d8440.png",
+      "legendeImage": "ban_0050",
+      "niveau": 100,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 770.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 480.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9800.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5819
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 220.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 85.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Drain\"",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_04__d3d11c977a425092.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Sever[-] damage equal to 200 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+              "idJeu": 146061,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 250.0,
+              "description": "Inflicts [00D5FF]Sever[-] damage equal to 250 % of Attack on @target.allEnemies, then [00D5FF]Lifesteals[-] 35 % of the damage dealt.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+              "idJeu": 146062,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Sever[-] damage equal to 300 % of Attack on @target.allEnemies, then [00D5FF]Lifesteals[-] 40 % of the damage dealt.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+              "idJeu": 146063,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Snatch\"",
+          "image": "assets/1075002/images/icon_ban_nunchaku_skill_01__2ea491cb39579f7e.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 25 % Attack and Defense from @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146071,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 35 % Attack and Defense from @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146072,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Extorts[-] 50 % Attack and Defense from @target.allEnemies for 3 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.[-]",
+              "idJeu": 146073,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Fox Hunt\"",
+        "image": "assets/1075002/images/icon_ban_nunchaku_special_01__a6d6197a67bb9cf9.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Inflicts [00D5FF]Spike[-] damage equal to 350 % of Attack on @target.oneEnemy, then [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.\\n※Spike: 2x Crit Damage Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 385.0,
+            "description": "Inflicts [00D5FF]Spike[-] damage equal to 385 % of Attack on @target.oneEnemy, then [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.\\n※Spike: 2x Crit Damage Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 420.0,
+            "description": "Inflicts [00D5FF]Spike[-] damage equal to 420 % of Attack on @target.oneEnemy, then [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.\\n※Spike: 2x Crit Damage Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 455.0,
+            "description": "Inflicts [00D5FF]Spike[-] damage equal to 455 % of Attack on @target.oneEnemy, then [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.\\n※Spike: 2x Crit Damage Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 490.0,
+            "description": "Inflicts [00D5FF]Spike[-] damage equal to 490 % of Attack on @target.oneEnemy, then [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.\\n※Spike: 2x Crit Damage Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 525.0,
+            "description": "Inflicts [00D5FF]Spike[-] damage equal to 525 % of Attack on @target.oneEnemy, then [00D5FF]Extorts[-] 50 % Attack and Defense for 2 tour(s).\\n\\n[00D5FF]※Extort: Decreases the target's stats and increases own stats by the same amount.\\n※Spike: 2x Crit Damage Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Extort Life",
+        "image": "assets/1075002/images/icon_exclusive_skill_1075002__a9e0e37db6987f3f.png",
+        "description": "Increases basic stats of [00D5FF]Applicable Allies[-] by [FFAE00]5%[-] for [FFAE00]each[-] one participating in battle.\\n[i][C0C0C0]※Applicable Allies: Humans, Fairies, [The Seven Deadly Sins][/i][-]\\n\\nThe hero gains the [00D5FF]Hunter[-] effect and inflicts [00D5FF]Hunter's Mark[-] on all enemies at the start of the battle.\\n[i][C0C0C0]※Hunter: Increases Lifesteal by [FFAE00]1%[-] up to a maximum of [FFAE00]30%[-] for every [FFAE00]3%[-] of diminished HP when using a skill. Increases damage dealt with all-target attack skills by [FFAE00]50%[-].\\n※Hunter's Mark: All stats [FFAE00]-10%[-] (resets upon taking damage).[/i][-]\\n\\nFor [FFAE00]each[-] [00D5FF]Extort[-] effect on enemies, the hero's Crit Damage increases by [FFAE00]70%[-] and HP by [FFAE00]10%[-].\\n\\nIf the hero does not take damage during the enemy's turn, [00D5FF]Hunter's Mark[-] is applied on all enemies at the start of the allies' turn. [FFAE00](3 times)[-]\\n\\nThe hero's basic stats increase by [FFAE00]5%[-] up to a maximum of [FFAE00]15%[-] for [FFAE00]each[-] [00D5FF]Hunter's Mark[-] on enemies.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] by [FFAE00]5%[-] for [FFAE00]each[-] one participating in battle.\\n[i][C0C0C0]※Applicable Allies: Humans, Fairies, [The Seven Deadly Sins][/i][-]\\n\\nThe hero gains the [00D5FF]Hunter[-] effect and inflicts [00D5FF]Hunter's Mark[-] on all enemies at the start of the battle.\\n[i][C0C0C0]※Hunter: Increases Lifesteal by [FFAE00]1%[-] up to a maximum of [FFAE00]30%[-] for every [FFAE00]3%[-] of diminished HP when using a skill. Increases damage dealt with all-target attack skills by [FFAE00]50%[-].\\n※Hunter's Mark: All stats [FFAE00]-10%[-] (resets upon taking damage).[/i][-]\\n\\nFor [FFAE00]each[-] [00D5FF]Extort[-] effect on enemies, the hero's Crit Damage increases by [FFAE00]70%[-] and HP by [FFAE00]10%[-].\\n\\nIf the hero does not take damage during the enemy's turn, [00D5FF]Hunter's Mark[-] is applied on all enemies at the start of the allies' turn. [FFAE00](3 times)[-]\\n\\nThe hero's basic stats increase by [FFAE00]5%[-] up to a maximum of [FFAE00]15%[-] for [FFAE00]each[-] [00D5FF]Hunter's Mark[-] on enemies."
+          }
+        ]
+      },
+      "idForme": 300409,
+      "portrait": "assets/1075002/images/icon_hero_ban_0050_s__47b979d9226c8c38.png",
+      "portraitVertical": "assets/1075002/images/icon_skin_ban_0050_l__f47c42ddf135cf65.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3300403",
+      "categorie": "Skin",
+      "nom": "Bandit",
+      "image": "assets/1075002/images/icon_skin_ban_0006_l__36e67b693754c911.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300406",
+      "categorie": "Skin",
+      "nom": "Holy Knight Armor",
+      "image": "assets/1075002/images/icon_skin_ban_0011_l__94984e5aada9a17f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310407",
+      "categorie": "Skin",
+      "nom": "Clothes Plebs Can't Buy",
+      "image": "assets/1075002/images/icon_skin_ban_0017_l__75d5c13c6c26d1f6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300452",
+      "categorie": "Skin",
+      "nom": "Black Flame Battle Uniform",
+      "image": "assets/1075002/images/icon_skin_ban_0026_l__cb5e60a9cffb65e6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300453",
+      "categorie": "Skin",
+      "nom": "Most Malevolent Knight Armor",
+      "image": "assets/1075002/images/icon_skin_ban_0023_l__f569b302e5ce83b6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300451",
+      "categorie": "Skin",
+      "nom": "Fairy King's Power",
+      "image": "assets/1075002/images/icon_skin_ban_0012_l__4a08db61d5a994ce.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300450",
+      "categorie": "Skin",
+      "nom": "Gentle Waiter",
+      "image": "assets/1075002/images/icon_skin_ban_0008_l__e3e5700a650fa451.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300404",
+      "categorie": "Skin",
+      "nom": "Crystal of Blue Power",
+      "image": "assets/1075002/images/hero_ban_body_0016_D__4bf0ea20b64ca8bd.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300459",
+      "categorie": "Skin",
+      "nom": "Surfing Man",
+      "image": "assets/1075002/images/icon_skin_ban_0014_l__d5b30c3cb313bc7f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300462",
+      "categorie": "Skin",
+      "nom": "Swift Ranger",
+      "image": "assets/1075002/images/icon_skin_ban_0040_l__61eb75fa410170be.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300405",
+      "categorie": "Skin",
+      "nom": "Ranger Captain",
+      "image": "assets/1075002/images/icon_skin_ban_0009_l__d762983b53372c2a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300408",
+      "categorie": "Skin",
+      "nom": "[b]The Fox Sin of Greed[/b] Armor",
+      "image": "assets/1075002/images/icon_skin_ban_0007_l__40c246b31a8ffb04.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310405",
+      "categorie": "Skin",
+      "nom": "Cool Autumn Fashion",
+      "image": "assets/1075002/images/icon_skin_ban_0003_l__4a6c64dae1589631.png",
+      "rarete": ""
+    },
+    {
+      "id": "3300409",
+      "categorie": "Skin",
+      "nom": "Brilliant Armor of the Red Fox",
+      "image": "assets/1075002/images/icon_skin_ban_0050_l__f47c42ddf135cf65.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310460",
+      "categorie": "Skin",
+      "nom": "Erosion of the Corrupted Shadow",
+      "image": "assets/1075002/images/icon_skin_ban_0038_l__7ff2fda86742e06b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310463",
+      "categorie": "Skin",
+      "nom": "Mint Green Cheering Uniform",
+      "image": "assets/1075002/images/icon_skin_ban_0042_l__7933d622b7e39565.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310464",
+      "categorie": "Skin",
+      "nom": "Winter Chef",
+      "image": "assets/1075002/images/icon_skin_ban_0035_l__0f3dd730235b3f8a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3310467",
+      "categorie": "Skin",
+      "nom": "Hero Suit - Black",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "3310470",
+      "categorie": "Skin",
+      "nom": "Lancelot's Hoodie",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "3310471",
+      "categorie": "Skin",
+      "nom": "Blue Wind Cheering Uniform",
+      "image": "assets/1075002/images/icon_skin_ban_0047_l__451122d63990ad14.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017021",
+      "categorie": "Skin",
+      "nom": "Favorite Outfit",
+      "image": "assets/1075002/images/icon_skin_ban_0037_l__5bc2def0a6d24afd.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017024",
+      "categorie": "Skin",
+      "nom": "Favorite Outfit",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017026",
+      "categorie": "Skin",
+      "nom": "Cool Autumn Fashion",
+      "image": "assets/1075002/images/icon_skin_ban_0008_l__e3e5700a650fa451.png",
+      "rarete": ""
+    },
+    {
+      "id": "850401",
+      "categorie": "Weapon",
+      "nom": "Great Thief's Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_101_l__0d57b156d21aeee4.png",
+      "rarete": ""
+    },
+    {
+      "id": "850403",
+      "categorie": "Weapon",
+      "nom": "Red Claw",
+      "image": "assets/1075002/images/icon_weapon_ban_103_l__e9ea2025208132f1.png",
+      "rarete": ""
+    },
+    {
+      "id": "850404",
+      "categorie": "Weapon",
+      "nom": "Fairy King's Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_104_l__3f30adf0085b4507.png",
+      "rarete": ""
+    },
+    {
+      "id": "850405",
+      "categorie": "Weapon",
+      "nom": "Bleeding Edge",
+      "image": "assets/1075002/images/icon_weapon_ban_105_l__ab3a0cc3b4e3a30e.png",
+      "rarete": ""
+    },
+    {
+      "id": "850454",
+      "categorie": "Weapon",
+      "nom": "Rescuer's Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_0014_l__1b0ba70fac99bd72.png",
+      "rarete": ""
+    },
+    {
+      "id": "850455",
+      "categorie": "Weapon",
+      "nom": "Black Flame Battle Weapon",
+      "image": "assets/1075002/images/icon_weapon_ban_0026_l__89d1c2602c246ea1.png",
+      "rarete": ""
+    },
+    {
+      "id": "850456",
+      "categorie": "Weapon",
+      "nom": "Dark Magic Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_0023_l__fb3380393ec3aafe.png",
+      "rarete": ""
+    },
+    {
+      "id": "850458",
+      "categorie": "Weapon",
+      "nom": "Ranger's Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_0040_l__04d788b41a4a5c87.png",
+      "rarete": ""
+    },
+    {
+      "id": "850451",
+      "categorie": "Weapon",
+      "nom": "Collector's Cork",
+      "image": "assets/1075002/images/icon_weapon_ban_501_l__230776594ac8b095.png",
+      "rarete": ""
+    },
+    {
+      "id": "850459",
+      "categorie": "Weapon",
+      "nom": "Cursed Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_0507_l__3d753e10024c8205.png",
+      "rarete": ""
+    },
+    {
+      "id": "850460",
+      "categorie": "Weapon",
+      "nom": "Event Candy Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_0035_l__481c46e155ca0e00.png",
+      "rarete": ""
+    },
+    {
+      "id": "850406",
+      "categorie": "Weapon",
+      "nom": "Cunning Snake Tail",
+      "image": "assets/1075002/images/icon_weapon_ban_504_l__2722708c30676d04.png",
+      "rarete": ""
+    },
+    {
+      "id": "850452",
+      "categorie": "Weapon",
+      "nom": "Tear of Greed",
+      "image": "assets/1075002/images/icon_weapon_ban_502_l__c449aed5d233c166.png",
+      "rarete": ""
+    },
+    {
+      "id": "850453",
+      "categorie": "Weapon",
+      "nom": "Blue Dragon's Wail",
+      "image": "assets/1075002/images/icon_weapon_ban_503_l__5a6567c196e9764c.png",
+      "rarete": ""
+    },
+    {
+      "id": "850407",
+      "categorie": "Weapon",
+      "nom": "Great Thief's Nunchaku (Alt.)",
+      "image": "assets/1075002/images/icon_weapon_ban_505_l__1abd44b6fd9f71db.png",
+      "rarete": ""
+    },
+    {
+      "id": "850408",
+      "categorie": "Weapon",
+      "nom": "Magic Balloon Nunchaku",
+      "image": "assets/1075002/images/icon_weapon_ban_506_l__3a33a207bd37f472.png",
+      "rarete": ""
+    },
+    {
+      "id": "850457",
+      "categorie": "Weapon",
+      "nom": "Corrupted Shadow's Magic",
+      "image": "assets/1075002/images/icon_weapon_ban_0038_l__5a9e4430f1b187ad.png",
+      "rarete": ""
+    },
+    {
+      "id": "850461",
+      "categorie": "Weapon",
+      "nom": "Gleipnir",
+      "image": "assets/1075002/images/icon_weapon_ban_0014_l__1b0ba70fac99bd72.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075001",
+      "categorie": "Head",
+      "nom": "Adventurer",
+      "image": "assets/1075002/images/icon_head_ban_0001_l__4ea3ef3504818020.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075009",
+      "categorie": "Head",
+      "nom": "Black Flame Battle Cap",
+      "image": "assets/1075002/images/icon_head_ban_0026_l__bb791fcfcfc0456f.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075011",
+      "categorie": "Head",
+      "nom": "Most Malevolent Knighthood",
+      "image": "assets/1075002/images/icon_head_ban_0511_l__31c50d5d1e855588.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075013",
+      "categorie": "Head",
+      "nom": "Street Hairstyle",
+      "image": "assets/1075002/images/icon_head_ban_0040_l__f511111fdf403824.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075003",
+      "categorie": "Head",
+      "nom": "Simple Hairband",
+      "image": "assets/1075002/images/icon_head_ban_0510_l__587a049dfbc4e859.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075005",
+      "categorie": "Head",
+      "nom": "Wounded Eye",
+      "image": "assets/1075002/images/icon_head_ban_0506_l__18ab49d619030df1.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075007",
+      "categorie": "Head",
+      "nom": "Chef's Basics",
+      "image": "assets/1075002/images/icon_head_ban_0507_l__8dfeebb17e63d0de.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075002",
+      "categorie": "Head",
+      "nom": "Silent Assassin",
+      "image": "assets/1075002/images/icon_head_ban_0508_l__9ef42b170a59a975.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075006",
+      "categorie": "Head",
+      "nom": "Fashionable Hairband",
+      "image": "assets/1075002/images/icon_head_ban_0509_l__e85f2cc9d3424b6e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075010",
+      "categorie": "Head",
+      "nom": "How to Avoid the Sun",
+      "image": "assets/1075002/images/icon_head_ban_0014_l__a4da890ef53033d3.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075018",
+      "categorie": "Head",
+      "nom": "Brilliant Crown of the Red Fox",
+      "image": "assets/1075002/images/icon_head_ban_0050_l__66bed05900d91625.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075008",
+      "categorie": "Head",
+      "nom": "Silent Pressure",
+      "image": "assets/1075002/images/icon_head_ban_0501_l__abe4cc76b19b675a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075012",
+      "categorie": "Head",
+      "nom": "Curse of the Corrupted Shadow",
+      "image": "assets/1075002/images/icon_head_ban_0001_l__4ea3ef3504818020.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075016",
+      "categorie": "Head",
+      "nom": "Mark of Greed",
+      "image": "assets/1075002/images/icon_head_ban_0512_l__555ca3ba9c19c473.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075014",
+      "categorie": "Head",
+      "nom": "Mint Green Cheering Hat",
+      "image": "assets/1075002/images/icon_head_ban_0042_l__3c19c2255a3cec2a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4075015",
+      "categorie": "Head",
+      "nom": "Reindeer Antlers",
+      "image": "assets/1075002/images/icon_head_ban_0035_l__67a7374c3442b10f.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Gleipnir",
+    "image": "assets/1075002/images/icon_weapon_ban_0552_s__5004195b6eda4e56.png",
+    "description": "Adventurer Ban's Holy Relic (Weapon).\\n[DC143C]The Dvergr's magical shackle which bound Fenrir. Even gods are unable to break it.[-]",
+    "passif": {
+      "nom": "Gleipnir",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "If a Critical Strike occurs from the hero's attack on an enemy, the hero's Attack is increased by [FFAE00]10 %[-].\\n[00D5FF](Limit 5 time(s))[-]"
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 400.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 150.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 2400.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Gold",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Wind Source",
+        "image": "assets/commun/icon_craft_costume_rare_material_01__391d7091ff4c5016.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Magnificence of Valhalla",
+        "image": "assets/commun/icon_item_drop_nor_0003__fb5417b6b988fed4.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Blue Magic Essence",
+        "image": "assets/commun/icon_craft_costume_key_material_01__8bc67ed6369368ff.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Eitri's Meticulousness",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Hraesvelgr"
+  }
+}

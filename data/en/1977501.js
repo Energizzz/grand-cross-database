@@ -1,0 +1,413 @@
+window.fichePreparee={
+  "nom": "King & Diane",
+  "designation": "[Rulers of the New Era]",
+  "titre": "King & Diane",
+  "idJeu": "1977501",
+  "attribut": {
+    "nom": "@attribute.3",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.4",
+      "@race.2"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_04__48547a3ab95fac10.png",
+      "assets/commun/icon_filter_kind_02__4320d5376444ecd0.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/1977501/images/icon_hero_dual_kd_0002_s__c900047e9ee01d21.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Rulers of the New Era] King & Diane have a skill that can deal greater damage the higher their Attack.",
+  "commandement": null,
+  "talent": {
+    "nom": "True Spirit Spear Chastiefol, Eighth Form: \"Pollen Garden\"",
+    "image": "assets/1977501/images/icon_ability_1977501__3d934cda73bad320.png",
+    "description": "Applies [FFAE00]2[-] [00D5FF]Wrath of the Fairy King[-] effects on the hero duo, [00D5FF]removes allies' Debuffs[-] equal to the [00D5FF]number of surviving allies[-], then heals allies for [00FF00]350%[-] of the hero duo's Attack\\n[00D5FF](Cooldown: [FFAE00]3 turns[-])[-]",
+    "niveauxUltime": [
+      {
+        "niveau": 1,
+        "description": "Applies [FFAE00]2[-] [00D5FF]Wrath of the Fairy King[-] effects on the hero duo, [00D5FF]removes allies' Debuffs[-] equal to the [00D5FF]number of surviving allies[-], then heals allies for [00FF00]350%[-] of the hero duo's Attack\\n[00D5FF](Cooldown: [FFAE00]3 turns[-])[-]"
+      }
+    ],
+    "cadre": "assets/passive-frames/ability_frame_10.png",
+    "idJeu": 540004
+  },
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1977501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1977501/images/hero_illust_dual_kd_1977501__0d778435ba4320a9.png",
+      "legendeImage": "dual_kd_0002",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 800.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 550.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9500.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5898
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 215.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Flawless Unity\"",
+          "image": "assets/1977501/images/icon_dual_kd_ssr_type01_skill_01__03577cef580ca08e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Colossal Mountain[-] damage equal to 200 % of Attack on @target.oneEnemy. Decreases enemies' Ultimate Move Gauges by [FFAE00]1 orb[-] if the hero duo has [FFAE00]4 orbs[-] or more.\\n\\n[00D5FF]※Colossal Mountain: [FFAE00]2x[-] Pierce Rate Increase.\\nInflicts additional damage equal to [FFAE00]20%[-] of the hero's remaining HP.\\nApplies Petrify on the target for [FFAE00]1 turn[-] when using [FFAE00]1[-] Wrath of the Fairy King effect to deal damage.[-]",
+              "idJeu": 1006101,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Colossal Mountain[-] damage equal to 300 % of Attack on @target.oneEnemy. Decreases enemies' Ultimate Move Gauges by [FFAE00]1 orb[-] if the hero duo has [FFAE00]4 orbs[-] or more.\\n\\n[00D5FF]※Colossal Mountain: [FFAE00]2x[-] Pierce Rate Increase.\\nInflicts additional damage equal to [FFAE00]20%[-] of the hero's remaining HP.\\nApplies Petrify on the target for [FFAE00]1 turn[-] when using [FFAE00]1[-] Wrath of the Fairy King effect to deal damage.[-]",
+              "idJeu": 1006102,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Colossal Mountain[-] damage equal to 500 % of Attack on @target.oneEnemy. Decreases enemies' Ultimate Move Gauges by [FFAE00]1 orb[-] if the hero duo has [FFAE00]4 orbs[-] or more.\\n\\n[00D5FF]※Colossal Mountain: [FFAE00]2x[-] Pierce Rate Increase.\\nInflicts additional damage equal to [FFAE00]20%[-] of the hero's remaining HP.\\nApplies Petrify on the target for [FFAE00]1 turn[-] when using [FFAE00]1[-] Wrath of the Fairy King effect to deal damage.[-]",
+              "idJeu": 1006103,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Sprout Destruction\"",
+          "image": "assets/1977501/images/icon_dual_kd_ssr_type01_skill_02__59a9cde2f167d8d5.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflicts [00D5FF]Lightpoint[-] damage equal to 180 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+              "idJeu": 1006111,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 230.0,
+              "description": "Inflicts [00D5FF]Lightpoint[-] damage equal to 230 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+              "idJeu": 1006112,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Lightpoint[-] damage equal to 300 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+              "idJeu": 1006113,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "Combined Attack: \"Universal Judgment\"",
+        "image": "assets/1977501/images/icon_dual_kd_ssr_type01_special_01__0291dbdb68b33660.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 350.0,
+            "description": "Increases the hero duo's damage dealt by [FFAE00]30%[-] for [FF8000]3 turns[-], applies [FF8000]1[-] [00D5FF]Wrath of the Fairy King[-] effect on the hero duo, then inflicts [00D5FF]Lightpoint[-] damage equal to 350 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 380.0,
+            "description": "Increases the hero duo's damage dealt by [FFAE00]30%[-] for [FF8000]3 turns[-], applies [FF8000]1[-] [00D5FF]Wrath of the Fairy King[-] effect on the hero duo, then inflicts [00D5FF]Lightpoint[-] damage equal to 380 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 410.0,
+            "description": "Increases the hero duo's damage dealt by [FFAE00]40%[-] for [FF8000]3 turns[-], applies [FF8000]2[-] [00D5FF]Wrath of the Fairy King[-] effects on the hero duo, then inflicts [00D5FF]Lightpoint[-] damage equal to 410 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 440.0,
+            "description": "Increases the hero duo's damage dealt by [FFAE00]40%[-] for [FF8000]3 turns[-], applies [FF8000]2[-] [00D5FF]Wrath of the Fairy King[-] effects on the hero duo, then inflicts [00D5FF]Lightpoint[-] damage equal to 440 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 470.0,
+            "description": "Increases the hero duo's damage dealt by [FFAE00]40%[-] for [FF8000]3 turns[-], applies [FF8000]2[-] [00D5FF]Wrath of the Fairy King[-] effects on the hero duo, then inflicts [00D5FF]Lightpoint[-] damage equal to 470 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 500.0,
+            "description": "Increases the hero duo's damage dealt by [FFAE00]50%[-] for [FF8000]3 turns[-], applies [FF8000]3[-] [00D5FF]Wrath of the Fairy King[-] effects on the hero duo, then inflicts [00D5FF]Lightpoint[-] damage equal to 500 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Lightpoint: [FFAE00]2x[-] Crit Chance, [FFAE00]2x[-] Crit Damage Increase.\\nHero duo's Attack [FFAE00]+60%[-] when using skill.\\nDamage dealt [FFAE00]+30%[-] against targets who have not accumulated the maximum Wrath of the Earth value.\\nDamage dealt [FFAE00]+100%[-] against targets who accumulated the maximum Wrath of the Earth value.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Guardians of the Earth and Forest",
+        "image": "assets/1977501/images/icon_exclusive_skill_1977501__6e8ccee1a92a8971.png",
+        "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-], [FFAE00]each[-] hero increasing all stats of the hero duo by [FFAE00]7%[-].\\n[i][C0C0C0]※Applicable Ally: Fairies, Giants, [The Seven Deadly Sins][/i][-]\\n\\nAt the start of the allies' turn, [00D5FF]Wrath of the Earth[-] is applied to enemies that do not have [00D5FF]Wrath of the Earth[-].\\n[i][C0C0C0]※Wrath of the Earth: Accumulates up to [FFAE00]400,000[-] of the target's damage taken.[/i][-]\\n\\nAt the start of the battle, [00D5FF]Giant Queen's Protection[-] is applied to the hero duo and [00D5FF]Suppress Damage Taken[-] is applied to [00D5FF]Applicable Allies[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※Giant Queen's Protection: HP-related stats [FFAE00]+20%[-]\\nImmune to Petrify.\\n※Suppress Damage Taken: Damage taken from enemy skills does not exceed [FFAE00]50%[-] of Max HP.[/i][-]\\n\\nWhenever an enemy reaches the maximum [00D5FF]Wrath of the Earth[-] value, the hero duo gains [FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect, up to a maximum of [FFAE00]3[-].\\n[i][C0C0C0]※Wrath of the Fairy King: Attack-related stats [FFAE00]+7%[-], damage taken [FFAE00]-40%[-]\\n(Stacks [FFAE00]5 times[-])[/i][-]\\n\\nWhen the hero duo uses an [00D5FF]all-target attack[-] other than their Ultimate Move on an enemy with the [00D5FF]Wrath of the Earth[-] effect, the enemy takes additional damage equal to [FF8000]40%[-] of the accumulated value.\\n\\n[FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect is removed [00D5FF]each time the hero duo takes damage[-] from an enemy's skill during the enemy's turn.\\n\\nIf there is a [00D5FF]Petrified[-] enemy, [00D5FF]Applicable Allies'[-] final damage taken from enemy skills decreases by [FF8000]50%[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-], [FFAE00]each[-] hero increasing all stats of the hero duo by [FFAE00]7%[-].\\n[i][C0C0C0]※Applicable Ally: Fairies, Giants, [The Seven Deadly Sins][/i][-]\\n\\nAt the start of the allies' turn, [00D5FF]Wrath of the Earth[-] is applied to enemies that do not have [00D5FF]Wrath of the Earth[-].\\n[i][C0C0C0]※Wrath of the Earth: Accumulates up to [FFAE00]400,000[-] of the target's damage taken.[/i][-]\\n\\nAt the start of the battle, [00D5FF]Giant Queen's Protection[-] is applied to the hero duo and [00D5FF]Suppress Damage Taken[-] is applied to [00D5FF]Applicable Allies[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※Giant Queen's Protection: HP-related stats [FFAE00]+20%[-]\\nImmune to Petrify.\\n※Suppress Damage Taken: Damage taken from enemy skills does not exceed [FFAE00]50%[-] of Max HP.[/i][-]\\n\\nWhenever an enemy reaches the maximum [00D5FF]Wrath of the Earth[-] value, the hero duo gains [FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect, up to a maximum of [FFAE00]3[-].\\n[i][C0C0C0]※Wrath of the Fairy King: Attack-related stats [FFAE00]+7%[-], damage taken [FFAE00]-40%[-]\\n(Stacks [FFAE00]5 times[-])[/i][-]\\n\\nWhen the hero duo uses an [00D5FF]all-target attack[-] other than their Ultimate Move on an enemy with the [00D5FF]Wrath of the Earth[-] effect, the enemy takes additional damage equal to [FF8000]20%[-] of the accumulated value.\\n\\n[FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect is removed [00D5FF]each time the hero duo takes damage[-] from an enemy's skill during the enemy's turn.\\n\\nIf there is a [00D5FF]Petrified[-] enemy, [00D5FF]Applicable Allies'[-] final damage taken from enemy skills decreases by [FF8000]20%[-]."
+          },
+          {
+            "niveau": 2,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-], [FFAE00]each[-] hero increasing all stats of the hero duo by [FFAE00]7%[-].\\n[i][C0C0C0]※Applicable Ally: Fairies, Giants, [The Seven Deadly Sins][/i][-]\\n\\nAt the start of the allies' turn, [00D5FF]Wrath of the Earth[-] is applied to enemies that do not have [00D5FF]Wrath of the Earth[-].\\n[i][C0C0C0]※Wrath of the Earth: Accumulates up to [FFAE00]400,000[-] of the target's damage taken.[/i][-]\\n\\nAt the start of the battle, [00D5FF]Giant Queen's Protection[-] is applied to the hero duo and [00D5FF]Suppress Damage Taken[-] is applied to [00D5FF]Applicable Allies[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※Giant Queen's Protection: HP-related stats [FFAE00]+20%[-]\\nImmune to Petrify.\\n※Suppress Damage Taken: Damage taken from enemy skills does not exceed [FFAE00]50%[-] of Max HP.[/i][-]\\n\\nWhenever an enemy reaches the maximum [00D5FF]Wrath of the Earth[-] value, the hero duo gains [FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect, up to a maximum of [FFAE00]3[-].\\n[i][C0C0C0]※Wrath of the Fairy King: Attack-related stats [FFAE00]+7%[-], damage taken [FFAE00]-40%[-]\\n(Stacks [FFAE00]5 times[-])[/i][-]\\n\\nWhen the hero duo uses an [00D5FF]all-target attack[-] other than their Ultimate Move on an enemy with the [00D5FF]Wrath of the Earth[-] effect, the enemy takes additional damage equal to [FF8000]20%[-] of the accumulated value.\\n\\n[FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect is removed [00D5FF]each time the hero duo takes damage[-] from an enemy's skill during the enemy's turn.\\n\\nIf there is a [00D5FF]Petrified[-] enemy, [00D5FF]Applicable Allies'[-] final damage taken from enemy skills decreases by [FF8000]30%[-]."
+          },
+          {
+            "niveau": 3,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-], [FFAE00]each[-] hero increasing all stats of the hero duo by [FFAE00]7%[-].\\n[i][C0C0C0]※Applicable Ally: Fairies, Giants, [The Seven Deadly Sins][/i][-]\\n\\nAt the start of the allies' turn, [00D5FF]Wrath of the Earth[-] is applied to enemies that do not have [00D5FF]Wrath of the Earth[-].\\n[i][C0C0C0]※Wrath of the Earth: Accumulates up to [FFAE00]400,000[-] of the target's damage taken.[/i][-]\\n\\nAt the start of the battle, [00D5FF]Giant Queen's Protection[-] is applied to the hero duo and [00D5FF]Suppress Damage Taken[-] is applied to [00D5FF]Applicable Allies[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※Giant Queen's Protection: HP-related stats [FFAE00]+20%[-]\\nImmune to Petrify.\\n※Suppress Damage Taken: Damage taken from enemy skills does not exceed [FFAE00]50%[-] of Max HP.[/i][-]\\n\\nWhenever an enemy reaches the maximum [00D5FF]Wrath of the Earth[-] value, the hero duo gains [FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect, up to a maximum of [FFAE00]3[-].\\n[i][C0C0C0]※Wrath of the Fairy King: Attack-related stats [FFAE00]+7%[-], damage taken [FFAE00]-40%[-]\\n(Stacks [FFAE00]5 times[-])[/i][-]\\n\\nWhen the hero duo uses an [00D5FF]all-target attack[-] other than their Ultimate Move on an enemy with the [00D5FF]Wrath of the Earth[-] effect, the enemy takes additional damage equal to [FF8000]30%[-] of the accumulated value.\\n\\n[FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect is removed [00D5FF]each time the hero duo takes damage[-] from an enemy's skill during the enemy's turn.\\n\\nIf there is a [00D5FF]Petrified[-] enemy, [00D5FF]Applicable Allies'[-] final damage taken from enemy skills decreases by [FF8000]35%[-]."
+          },
+          {
+            "niveau": 4,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-], [FFAE00]each[-] hero increasing all stats of the hero duo by [FFAE00]7%[-].\\n[i][C0C0C0]※Applicable Ally: Fairies, Giants, [The Seven Deadly Sins][/i][-]\\n\\nAt the start of the allies' turn, [00D5FF]Wrath of the Earth[-] is applied to enemies that do not have [00D5FF]Wrath of the Earth[-].\\n[i][C0C0C0]※Wrath of the Earth: Accumulates up to [FFAE00]400,000[-] of the target's damage taken.[/i][-]\\n\\nAt the start of the battle, [00D5FF]Giant Queen's Protection[-] is applied to the hero duo and [00D5FF]Suppress Damage Taken[-] is applied to [00D5FF]Applicable Allies[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※Giant Queen's Protection: HP-related stats [FFAE00]+20%[-]\\nImmune to Petrify.\\n※Suppress Damage Taken: Damage taken from enemy skills does not exceed [FFAE00]50%[-] of Max HP.[/i][-]\\n\\nWhenever an enemy reaches the maximum [00D5FF]Wrath of the Earth[-] value, the hero duo gains [FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect, up to a maximum of [FFAE00]3[-].\\n[i][C0C0C0]※Wrath of the Fairy King: Attack-related stats [FFAE00]+7%[-], damage taken [FFAE00]-40%[-]\\n(Stacks [FFAE00]5 times[-])[/i][-]\\n\\nWhen the hero duo uses an [00D5FF]all-target attack[-] other than their Ultimate Move on an enemy with the [00D5FF]Wrath of the Earth[-] effect, the enemy takes additional damage equal to [FF8000]35%[-] of the accumulated value.\\n\\n[FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect is removed [00D5FF]each time the hero duo takes damage[-] from an enemy's skill during the enemy's turn.\\n\\nIf there is a [00D5FF]Petrified[-] enemy, [00D5FF]Applicable Allies'[-] final damage taken from enemy skills decreases by [FF8000]40%[-]."
+          },
+          {
+            "niveau": 5,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-], [FFAE00]each[-] hero increasing all stats of the hero duo by [FFAE00]7%[-].\\n[i][C0C0C0]※Applicable Ally: Fairies, Giants, [The Seven Deadly Sins][/i][-]\\n\\nAt the start of the allies' turn, [00D5FF]Wrath of the Earth[-] is applied to enemies that do not have [00D5FF]Wrath of the Earth[-].\\n[i][C0C0C0]※Wrath of the Earth: Accumulates up to [FFAE00]400,000[-] of the target's damage taken.[/i][-]\\n\\nAt the start of the battle, [00D5FF]Giant Queen's Protection[-] is applied to the hero duo and [00D5FF]Suppress Damage Taken[-] is applied to [00D5FF]Applicable Allies[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※Giant Queen's Protection: HP-related stats [FFAE00]+20%[-]\\nImmune to Petrify.\\n※Suppress Damage Taken: Damage taken from enemy skills does not exceed [FFAE00]50%[-] of Max HP.[/i][-]\\n\\nWhenever an enemy reaches the maximum [00D5FF]Wrath of the Earth[-] value, the hero duo gains [FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect, up to a maximum of [FFAE00]3[-].\\n[i][C0C0C0]※Wrath of the Fairy King: Attack-related stats [FFAE00]+7%[-], damage taken [FFAE00]-40%[-]\\n(Stacks [FFAE00]5 times[-])[/i][-]\\n\\nWhen the hero duo uses an [00D5FF]all-target attack[-] other than their Ultimate Move on an enemy with the [00D5FF]Wrath of the Earth[-] effect, the enemy takes additional damage equal to [FF8000]40%[-] of the accumulated value.\\n\\n[FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect is removed [00D5FF]each time the hero duo takes damage[-] from an enemy's skill during the enemy's turn.\\n\\nIf there is a [00D5FF]Petrified[-] enemy, [00D5FF]Applicable Allies'[-] final damage taken from enemy skills decreases by [FF8000]45%[-]."
+          },
+          {
+            "niveau": 6,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-], [FFAE00]each[-] hero increasing all stats of the hero duo by [FFAE00]7%[-].\\n[i][C0C0C0]※Applicable Ally: Fairies, Giants, [The Seven Deadly Sins][/i][-]\\n\\nAt the start of the allies' turn, [00D5FF]Wrath of the Earth[-] is applied to enemies that do not have [00D5FF]Wrath of the Earth[-].\\n[i][C0C0C0]※Wrath of the Earth: Accumulates up to [FFAE00]400,000[-] of the target's damage taken.[/i][-]\\n\\nAt the start of the battle, [00D5FF]Giant Queen's Protection[-] is applied to the hero duo and [00D5FF]Suppress Damage Taken[-] is applied to [00D5FF]Applicable Allies[-] for [FFAE00]1 turn[-].\\n[i][C0C0C0]※Giant Queen's Protection: HP-related stats [FFAE00]+20%[-]\\nImmune to Petrify.\\n※Suppress Damage Taken: Damage taken from enemy skills does not exceed [FFAE00]50%[-] of Max HP.[/i][-]\\n\\nWhenever an enemy reaches the maximum [00D5FF]Wrath of the Earth[-] value, the hero duo gains [FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect, up to a maximum of [FFAE00]3[-].\\n[i][C0C0C0]※Wrath of the Fairy King: Attack-related stats [FFAE00]+7%[-], damage taken [FFAE00]-40%[-]\\n(Stacks [FFAE00]5 times[-])[/i][-]\\n\\nWhen the hero duo uses an [00D5FF]all-target attack[-] other than their Ultimate Move on an enemy with the [00D5FF]Wrath of the Earth[-] effect, the enemy takes additional damage equal to [FF8000]40%[-] of the accumulated value.\\n\\n[FFAE00]1[-] [00D5FF]Wrath of the Fairy King[-] effect is removed [00D5FF]each time the hero duo takes damage[-] from an enemy's skill during the enemy's turn.\\n\\nIf there is a [00D5FF]Petrified[-] enemy, [00D5FF]Applicable Allies'[-] final damage taken from enemy skills decreases by [FF8000]50%[-]."
+          }
+        ]
+      },
+      "idForme": 327101,
+      "portrait": "assets/1977501/images/icon_hero_dual_kd_0002_s__c900047e9ee01d21.png",
+      "portraitVertical": "assets/1977501/images/icon_skin_dual_kd_0002_l__2ffc240c6ff0b8e4.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3327101",
+      "categorie": "Skin",
+      "nom": "Rulers of the New Era",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0002_l__2ffc240c6ff0b8e4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327154",
+      "categorie": "Skin",
+      "nom": "Uniforms for the New Semester",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0008_l__95f661396bb2dedc.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327150",
+      "categorie": "Skin",
+      "nom": "Springtime Garden Wedding",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0003_l__093346baac15689a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327151",
+      "categorie": "Skin",
+      "nom": "Bond of the Earth and Forest",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0004_l__0bd0637ccf31957c.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327152",
+      "categorie": "Skin",
+      "nom": "Partners of Love and Magic",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0005_l__52761b015d99b1b2.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327153",
+      "categorie": "Skin",
+      "nom": "MVP of the Month",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0006_l__d9548aeb59cc11df.png",
+      "rarete": ""
+    },
+    {
+      "id": "3327102",
+      "categorie": "Skin",
+      "nom": "Basic Outfits",
+      "image": "assets/1977501/images/icon_skin_dual_kd_0001_l__c0e351ba870354c5.png",
+      "rarete": ""
+    },
+    {
+      "id": "879301",
+      "categorie": "Weapon",
+      "nom": "Basic Weapons",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0001_l__a39547f7ba2b4052.png",
+      "rarete": ""
+    },
+    {
+      "id": "879302",
+      "categorie": "Weapon",
+      "nom": "Symbol of Unity",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0003_l__bf99a969166b95cc.png",
+      "rarete": ""
+    },
+    {
+      "id": "879303",
+      "categorie": "Weapon",
+      "nom": "Will of the Earth and Forest",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0004_l__6fb035a59e94fff0.png",
+      "rarete": ""
+    },
+    {
+      "id": "879304",
+      "categorie": "Weapon",
+      "nom": "Magic Weapon of Love",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0005_l__6e6fb9f38f37691a.png",
+      "rarete": ""
+    },
+    {
+      "id": "879305",
+      "categorie": "Weapon",
+      "nom": "Never Backing Down",
+      "image": "assets/1977501/images/icon_weapon_dual_kd_0006_l__50e108f0c8f4cf2c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008201",
+      "categorie": "Head",
+      "nom": "Basic Hairstyles",
+      "image": "assets/1977501/images/icon_head_dual_kd_0001_l__eced05d49e7e832c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008207",
+      "categorie": "Head",
+      "nom": "Best Buddies Headband",
+      "image": "assets/1977501/images/icon_head_dual_kd_0007_l__05d0c93290a8235d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008208",
+      "categorie": "Head",
+      "nom": "Emblem Halo",
+      "image": "assets/1977501/images/icon_head_dual_kd_0009_l__1faf2e5d73857638.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008202",
+      "categorie": "Head",
+      "nom": "Wedding March",
+      "image": "assets/1977501/images/icon_head_dual_kd_0003_l__2bac15b75290dd83.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008203",
+      "categorie": "Head",
+      "nom": "Rulers of the Earth and Forest",
+      "image": "assets/1977501/images/icon_head_dual_kd_0004_l__527be1575553901d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008204",
+      "categorie": "Head",
+      "nom": "Magical Girl and Mascot",
+      "image": "assets/1977501/images/icon_head_dual_kd_0005_l__4a2433b20d13681b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008206",
+      "categorie": "Head",
+      "nom": "The Perfect Duo",
+      "image": "assets/1977501/images/icon_head_dual_kd_0006_l__de4f73dbd090266d.png",
+      "rarete": ""
+    },
+    {
+      "id": "4008205",
+      "categorie": "Head",
+      "nom": "Fairy King and Queen of the Giants",
+      "image": "assets/1977501/images/icon_head_dual_kd_0501_l__1965a2477e683960.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null
+};

@@ -1,0 +1,578 @@
+window.fichePreparee={
+  "nom": "Youngest Princess Tioreh",
+  "designation": "[Fairy King's Daughter]",
+  "titre": "Youngest Princess Tioreh",
+  "idJeu": "2006501",
+  "attribut": {
+    "nom": "@attribute.3",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.4",
+      "@race.2"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_04__48547a3ab95fac10.png",
+      "assets/commun/icon_filter_kind_02__4320d5376444ecd0.png"
+    ]
+  },
+  "caracteristiques": [],
+  "portrait": "assets/2006501/images/icon_hero_4koa_tiara_0002_s__175dd4e1c68d0fda.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Fairy King's Daughter] Youngest Princess Tioreh has a skill that can deal great damage to Debuffed enemies.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/2006501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/2006501/images/hero_illust_4koa_tiara_2006501__6360c95d6cf666a8.png",
+      "legendeImage": "4koa_tiara_0001",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 550.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 400.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7200.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4895
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 95.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 200.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 95.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Fire Release\"",
+          "image": "assets/2006501/images/icon_4koa_tiara_ssr_type01_skill_01_02__13c5bd8ffc0dc773.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Inflicts [00D5FF]Weak Point[-] damage equal to 140 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Weak Point: 3x damage against Debuffed enemies.[-]",
+              "idJeu": 1008501,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 170.0,
+              "description": "Inflicts [00D5FF]Weak Point[-] damage equal to 170 % of Attack on @target.allEnemies, then inflicts [00D5FF]All-Target Attack Disable[-] for 1 tour(s).\\n\\n[00D5FF]※Weak Point: 3x damage against Debuffed enemies.[-]",
+              "idJeu": 1008502,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 230.0,
+              "description": "Inflicts [00D5FF]Weak Point[-] damage equal to 230 % of Attack on @target.allEnemies, then inflicts [00D5FF]Attack Disable[-] for 1 tour(s).\\n\\n[00D5FF]※Weak Point: 3x damage against Debuffed enemies.[-]",
+              "idJeu": 1008503,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Healing Fox\"",
+          "image": "assets/2006501/images/icon_4koa_tiara_ssr_type01_skill_02__25cd65310a0b55ba.png",
+          "type": "@skill.attack",
+          "cible": "@target.allAllies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies, heals them for 150 % of Attack, then [00D5FF]Rejuvenates[-] for 2 tour(s).\\n\\n[00D5FF]※Rejuvenate: Additional Recovery equal to 60 % of recovered HP at the beginning of the turn.[-]",
+              "idJeu": 1008511,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies, heals them for 200 % of Attack, then [00D5FF]Rejuvenates[-] for 2 tour(s).\\n\\n[00D5FF]※Rejuvenate: Additional Recovery equal to 60 % of recovered HP at the beginning of the turn.[-]",
+              "idJeu": 1008512,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies, heals them for 300 % of Attack, then [00D5FF]Rejuvenates[-] for 2 tour(s).\\n\\n[00D5FF]※Rejuvenate: Additional Recovery equal to 60 % of recovered HP at the beginning of the turn.[-]",
+              "idJeu": 1008513,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Burning Lion\"",
+        "image": "assets/2006501/images/icon_4koa_tiara_ssr_type01_special_01__a0ffcd3378903ef5.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 420 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 462 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 504 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 546 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 588 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 630 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Youngest Princess",
+        "image": "assets/2006501/images/icon_exclusive_skill_2006501__275d31a7f84cd980.png",
+        "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]2 turns[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]80%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]1 turn[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]50%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-]."
+          },
+          {
+            "niveau": 2,
+            "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]1 turn[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]80%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-]."
+          },
+          {
+            "niveau": 6,
+            "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]2 turns[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]80%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-]."
+          }
+        ]
+      },
+      "idForme": 329401,
+      "portrait": "assets/2006501/images/icon_hero_4koa_tiara_0001_s__01d7779d054bb40d.png",
+      "portraitVertical": "assets/2006501/images/icon_skin_4koa_tiara_0001_l__e0095b66999d9abe.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/2006501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/2006501/images/hero_illust_4koa_tiara_2006501__6360c95d6cf666a8.png",
+      "legendeImage": "4koa_tiara_0002",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 870.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 450.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5615
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 95.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 200.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 95.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Fire Release\"",
+          "image": "assets/2006501/images/icon_4koa_tiara_ssr_type01_skill_01_02__13c5bd8ffc0dc773.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 140.0,
+              "description": "Inflicts [00D5FF]Weak Point[-] damage equal to 140 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Weak Point: 3x damage against Debuffed enemies.[-]",
+              "idJeu": 1008501,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 170.0,
+              "description": "Inflicts [00D5FF]Weak Point[-] damage equal to 170 % of Attack on @target.allEnemies, then inflicts [00D5FF]All-Target Attack Disable[-] for 1 tour(s).\\n\\n[00D5FF]※Weak Point: 3x damage against Debuffed enemies.[-]",
+              "idJeu": 1008502,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 230.0,
+              "description": "Inflicts [00D5FF]Weak Point[-] damage equal to 230 % of Attack on @target.allEnemies, then inflicts [00D5FF]Attack Disable[-] for 1 tour(s).\\n\\n[00D5FF]※Weak Point: 3x damage against Debuffed enemies.[-]",
+              "idJeu": 1008503,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk_global.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Healing Fox\"",
+          "image": "assets/2006501/images/icon_4koa_tiara_ssr_type01_skill_02__25cd65310a0b55ba.png",
+          "type": "@skill.attack",
+          "cible": "@target.allAllies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 150.0,
+              "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies, heals them for 150 % of Attack, then [00D5FF]Rejuvenates[-] for 2 tour(s).\\n\\n[00D5FF]※Rejuvenate: Additional Recovery equal to 60 % of recovered HP at the beginning of the turn.[-]",
+              "idJeu": 1008511,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 200.0,
+              "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies, heals them for 200 % of Attack, then [00D5FF]Rejuvenates[-] for 2 tour(s).\\n\\n[00D5FF]※Rejuvenate: Additional Recovery equal to 60 % of recovered HP at the beginning of the turn.[-]",
+              "idJeu": 1008512,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies, heals them for 300 % of Attack, then [00D5FF]Rejuvenates[-] for 2 tour(s).\\n\\n[00D5FF]※Rejuvenate: Additional Recovery equal to 60 % of recovered HP at the beginning of the turn.[-]",
+              "idJeu": 1008513,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/heal_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Burning Lion\"",
+        "image": "assets/2006501/images/icon_4koa_tiara_ssr_type01_special_01__a0ffcd3378903ef5.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 420.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 420 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 462.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 462 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 504.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 504 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 546.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 546 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 588.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 588 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 630.0,
+            "description": "[00D5FF]Removes Buffs and Stances[-] from @target.allEnemies and inflicts [00D5FF]Flood[-] damage equal to 630 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Youngest Princess",
+        "image": "assets/2006501/images/icon_exclusive_skill_2006501__275d31a7f84cd980.png",
+        "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]2 turns[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]80%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]1 turn[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]50%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-]."
+          },
+          {
+            "niveau": 2,
+            "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]1 turn[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]80%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-]."
+          },
+          {
+            "niveau": 6,
+            "description": "For [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle, their basic stats increase by [FFAE00]5%[-] and [00D5FF]damage dealt[-] increases by [FFAE00]10%[-].\\n[i][C0C0C0]※ Applicable Allies: Fairies and [Four Knights of the Apocalypse][-][/i]\\n\\n[00D5FF]Applicable Allies'[-] [00D5FF]skill ranks are increased[-] at the start of the battle. (Limit [FFAE00]once[-])\\n[i][C0C0C0](Excludes Debuff Atk Skills)[-][/i]\\n\\nWhen an [00D5FF]enemy enters the battle from the Secondary Slot[-], their Attack-related stats decrease by [FFAE00]50%[-] for [FF8000]2 turns[-]. When an enemy whose Attack-related stats are reduced by the hero's Unique ability uses any attack on their turn, the skill's coefficient is decreased by [FF8000]80%[-].\\n\\nWhen an [00D5FF]Applicable Ally's[-] Stance is removed or when the hero [00D5FF]uses a Recovery Skill[-] to remove Debuffs, [00D5FF]Applicable Allies[-] receive a [00D5FF][FFAE00]40%[-] damage taken suppression[-] for [FFAE00]1 turn[-]."
+          }
+        ]
+      },
+      "idForme": 329402,
+      "portrait": "assets/2006501/images/icon_hero_4koa_tiara_0002_s__175dd4e1c68d0fda.png",
+      "portraitVertical": "assets/2006501/images/icon_skin_4koa_tiara_0002_l__7c254de9e54e5844.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3329401",
+      "categorie": "Skin",
+      "nom": "Cute Fairy",
+      "image": "assets/2006501/images/icon_skin_4koa_tiara_0001_l__e0095b66999d9abe.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329450",
+      "categorie": "Skin",
+      "nom": "Daughter of the Forest and Earth",
+      "image": "assets/2006501/images/icon_skin_4koa_tiara_0003_l__8d3425ea872a8d5e.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329451",
+      "categorie": "Skin",
+      "nom": "A New Adventure",
+      "image": "assets/2006501/images/icon_skin_4koa_tiara_0004_l__1be32f15ec5a9073.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329452",
+      "categorie": "Skin",
+      "nom": "Fairy's Protection",
+      "image": "assets/2006501/images/icon_skin_4koa_tiara_0005_l__0a4097e5c7acbaed.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329453",
+      "categorie": "Skin",
+      "nom": "Princess of the Summer Sea",
+      "image": "assets/2006501/images/icon_skin_4koa_tiara_0006_l__ce6dcbb91ae532bf.png",
+      "rarete": ""
+    },
+    {
+      "id": "3329402",
+      "categorie": "Skin",
+      "nom": "Leisurely Stroll",
+      "image": "assets/2006501/images/icon_skin_4koa_tiara_0002_l__7c254de9e54e5844.png",
+      "rarete": ""
+    },
+    {
+      "id": "881601",
+      "categorie": "Weapon",
+      "nom": "Bare Hands",
+      "image": "assets/2006501/images/icon_weapon_4koa_tiara_0001_l__9990d5e77cd6924f.png",
+      "rarete": ""
+    },
+    {
+      "id": "881602",
+      "categorie": "Weapon",
+      "nom": "Elegant Gloves",
+      "image": "assets/2006501/images/icon_weapon_4koa_tiara_0003_l__57d39ac8ac6ff7d0.png",
+      "rarete": ""
+    },
+    {
+      "id": "881603",
+      "categorie": "Weapon",
+      "nom": "Adventurer's Gloves",
+      "image": "assets/2006501/images/icon_weapon_4koa_tiara_0004_l__1501cdf25e096101.png",
+      "rarete": ""
+    },
+    {
+      "id": "881604",
+      "categorie": "Weapon",
+      "nom": "Hands of Protection",
+      "image": "assets/2006501/images/icon_weapon_4koa_tiara_0005_l__e995bb4a51fbb275.png",
+      "rarete": ""
+    },
+    {
+      "id": "881605",
+      "categorie": "Weapon",
+      "nom": "Fragrance of Summer",
+      "image": "assets/2006501/images/icon_weapon_4koa_tiara_0006_l__a3a9f6a8949d61ab.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010501",
+      "categorie": "Head",
+      "nom": "Cute Ponytail",
+      "image": "assets/2006501/images/icon_head_4koa_tiara_0001_l__2260da0fc89ee88b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010502",
+      "categorie": "Head",
+      "nom": "Elegant Bob",
+      "image": "assets/2006501/images/icon_head_4koa_tiara_0003_l__621897d17e06b85a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010503",
+      "categorie": "Head",
+      "nom": "Adventurer's Goggles",
+      "image": "assets/2006501/images/icon_head_4koa_tiara_0004_l__df82921acb38acac.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010504",
+      "categorie": "Head",
+      "nom": "Fairy's Resolve",
+      "image": "assets/2006501/images/icon_head_4koa_tiara_0005_l__2c09eed81f98270e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010506",
+      "categorie": "Head",
+      "nom": "Summer Vibes",
+      "image": "assets/2006501/images/icon_head_4koa_tiara_0006_l__167ef526e4960b81.png",
+      "rarete": ""
+    },
+    {
+      "id": "4010505",
+      "categorie": "Head",
+      "nom": "Familiar Pigtails",
+      "image": "assets/2006501/images/icon_head_4koa_tiara_0501_l__dcb2a35d652e57d0.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null
+};

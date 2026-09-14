@@ -1,0 +1,566 @@
+{
+  "nom": "Another Ban",
+  "designation": "[A Twisted World]",
+  "titre": "Another Ban",
+  "idJeu": "2010501",
+  "attribut": {
+    "nom": "@attribute.4",
+    "icone": "assets/commun/icon_filter_attribute_04__41a0e2f0c35046b0.png",
+    "couleur": "#f1c54f",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6",
+    "@characteristic.10"
+  ],
+  "portrait": "assets/2010501/images/icon_hero_ban_another_0002_s__3342e846c9e53eb4.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[A Twisted World] Another Ban's attacks don't result in critical strikes, but he can deal great damage based on his Crit Damage.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/2010501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/2010501/images/hero_illust_ban_another_2010501__853a2d436a565927.png",
+      "legendeImage": "ban_another_0001",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 520.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 400.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 6800.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4935
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Captivating Beauty\"",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_01__b5ba458350aa051a.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Applies [00D5FF]Mark of Craving[-] on @target.oneEnemy for [FFAE00]1 turn[-], then inflicts [00D5FF]Craving[-] damage equal to 200 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010201,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Applies [00D5FF]Mark of Craving[-] on @target.oneEnemy for [FFAE00]1 turn[-], then inflicts [00D5FF]Craving[-] damage equal to 300 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010202,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Applies [00D5FF]Mark of Craving[-] on @target.oneEnemy for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 500 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010203,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Assault Hunt\"",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_02__23f7aef49edba36f.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflicts [00D5FF]Voracity[-] damage that does not trigger critical strikes equal to 120 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Voracity: [FFAE00]3x[-] Pierce Rate Increase.\\nAdditional damage equal to [FFAE00]120%[-] of (Crit Damage [FFAE00]-100%[-]).[-]",
+              "idJeu": 1010211,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflicts [00D5FF]Voracity[-] damage that does not trigger critical strikes equal to 180 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Voracity: [FFAE00]3x[-] Pierce Rate Increase.\\nAdditional damage equal to [FFAE00]120%[-] of (Crit Damage [FFAE00]-100%[-]).[-]",
+              "idJeu": 1010212,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Voracity[-] damage that does not trigger critical strikes equal to 300 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Voracity: [FFAE00]3x[-] Pierce Rate Increase.\\nAdditional damage equal to [FFAE00]120%[-] of (Crit Damage [FFAE00]-100%[-]).[-]",
+              "idJeu": 1010213,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Beauty of the Hunt\"",
+        "image": "assets/2010501/images/icon_ban_another_ssr_type01_special_01__f622163a6acaf9ff.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 380.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 380 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 440 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 480 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 520 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 560 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 600 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Summer Hunt",
+        "image": "assets/2010501/images/icon_exclusive_skill_2010501__5cbb9bc7a20eedc3.png",
+        "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]30%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.-1\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]30%[-] of the hero's increased HP."
+          },
+          {
+            "niveau": 2,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]10%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP."
+          },
+          {
+            "niveau": 3,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]20%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP."
+          },
+          {
+            "niveau": 4,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]30%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP."
+          }
+        ]
+      },
+      "idForme": 330201,
+      "portrait": "assets/2010501/images/icon_hero_ban_another_0001_s__9ae88a822fbac66a.png",
+      "portraitVertical": "assets/2010501/images/icon_skin_ban_another_0001_l__421f7fb7752e7f16.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/2010501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/2010501/images/hero_illust_ban_another_2010501__853a2d436a565927.png",
+      "legendeImage": "ban_another_0002",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 820.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 530.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 8500.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5679
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Captivating Beauty\"",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_01__b5ba458350aa051a.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Applies [00D5FF]Mark of Craving[-] on @target.oneEnemy for [FFAE00]1 turn[-], then inflicts [00D5FF]Craving[-] damage equal to 200 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010201,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Applies [00D5FF]Mark of Craving[-] on @target.oneEnemy for [FFAE00]1 turn[-], then inflicts [00D5FF]Craving[-] damage equal to 300 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010202,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Applies [00D5FF]Mark of Craving[-] on @target.oneEnemy for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 500 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010203,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Assault Hunt\"",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_02__23f7aef49edba36f.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflicts [00D5FF]Voracity[-] damage that does not trigger critical strikes equal to 120 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Voracity: [FFAE00]3x[-] Pierce Rate Increase.\\nAdditional damage equal to [FFAE00]120%[-] of (Crit Damage [FFAE00]-100%[-]).[-]",
+              "idJeu": 1010211,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflicts [00D5FF]Voracity[-] damage that does not trigger critical strikes equal to 180 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Voracity: [FFAE00]3x[-] Pierce Rate Increase.\\nAdditional damage equal to [FFAE00]120%[-] of (Crit Damage [FFAE00]-100%[-]).[-]",
+              "idJeu": 1010212,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Voracity[-] damage that does not trigger critical strikes equal to 300 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Voracity: [FFAE00]3x[-] Pierce Rate Increase.\\nAdditional damage equal to [FFAE00]120%[-] of (Crit Damage [FFAE00]-100%[-]).[-]",
+              "idJeu": 1010213,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Beauty of the Hunt\"",
+        "image": "assets/2010501/images/icon_ban_another_ssr_type01_special_01__f622163a6acaf9ff.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 380.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 380 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 440 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 480 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 520 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 560 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Applies [00D5FF]Mark of Craving[-] on @target.allEnemies for [FFAE00]2 turns[-], then inflicts [00D5FF]Craving[-] damage equal to 600 % of Attack.\\n\\n[00D5FF]※Craving: [FFAE00]3x[-] Pierce Rate Increase. Damage dealt to enemies with Mark of Craving [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Summer Hunt",
+        "image": "assets/2010501/images/icon_exclusive_skill_2010501__5cbb9bc7a20eedc3.png",
+        "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]30%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.-1\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]30%[-] of the hero's increased HP."
+          },
+          {
+            "niveau": 2,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]10%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP."
+          },
+          {
+            "niveau": 3,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]20%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP."
+          },
+          {
+            "niveau": 4,
+            "description": "Increases basic stats of [00D5FF]Applicable Allies[-] participating in battle by [FFAE00]15%[-] and decreases their [00D5FF]damage taken[-] by [FFAE00]50%[-].\\n[i][C0C0C0]※Applicable Allies: Humans and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Craving[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Craving: Applicable Allies' HP-related stats [FFAE00]+20%[-].\\nGrants Applicable Allies immunity to Recovery-related stat restrictions.Applicable Allies immediately recover [FF8000]30%[-] of damage taken during the enemy's turn.\\n[FFAE00]40%[-] Damage Taken Suppression against single-target attacks (including counters).[-][/i]\\n\\nWhen the hero uses a [00D5FF]Craving[-] skill on an enemy with [00D5FF]Mark of Craving[-], the [00D5FF]damage dealt[-] increases by [FFAE00]100%[-], and if damage is dealt, the hero steals [FFAE00]1 orb[-] of that enemy's Ultimate Move Gauge, then enters [00D5FF]Stealth[-] for [FFAE00]1 turn[-] and does not take [00D5FF]Reflect[-] or [00D5FF]Counter[-] damage.\\n[i][C0C0C0]※Mark of Craving: Damage dealt [FFAE00]-70%[-], damage taken [FFAE00]+70%[-].\\n※Stealth: Cannot be targeted while other allies remain.[-][/i]\\n\\nFor [FFAE00]each orb[-] of the Ultimate Move Gauge stolen, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]5%[-] and the hero's [00D5FF]Crit Damage[-] increases by [FFAE00]30%[-]. [FFAE00](10 times)[-]\\n\\nWhen an [00D5FF]Applicable Ally's[-] skill doesn't result in a critical strike, it inflicts additional damage equal to [FF8000]40%[-] of the hero's increased HP."
+          }
+        ]
+      },
+      "idForme": 330202,
+      "portrait": "assets/2010501/images/icon_hero_ban_another_0002_s__3342e846c9e53eb4.png",
+      "portraitVertical": "assets/2010501/images/icon_skin_ban_another_0002_l__2551517ea8925296.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3330201",
+      "categorie": "Skin",
+      "nom": "Treasure Hunter",
+      "image": "assets/2010501/images/icon_skin_ban_another_0001_l__421f7fb7752e7f16.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330250",
+      "categorie": "Skin",
+      "nom": "Temporary Tavern Helper",
+      "image": "assets/2010501/images/icon_skin_ban_another_0003_l__c244b22084e384c8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330251",
+      "categorie": "Skin",
+      "nom": "Farlands Fox Yokai",
+      "image": "assets/2010501/images/icon_skin_ban_another_0004_l__59dcaed3cd82e6b6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330252",
+      "categorie": "Skin",
+      "nom": "Summer Hunter",
+      "image": "assets/2010501/images/icon_skin_ban_another_0005_l__38ff5c2024654301.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330202",
+      "categorie": "Skin",
+      "nom": "[b]The Fox Sin of Greed[/b]",
+      "image": "assets/2010501/images/icon_skin_ban_another_0002_l__2551517ea8925296.png",
+      "rarete": ""
+    },
+    {
+      "id": "882401",
+      "categorie": "Weapon",
+      "nom": "Courechouse",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0001_l__1111fba0bd3815d0.png",
+      "rarete": ""
+    },
+    {
+      "id": "882402",
+      "categorie": "Weapon",
+      "nom": "Table Knife",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0003_l__fe71e8582bbd2649.png",
+      "rarete": ""
+    },
+    {
+      "id": "882403",
+      "categorie": "Weapon",
+      "nom": "Farlands Nunchucks",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0004_l__ffdcf4636124dadd.png",
+      "rarete": ""
+    },
+    {
+      "id": "882404",
+      "categorie": "Weapon",
+      "nom": "Summer Dessert",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0005_l__3205e1b7e3feb585.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011301",
+      "categorie": "Head",
+      "nom": "Basic Hairstyle",
+      "image": "assets/2010501/images/icon_head_ban_another_0001_l__b2dcd2cb85a3c910.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011302",
+      "categorie": "Head",
+      "nom": "Maid's Headpiece",
+      "image": "assets/2010501/images/icon_head_ban_another_0003_l__a61fb834d780eb24.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011303",
+      "categorie": "Head",
+      "nom": "Alluring Fox Yokai",
+      "image": "assets/2010501/images/icon_head_ban_another_0004_l__80072dbe821481a0.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011304",
+      "categorie": "Head",
+      "nom": "Summer Style",
+      "image": "assets/2010501/images/icon_head_ban_another_0005_l__1626083d8c04ec4b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011305",
+      "categorie": "Head",
+      "nom": "Wild Style",
+      "image": "assets/2010501/images/icon_head_ban_another_0501_l__2b30d6b00f8adc3a.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null
+}

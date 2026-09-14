@@ -1,0 +1,906 @@
+{
+  "nom": "Roxy of Madness",
+  "designation": "[Vengeful Saw Blade]",
+  "titre": "Roxy of Madness",
+  "idJeu": "1931501",
+  "attribut": {
+    "nom": "@attribute.3",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.1"
+  ],
+  "portrait": "assets/1931501/images/icon_hero_disaster_roxy_crazy_0012_s__4072bd4695d23824.png",
+  "rareteParDefaut": "LR",
+  "presentation": "[Vengeful Saw Blade] Roxy of Madness has a skill that deals greater damage the higher her Crit Chance.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": {
+    "nom": "Unity of Madness",
+    "image": "assets/1931501/images/icon_exclusive_skill_1931502__8dd7f582378de686.png",
+    "simpleImage": "assets/1931501/images/icon_exclusive_skill_1931502_simple__224efa331ac94d5c.png",
+    "description": "Increases Attack-related stats of Human heroes with a Unity effect by [FFAE00]3 %[-].\\n[00D5FF](Unity effect is enhanced based on Ultimate Move level)[-]"
+  },
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1931501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1931501/images/hero_illust_disaster_roxy_crazy_1931501__18662fcb3c309c62.png",
+      "legendeImage": "disaster_roxy_crazy_0001",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 580.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 350.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 6500.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4215
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 75.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Crazy Blade\"",
+          "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_skill_01__304c707ca84e8d2e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Flood[-] damage equal to 200 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001101,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Flood[-] damage equal to 300 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001102,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Flood[-] damage equal to 500 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001103,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Flame Grinder\"",
+          "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_skill_02__7eb0ef4224e30f52.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 100.0,
+              "description": "Inflicts [00D5FF]Spike[-] damage equal to 100 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Spike: 2x Crit Damage Increase.[-]",
+              "idJeu": 1001111,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "Inflicts [00D5FF]Spike[-] damage equal to 150 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Spike: 2x Crit Damage Increase.[-]",
+              "idJeu": 1001112,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Inflicts [00D5FF]Spike[-] damage equal to 250 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Spike: 2x Crit Damage Increase.[-]",
+              "idJeu": 1001113,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Horrific Vengeance\"",
+        "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_special_01__e047bafcda4e4c7c.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 630.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 630 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 693.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 693 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 756.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 756 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 819.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 819 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 882.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 882 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 945.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 945 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "I'll Chop You Up",
+        "image": "assets/1931501/images/icon_exclusive_skill_1931501__0d3351825cc1f878.png",
+        "description": "Increases the hero's Crit Chance by [FFAE00]40 %[-] for [FFAE00]each[-] [00D5FF]Human ally[-] on the battlefield. If a [00D5FF]critical strike[-] occurs from a [00D5FF]Human ally's[-] single-target attack, inflicts [00D5FF]additional damage equal to [FFAE00]300 %[-] of the hero's initial Attack[-].\\n[00D5FF](Additional damage occurs only [FFAE00]once[-] for [FFAE00]each[-] skill)",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases the hero's Crit Chance by [FFAE00]40 %[-] for [FFAE00]each[-] [00D5FF]Human ally[-] on the battlefield. If a [00D5FF]critical strike[-] occurs from a [00D5FF]Human ally's[-] single-target attack, inflicts [00D5FF]additional damage equal to [FFAE00]300 %[-] of the hero's initial Attack[-].\\n[00D5FF](Additional damage occurs only [FFAE00]once[-] for [FFAE00]each[-] skill)"
+          }
+        ]
+      },
+      "idForme": 314901,
+      "portrait": "assets/1931501/images/icon_hero_disaster_roxy_crazy_0001_s__56ce0b4a5127179c.png",
+      "portraitVertical": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0001_l__96114bd720fd23ed.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1931501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1931501/images/hero_illust_disaster_roxy_crazy_1931501__18662fcb3c309c62.png",
+      "legendeImage": "disaster_roxy_crazy_0002",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 880.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 420.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 8100.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4891
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 170.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 75.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Crazy Blade\"",
+          "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_skill_01__304c707ca84e8d2e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Flood[-] damage equal to 200 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001101,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Flood[-] damage equal to 300 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001102,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Flood[-] damage equal to 500 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001103,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Flame Grinder\"",
+          "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_skill_02__7eb0ef4224e30f52.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 100.0,
+              "description": "Inflicts [00D5FF]Spike[-] damage equal to 100 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Spike: 2x Crit Damage Increase.[-]",
+              "idJeu": 1001111,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "Inflicts [00D5FF]Spike[-] damage equal to 150 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Spike: 2x Crit Damage Increase.[-]",
+              "idJeu": 1001112,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Inflicts [00D5FF]Spike[-] damage equal to 250 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Spike: 2x Crit Damage Increase.[-]",
+              "idJeu": 1001113,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Horrific Vengeance\"",
+        "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_special_01__e047bafcda4e4c7c.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 630.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 630 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 693.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 693 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 756.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 756 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 819.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 819 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 882.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 882 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 945.0,
+            "description": "Inflicts [00D5FF]Sever[-] damage equal to 945 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "I'll Chop You Up",
+        "image": "assets/1931501/images/icon_exclusive_skill_1931501__0d3351825cc1f878.png",
+        "description": "Increases the hero's Crit Chance by [FFAE00]40 %[-] for [FFAE00]each[-] [00D5FF]Human ally[-] on the battlefield. If a [00D5FF]critical strike[-] occurs from a [00D5FF]Human ally's[-] single-target attack, inflicts [00D5FF]additional damage equal to [FFAE00]300 %[-] of the hero's initial Attack[-].\\n[00D5FF](Additional damage occurs only [FFAE00]once[-] for [FFAE00]each[-] skill)",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases the hero's Crit Chance by [FFAE00]40 %[-] for [FFAE00]each[-] [00D5FF]Human ally[-] on the battlefield. If a [00D5FF]critical strike[-] occurs from a [00D5FF]Human ally's[-] single-target attack, inflicts [00D5FF]additional damage equal to [FFAE00]300 %[-] of the hero's initial Attack[-].\\n[00D5FF](Additional damage occurs only [FFAE00]once[-] for [FFAE00]each[-] skill)"
+          }
+        ]
+      },
+      "idForme": 314902,
+      "portrait": "assets/1931501/images/icon_hero_disaster_roxy_crazy_0002_s__7f603d4abf9c4727.png",
+      "portraitVertical": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0002_l__d15c6bcbebf8e869.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1931501/images/hero_illust_disaster_roxy_crazy_1931501__18662fcb3c309c62.png",
+      "legendeImage": "disaster_roxy_crazy_0012",
+      "niveau": 100,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 950.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 450.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 8500.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5515
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 200.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 85.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Crazy Blade\"",
+          "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_skill_01__304c707ca84e8d2e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 220.0,
+              "description": "Inflicts [00D5FF]Flood[-] damage equal to 220 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001141,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 330.0,
+              "description": "[00D5FF]Removes Buffs[-] from @target.oneEnemy and inflicts [00D5FF]Flood[-] damage equal to 330 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001142,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 550.0,
+              "description": "[00D5FF]Removes Buffs[-] from @target.oneEnemy and inflicts [00D5FF]Flood[-] damage equal to 550 % of Attack.\\n\\n[00D5FF]※Flood: 0.8 % additional damage for [FFAE00]every percent[-] of remaining HP on self.[-]",
+              "idJeu": 1001143,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Flame Grinder\"",
+          "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_skill_02__7eb0ef4224e30f52.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 100.0,
+              "description": "Inflicts [00D5FF]Cataclysm[-] damage equal to 100 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Cataclysm: [FFAE00]+[-]50 % Attack and [FFAE00]2x[-] Crit Damage Increase when using skill.[-]",
+              "idJeu": 1001151,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 150.0,
+              "description": "Inflicts [00D5FF]Cataclysm[-] damage equal to 150 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Cataclysm: [FFAE00]+[-]50 % Attack and [FFAE00]2x[-] Crit Damage Increase when using skill.[-]",
+              "idJeu": 1001152,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 250.0,
+              "description": "Inflicts [00D5FF]Cataclysm[-] damage equal to 250 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Cataclysm: [FFAE00]+[-]50 % Attack and [FFAE00]2x[-] Crit Damage Increase when using skill.[-]",
+              "idJeu": 1001153,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Horrific Vengeance\"",
+        "image": "assets/1931501/images/icon_disaster_roxy_crazy_ssr_type01_special_01__e047bafcda4e4c7c.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 630.0,
+            "description": "Increases own Crit Damage by [FFAE00]100%[-] for [FFAE00]2 turns[-], then inflicts [00D5FF]Sever[-] damage equal to 630 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 693.0,
+            "description": "Increases own Crit Damage by [FFAE00]100%[-] for [FFAE00]2 turns[-], then inflicts [00D5FF]Sever[-] damage equal to 693 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 756.0,
+            "description": "Increases own Crit Damage by [FFAE00]100%[-] for [FFAE00]2 turns[-], then inflicts [00D5FF]Sever[-] damage equal to 756 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 819.0,
+            "description": "Increases own Crit Damage by [FFAE00]100%[-] for [FFAE00]2 turns[-], then inflicts [00D5FF]Sever[-] damage equal to 819 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 882.0,
+            "description": "Increases own Crit Damage by [FFAE00]100%[-] for [FFAE00]2 turns[-], then inflicts [00D5FF]Sever[-] damage equal to 882 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 945.0,
+            "description": "Increases own Crit Damage by [FFAE00]100%[-] for [FFAE00]2 turns[-], then inflicts [00D5FF]Sever[-] damage equal to 945 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Sever: 3x Crit Chance Increase.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "I'll Chop You Up",
+        "image": "assets/1931501/images/icon_exclusive_skill_1931501__0d3351825cc1f878.png",
+        "description": "Increases hero's Crit Chance by [FFAE00]40%[-] and [00D5FF]Applicable Allies'[-] basic stats by [FFAE00]5%[-] for [FFAE00]each[-] one participating in battle.\\n[i][C0C0C0]※Applicable Ally: Humans, [Sacrifice], [The Seven Catastrophes][-][/i]\\n\\nGains [00D5FF]Lunacy[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Lunacy: Crit Damage [FFAE00]+200%[-] when using a skill.\\nThe hero can only be afflicted with Lunacy.[-][/i]\\n\\nIncreases Attack by [FFAE00]100%[-] when using a skill. Further increases [00D5FF]damage dealt[-] by [FFAE00]100%[-] against enemies with lower Attack than the hero.\\n\\nDecreases all enemies' Defense-related stats by [FFAE00]30%[-] and inflicts [00D5FF]Corrosion[-] damage equal to [FFAE00]15%[-] of remaining HP for [FFAE00]2 turns[-] when the hero dies.\\n\\nWhen an [00D5FF]Applicable Ally[-] uses an Attack Skill other than the Ultimate Move, it inflicts additional damage equal to [FFAE00]300%[-] of the hero's initial Attack.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Increases hero's Crit Chance by [FFAE00]40%[-] and [00D5FF]Applicable Allies'[-] basic stats by [FFAE00]5%[-] for [FFAE00]each[-] one participating in battle.\\n[i][C0C0C0]※Applicable Ally: Humans, [Sacrifice], [The Seven Catastrophes][-][/i]\\n\\nGains [00D5FF]Lunacy[-] for [FFAE00]2 turns[-] at the start of the battle.\\n[i][C0C0C0]※Lunacy: Crit Damage [FFAE00]+200%[-] when using a skill.\\nThe hero can only be afflicted with Lunacy.[-][/i]\\n\\nIncreases Attack by [FFAE00]100%[-] when using a skill. Further increases [00D5FF]damage dealt[-] by [FFAE00]100%[-] against enemies with lower Attack than the hero.\\n\\nDecreases all enemies' Defense-related stats by [FFAE00]30%[-] and inflicts [00D5FF]Corrosion[-] damage equal to [FFAE00]15%[-] of remaining HP for [FFAE00]2 turns[-] when the hero dies.\\n\\nWhen an [00D5FF]Applicable Ally[-] uses an Attack Skill other than the Ultimate Move, it inflicts additional damage equal to [FFAE00]300%[-] of the hero's initial Attack."
+          }
+        ]
+      },
+      "idForme": 314905,
+      "portrait": "assets/1931501/images/icon_hero_disaster_roxy_crazy_0012_s__4072bd4695d23824.png",
+      "portraitVertical": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0012_l__9ff2a6da5b475549.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3314901",
+      "categorie": "Skin",
+      "nom": "Runaway",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0001_l__96114bd720fd23ed.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314903",
+      "categorie": "Skin",
+      "nom": "Troublemaker Santa",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0008_l__2c8cc8b5e5404053.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314950",
+      "categorie": "Skin",
+      "nom": "Demolition Expert",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0003_l__494770ba7e769756.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314951",
+      "categorie": "Skin",
+      "nom": "Holographic Suit",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0004_l__fe6faa7873baa0e4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314952",
+      "categorie": "Skin",
+      "nom": "Mad Assassin",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0005_l__8a94ea432f63755e.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314954",
+      "categorie": "Skin",
+      "nom": "Crazy Vacation",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0007_l__82f107a071c08049.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314953",
+      "categorie": "Skin",
+      "nom": "Wild Gamer",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0006_l__6dbcb4484fdb0187.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314902",
+      "categorie": "Skin",
+      "nom": "Mad Revenger",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0002_l__d15c6bcbebf8e869.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314904",
+      "categorie": "Skin",
+      "nom": "Mad Santa",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0009_l__9dfa9730df0b5aed.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314905",
+      "categorie": "Skin",
+      "nom": "Gladiator of Unholy Madness",
+      "image": "assets/1931501/images/icon_skin_disaster_roxy_crazy_0012_l__9ff2a6da5b475549.png",
+      "rarete": ""
+    },
+    {
+      "id": "874301",
+      "categorie": "Weapon",
+      "nom": "Mad Grinder",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0001_l__d3f04ef2a6a780b5.png",
+      "rarete": ""
+    },
+    {
+      "id": "874302",
+      "categorie": "Weapon",
+      "nom": "Company Chainsaw",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0003_l__090008ab1f014c6f.png",
+      "rarete": ""
+    },
+    {
+      "id": "874303",
+      "categorie": "Weapon",
+      "nom": "Plasma Sword",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0004_l__97677fe6bd3a0c81.png",
+      "rarete": ""
+    },
+    {
+      "id": "874304",
+      "categorie": "Weapon",
+      "nom": "Mad Blade",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0005_l__2710527d2a36d1d3.png",
+      "rarete": ""
+    },
+    {
+      "id": "874306",
+      "categorie": "Weapon",
+      "nom": "Crazy Shark",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0007_l__34344a0acee64ca0.png",
+      "rarete": ""
+    },
+    {
+      "id": "874305",
+      "categorie": "Weapon",
+      "nom": "Wild Bat",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0006_l__c0145a739a7fe926.png",
+      "rarete": ""
+    },
+    {
+      "id": "874308",
+      "categorie": "Weapon",
+      "nom": "Rampaging Sled",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0009_l__cd732d51544ddd7e.png",
+      "rarete": ""
+    },
+    {
+      "id": "874307",
+      "categorie": "Weapon",
+      "nom": "Saw Blade of Greed",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0001_l__d3f04ef2a6a780b5.png",
+      "rarete": ""
+    },
+    {
+      "id": "874309",
+      "categorie": "Weapon",
+      "nom": "Starlit Sawblades of Madness",
+      "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0012_l__c2cfe708cb2ccc29.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002401",
+      "categorie": "Head",
+      "nom": "Ruffled Hair",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0001_l__0eb219f16b7391e7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002402",
+      "categorie": "Head",
+      "nom": "Guru's Goggles",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0003_l__cce86e97b391c826.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002403",
+      "categorie": "Head",
+      "nom": "Cyber Goggles",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0004_l__96a1469db05ee8ee.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002404",
+      "categorie": "Head",
+      "nom": "Crimson Mask",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0005_l__bb7fb2fbc98127a2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002407",
+      "categorie": "Head",
+      "nom": "Vacation Goggles",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0007_l__78a4316aad7faef9.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002406",
+      "categorie": "Head",
+      "nom": "Wild Cat Helmet",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0006_l__d420925b66cd278c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002408",
+      "categorie": "Head",
+      "nom": "Santa's Hat",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0009_l__8fb19bd6d79952d2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002410",
+      "categorie": "Head",
+      "nom": "Unholy Headgear of Madness",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0012_l__1559a508eb80d46a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002405",
+      "categorie": "Head",
+      "nom": "Bandana Disguise",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0002_l__ebb658566f71680c.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002409",
+      "categorie": "Head",
+      "nom": "Snowman Earmuffs",
+      "image": "assets/1931501/images/icon_head_disaster_roxy_crazy_0501_l__3f8a2719583970a0.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Saw Blade of Greed",
+    "image": "assets/1931501/images/icon_weapon_disaster_roxy_crazy_0551_s__1173d8e14209386d.png",
+    "description": "Roxy of Madness's Holy Relic (Weapon).\\n[DC143C]A saw blade inspired by Odin's two hunting hounds, Geri and Freki. Made using the molars of the hounds who symbolize greed, the saw blade devours any prey it encounters.[-]",
+    "passif": {
+      "nom": "Saw Blade of Greed",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Increases the hero's basic stats by [FFAE00]3 %[-] and Crit Damage by [FFAE00]30 %[-] for [FFAE00]each[-] [00D5FF]Human ally[-] in battle."
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 600.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 300.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 3300.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Gold",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source of the Roots' Corruption",
+        "image": "assets/commun/icon_craft_costume_rare_material_04__4083e9decd2eb5e0.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Dark Red Crystal",
+        "image": "assets/commun/icon_craft_costume_material_08__53b70f5c9ddcb41a.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Blue Magic Essence",
+        "image": "assets/commun/icon_craft_costume_key_material_01__8bc67ed6369368ff.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Eitri's Meticulousness",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Nidhoggr"
+  }
+}

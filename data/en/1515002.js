@@ -1,0 +1,1004 @@
+window.fichePreparee={
+  "nom": "Melascula of [b]Faith[/b]",
+  "designation": "[Elite Demon]",
+  "titre": "Melascula of [b]Faith[/b]",
+  "idJeu": "1515002",
+  "attribut": {
+    "nom": "@attribute.1",
+    "icone": "assets/commun/icon_filter_attribute_01__bfa1da106b20bf3e.png",
+    "couleur": "#ef6369",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.1"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_01__b2dfe4e53bdd1bf4.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.2"
+  ],
+  "portrait": "assets/1515002/images/icon_hero_melascula_0016_s__2ca3d3a3c877ff30.png",
+  "rareteParDefaut": "LR",
+  "presentation": "[Elite Demon] Melascula of [b]Faith[/b] has a skill which decreases the Max HP of enemies and recovers her own by the same amount once, making her tough to take down.",
+  "commandement": {
+    "nom": "Commandment of [b]Faith[/b]",
+    "image": "assets/1515002/images/icon_exclusive_skill_1515051__be12225ba67914d4.png",
+    "simpleImage": "assets/1515002/images/icon_exclusive_skill_1515051_simple__424f055e62679ce9.png",
+    "description": "At the end of every turn, applies [FFAE00]2[-] [00D5FF]Ignite[-] effects for [FFAE00]5 turns[-] on heroes who have not used skills in PVP.\\n[00D5FF](Applies to both allies and enemies when entering battle)[-]"
+  },
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1515002/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1515002/images/hero_illust_melascula_1515002__c0af96140436c3dc.png",
+      "legendeImage": "melascula_0008",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 540.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 430.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 5800.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3559
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 130.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 120.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 50.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Death Stab\"",
+          "image": "assets/1515002/images/icon_melascula_glove_skill_03__b1f0c0ea46618e91.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 160.0,
+              "description": "Inflicts [00D5FF]Blaze[-] damage equal to 160 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Blaze: [FFAE00]+[-]25 %[-] damage dealt per Ignite effect on target.",
+              "idJeu": 156021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 240.0,
+              "description": "Inflicts [00D5FF]Blaze[-] damage equal to 240 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Blaze: [FFAE00]+[-]25 %[-] damage dealt per Ignite effect on target.",
+              "idJeu": 156022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 400.0,
+              "description": "Inflicts [00D5FF]Blaze[-] damage equal to 400 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Blaze: [FFAE00]+[-]25 %[-] damage dealt per Ignite effect on target.",
+              "idJeu": 156023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Spirit Consume\"",
+          "image": "assets/1515002/images/icon_melascula_glove_skill_04__ecc1bbe8ed609b26.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 8 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 12 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 20 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Summon Soul\"",
+        "image": "assets/1515002/images/icon_melascula_glove_special_01__9970dd720e5756a8.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 560.0,
+            "description": "Inflicts damage equal to 560 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 616.0,
+            "description": "Inflicts damage equal to 616 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 672.0,
+            "description": "Inflicts damage equal to 672 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 728.0,
+            "description": "Inflicts damage equal to 728 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 784.0,
+            "description": "Inflicts damage equal to 784 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 840.0,
+            "description": "Inflicts damage equal to 840 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Return of the Dead",
+        "image": "assets/1515002/images/icon_exclusive_skill_1515002__6f2012d469023613.png",
+        "description": "[00D5FF]Revives[-] an ally that dies. The revived ally's HP is fixed at [FFAE00]1[-] for [FFAE00]3 turns[-].\\n[00D5FF](Limit once. Effect is removed when the hero dies. Applies when entering battle.)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "[00D5FF]Revives[-] an ally that dies. The revived ally's HP is fixed at [FFAE00]1[-] for [FFAE00]3 turns[-].\\n[00D5FF](Limit once. Effect is removed when the hero dies. Applies when entering battle.)[-]"
+          }
+        ]
+      },
+      "idForme": 314003,
+      "portrait": "assets/1515002/images/icon_hero_melascula_0008_s__319b197db3dbddc5.png",
+      "portraitVertical": "assets/1515002/images/icon_skin_melascula_0008_l__2e44e087f442e850.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1515002/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1515002/images/hero_illust_melascula_1515002__c0af96140436c3dc.png",
+      "legendeImage": "melascula_0009",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 700.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 520.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7200.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4071
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 130.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 120.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 50.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Death Stab\"",
+          "image": "assets/1515002/images/icon_melascula_glove_skill_03__b1f0c0ea46618e91.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 160.0,
+              "description": "Inflicts [00D5FF]Blaze[-] damage equal to 160 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Blaze: [FFAE00]+[-]25 %[-] damage dealt per Ignite effect on target.",
+              "idJeu": 156021,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 240.0,
+              "description": "Inflicts [00D5FF]Blaze[-] damage equal to 240 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Blaze: [FFAE00]+[-]25 %[-] damage dealt per Ignite effect on target.",
+              "idJeu": 156022,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 400.0,
+              "description": "Inflicts [00D5FF]Blaze[-] damage equal to 400 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Blaze: [FFAE00]+[-]25 %[-] damage dealt per Ignite effect on target.",
+              "idJeu": 156023,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Spirit Consume\"",
+          "image": "assets/1515002/images/icon_melascula_glove_skill_04__ecc1bbe8ed609b26.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 8 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 12 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 20 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Summon Soul\"",
+        "image": "assets/1515002/images/icon_melascula_glove_special_01__9970dd720e5756a8.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 560.0,
+            "description": "Inflicts damage equal to 560 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 616.0,
+            "description": "Inflicts damage equal to 616 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 672.0,
+            "description": "Inflicts damage equal to 672 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 728.0,
+            "description": "Inflicts damage equal to 728 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 784.0,
+            "description": "Inflicts damage equal to 784 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 840.0,
+            "description": "Inflicts damage equal to 840 % of Attack on @target.oneEnemy and [00D5FF]Lifesteals[-] 100 % of the damage.\\n\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Return of the Dead",
+        "image": "assets/1515002/images/icon_exclusive_skill_1515002__6f2012d469023613.png",
+        "description": "[00D5FF]Revives[-] an ally that dies. The revived ally's HP is fixed at [FFAE00]1[-] for [FFAE00]3 turns[-].\\n[00D5FF](Limit once. Effect is removed when the hero dies. Applies when entering battle.)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "[00D5FF]Revives[-] an ally that dies. The revived ally's HP is fixed at [FFAE00]1[-] for [FFAE00]3 turns[-].\\n[00D5FF](Limit once. Effect is removed when the hero dies. Applies when entering battle.)[-]"
+          }
+        ]
+      },
+      "idForme": 314004,
+      "portrait": "assets/1515002/images/icon_hero_melascula_0009_s__a22ed7dcf2f078d8.png",
+      "portraitVertical": "assets/1515002/images/icon_skin_melascula_0009_l__5bb8ed4f2f235a2e.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1515002/images/hero_illust_melascula_1515002__c0af96140436c3dc.png",
+      "legendeImage": "melascula_0016",
+      "niveau": 100,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 700.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 580.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5964
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 200.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 10.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 120.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 50.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Death Stab\"",
+          "image": "assets/1515002/images/icon_melascula_glove_skill_03__b1f0c0ea46618e91.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflicts [00D5FF]Capture[-] damage equal to 180 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.",
+              "idJeu": 156081,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 270.0,
+              "description": "Inflicts [00D5FF]Capture[-] damage equal to 270 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.",
+              "idJeu": 156082,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 450.0,
+              "description": "Inflicts [00D5FF]Capture[-] damage equal to 450 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.",
+              "idJeu": 156083,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Spirit Consume\"",
+          "image": "assets/1515002/images/icon_melascula_glove_skill_04__ecc1bbe8ed609b26.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 10 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156091,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 15 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156092,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "[00D5FF]Inhales[-] 25 % of Max HP of @target.allEnemies for 2 tour(s).\\n\\n[00D5FF]※Inhale: Decreases the target's Max HP and recovers own HP by the amount decreased [FFAE00]once[-][-].",
+              "idJeu": 156093,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Summon Soul\"",
+        "image": "assets/1515002/images/icon_melascula_glove_special_01__9970dd720e5756a8.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 560.0,
+            "description": "Inflicts [00D5FF]Capture[-] damage equal to 560 % of Attack on @target.oneEnemy, then [00D5FF]Lifesteals[-] 100 % of the damage dealt.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 616.0,
+            "description": "Inflicts [00D5FF]Capture[-] damage equal to 616 % of Attack on @target.oneEnemy, then [00D5FF]Lifesteals[-] 100 % of the damage dealt.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 672.0,
+            "description": "Inflicts [00D5FF]Capture[-] damage equal to 672 % of Attack on @target.oneEnemy, then [00D5FF]Lifesteals[-] 100 % of the damage dealt.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 728.0,
+            "description": "Inflicts [00D5FF]Capture[-] damage equal to 728 % of Attack on @target.oneEnemy, then [00D5FF]Lifesteals[-] 100 % of the damage dealt.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 784.0,
+            "description": "Inflicts [00D5FF]Capture[-] damage equal to 784 % of Attack on @target.oneEnemy, then [00D5FF]Lifesteals[-] 100 % of the damage dealt.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 840.0,
+            "description": "Inflicts [00D5FF]Capture[-] damage equal to 840 % of Attack on @target.oneEnemy, then [00D5FF]Lifesteals[-] 100 % of the damage dealt.\\n\\n[00D5FF]※Capture: [FFAE00]5x[-] Pierce Rate and [FFAE00]3x[-] Crit Chance Increase.\\n[FFAE00]3x[-] Crit Damage when used while Brink is active on the hero.\\n[00D5FF]※Lifesteal: Heals for a portion of the damage dealt.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Return of the Dead",
+        "image": "assets/1515002/images/icon_exclusive_skill_1515002__6f2012d469023613.png",
+        "description": "For [FFAE00]each[-] [00D5FF]Demon ally[-] participating in battle, the hero's Max HP increases by [FFAE00]15%[-], and damage taken from all-target attacks decreases by [FFAE00]40%[-].\\n\\nWhen an ally other than the hero dies, they gain [00D5FF]Brink[-] for [FFAE00]3 turn(s)[-]. (Limit [FFAE00]once[-])\\nWhen dying, the hero gains [00D5FF]Brink[-] for [FFAE00]2 turn(s)[-]. (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Brink: Fixes HP to [FFAE00]1[-]. (Effect is removed when the hero dies)[-][/i]\\n\\nWhen [00D5FF]Brink[-] is applied to a [00D5FF]Demon ally[-], all enemies are inflicted with [00D5FF]Soul Erosion[-] for [FFAE00]2 turn(s)[-], and [00D5FF]Demon allies[-] with [00D5FF]Brink[-] have their Attack-related stats increased by [FFAE00]20%[-].\\n[i][C0C0C0]※Soul Erosion: Damage dealt [FFAE00]-80%[-]\\nCrit Damage [FFAE00]-50%[-] when using a skill.[-][/i]\\n\\nWhen the hero uses an [00D5FF]Inhale[-] skill, it restores [00D5FF]Demon allies'[-] HP by [FFAE00]40%[-] of the hero's Max HP, and their HP-related stats increase by [FFAE00]10%[-] for [FFAE00]2 turn(s)[-].\\n\\n[FFAE00]Each[-] Debuff effect on the battlefield increases [00D5FF]Demon allies'[-] basic stats by [FFAE00]5%[-]. [FFAE00](6 time(s))[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "For [FFAE00]each[-] [00D5FF]Demon ally[-] participating in battle, the hero's Max HP increases by [FFAE00]15%[-], and damage taken from all-target attacks decreases by [FFAE00]40%[-].\\n\\nWhen an ally other than the hero dies, they gain [00D5FF]Brink[-] for [FFAE00]3 turn(s)[-]. (Limit [FFAE00]once[-])\\nWhen dying, the hero gains [00D5FF]Brink[-] for [FFAE00]2 turn(s)[-]. (Limit [FFAE00]once[-]).\\n[i][C0C0C0]※Brink: Fixes HP to [FFAE00]1[-]. (Effect is removed when the hero dies)[-][/i]\\n\\nWhen [00D5FF]Brink[-] is applied to a [00D5FF]Demon ally[-], all enemies are inflicted with [00D5FF]Soul Erosion[-] for [FFAE00]2 turn(s)[-], and [00D5FF]Demon allies[-] with [00D5FF]Brink[-] have their Attack-related stats increased by [FFAE00]20%[-].\\n[i][C0C0C0]※Soul Erosion: Damage dealt [FFAE00]-80%[-]\\nCrit Damage [FFAE00]-50%[-] when using a skill.[-][/i]\\n\\nWhen the hero uses an [00D5FF]Inhale[-] skill, it restores [00D5FF]Demon allies'[-] HP by [FFAE00]40%[-] of the hero's Max HP, and their HP-related stats increase by [FFAE00]10%[-] for [FFAE00]2 turn(s)[-].\\n\\n[FFAE00]Each[-] Debuff effect on the battlefield increases [00D5FF]Demon allies'[-] basic stats by [FFAE00]5%[-]. [FFAE00](6 time(s))[-]"
+          }
+        ]
+      },
+      "idForme": 314007,
+      "portrait": "assets/1515002/images/icon_hero_melascula_0016_s__2ca3d3a3c877ff30.png",
+      "portraitVertical": "assets/1515002/images/icon_skin_melascula_0016_l__1e433f226386d000.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3314001",
+      "categorie": "Skin",
+      "nom": "Pink Ribbon Bodysuit",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "3314003",
+      "categorie": "Skin",
+      "nom": "Flame Pattern Bodysuit",
+      "image": "assets/1515002/images/icon_skin_melascula_0008_l__2e44e087f442e850.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314005",
+      "categorie": "Skin",
+      "nom": "Deadly Charming",
+      "image": "assets/1515002/images/icon_skin_melascula_0013_l__b0461d483c9af2d5.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314057",
+      "categorie": "Skin",
+      "nom": "Star of the Drama Club",
+      "image": "assets/1515002/images/icon_skin_melascula_0015_l__2175dfe6bded3780.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314050",
+      "categorie": "Skin",
+      "nom": "Slit Dress",
+      "image": "assets/1515002/images/icon_skin_melascula_0004_l__2d95e63212483900.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314051",
+      "categorie": "Skin",
+      "nom": "Pink Witch Dress",
+      "image": "assets/1515002/images/icon_skin_melascula_0003_l__b1fa1dfc6779edf4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314052",
+      "categorie": "Skin",
+      "nom": "Rider Jacket",
+      "image": "assets/1515002/images/icon_skin_melascula_0005_l__de1e51b71719f91f.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314053",
+      "categorie": "Skin",
+      "nom": "Red Bodysuit",
+      "image": "assets/1515002/images/icon_skin_melascula_0007_l__a87830b42ed1e0a6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314054",
+      "categorie": "Skin",
+      "nom": "The Queen",
+      "image": "assets/1515002/images/icon_skin_melascula_0010_l__808a66fed04b08d7.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314055",
+      "categorie": "Skin",
+      "nom": "Witch of the Ancient Civilization",
+      "image": "assets/1515002/images/icon_skin_melascula_0011_l__c31a20a07cb1da43.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314002",
+      "categorie": "Skin",
+      "nom": "Commandment Combat Outfit of [b]Faith[/b]",
+      "image": "assets/1515002/images/icon_skin_melascula_0002_l__0a5f9bc12a61e54e.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314004",
+      "categorie": "Skin",
+      "nom": "Scorch Mark",
+      "image": "assets/1515002/images/icon_skin_melascula_0009_l__5bb8ed4f2f235a2e.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314006",
+      "categorie": "Skin",
+      "nom": "Sweet & Scary",
+      "image": "assets/1515002/images/icon_skin_melascula_0014_l__e901b0606c248a1a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314007",
+      "categorie": "Skin",
+      "nom": "Unholy Vestment of [b]Faith[/b]",
+      "image": "assets/1515002/images/icon_skin_melascula_0016_l__1e433f226386d000.png",
+      "rarete": ""
+    },
+    {
+      "id": "3314056",
+      "categorie": "Skin",
+      "nom": "Erosion of the Corrupted Nightmare",
+      "image": "assets/1515002/images/icon_skin_melascula_0012_l__b4115a7827e8e666.png",
+      "rarete": ""
+    },
+    {
+      "id": "855801",
+      "categorie": "Weapon",
+      "nom": "Prison Gate of Darkness",
+      "image": "assets/1515002/images/icon_weapon_melascula_0001_l__8086a92fcc9b2206.png",
+      "rarete": ""
+    },
+    {
+      "id": "855802",
+      "categorie": "Weapon",
+      "nom": "Cunning Snake of Darkness",
+      "image": "assets/1515002/images/icon_weapon_melascula_0004_l__39d3ce040add060e.png",
+      "rarete": ""
+    },
+    {
+      "id": "855803",
+      "categorie": "Weapon",
+      "nom": "Star-Speckled Darkness",
+      "image": "assets/1515002/images/icon_weapon_melascula_0003_l__8ee5724eaf161095.png",
+      "rarete": ""
+    },
+    {
+      "id": "855804",
+      "categorie": "Weapon",
+      "nom": "Diamond Chain of Darkness",
+      "image": "assets/1515002/images/icon_weapon_melascula_0005_l__8d51e65ea85d4d54.png",
+      "rarete": ""
+    },
+    {
+      "id": "855809",
+      "categorie": "Weapon",
+      "nom": "Darkness Disguised as Fruit",
+      "image": "assets/1515002/images/icon_weapon_melascula_0007_l__9c1e57608ed78781.png",
+      "rarete": ""
+    },
+    {
+      "id": "855810",
+      "categorie": "Weapon",
+      "nom": "Queen's Flower Trail",
+      "image": "assets/1515002/images/icon_weapon_melascula_0010_l__de1c209577070e91.png",
+      "rarete": ""
+    },
+    {
+      "id": "855812",
+      "categorie": "Weapon",
+      "nom": "Ancient Eye",
+      "image": "assets/1515002/images/icon_weapon_melascula_0011_l__8d09ccfe78517bb4.png",
+      "rarete": ""
+    },
+    {
+      "id": "855811",
+      "categorie": "Weapon",
+      "nom": "Gem of Darkness",
+      "image": "assets/1515002/images/icon_weapon_melascula_0501_l__98ce5d349f9b2e5a.png",
+      "rarete": ""
+    },
+    {
+      "id": "855813",
+      "categorie": "Weapon",
+      "nom": "Thorned Creation",
+      "image": "assets/1515002/images/icon_weapon_melascula_0503_l__8a48caa7d0490a8f.png",
+      "rarete": ""
+    },
+    {
+      "id": "855815",
+      "categorie": "Weapon",
+      "nom": "Chain of Darkness",
+      "image": "assets/1515002/images/icon_weapon_melascula_0502_l__94188cf94f3bcd94.png",
+      "rarete": ""
+    },
+    {
+      "id": "855816",
+      "categorie": "Weapon",
+      "nom": "Chain of Love",
+      "image": "assets/1515002/images/icon_weapon_melascula_0014_l__09711e75a38e82a7.png",
+      "rarete": ""
+    },
+    {
+      "id": "855817",
+      "categorie": "Weapon",
+      "nom": "Superstar's Flower Ornament",
+      "image": "assets/1515002/images/icon_weapon_melascula_0015_l__2b5d95b0a35c39af.png",
+      "rarete": ""
+    },
+    {
+      "id": "855850",
+      "categorie": "Weapon",
+      "nom": "Darkness of the Red Crystal",
+      "image": "assets/1515002/images/icon_weapon_melascula_0505_l__82da957d2044b285.png",
+      "rarete": ""
+    },
+    {
+      "id": "855814",
+      "categorie": "Weapon",
+      "nom": "Magic of the Corrupted Nightmare",
+      "image": "assets/1515002/images/icon_weapon_melascula_0012_l__76fa8f777abf417a.png",
+      "rarete": ""
+    },
+    {
+      "id": "855818",
+      "categorie": "Weapon",
+      "nom": "Gunnthra's Darkness",
+      "image": "assets/1515002/images/icon_weapon_melascula_0001_l__8086a92fcc9b2206.png",
+      "rarete": ""
+    },
+    {
+      "id": "855819",
+      "categorie": "Weapon",
+      "nom": "Starlit Darkness of [b]Faith[/b]",
+      "image": "assets/1515002/images/icon_weapon_melascula_0016_l__cb39dd158a4184d2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485001",
+      "categorie": "Head",
+      "nom": "Bangs",
+      "image": "assets/1515002/images/icon_head_melascula_0001_l__c0c47863258d29ec.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485002",
+      "categorie": "Head",
+      "nom": "Pink Ribbon",
+      "image": "assets/1515002/images/icon_head_melascula_0501_l__e7eaa0bd8cf7cd20.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485003",
+      "categorie": "Head",
+      "nom": "Pink Witch Hat",
+      "image": "assets/1515002/images/icon_head_melascula_0003_l__925d26f053bf4918.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485004",
+      "categorie": "Head",
+      "nom": "Goddess Hair",
+      "image": "assets/1515002/images/icon_head_melascula_0502_l__d1d002532dfb5223.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485006",
+      "categorie": "Head",
+      "nom": "Mini-Hat",
+      "image": "assets/1515002/images/icon_head_melascula_0007_l__ec327cb46143bbd8.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485007",
+      "categorie": "Head",
+      "nom": "Hairdo of the Queen",
+      "image": "assets/1515002/images/icon_head_melascula_0010_l__2cb14882155fa169.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485008",
+      "categorie": "Head",
+      "nom": "Ancient Bob Cut",
+      "image": "assets/1515002/images/icon_head_melascula_0011_l__4547c1113791f965.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485010",
+      "categorie": "Head",
+      "nom": "Black Rose Hairband",
+      "image": "assets/1515002/images/icon_head_melascula_0014_l__2136079905763034.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485012",
+      "categorie": "Head",
+      "nom": "Unholy Vestige of [b]Faith[/b]",
+      "image": "assets/1515002/images/icon_head_melascula_0016_l__fff6edc46f05b2fe.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485005",
+      "categorie": "Head",
+      "nom": "Commandment Crown of [b]Faith[/b]",
+      "image": "assets/1515002/images/icon_head_melascula_0002_l__eaa4ef906d0a22ac.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485011",
+      "categorie": "Head",
+      "nom": "Short-brimmed Red Hat",
+      "image": "assets/1515002/images/icon_head_melascula_0503_l__fa3eb99fa094f5ee.png",
+      "rarete": ""
+    },
+    {
+      "id": "4485009",
+      "categorie": "Head",
+      "nom": "Curse of the Corrupted Nightmare",
+      "image": "assets/1515002/images/icon_head_melascula_0012_l__e09d8fbffc8743f4.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Gunnthra's Darkness",
+    "image": "assets/1515002/images/icon_weapon_melascula_0551_s__1ec72dbbd3ecf9a0.png",
+    "description": "Melascula of [b]Faith[/b]'s Holy Relic (Weapon).\\n[DC143C]Darkness trapped inside the Gunnthra River in Niflheim. Due to the concentration of hate, regret, and sin that make up the river, those who come in contact with this darkness become possessed by vile spirits.[-]",
+    "passif": {
+      "nom": "Gunnthra's Darkness",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Increases Attack-related stats of allies with the [00D5FF]Revival[-] effect by [FFAE00]30 %[-], then increases allies' basic stats by [FFAE00]3 %[-] for [FFAE00]each[-] Ignite effect applied to enemies, up to [FFAE00]5 times[-]."
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 360.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 300.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 4500.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Gold",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source of the Roots' Corruption",
+        "image": "assets/commun/icon_craft_costume_rare_material_04__4083e9decd2eb5e0.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Dark Red Crystal",
+        "image": "assets/commun/icon_craft_costume_material_08__53b70f5c9ddcb41a.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Black Magic Essence",
+        "image": "assets/commun/icon_craft_costume_key_material_02__c45289b47672f7a7.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Volundr's Tenacity",
+        "image": "assets/commun/icon_craft_costume_material_12__931f89e710e00615.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Nidhoggr"
+  }
+};

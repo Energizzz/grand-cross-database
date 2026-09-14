@@ -1,0 +1,472 @@
+window.fichePreparee={
+  "nom": "Meliodas, roi des démons",
+  "designation": "[Fin d'une ère]",
+  "titre": "Meliodas, roi des démons",
+  "idJeu": "1945501",
+  "attribut": {
+    "nom": "@attribute.3",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.1"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_01__b2dfe4e53bdd1bf4.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/1945501/images/icon_hero_meliodas_god_0002_s__946f4eeefd121415.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Fin d'une ère] Meliodas, roi des démons possède une compétence qui inflige des dégâts plus élevés proportionnellement à ses chances crit. et ses dégâts crit.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1945501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1945501/images/hero_illust_meliodas_god_1945501__2c7e2d55fcc82659.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 970.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 490.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9600.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 6082
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 130.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 230.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Poing enragé »",
+          "image": "assets/1945501/images/icon_meliodas_god_ssr_type01_skill_01__60bc0786fb50365e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflige des dégâts d'[00D5FF]Anéantissement[-] égaux à 200 % de l'attaque à @target.oneEnemy.\\n\\n[00D5FF]※Anéantissement : dégâts crit. [FFAE00]x2[-].\\nChances crit. [FFAE00]x2[-] lorsque l'effet Toute création est actif.[-]",
+              "idJeu": 1002901,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts d'[00D5FF]Anéantissement[-] égaux à 300 % de l'attaque à @target.oneEnemy.\\n\\n[00D5FF]※Anéantissement : dégâts crit. [FFAE00]x2[-].\\nChances crit. [FFAE00]x2[-] lorsque l'effet Toute création est actif.[-]",
+              "idJeu": 1002902,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts d'[00D5FF]Anéantissement[-] égaux à 500 % de l'attaque à @target.oneEnemy.\\n\\n[00D5FF]※Anéantissement : dégâts crit. [FFAE00]x2[-].\\nChances crit. [FFAE00]x2[-] lorsque l'effet Toute création est actif.[-]",
+              "idJeu": 1002903,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Impulsion »",
+          "image": "assets/1945501/images/icon_meliodas_god_ssr_type01_skill_02__a06644ba0e652515.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflige des dégâts de [00D5FF]Décadence[-] égaux à 120 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+              "idJeu": 1002911,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts de [00D5FF]Décadence[-] égaux à 180 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+              "idJeu": 1002912,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Décadence[-] égaux à 300 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+              "idJeu": 1002913,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Oblitération »",
+        "image": "assets/1945501/images/icon_meliodas_god_ssr_type01_special_01__6d7159ab19f7a47f.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]5 %[-] et applique [FFAE00]1[-] effet [00D5FF]Graine de la fin[-] et inflige des dégâts de [00D5FF]Décadence[-] égaux à 300 % de l'attaque à @target.allEnemies.\\n\\nLorsque le héros est [00D5FF]en combat[-], le [00D5FF]Commandement du héros associé s'active[-]. Lorsque le héros bénéficie de [00D5FF]Protection du roi des démons[-], augmente sa défense crit. de [FFAE00]8 %[-].\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 340.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]10 %[-] et applique [FFAE00]1[-] effet [00D5FF]Graine de la fin[-] et inflige des dégâts de [00D5FF]Décadence[-] égaux à 340 % de l'attaque à @target.allEnemies.\\n\\nLorsque le héros est [00D5FF]en combat[-], le [00D5FF]Commandement du héros associé s'active[-]. Lorsque le héros bénéficie de [00D5FF]Protection du roi des démons[-], augmente sa défense crit. de [FFAE00]10 %[-] et réduit ses [00D5FF]dégâts subis[-] avec les attaques à cible unique de [FFAE00]5 %[-].\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 380.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]15 %[-] et applique [FFAE00]1[-] effet [00D5FF]Graine de la fin[-] et inflige des dégâts de [00D5FF]Décadence[-] égaux à 380 % de l'attaque à @target.allEnemies.\\n\\nLorsque le héros est [00D5FF]en combat[-], le [00D5FF]Commandement du héros associé s'active[-]. Lorsque le héros bénéficie de [00D5FF]Protection du roi des démons[-], augmente sa défense crit. de [FFAE00]12 %[-] et réduit ses [00D5FF]dégâts subis[-] avec les attaques à cible unique de [FFAE00]7 %[-].\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 420.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]20 %[-] et applique [FFAE00]2[-] effets [00D5FF]Graine de la fin[-] et inflige des dégâts de [00D5FF]Décadence[-] égaux à 420 % de l'attaque à @target.allEnemies.\\n\\nLorsque le héros est [00D5FF]en combat[-], le [00D5FF]Commandement du héros associé s'active[-]. Lorsque le héros bénéficie de [00D5FF]Protection du roi des démons[-], augmente sa défense crit. de [FFAE00]14 %[-] et réduit ses [00D5FF]dégâts subis[-] avec les attaques à cible unique de [FFAE00]9 %[-].\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 460.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]25 %[-] et applique [FFAE00]2[-] effets [00D5FF]Graine de la fin[-] et inflige des dégâts de [00D5FF]Décadence[-] égaux à 460 % de l'attaque à @target.allEnemies.\\n\\nLorsque le héros est [00D5FF]en combat[-], le [00D5FF]Commandement du héros associé s'active[-]. Lorsque le héros bénéficie de [00D5FF]Protection du roi des démons[-], augmente sa défense crit. de [FFAE00]17 %[-] et réduit ses [00D5FF]dégâts subis[-] avec les attaques à cible unique de [FFAE00]12 %[-].\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 500.0,
+            "description": "Augmente toutes les stats du héros de [FFAE00]30 %[-] et applique [FFAE00]3[-] effets [00D5FF]Graine de la fin[-] et inflige des dégâts de [00D5FF]Décadence[-] égaux à 500 % de l'attaque à @target.allEnemies.\\n\\nLorsque le héros est [00D5FF]en combat[-], le [00D5FF]Commandement du héros associé s'active[-]. Lorsque le héros bénéficie de [00D5FF]Protection du roi des démons[-], augmente sa défense crit. de [FFAE00]20 %[-] et réduit ses [00D5FF]dégâts subis[-] avec les attaques à cible unique de [FFAE00]15 %[-].\\n\\n[00D5FF]※Décadence : chances crit. [FFAE00]x2[-].\\nDégâts infligés [FFAE00]+20 %[-] pour [FFAE00]chaque[-] effet Graine de la fin sur l'ennemi.",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Début de la fin",
+        "image": "assets/1945501/images/icon_exclusive_skill_1945501__bf0b43e691fa237b.png",
+        "description": "Applique [00D5FF]Protection du roi des démons[-] sur soi au début du combat. Lorsqu'un [00D5FF]allié concerné[-] utilise une compétence d'attaque, applique [FFAE00]1[-] effet [00D5FF]Graine de la fin[-] sur la cible ([FFAE00]3 fois[-] max.). Lorsque le [00D5FF]héros utilise une compétence[-] sur un ennemi avec le [00D5FF]nombre maximal de cumuls[-], [00D5FF]retire les postures[-] de la cible et octroie [FFAE00]1[-] effet [00D5FF]Énergie noire[-] au héros.\\n\\nDe plus, augmente les stats de base du héros de [FFAE00]7 %[-] pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat et, lorsque le héros possède [FFAE00]4 effets[-] [00D5FF]Énergie noire[-], retire les 4 cumuls du héros et lui octroie [00D5FF]Toute création[-].\\n\\n[00D5FF]※Protection du roi des démons : retire [FFAE00]1[-] malus de chaque allié au début du tour allié. Le héros gagne un nombre d'effets Énergie noire égal au nombre de malus retirés.\\n※Graine de la fin : stats défensives [FFAE00]-10 %[-].(Effet retiré lorsque le héros utilise une compétence sur un ennemi avec le nombre maximal de cumuls)\\n※Énergie noire : stats défensives [FFAE00]+10 %[-].\\n※Toute création : stats offensives [FFAE00]+50 %[-], retire tous les malus sur soi et augmente le rang de ses propres compétences. (Effet retiré après avoir utilisé une compétence d'attaque)\\n※Alliés concernés : démons, Les [Seven Deadly Sins][-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Applique [00D5FF]Protection du roi des démons[-] sur soi au début du combat. Lorsqu'un [00D5FF]allié concerné[-] utilise une compétence d'attaque, applique [FFAE00]1[-] effet [00D5FF]Graine de la fin[-] sur la cible ([FFAE00]3 fois[-] max.). Lorsque le [00D5FF]héros utilise une compétence[-] sur un ennemi avec le [00D5FF]nombre maximal de cumuls[-], [00D5FF]retire les postures[-] de la cible et octroie [FFAE00]1[-] effet [00D5FF]Énergie noire[-] au héros.\\n\\nDe plus, augmente les stats de base du héros de [FFAE00]7 %[-] pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat et, lorsque le héros possède [FFAE00]4 effets[-] [00D5FF]Énergie noire[-], retire les 4 cumuls du héros et lui octroie [00D5FF]Toute création[-].\\n\\n[00D5FF]※Protection du roi des démons : retire [FFAE00]1[-] malus de chaque allié au début du tour allié. Le héros gagne un nombre d'effets Énergie noire égal au nombre de malus retirés.\\n※Graine de la fin : stats défensives [FFAE00]-10 %[-].(Effet retiré lorsque le héros utilise une compétence sur un ennemi avec le nombre maximal de cumuls)\\n※Énergie noire : stats défensives [FFAE00]+10 %[-].\\n※Toute création : stats offensives [FFAE00]+50 %[-], retire tous les malus sur soi et augmente le rang de ses propres compétences. (Effet retiré après avoir utilisé une compétence d'attaque)\\n※Alliés concernés : démons, Les [Seven Deadly Sins][-]"
+          }
+        ]
+      },
+      "idForme": 323501,
+      "portrait": "assets/1945501/images/icon_hero_meliodas_god_0002_s__946f4eeefd121415.png",
+      "portraitVertical": "assets/1945501/images/icon_skin_meliodas_god_0002_l__2284a56398748db8.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3323502",
+      "categorie": "Skin",
+      "nom": "Fin d'une ère",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0002_l__2284a56398748db8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323550",
+      "categorie": "Skin",
+      "nom": "Tenue de héros",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0006_l__2cebe948e443808b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323555",
+      "categorie": "Skin",
+      "nom": "Manteau chaud de célébration",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0008_l__5c6f1f094e2b16d9.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323557",
+      "categorie": "Skin",
+      "nom": "Uniforme du nouveau semestre",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0010_l__2a871f2a2e9981be.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323558",
+      "categorie": "Skin",
+      "nom": "Habits douillets d'hiver",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0011_l__634f8722de2abfc4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323551",
+      "categorie": "Skin",
+      "nom": "Prince d'Eden",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0003_l__17e0fd2f92a25af7.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323552",
+      "categorie": "Skin",
+      "nom": "Chevalier perfide",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0004_l__b2ac32df43268f80.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323553",
+      "categorie": "Skin",
+      "nom": "Dragon incarné",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0005_l__d7762f10fd7f4c15.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323556",
+      "categorie": "Skin",
+      "nom": "S.W.A.T.",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0009_l__8b1a4d9fe36b32d3.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323501",
+      "categorie": "Skin",
+      "nom": "Puissance du roi des démons",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0001_l__131214f8245c979a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323554",
+      "categorie": "Skin",
+      "nom": "Armure glorieuse de confrérie",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0007_l__511bb911f6e2b984.png",
+      "rarete": ""
+    },
+    {
+      "id": "876101",
+      "categorie": "Weapon",
+      "nom": "Épée démoniaque Lostvayne",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0001_l__b36b83ba2849ef9e.png",
+      "rarete": ""
+    },
+    {
+      "id": "876105",
+      "categorie": "Weapon",
+      "nom": "Souvenir des 3,5 ans",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0008_l__f6dc9a9f5ce98e36.png",
+      "rarete": ""
+    },
+    {
+      "id": "876102",
+      "categorie": "Weapon",
+      "nom": "Épée sacrée d'Eden",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0003_l__0c3e5865b81bfdf2.png",
+      "rarete": ""
+    },
+    {
+      "id": "876103",
+      "categorie": "Weapon",
+      "nom": "Épée vampirique",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0004_l__f1a943004f9796cc.png",
+      "rarete": ""
+    },
+    {
+      "id": "876104",
+      "categorie": "Weapon",
+      "nom": "Épée draconique",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0005_l__7db67a08b5bd15cf.png",
+      "rarete": ""
+    },
+    {
+      "id": "876106",
+      "categorie": "Weapon",
+      "nom": "Bâton en trois parties",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0009_l__27c9f21ffb397edc.png",
+      "rarete": ""
+    },
+    {
+      "id": "876107",
+      "categorie": "Weapon",
+      "nom": "Défense de Gullinbursti",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0001_l__b36b83ba2849ef9e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004901",
+      "categorie": "Head",
+      "nom": "Coiffure habituelle",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0001_l__ce45fb9d1f02505f.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004906",
+      "categorie": "Head",
+      "nom": "Couronne luxueuse de célébration",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0008_l__0cb7e165ce333248.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004908",
+      "categorie": "Head",
+      "nom": "Chapeau douillet d'hiver",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0011_l__d4623a48bf029348.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004902",
+      "categorie": "Head",
+      "nom": "Couronne en or brillante",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0003_l__38c2e773f5764051.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004903",
+      "categorie": "Head",
+      "nom": "Masque d'insurrection",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0004_l__c14a324deffca5cd.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004904",
+      "categorie": "Head",
+      "nom": "Esprit combatif de dragon",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0005_l__671a4c8336e74682.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004907",
+      "categorie": "Head",
+      "nom": "Casque d'émeute",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0009_l__82ef9a5066124c2b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004905",
+      "categorie": "Head",
+      "nom": "Chat intrépide",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0501_l__5cbddcbd88c86014.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Défense de Gullinbursti",
+    "image": "assets/1945501/images/icon_weapon_meliodas_god_0551_s__cb76dfaf46582122.png",
+    "description": "Relique sacrée pour Meliodas, roi des démons (arme).\\n[DC143C]Une épée forgée à partir de l'une des défenses de Gullinbursti, le sanglier doré aussi rapide que l'éclair qui servait de monture à Freyr, dieu du soleil. Seule une image rémanente dorée demeure après chaque coup de cette lame.[-]",
+    "passif": {
+      "nom": "Défense de Gullinbursti",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Augmente toutes les stats du héros de [FFAE00]5 %[-] pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat.\\n[i][C0C0C0]※Alliés concernés : démons, Les [Seven Deadly Sins][-][/i]\\n\\nOctroie [00D5FF]Énergie noire[-] au héros et applique [00D5FF]Graine de la fin[-] sur tous les ennemis au début du combat.\\n\\nOctroie [00D5FF]Énergie noire[-] au héros et applique [00D5FF]Graine de la fin[-] sur tous les ennemis lorsque l'effet [00D5FF]Toute création[-] est retiré du héros.\\n\\nChaque fois que les [00D5FF]compétences du héros montent de rang[-] grâce à sa compétence unique, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]7 %[-].\\n[00D5FF]([FFAE00]5 fois[-] max.)[-]"
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 500.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 300.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 3800.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source du crépuscule",
+        "image": "assets/commun/icon_craft_costume_rare_material_03__633922237ffc6bf3.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Honneur des Einherjar",
+        "image": "assets/commun/icon_craft_costume_material_01__49ff86632bcd1bc8.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique noire",
+        "image": "assets/commun/icon_craft_costume_key_material_02__c45289b47672f7a7.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Méticulosité d'Eitri",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Sköll et Hati"
+  }
+};

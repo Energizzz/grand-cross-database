@@ -1,0 +1,1069 @@
+window.fichePreparee={
+  "nom": "Escanor, Chevalier Sacré",
+  "designation": "« Soleil »",
+  "titre": "Escanor, Chevalier Sacré",
+  "idJeu": "1475002",
+  "attribut": {
+    "nom": "@attribute.2",
+    "icone": "assets/commun/icon_filter_attribute_02__ea1406c9830f7566.png",
+    "couleur": "#67c778",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/1475002/images/icon_hero_escanor_0026_s__ac888f87a341fd86.png",
+  "rareteParDefaut": "LR",
+  "presentation": "Escanor, Chevalier Sacré « Soleil » possède une compétence qui octroie un orbe à sa jauge de coup ultime et une autre qui retire les bonus de la cible et lui inflige Brûlure. Son coup ultime inflige des dégâts énormes à un ennemi.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1475002/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1475002/images/hero_illust_escanor_1475002__9a4f0f4e0a2c114b.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 560.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 380.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3659
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Coup élégant »",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_01__0311625cef8f81ed.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 157001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts égaux à 300 % de l'attaque à @target.oneEnemy et remplit la jauge de coup ultime de 1 [FFAE00]orbe(s)[-].",
+              "idJeu": 157002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts égaux à 500 % de l'attaque à @target.oneEnemy et remplit la jauge de coup ultime de 2 [FFAE00]orbe(s)[-].",
+              "idJeu": 157003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Soleil cruel »",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_04__01778afba00a0c2d.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts égaux à 180 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Brûlure[-] pendant 3 tour(s).\\n\\n[00D5FF]※Brûlure : dégâts subis de @target.oneEnemy [FFAE00]+[-]10 % (cumulable).[-]",
+              "idJeu": 157031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "[00D5FF]Retire les bonus[-] de @target.oneEnemy et inflige des dégâts\\négaux à 180 % de l'attaque. Applique [00D5FF]Brûlure[-] pendant 3 tour(s).\\n\\n[00D5FF]※Brûlure : dégâts subis de @target.oneEnemy [FFAE00]+[-]10 % (cumulable).[-]",
+              "idJeu": 157032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Retire les bonus[-] de @target.oneEnemy et inflige des dégâts égaux à 300 % de l'attaque. Applique [FFAE00]2 fois[-] [00D5FF]Brûlure[-] pendant 4 tour(s).\\n\\n[00D5FF]※Brûlure : dégâts subis de @target.oneEnemy [FFAE00]+[-]10 % (cumulable).[-]",
+              "idJeu": 157033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Sentence »",
+        "image": "assets/1475002/images/icon_escanor_ssr_type01_special_01__b36cb13445f119bf.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 840.0,
+            "description": "Inflige des dégâts égaux à 840 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 924.0,
+            "description": "Inflige des dégâts égaux à 924 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 1008.0,
+            "description": "Inflige des dégâts égaux à 1008 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 1092.0,
+            "description": "Inflige des dégâts égaux à 1092 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 1176.0,
+            "description": "Inflige des dégâts égaux à 1176 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 1260.0,
+            "description": "Inflige des dégâts égaux à 1260 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Au sommet",
+        "image": "assets/1475002/images/icon_exclusive_skill_1475002__ff2db41925434dea.png",
+        "description": "Retire les bonus et les malus sur soi, puis empêche de bénéficier de bonus ou de souffrir de malus quand la jauge de coup ultime du héros est remplie.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Retire les bonus et les malus sur soi, puis empêche de bénéficier de bonus ou de souffrir de malus quand la jauge de coup ultime du héros est remplie."
+          }
+        ]
+      },
+      "idForme": 312003,
+      "portrait": "assets/1475002/images/icon_hero_escanor_0009_s__882542f805ebdfec.png",
+      "portraitVertical": "assets/1475002/images/icon_skin_escanor_0009_l__6b8a34e4ab9fae8b.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1475002/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1475002/images/hero_illust_escanor_1475002__9a4f0f4e0a2c114b.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 720.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 430.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9000.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4259
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 20.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 150.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Coup élégant »",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_01__0311625cef8f81ed.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 240.0,
+              "description": "Inflige des dégâts égaux à 240 % de l'attaque à @target.oneEnemy.",
+              "idJeu": 157001,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts égaux à 300 % de l'attaque à @target.oneEnemy et remplit la jauge de coup ultime de 1 [FFAE00]orbe(s)[-].",
+              "idJeu": 157002,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflige des dégâts égaux à 500 % de l'attaque à @target.oneEnemy et remplit la jauge de coup ultime de 2 [FFAE00]orbe(s)[-].",
+              "idJeu": 157003,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Soleil cruel »",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_04__01778afba00a0c2d.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts égaux à 180 % de l'attaque à @target.oneEnemy.\\nApplique [00D5FF]Brûlure[-] pendant 3 tour(s).\\n\\n[00D5FF]※Brûlure : dégâts subis de @target.oneEnemy [FFAE00]+[-]10 % (cumulable).[-]",
+              "idJeu": 157031,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "[00D5FF]Retire les bonus[-] de @target.oneEnemy et inflige des dégâts\\négaux à 180 % de l'attaque. Applique [00D5FF]Brûlure[-] pendant 3 tour(s).\\n\\n[00D5FF]※Brûlure : dégâts subis de @target.oneEnemy [FFAE00]+[-]10 % (cumulable).[-]",
+              "idJeu": 157032,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Retire les bonus[-] de @target.oneEnemy et inflige des dégâts égaux à 300 % de l'attaque. Applique [FFAE00]2 fois[-] [00D5FF]Brûlure[-] pendant 4 tour(s).\\n\\n[00D5FF]※Brûlure : dégâts subis de @target.oneEnemy [FFAE00]+[-]10 % (cumulable).[-]",
+              "idJeu": 157033,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Sentence »",
+        "image": "assets/1475002/images/icon_escanor_ssr_type01_special_01__b36cb13445f119bf.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 840.0,
+            "description": "Inflige des dégâts égaux à 840 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 924.0,
+            "description": "Inflige des dégâts égaux à 924 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 1008.0,
+            "description": "Inflige des dégâts égaux à 1008 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 1092.0,
+            "description": "Inflige des dégâts égaux à 1092 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 1176.0,
+            "description": "Inflige des dégâts égaux à 1176 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 1260.0,
+            "description": "Inflige des dégâts égaux à 1260 % de l'attaque à @target.oneEnemy.",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Au sommet",
+        "image": "assets/1475002/images/icon_exclusive_skill_1475002__ff2db41925434dea.png",
+        "description": "Retire les bonus et les malus sur soi, puis empêche de bénéficier de bonus ou de souffrir de malus quand la jauge de coup ultime du héros est remplie.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Retire les bonus et les malus sur soi, puis empêche de bénéficier de bonus ou de souffrir de malus quand la jauge de coup ultime du héros est remplie."
+          }
+        ]
+      },
+      "idForme": 312004,
+      "portrait": "assets/1475002/images/icon_hero_escanor_0010_s__6b8d32068a5ee3ca.png",
+      "portraitVertical": "assets/1475002/images/icon_skin_escanor_0010_l__e4ebe8a9b3ae1780.png"
+    },
+    {
+      "id": "LR",
+      "nom": "LR",
+      "icone": "assets/commun/icon_filter_grade_LR__01254701e83a6f69.png",
+      "cadre": "assets/commun/common_frame_rank_lr.png",
+      "fond": "assets/commun/icon_hero_basic_s_7__1f68b57601e76589.png",
+      "coin": "assets/commun/common_level_frame_rank_lr.png",
+      "couleur": "#f3ce80",
+      "image": "assets/1475002/images/hero_illust_escanor_1475002__9a4f0f4e0a2c114b.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 100,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 850.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 450.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9300.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5690
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 120.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 230.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 70.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Coup élégant »",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_01__0311625cef8f81ed.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 264.0,
+              "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 264 % de l'attaque à @target.oneEnemy.\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+              "idJeu": 157041,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 330.0,
+              "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 330 % de l'attaque à @target.oneEnemy, puis remplit la jauge de coup ultime de 1 [FFAE00]orbe(s)[-].\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+              "idJeu": 157042,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 550.0,
+              "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 550 % de l'attaque à @target.oneEnemy, puis remplit la jauge de coup ultime de 2 [FFAE00]orbe(s)[-].\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+              "idJeu": 157043,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Soleil cruel »",
+          "image": "assets/1475002/images/icon_escanor_ssr_type01_skill_04__01778afba00a0c2d.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 180.0,
+              "description": "[00D5FF]Retire les bonus[-] de @target.oneEnemy et inflige des dégâts égaux à 180 % de l'attaque. Applique [FFAE00]2[-] effets d'[00D5FF]Inflammation[-] pendant 2 tour(s).\\n\\n[00D5FF]※Inflammation : Dégâts subis [FFAE00]+[-]10 %.\\nInflige des dégâts supplémentaires égaux à [FFAE00]5 %[-] des PV restants à la fin de chaque tour.\\n(Cumulable)[-]",
+              "idJeu": 157051,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 220.0,
+              "description": "[00D5FF]Retire les bonus et les postures[-] de @target.oneEnemy, et inflige des dégâts égaux à 220 % de l'attaque. Applique [FFAE00]3[-] effets d'[00D5FF]Inflammation[-] pendant 2 tour(s).\\n\\n[00D5FF]※Inflammation : Dégâts subis [FFAE00]+[-]10 %.\\nInflige des dégâts supplémentaires égaux à [FFAE00]5 %[-] des PV restants à la fin de chaque tour.\\n(Cumulable)[-]",
+              "idJeu": 157052,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "[00D5FF]Retire les bonus et les postures[-] de @target.oneEnemy, et inflige des dégâts égaux à 300 % de l'attaque. Applique [FFAE00]4[-] effets d'[00D5FF]Inflammation[-] pendant 2 tour(s).\\n\\n[00D5FF]※Inflammation : Dégâts subis [FFAE00]+[-]10 %.\\nInflige des dégâts supplémentaires égaux à [FFAE00]5 %[-] des PV restants à la fin de chaque tour.\\n(Cumulable)[-]",
+              "idJeu": 157053,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Sentence »",
+        "image": "assets/1475002/images/icon_escanor_ssr_type01_special_01__b36cb13445f119bf.png",
+        "cible": "@target.oneEnemy",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 840.0,
+            "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 840 % de l'attaque à @target.oneEnemy, en ignorant 30 % de résistance crit.\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 924.0,
+            "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 924 % de l'attaque à @target.oneEnemy, en ignorant 40 % de résistance crit.\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 1008.0,
+            "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 1008 % de l'attaque à @target.oneEnemy, en ignorant 50 % de résistance crit.\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 1092.0,
+            "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 1092 % de l'attaque à @target.oneEnemy, en ignorant 65 % de résistance crit.\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 1176.0,
+            "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 1176 % de l'attaque à @target.oneEnemy, en ignorant 80 % de résistance crit.\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 1260.0,
+            "description": "Inflige des dégâts de [00D5FF]Déflagration[-] égaux à 1260 % de l'attaque à @target.oneEnemy, en ignorant 100 % de résistance crit.\\n\\n[00D5FF]※Déflagration : [FFAE00]+40 %[-] de dégâts infligés pour chaque cumul de Flamme perpétuelle et chaque effet d'Inflammation sur @target.oneEnemy.[-]",
+            "cadre": "assets/skill-frames/ultimate-LR-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Au sommet",
+        "image": "assets/1475002/images/icon_exclusive_skill_1475002__ff2db41925434dea.png",
+        "description": "Pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat, augmente les stats de base des alliés concernés de [FFAE00]4 %[-] et augmente les stats de base du héros de [FFAE00]3 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nSi tous les alliés sont des [00D5FF]alliés concernés[-] [00D5FF]y compris dans l'emplacement secondaire[-], inflige [FFAE00]2[-] cumuls de [00D5FF]Flamme perpétuelle[-] à tous les ennemis pendant [FFAE00]3 tours[-] au début du combat, et [FFAE00]1[-] cumul de [00D5FF]Flamme perpétuelle[-] pendant [FFAE00]3 tours[-] au début du tour allié.\\n[i][C0C0C0]※Flamme perpétuelle : dégâts infligés [FFAE00]-30 %[-], dégâts subis [FFAE00]+30 %[-].\\n([FFAE00]4 fois[-] max.)[-][/i]\\n\\nAprès l'utilisation d'une compétence par le héros, [FFAE00]chaque[-] [00D5FF]Flamme perpétuelle[-] présente sur les ennemis inflige des dégâts supplémentaires égaux à [FFAE00]5 %[-] des PV max. du héros, puis augmente les stats offensives du héros de [FFAE00]5 %[-] ([FFAE00]60%[-] max.)\\n\\nLorsque la jauge de coup ultime du héros est remplie, le héros [00D5FF]retire tous les bonus et malus[-] présents sur soi et il y devient [00D5FF]immunisé[-].",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Pour [FFAE00]chaque[-] [00D5FF]allié concerné[-] en combat, augmente les stats de base des alliés concernés de [FFAE00]4 %[-] et augmente les stats de base du héros de [FFAE00]3 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nSi tous les alliés sont des [00D5FF]alliés concernés[-] [00D5FF]y compris dans l'emplacement secondaire[-], inflige [FFAE00]2[-] cumuls de [00D5FF]Flamme perpétuelle[-] à tous les ennemis pendant [FFAE00]3 tours[-] au début du combat, et [FFAE00]1[-] cumul de [00D5FF]Flamme perpétuelle[-] pendant [FFAE00]3 tours[-] au début du tour allié.\\n[i][C0C0C0]※Flamme perpétuelle : dégâts infligés [FFAE00]-30 %[-], dégâts subis [FFAE00]+30 %[-].\\n([FFAE00]4 fois[-] max.)[-][/i]\\n\\nAprès l'utilisation d'une compétence par le héros, [FFAE00]chaque[-] [00D5FF]Flamme perpétuelle[-] présente sur les ennemis inflige des dégâts supplémentaires égaux à [FFAE00]5 %[-] des PV max. du héros, puis augmente les stats offensives du héros de [FFAE00]5 %[-] ([FFAE00]60%[-] max.)\\n\\nLorsque la jauge de coup ultime du héros est remplie, le héros [00D5FF]retire tous les bonus et malus[-] présents sur soi et il y devient [00D5FF]immunisé[-]."
+          }
+        ]
+      },
+      "idForme": 312005,
+      "portrait": "assets/1475002/images/icon_hero_escanor_0026_s__ac888f87a341fd86.png",
+      "portraitVertical": "assets/1475002/images/icon_skin_escanor_0026_l__0a2afa262573b41d.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3312001",
+      "categorie": "Skin",
+      "nom": "Armure légère",
+      "image": "assets/1475002/images/icon_skin_escanor_0003_l__cc87566653c35667.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312003",
+      "categorie": "Skin",
+      "nom": "Tenue basique",
+      "image": "assets/1475002/images/icon_skin_escanor_0009_l__6b8a34e4ab9fae8b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312053",
+      "categorie": "Skin",
+      "nom": "Tenue de combat de la Flamme noire",
+      "image": "assets/1475002/images/icon_skin_escanor_0012_l__3b4da36f56268168.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312054",
+      "categorie": "Skin",
+      "nom": "Armure de chevalier très malveillant",
+      "image": "assets/1475002/images/icon_skin_escanor_0008_l__7986d2da84f72c37.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312055",
+      "categorie": "Skin",
+      "nom": "Dignité du flocon bleu",
+      "image": "assets/1475002/images/icon_skin_escanor_0013_l__e09276bc30d32654.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312056",
+      "categorie": "Skin",
+      "nom": "Chevalier Sacré de la justice",
+      "image": "assets/1475002/images/icon_skin_escanor_0017_l__53c1096cf5c38c13.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312050",
+      "categorie": "Skin",
+      "nom": "Propriétaire de la taverne",
+      "image": "assets/1475002/images/icon_skin_escanor_0004_l__9306c78e255ff7a7.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312051",
+      "categorie": "Skin",
+      "nom": "Mystère de l’Est",
+      "image": "assets/1475002/images/icon_skin_escanor_0005_l__b3dd8c678dd2d98a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312052",
+      "categorie": "Skin",
+      "nom": "Dieu du soleil",
+      "image": "assets/1475002/images/icon_skin_escanor_0007_l__167bc5a7639f1da0.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312002",
+      "categorie": "Skin",
+      "nom": "Armure de Chevalier Sacré",
+      "image": "assets/1475002/images/icon_skin_escanor_0006_l__a685c9da60ad4375.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312004",
+      "categorie": "Skin",
+      "nom": "Tenue de combat sauvage",
+      "image": "assets/1475002/images/icon_skin_escanor_0010_l__e4ebe8a9b3ae1780.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312005",
+      "categorie": "Skin",
+      "nom": "Tenue de combat brillante",
+      "image": "assets/1475002/images/icon_skin_escanor_0026_l__0a2afa262573b41d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312049",
+      "categorie": "Skin",
+      "nom": "Uniforme vert d'acclamation",
+      "image": "assets/1475002/images/icon_skin_escanor_0021_l__461fb5db67486b3b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312048",
+      "categorie": "Skin",
+      "nom": "Tenue de héros (jaune)",
+      "image": "assets/1475002/images/icon_skin_escanor_0020_l__077f01fe51e84e8d.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312058",
+      "categorie": "Skin",
+      "nom": "Uniforme azur d'acclamation",
+      "image": "assets/1475002/images/icon_skin_escanor_0025_l__88a6d698fd4a22a0.png",
+      "rarete": ""
+    },
+    {
+      "id": "3312057",
+      "categorie": "Skin",
+      "nom": "Érosion de l'ombre corrompue",
+      "image": "assets/1475002/images/icon_skin_escanor_0018_l__5eedd491284b71d1.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017022",
+      "categorie": "Skin",
+      "nom": "Dieu du soleil",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017023",
+      "categorie": "Skin",
+      "nom": "Dieu du soleil",
+      "image": "assets/1475002/images/icon_skin_escanor_0002_l__aaa0248f8c2f814b.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017028",
+      "categorie": "Skin",
+      "nom": "Dieu du soleil",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017039",
+      "categorie": "Skin",
+      "nom": "Dieu du soleil",
+      "image": null,
+      "rarete": ""
+    },
+    {
+      "id": "9017040",
+      "categorie": "Skin",
+      "nom": "Dieu du soleil",
+      "image": "assets/1475002/images/hero_escanor_11h59m_body_0001_D__cfa36c022599e7df.png",
+      "rarete": ""
+    },
+    {
+      "id": "9017057",
+      "categorie": "Skin",
+      "nom": "Sweat à capuche de la [b]Trombe[/b]",
+      "image": "assets/1475002/images/hero_escanor_body_0024_D__3d904b7c9f01fda6.png",
+      "rarete": ""
+    },
+    {
+      "id": "855001",
+      "categorie": "Weapon",
+      "nom": "Hachette résistante",
+      "image": "assets/1475002/images/icon_weapon_escanor_0509_l__910d86f4b0aaa567.png",
+      "rarete": ""
+    },
+    {
+      "id": "855002",
+      "categorie": "Weapon",
+      "nom": "Hache d'armes ébréchée",
+      "image": "assets/1475002/images/icon_weapon_escanor_0501_l__bf732565b754f1cd.png",
+      "rarete": ""
+    },
+    {
+      "id": "855003",
+      "categorie": "Weapon",
+      "nom": "Terre craquelée",
+      "image": "assets/1475002/images/icon_weapon_escanor_0502_l__455369063ce6b9db.png",
+      "rarete": ""
+    },
+    {
+      "id": "855004",
+      "categorie": "Weapon",
+      "nom": "Frappe du dieu du soleil",
+      "image": "assets/1475002/images/icon_weapon_escanor_0503_l__dda369b8b06e969b.png",
+      "rarete": ""
+    },
+    {
+      "id": "855010",
+      "categorie": "Weapon",
+      "nom": "Hache sacrée Rhitta",
+      "image": "assets/1475002/images/icon_weapon_escanor_0001_l__1690a77e8c1214b7.png",
+      "rarete": ""
+    },
+    {
+      "id": "855050",
+      "categorie": "Weapon",
+      "nom": "Arme de la Flamme noire",
+      "image": "assets/1475002/images/icon_weapon_escanor_0012_l__58d0ae0eef9d0618.png",
+      "rarete": ""
+    },
+    {
+      "id": "855051",
+      "categorie": "Weapon",
+      "nom": "Hache magie noire",
+      "image": "assets/1475002/images/icon_weapon_escanor_0008_l__452098500858a271.png",
+      "rarete": ""
+    },
+    {
+      "id": "855052",
+      "categorie": "Weapon",
+      "nom": "Avalanche bleue",
+      "image": "assets/1475002/images/icon_weapon_escanor_0013_l__66b4a88453dc11f7.png",
+      "rarete": ""
+    },
+    {
+      "id": "855053",
+      "categorie": "Weapon",
+      "nom": "Hache de garde en acier",
+      "image": "assets/1475002/images/icon_weapon_escanor_0017_l__d9081e7fefbd92b5.png",
+      "rarete": ""
+    },
+    {
+      "id": "855006",
+      "categorie": "Weapon",
+      "nom": "Hache étrangement tordue",
+      "image": "assets/1475002/images/icon_weapon_escanor_0505_l__7f310cd67e4c7412.png",
+      "rarete": ""
+    },
+    {
+      "id": "855007",
+      "categorie": "Weapon",
+      "nom": "Explosion planétaire",
+      "image": "assets/1475002/images/icon_weapon_escanor_0506_l__b74476fd82e0be64.png",
+      "rarete": ""
+    },
+    {
+      "id": "855008",
+      "categorie": "Weapon",
+      "nom": "Hache du belliciste",
+      "image": "assets/1475002/images/icon_weapon_escanor_0507_l__142ca94ccfbe0481.png",
+      "rarete": ""
+    },
+    {
+      "id": "855009",
+      "categorie": "Weapon",
+      "nom": "Hache écarlate du vainqueur",
+      "image": "assets/1475002/images/icon_weapon_escanor_0508_l__a5c145a37fcd29fd.png",
+      "rarete": ""
+    },
+    {
+      "id": "855005",
+      "categorie": "Weapon",
+      "nom": "Steak Tomahawk",
+      "image": "assets/1475002/images/icon_weapon_escanor_0504_l__e1d89f13048edaec.png",
+      "rarete": ""
+    },
+    {
+      "id": "855011",
+      "categorie": "Weapon",
+      "nom": "Magie d'ombre corrompue",
+      "image": "assets/1475002/images/icon_weapon_escanor_0018_l__ea8829fc58eaba60.png",
+      "rarete": ""
+    },
+    {
+      "id": "855012",
+      "categorie": "Weapon",
+      "nom": "Hache dorée de Forseti",
+      "image": "assets/1475002/images/icon_weapon_escanor_0001_l__1690a77e8c1214b7.png",
+      "rarete": ""
+    },
+    {
+      "id": "855013",
+      "categorie": "Weapon",
+      "nom": "Hache stellaire du soleil",
+      "image": "assets/1475002/images/icon_weapon_escanor_0026_l__321db0710e12761c.png",
+      "rarete": ""
+    },
+    {
+      "id": "850003",
+      "categorie": "Weapon",
+      "nom": "NONE DB",
+      "image": "assets/1475002/images/icon_weapon_escanor_0001_l__1690a77e8c1214b7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465001",
+      "categorie": "Head",
+      "nom": "Chevalier Sacré",
+      "image": "assets/1475002/images/icon_head_escanor_0001_l__b5cf5f45177fc59a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465006",
+      "categorie": "Head",
+      "nom": "Casquette de la Flamme noire",
+      "image": "assets/1475002/images/icon_head_escanor_0012_l__78177cc9f6586f2b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465007",
+      "categorie": "Head",
+      "nom": "Confrérie très malveillante",
+      "image": "assets/1475002/images/icon_head_escanor_0505_l__0aa98c6e46cbfc4a.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465008",
+      "categorie": "Head",
+      "nom": "Flocon bleu",
+      "image": "assets/1475002/images/icon_head_escanor_0013_l__9420512540b6ab02.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465009",
+      "categorie": "Head",
+      "nom": "Grosse barbe hirsute",
+      "image": "assets/1475002/images/icon_head_escanor_0017_l__1d7f1cdfa9442490.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465002",
+      "categorie": "Head",
+      "nom": "Lunettes de soleil",
+      "image": "assets/1475002/images/icon_head_escanor_0501_l__489ed86f6f7f4151.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465003",
+      "categorie": "Head",
+      "nom": "Visage propre",
+      "image": "assets/1475002/images/icon_head_escanor_0502_l__47e088f5f0611ff0.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465004",
+      "categorie": "Head",
+      "nom": "Aura",
+      "image": "assets/1475002/images/icon_head_escanor_0503_l__6ba38577f1601efa.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465014",
+      "categorie": "Head",
+      "nom": "Soleil radieux",
+      "image": "assets/1475002/images/icon_head_escanor_0026_l__852fe5483bbdf473.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465005",
+      "categorie": "Head",
+      "nom": "Dignité de gentleman",
+      "image": "assets/1475002/images/icon_head_escanor_0504_l__474f7b13309f7cc7.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465011",
+      "categorie": "Head",
+      "nom": "Chapeau vert d'acclamation",
+      "image": "assets/1475002/images/icon_head_escanor_0021_l__b18e40bdd7772788.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465010",
+      "categorie": "Head",
+      "nom": "Malédiction de l'ombre corrompue",
+      "image": "assets/1475002/images/icon_head_escanor_0018_l__2dcb56de9bd48eb9.png",
+      "rarete": ""
+    },
+    {
+      "id": "4465012",
+      "categorie": "Head",
+      "nom": "Marque du soleil",
+      "image": "assets/1475002/images/icon_head_escanor_0506_l__aedebebbde85bb79.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Hache dorée de Forseti",
+    "image": "assets/1475002/images/icon_weapon_escanor_0551_s__2ba6ca957b39f510.png",
+    "description": "Relique sacrée d'Escanor, Chevalier Sacré (arme).\\n[DC143C]La hache dorée de Forseti, le dieu de la justice. La lame brille fièrement et juge les injustices.",
+    "passif": {
+      "nom": "Hache dorée de Forseti",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Augmente l'attaque du héros d'une valeur égale à [FFAE00]50 %[-] de sa défense au début du combat."
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 300.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 450.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 1700.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Or",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Source du vent",
+        "image": "assets/commun/icon_craft_costume_rare_material_01__391d7091ff4c5016.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Splendeur du Valhalla",
+        "image": "assets/commun/icon_item_drop_nor_0003__fb5417b6b988fed4.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Essence magique bleue",
+        "image": "assets/commun/icon_craft_costume_key_material_01__8bc67ed6369368ff.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Méticulosité d'Eitri",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Hraesvelgr"
+  }
+};

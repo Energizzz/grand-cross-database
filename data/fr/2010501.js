@@ -1,0 +1,566 @@
+window.fichePreparee={
+  "nom": "Ban, alter ego",
+  "designation": "[Monde inversé]",
+  "titre": "Ban, alter ego",
+  "idJeu": "2010501",
+  "attribut": {
+    "nom": "@attribute.4",
+    "icone": "assets/commun/icon_filter_attribute_04__41a0e2f0c35046b0.png",
+    "couleur": "#f1c54f",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.3"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_03__22a79e39766d0c88.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6",
+    "@characteristic.10"
+  ],
+  "portrait": "assets/2010501/images/icon_hero_ban_another_0002_s__3342e846c9e53eb4.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Monde inversé] Ban, alter ego ne peut pas infliger de coup critique avec ses attaques, mais elle profite de dégâts supplémentaires proportionnellement à ses dégâts crit.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/2010501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/2010501/images/hero_illust_ban_another_2010501__853a2d436a565927.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 520.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 400.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 6800.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4935
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Beauté captivante »",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_01__b5ba458350aa051a.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.oneEnemy pendant [FFAE00]1 tour[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 200 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010201,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.oneEnemy pendant [FFAE00]1 tour[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 300 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010202,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.oneEnemy pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 500 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010203,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Déferlante du chasseur »",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_02__23f7aef49edba36f.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflige des dégâts de [00D5FF]Voracité[-] qui ne déclenchent aucun coup critique égaux à 120 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Voracité : taux de perforation [FFAE00]x3[-].\\nDégâts supplémentaires égaux à [FFAE00]120 %[-] de (dégâts crit. [FFAE00]-100 %[-]).[-]",
+              "idJeu": 1010211,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts de [00D5FF]Voracité[-] qui ne déclenchent aucun coup critique égaux à 180 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Voracité : taux de perforation [FFAE00]x3[-].\\nDégâts supplémentaires égaux à [FFAE00]120 %[-] de (dégâts crit. [FFAE00]-100 %[-]).[-]",
+              "idJeu": 1010212,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Voracité[-] qui ne déclenchent aucun coup critique égaux à 300 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Voracité : taux de perforation [FFAE00]x3[-].\\nDégâts supplémentaires égaux à [FFAE00]120 %[-] de (dégâts crit. [FFAE00]-100 %[-]).[-]",
+              "idJeu": 1010213,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Beauté de la chasse »",
+        "image": "assets/2010501/images/icon_ban_another_ssr_type01_special_01__f622163a6acaf9ff.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 380.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 380 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 440 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 480 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 520 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 560 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 600 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Chasse estivale",
+        "image": "assets/2010501/images/icon_exclusive_skill_2010501__5cbb9bc7a20eedc3.png",
+        "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]30 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.-1\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]30 %[-] des PV augmentés du héros."
+          },
+          {
+            "niveau": 2,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]10 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros."
+          },
+          {
+            "niveau": 3,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]20 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros."
+          },
+          {
+            "niveau": 4,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]30 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros."
+          }
+        ]
+      },
+      "idForme": 330201,
+      "portrait": "assets/2010501/images/icon_hero_ban_another_0001_s__9ae88a822fbac66a.png",
+      "portraitVertical": "assets/2010501/images/icon_skin_ban_another_0001_l__421f7fb7752e7f16.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/2010501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/2010501/images/hero_illust_ban_another_2010501__853a2d436a565927.png",
+      "legendeImage": "Illustration du personnage",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 820.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 530.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 8500.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 5679
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 210.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 10.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "« Beauté captivante »",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_01__b5ba458350aa051a.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.oneEnemy pendant [FFAE00]1 tour[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 200 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010201,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.oneEnemy pendant [FFAE00]1 tour[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 300 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010202,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.oneEnemy pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 500 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+              "idJeu": 1010203,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/debuff_atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "« Déferlante du chasseur »",
+          "image": "assets/2010501/images/icon_ban_another_ssr_type01_skill_02__23f7aef49edba36f.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflige des dégâts de [00D5FF]Voracité[-] qui ne déclenchent aucun coup critique égaux à 120 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Voracité : taux de perforation [FFAE00]x3[-].\\nDégâts supplémentaires égaux à [FFAE00]120 %[-] de (dégâts crit. [FFAE00]-100 %[-]).[-]",
+              "idJeu": 1010211,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflige des dégâts de [00D5FF]Voracité[-] qui ne déclenchent aucun coup critique égaux à 180 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Voracité : taux de perforation [FFAE00]x3[-].\\nDégâts supplémentaires égaux à [FFAE00]120 %[-] de (dégâts crit. [FFAE00]-100 %[-]).[-]",
+              "idJeu": 1010212,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflige des dégâts de [00D5FF]Voracité[-] qui ne déclenchent aucun coup critique égaux à 300 % de l'attaque à @target.allEnemies.\\n\\n[00D5FF]※Voracité : taux de perforation [FFAE00]x3[-].\\nDégâts supplémentaires égaux à [FFAE00]120 %[-] de (dégâts crit. [FFAE00]-100 %[-]).[-]",
+              "idJeu": 1010213,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "« Beauté de la chasse »",
+        "image": "assets/2010501/images/icon_ban_another_ssr_type01_special_01__f622163a6acaf9ff.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 380.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 380 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 440.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 440 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 480.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 480 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 520.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 520 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 560.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 560 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 600.0,
+            "description": "Applique [00D5FF]Marque d'avidité[-] sur @target.allEnemies pendant [FFAE00]2 tours[-], puis inflige des dégâts d'[00D5FF]Avidité[-] égaux à 600 % de l'attaque.\\n\\n[00D5FF]※Avidité : taux de perforation [FFAE00]x3[-]. Dégâts infligés contre les ennemis affectés par Marque d'avidité [FFAE00]+[-]150 %.[-]",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Chasse estivale",
+        "image": "assets/2010501/images/icon_exclusive_skill_2010501__5cbb9bc7a20eedc3.png",
+        "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]30 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros.",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.-1\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]30 %[-] des PV augmentés du héros."
+          },
+          {
+            "niveau": 2,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]10 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros."
+          },
+          {
+            "niveau": 3,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]20 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros."
+          },
+          {
+            "niveau": 4,
+            "description": "Augmente les stats de base des [00D5FF]alliés concernés[-] en combat de [FFAE00]15 %[-] et réduit leurs [00D5FF]dégâts subis[-] de [FFAE00]50 %[-].\\n[i][C0C0C0]※Alliés concernés : humains et Les [Seven Deadly Sins][-][/i]\\n\\nAu début du combat, octroie [00D5FF]Avidité[-] au héros pendant [FFAE00]2 tours[-].\\n[i][C0C0C0]※Avidité : stats de PV des alliés concernés [FFAE00]+20 %[-].\\nImmunise les alliés concernés contre la restriction des stats liées aux soins.Restaure immédiatement les PV des alliés concernés à hauteur de [FF8000]30 %[-] des dégâts subis pendant le tour ennemi.\\nOctroie [FFAE00]40 %[-] de suppression des dégâts subis face aux attaques à cible unique (y compris les contres).[-][/i]\\n\\nLorsque le héros utilise une compétence d'[00D5FF]Avidité[-] sur un ennemi affecté par [00D5FF]Marque d'avidité[-], augmente les [00D5FF]dégâts infligés[-] de [FFAE00]100 %[-], et si des dégâts sont infligés, vole [FFAE00]1 orbe[-] dans la jauge de coup ultime de l'ennemi, puis octroie [00D5FF]Furtivité[-] pendant [FFAE00]1 tour[-] et ne subit aucun dégât de [00D5FF]renvoi[-] ou de [00D5FF]contre[-].\\n[i][C0C0C0]※Marque d'avidité : dégâts infligés [FFAE00]-70 %[-], dégâts subis [FFAE00]+70 %[-].\\n※Furtivité : Ne peut pas être ciblé si d'autres alliés sont présents.[-][/i]\\n\\nPour [FFAE00]chaque orbe[-] volé dans la jauge de coup ultime des ennemis, augmente les stats de base des [00D5FF]alliés concernés[-] de [FFAE00]5 %[-] et augmente les [00D5FF]dégâts crit.[-] du héros de [FFAE00]30 %[-]. [FFAE00](10 fois max.)[-]\\n\\nLorsque la compétence d'un [00D5FF]allié concerné[-] ne déclenche pas un coup critique, inflige des dégâts supplémentaires égaux à [FF8000]40 %[-] des PV augmentés du héros."
+          }
+        ]
+      },
+      "idForme": 330202,
+      "portrait": "assets/2010501/images/icon_hero_ban_another_0002_s__3342e846c9e53eb4.png",
+      "portraitVertical": "assets/2010501/images/icon_skin_ban_another_0002_l__2551517ea8925296.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3330201",
+      "categorie": "Skin",
+      "nom": "Chasseuse de trésors",
+      "image": "assets/2010501/images/icon_skin_ban_another_0001_l__421f7fb7752e7f16.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330250",
+      "categorie": "Skin",
+      "nom": "Aide temporaire de la taverne",
+      "image": "assets/2010501/images/icon_skin_ban_another_0003_l__c244b22084e384c8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330251",
+      "categorie": "Skin",
+      "nom": "Yokai renard des terres lointaines",
+      "image": "assets/2010501/images/icon_skin_ban_another_0004_l__59dcaed3cd82e6b6.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330252",
+      "categorie": "Skin",
+      "nom": "Chasseuse de l'été",
+      "image": "assets/2010501/images/icon_skin_ban_another_0005_l__38ff5c2024654301.png",
+      "rarete": ""
+    },
+    {
+      "id": "3330202",
+      "categorie": "Skin",
+      "nom": "[b]Le Renard de l'Avarice[/b]",
+      "image": "assets/2010501/images/icon_skin_ban_another_0002_l__2551517ea8925296.png",
+      "rarete": ""
+    },
+    {
+      "id": "882401",
+      "categorie": "Weapon",
+      "nom": "Courechouse",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0001_l__1111fba0bd3815d0.png",
+      "rarete": ""
+    },
+    {
+      "id": "882402",
+      "categorie": "Weapon",
+      "nom": "Couteau de cuisine",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0003_l__fe71e8582bbd2649.png",
+      "rarete": ""
+    },
+    {
+      "id": "882403",
+      "categorie": "Weapon",
+      "nom": "Nunchakus des terres lointaines",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0004_l__ffdcf4636124dadd.png",
+      "rarete": ""
+    },
+    {
+      "id": "882404",
+      "categorie": "Weapon",
+      "nom": "Dessert estival",
+      "image": "assets/2010501/images/icon_weapon_ban_another_0005_l__3205e1b7e3feb585.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011301",
+      "categorie": "Head",
+      "nom": "Coiffure simple",
+      "image": "assets/2010501/images/icon_head_ban_another_0001_l__b2dcd2cb85a3c910.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011302",
+      "categorie": "Head",
+      "nom": "Coiffe de servante",
+      "image": "assets/2010501/images/icon_head_ban_another_0003_l__a61fb834d780eb24.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011303",
+      "categorie": "Head",
+      "nom": "Yokai renard irrésistible",
+      "image": "assets/2010501/images/icon_head_ban_another_0004_l__80072dbe821481a0.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011304",
+      "categorie": "Head",
+      "nom": "Style estival",
+      "image": "assets/2010501/images/icon_head_ban_another_0005_l__1626083d8c04ec4b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4011305",
+      "categorie": "Head",
+      "nom": "Style sauvage",
+      "image": "assets/2010501/images/icon_head_ban_another_0501_l__2b30d6b00f8adc3a.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null
+};

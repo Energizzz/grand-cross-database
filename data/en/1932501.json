@@ -1,0 +1,492 @@
+{
+  "nom": "Lead Vocalist Zena",
+  "designation": "[MAVE:]",
+  "titre": "Lead Vocalist Zena",
+  "idJeu": "1932501",
+  "attribut": {
+    "nom": "@attribute.3",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.6"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_06__96c3bf184ce60ee4.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.3"
+  ],
+  "portrait": "assets/1932501/images/icon_hero_meta_zen_0002_s__1b919648dd81c4a5.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[MAVE:] Lead Vocalist Zena has a Buff Skill which increases all allies' Attack.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "SSR",
+      "nom": "SSR",
+      "icone": "assets/commun/icon_filter_grade_SSR__ed30b11d8c06558d.png",
+      "cadre": "assets/1932501/images/icon_frame_small_ssr__3b1a07b8b1c4adb5.png",
+      "fond": "assets/commun/icon_hero_basic_s_5__d57710ef4255cc36.png",
+      "coin": "assets/commun/common_level_frame_rank_ssr.png",
+      "couleur": "#d9b569",
+      "image": "assets/1932501/images/hero_illust_meta_zen_1932501__8a47b69ffcf2841d.png",
+      "legendeImage": "meta_zen_0001",
+      "niveau": 50,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 580.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 360.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7200.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 3813
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 35.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 60.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Killer Beat\"",
+          "image": "assets/1932501/images/icon_meta_zen_ssr_type01_skill_01__4f84d2886b7d0f82.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflicts damage equal to 120 % of Attack on @target.oneEnemy and [00D5FF]depletes[-] 1 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 1001601,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts damage equal to 300 % of Attack on @target.oneEnemy and [00D5FF]depletes[-] 1 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 1001602,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 450.0,
+              "description": "Inflicts damage equal to 450 % of Attack on @target.oneEnemy and [00D5FF]depletes[-] 3 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 1001603,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Full Potential\"",
+          "image": "assets/1932501/images/icon_meta_zen_ssr_type01_skill_02__0685205d5901958d.png",
+          "type": "@skill.attack",
+          "cible": "@target.allAllies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Increases Attack of @target.allAllies by 30 % for 2 tour(s).",
+              "idJeu": 1001611,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Increases Attack of @target.allAllies by 40 % for 2 tour(s).",
+              "idJeu": 1001612,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Increases Attack of @target.allAllies by 60 % for 3 tour(s).",
+              "idJeu": 1001613,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Pandora\"",
+        "image": "assets/1932501/images/icon_meta_zen_ssr_type01_special_01__db27ddbf2957ccca.png",
+        "cible": "@target.allAllies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]100%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]110%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]120%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]130%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]140%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]150%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cheering Song",
+        "image": "assets/1932501/images/icon_exclusive_skill_1932501__30665b043103051f.png",
+        "description": "Fills allies' Ultimate Move Gauges by [FFAE00]1 orb[-] whenever the hero uses a Buff Skill.\\n[00D5FF](Excludes Ultimate Moves)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Fills allies' Ultimate Move Gauges by [FFAE00]1 orb[-] whenever the hero uses a Buff Skill.\\n[00D5FF](Excludes Ultimate Moves)[-]"
+          }
+        ]
+      },
+      "idForme": 315101,
+      "portrait": "assets/1932501/images/icon_hero_meta_zen_0001_s__a03cbaa332738da2.png",
+      "portraitVertical": "assets/1932501/images/icon_skin_meta_zen_0001_l__df57e261905a2a19.png"
+    },
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1932501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1932501/images/hero_illust_meta_zen_1932501__8a47b69ffcf2841d.png",
+      "legendeImage": "meta_zen_0002",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 700.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 480.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 7600.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 4109
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 35.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 140.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 50.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 60.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 0.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 0.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Killer Beat\"",
+          "image": "assets/1932501/images/icon_meta_zen_ssr_type01_skill_01__4f84d2886b7d0f82.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflicts damage equal to 120 % of Attack on @target.oneEnemy and [00D5FF]depletes[-] 1 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 1001601,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts damage equal to 300 % of Attack on @target.oneEnemy and [00D5FF]depletes[-] 1 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 1001602,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 450.0,
+              "description": "Inflicts damage equal to 450 % of Attack on @target.oneEnemy and [00D5FF]depletes[-] 3 % Ultimate Move Gauge [FFAE00]orb(s)[-].",
+              "idJeu": 1001603,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Full Potential\"",
+          "image": "assets/1932501/images/icon_meta_zen_ssr_type01_skill_02__0685205d5901958d.png",
+          "type": "@skill.attack",
+          "cible": "@target.allAllies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 0.0,
+              "description": "Increases Attack of @target.allAllies by 30 % for 2 tour(s).",
+              "idJeu": 1001611,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 0.0,
+              "description": "Increases Attack of @target.allAllies by 40 % for 2 tour(s).",
+              "idJeu": 1001612,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 0.0,
+              "description": "Increases Attack of @target.allAllies by 60 % for 3 tour(s).",
+              "idJeu": 1001613,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/buff_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Pandora\"",
+        "image": "assets/1932501/images/icon_meta_zen_ssr_type01_special_01__db27ddbf2957ccca.png",
+        "cible": "@target.allAllies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]100%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]110%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]120%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]130%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]140%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 0.0,
+            "description": "[00D5FF]Removes Debuffs[-] from @target.allAllies. Grants [00D5FF]Debuff Immunity[-] and increases [00D5FF]Defense-related stats[-] by [FFAE00]150%[-] for [FFAE00]4 turns[-].",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Cheering Song",
+        "image": "assets/1932501/images/icon_exclusive_skill_1932501__30665b043103051f.png",
+        "description": "Fills allies' Ultimate Move Gauges by [FFAE00]1 orb[-] whenever the hero uses a Buff Skill.\\n[00D5FF](Excludes Ultimate Moves)[-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Fills allies' Ultimate Move Gauges by [FFAE00]1 orb[-] whenever the hero uses a Buff Skill.\\n[00D5FF](Excludes Ultimate Moves)[-]"
+          }
+        ]
+      },
+      "idForme": 315102,
+      "portrait": "assets/1932501/images/icon_hero_meta_zen_0002_s__1b919648dd81c4a5.png",
+      "portraitVertical": "assets/1932501/images/icon_skin_meta_zen_0002_l__c35e6230b5369ac3.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3315101",
+      "categorie": "Skin",
+      "nom": "Splendid Popstar",
+      "image": "assets/1932501/images/icon_skin_meta_zen_0001_l__df57e261905a2a19.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315150",
+      "categorie": "Skin",
+      "nom": "Mysterious Girl",
+      "image": "assets/1932501/images/icon_skin_meta_zen_0003_l__084bd29cfcb569c0.png",
+      "rarete": ""
+    },
+    {
+      "id": "3315102",
+      "categorie": "Skin",
+      "nom": "Deadly Charming",
+      "image": "assets/1932501/images/icon_skin_meta_zen_0002_l__c35e6230b5369ac3.png",
+      "rarete": ""
+    },
+    {
+      "id": "874801",
+      "categorie": "Weapon",
+      "nom": "Pandora",
+      "image": "assets/1932501/images/icon_weapon_meta_zen_0001_l__fbe243945a42ea0b.png",
+      "rarete": ""
+    },
+    {
+      "id": "874802",
+      "categorie": "Weapon",
+      "nom": "Mystery Box",
+      "image": "assets/1932501/images/icon_weapon_meta_zen_0003_l__f2a97ca78f37bab0.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002901",
+      "categorie": "Head",
+      "nom": "Ash Pink Ponytail",
+      "image": "assets/1932501/images/icon_head_meta_zen_0001_l__dfc1098caf5b2af2.png",
+      "rarete": ""
+    },
+    {
+      "id": "4002902",
+      "categorie": "Head",
+      "nom": "Elegant Hairpin",
+      "image": "assets/1932501/images/icon_head_meta_zen_0003_l__277c8e70817475a6.png",
+      "rarete": ""
+    }
+  ],
+  "relique": null
+}

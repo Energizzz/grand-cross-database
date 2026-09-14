@@ -1,0 +1,472 @@
+{
+  "nom": "Demon King Meliodas",
+  "designation": "[Era's End]",
+  "titre": "Demon King Meliodas",
+  "idJeu": "1945501",
+  "attribut": {
+    "nom": "@attribute.3",
+    "icone": "assets/commun/icon_filter_attribute_03__4980bb489ce93431.png",
+    "couleur": "#50b8ea",
+    "detail": "Identifiant attribut DB_skin_base"
+  },
+  "race": {
+    "nom": [
+      "@race.1"
+    ],
+    "icone": [
+      "assets/commun/icon_filter_kind_01__b2dfe4e53bdd1bf4.png"
+    ]
+  },
+  "caracteristiques": [
+    "@characteristic.6"
+  ],
+  "portrait": "assets/1945501/images/icon_hero_meliodas_god_0002_s__946f4eeefd121415.png",
+  "rareteParDefaut": "UR",
+  "presentation": "[Era's End] Demon King Meliodas has a skill that deals greater damage the higher his Crit Chance and Crit Damage.",
+  "commandement": null,
+  "talent": null,
+  "grace": null,
+  "union": null,
+  "raretés": [
+    {
+      "id": "UR",
+      "nom": "UR",
+      "icone": "assets/commun/icon_filter_grade_UR__e991ffc663c6f527.png",
+      "cadre": "assets/1945501/images/icon_frame_small_ur__32674fdb5a494112.png",
+      "fond": "assets/commun/icon_hero_basic_s_6__9b21faac625aca80.png",
+      "coin": "assets/commun/common_level_frame_rank_ur.png",
+      "couleur": "#c6a5fa",
+      "image": "assets/1945501/images/hero_illust_meliodas_god_1945501__2c7e2d55fcc82659.png",
+      "legendeImage": "meliodas_god_0002",
+      "niveau": 60,
+      "statistiques": {
+        "principales": [
+          {
+            "nom": "@stat.attack",
+            "valeur": 970.0
+          },
+          {
+            "nom": "@stat.defense",
+            "valeur": 490.0
+          },
+          {
+            "nom": "@stat.hp",
+            "valeur": 9600.0
+          },
+          {
+            "nom": "@stat.combatClass",
+            "valeur": 6082
+          }
+        ],
+        "secondaires": [
+          {
+            "nom": "@stat.critChance",
+            "valeur": 130.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDamage",
+            "valeur": 230.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.resistance",
+            "valeur": null,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critResistance",
+            "valeur": 80.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.critDefense",
+            "valeur": 90.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.pierceRate",
+            "valeur": 100.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.regenerationRate",
+            "valeur": 5.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.recoveryRate",
+            "valeur": 110.0,
+            "unite": "%"
+          },
+          {
+            "nom": "@stat.lifesteal",
+            "valeur": 5.0,
+            "unite": "%"
+          }
+        ]
+      },
+      "competences": [
+        {
+          "id": "attaque-a",
+          "nom": "\"Raging Fist\"",
+          "image": "assets/1945501/images/icon_meliodas_god_ssr_type01_skill_01__60bc0786fb50365e.png",
+          "type": "@skill.attack",
+          "cible": "@target.oneEnemy",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 200.0,
+              "description": "Inflicts [00D5FF]Extinction[-] damage equal to 200 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Extinction: [FFAE00]2x[-] Crit Damage\\n[FFAE00]2x[-] Crit Chance when All Creation is active.[-]",
+              "idJeu": 1002901,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Extinction[-] damage equal to 300 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Extinction: [FFAE00]2x[-] Crit Damage\\n[FFAE00]2x[-] Crit Chance when All Creation is active.[-]",
+              "idJeu": 1002902,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 500.0,
+              "description": "Inflicts [00D5FF]Extinction[-] damage equal to 500 % of Attack on @target.oneEnemy.\\n\\n[00D5FF]※Extinction: [FFAE00]2x[-] Crit Damage\\n[FFAE00]2x[-] Crit Chance when All Creation is active.[-]",
+              "idJeu": 1002903,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk.png"
+            }
+          ]
+        },
+        {
+          "id": "attaque-b",
+          "nom": "\"Impulse\"",
+          "image": "assets/1945501/images/icon_meliodas_god_ssr_type01_skill_02__a06644ba0e652515.png",
+          "type": "@skill.attack",
+          "cible": "@target.allEnemies",
+          "rangs": [
+            {
+              "rang": 1,
+              "multiplicateur": 120.0,
+              "description": "Inflicts [00D5FF]Doom[-] damage equal to 120 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End on enemies.",
+              "idJeu": 1002911,
+              "cadre": "assets/skill-frames/rank-1.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 2,
+              "multiplicateur": 180.0,
+              "description": "Inflicts [00D5FF]Doom[-] damage equal to 180 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End on enemies.",
+              "idJeu": 1002912,
+              "cadre": "assets/skill-frames/rank-2.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            },
+            {
+              "rang": 3,
+              "multiplicateur": 300.0,
+              "description": "Inflicts [00D5FF]Doom[-] damage equal to 300 % of Attack on @target.allEnemies.\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End on enemies.",
+              "idJeu": 1002913,
+              "cadre": "assets/skill-frames/rank-3.png",
+              "iconeType": "assets/skill-frames/atk_global.png"
+            }
+          ]
+        }
+      ],
+      "ultime": {
+        "nom": "\"Obliteration\"",
+        "image": "assets/1945501/images/icon_meliodas_god_ssr_type01_special_01__6d7159ab19f7a47f.png",
+        "cible": "@target.allEnemies",
+        "niveaux": [
+          {
+            "niveau": 1,
+            "multiplicateur": 300.0,
+            "description": "Increases all of the hero's stats by [FFAE00]5%[-], then applies [FFAE00]1[-] [00D5FF]Seed of the End[-] effect and inflicts [00D5FF]Doom[-] damage equal to 300 % of Attack on @target.allEnemies.\\n\\nIf the hero is [00D5FF]participating in battle[-], the associated hero's [00D5FF]Commandment activates[-]. If the hero has the [00D5FF]Protection of the Demon King[-], their Crit Defense increases by [FFAE00]8%[-].\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End effect on enemies.",
+            "cadre": "assets/skill-frames/ultimate-normal-1.png"
+          },
+          {
+            "niveau": 2,
+            "multiplicateur": 340.0,
+            "description": "Increases all of the hero's stats by [FFAE00]10%[-], then applies [FFAE00]1[-] [00D5FF]Seed of the End[-] effect and inflicts [00D5FF]Doom[-] damage equal to 340 % of Attack on @target.allEnemies.\\n\\nIf the hero is [00D5FF]participating in battle[-], the associated hero's [00D5FF]Commandment activates[-]. If the hero has the [00D5FF]Protection of the Demon King[-], their Crit Defense increases by [FFAE00]10%[-] and their [00D5FF]damage taken[-] from single-target attacks decreases by [FFAE00]5%[-].\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End effect on enemies.",
+            "cadre": "assets/skill-frames/ultimate-normal-2.png"
+          },
+          {
+            "niveau": 3,
+            "multiplicateur": 380.0,
+            "description": "Increases all of the hero's stats by [FFAE00]15%[-], then applies [FFAE00]1[-] [00D5FF]Seed of the End[-] effect and inflicts [00D5FF]Doom[-] damage equal to 380 % of Attack on @target.allEnemies.\\n\\nIf the hero is [00D5FF]participating in battle[-], the associated hero's [00D5FF]Commandment activates[-]. If the hero has the [00D5FF]Protection of the Demon King[-], their Crit Defense increases by [FFAE00]12%[-] and their [00D5FF]damage taken[-] from single-target attacks decreases by [FFAE00]7%[-].\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End effect on enemies.",
+            "cadre": "assets/skill-frames/ultimate-normal-3.png"
+          },
+          {
+            "niveau": 4,
+            "multiplicateur": 420.0,
+            "description": "Increases all of the hero's stats by [FFAE00]20%[-], then applies [FFAE00]2[-] [00D5FF]Seed of the End[-] effects and inflicts [00D5FF]Doom[-] damage equal to 420 % of Attack on @target.allEnemies.\\n\\nIf the hero is [00D5FF]participating in battle[-], the associated hero's [00D5FF]Commandment activates[-]. If the hero has the [00D5FF]Protection of the Demon King[-], their Crit Defense increases by [FFAE00]14%[-] and their [00D5FF]damage taken[-] from single-target attacks decreases by [FFAE00]9%[-].\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End effect on enemies.",
+            "cadre": "assets/skill-frames/ultimate-normal-4.png"
+          },
+          {
+            "niveau": 5,
+            "multiplicateur": 460.0,
+            "description": "Increases all of the hero's stats by [FFAE00]25%[-], then applies [FFAE00]2[-] [00D5FF]Seed of the End[-] effects and inflicts [00D5FF]Doom[-] damage equal to 460 % of Attack on @target.allEnemies.\\n\\nIf the hero is [00D5FF]participating in battle[-], the associated hero's [00D5FF]Commandment activates[-]. If the hero has the [00D5FF]Protection of the Demon King[-], their Crit Defense increases by [FFAE00]17%[-] and their [00D5FF]damage taken[-] from single-target attacks decreases by [FFAE00]12%[-].\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End effect on enemies.",
+            "cadre": "assets/skill-frames/ultimate-normal-5.png"
+          },
+          {
+            "niveau": 6,
+            "multiplicateur": 500.0,
+            "description": "Increases all of the hero's stats by [FFAE00]30%[-], then applies [FFAE00]3[-] [00D5FF]Seed of the End[-] effects and inflicts [00D5FF]Doom[-] damage equal to 500 % of Attack on @target.allEnemies.\\n\\nIf the hero is [00D5FF]participating in battle[-], the associated hero's [00D5FF]Commandment activates[-]. If the hero has the [00D5FF]Protection of the Demon King[-], their Crit Defense increases by [FFAE00]20%[-] and their [00D5FF]damage taken[-] from single-target attacks decreases by [FFAE00]15%[-].\\n\\n[00D5FF]※Doom: [FFAE00]2x[-] Crit Chance\\n[FFAE00]+20%[-] damage dealt for [FFAE00]every[-] Seed of the End effect on enemies.",
+            "cadre": "assets/skill-frames/ultimate-normal-6.png"
+          }
+        ]
+      },
+      "passif": {
+        "nom": "Beginning of the End",
+        "image": "assets/1945501/images/icon_exclusive_skill_1945501__bf0b43e691fa237b.png",
+        "description": "Applies [00D5FF]Protection of the Demon King[-] on self at the start of the battle. When an [00D5FF]applicable ally[-] uses an Attack Skill, the target receives [FFAE00]1[-] [00D5FF]Seed of the End[-] effect, up to [FFAE00]3[-]. When the [00D5FF]hero uses a skill[-] on an enemy at [00D5FF]max stacks[-], the target's [00D5FF]Stances are removed[-] and the hero gains [FFAE00]1[-] [00D5FF]Dark Energy[-].\\n\\nIn addition, the hero's basic stats are increased by [FFAE00]7%[-] for [FFAE00]every[-] [00D5FF]applicable ally[-] participating in battle, and when the hero's [00D5FF]Dark Energy[-] reaches [FFAE00]4 stacks[-], the hero removes all of them and gains [00D5FF]All Creation[-].\\n\\n[00D5FF]※Protection of the Demon King: Removes [FFAE00]1[-] Debuff from each ally at the start of the allies' turn. The hero gains Dark Energy effects equal to the number of Debuffs removed.\\n※Seed of the End: Defense-related stats [FFAE00]-10%[-] (Removed when the hero uses a skill on an enemy at max stacks)\\n※Dark Energy: Defense-related stats [FFAE00]+10%[-]\\n※All Creation: Attack-related stats [FFAE00]+50%[-], all Debuffs are removed from self, and own skill ranks increase (removed after using an Attack Skill)\\n※Applicable Ally: Demons, [The Seven Deadly Sins][-]",
+        "niveauxUltime": [
+          {
+            "niveau": 1,
+            "description": "Applies [00D5FF]Protection of the Demon King[-] on self at the start of the battle. When an [00D5FF]applicable ally[-] uses an Attack Skill, the target receives [FFAE00]1[-] [00D5FF]Seed of the End[-] effect, up to [FFAE00]3[-]. When the [00D5FF]hero uses a skill[-] on an enemy at [00D5FF]max stacks[-], the target's [00D5FF]Stances are removed[-] and the hero gains [FFAE00]1[-] [00D5FF]Dark Energy[-].\\n\\nIn addition, the hero's basic stats are increased by [FFAE00]7%[-] for [FFAE00]every[-] [00D5FF]applicable ally[-] participating in battle, and when the hero's [00D5FF]Dark Energy[-] reaches [FFAE00]4 stacks[-], the hero removes all of them and gains [00D5FF]All Creation[-].\\n\\n[00D5FF]※Protection of the Demon King: Removes [FFAE00]1[-] Debuff from each ally at the start of the allies' turn. The hero gains Dark Energy effects equal to the number of Debuffs removed.\\n※Seed of the End: Defense-related stats [FFAE00]-10%[-] (Removed when the hero uses a skill on an enemy at max stacks)\\n※Dark Energy: Defense-related stats [FFAE00]+10%[-]\\n※All Creation: Attack-related stats [FFAE00]+50%[-], all Debuffs are removed from self, and own skill ranks increase (removed after using an Attack Skill)\\n※Applicable Ally: Demons, [The Seven Deadly Sins][-]"
+          }
+        ]
+      },
+      "idForme": 323501,
+      "portrait": "assets/1945501/images/icon_hero_meliodas_god_0002_s__946f4eeefd121415.png",
+      "portraitVertical": "assets/1945501/images/icon_skin_meliodas_god_0002_l__2284a56398748db8.png"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "3323502",
+      "categorie": "Skin",
+      "nom": "Ender of the Era",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0002_l__2284a56398748db8.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323550",
+      "categorie": "Skin",
+      "nom": "Hero Suit",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0006_l__2cebe948e443808b.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323555",
+      "categorie": "Skin",
+      "nom": "Warm Memorial Coat",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0008_l__5c6f1f094e2b16d9.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323557",
+      "categorie": "Skin",
+      "nom": "Uniform for the New Semester",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0010_l__2a871f2a2e9981be.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323558",
+      "categorie": "Skin",
+      "nom": "Cozy Winter Clothes",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0011_l__634f8722de2abfc4.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323551",
+      "categorie": "Skin",
+      "nom": "Prince of Eden",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0003_l__17e0fd2f92a25af7.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323552",
+      "categorie": "Skin",
+      "nom": "Treasonous Knight",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0004_l__b2ac32df43268f80.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323553",
+      "categorie": "Skin",
+      "nom": "Dragon Incarnate",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0005_l__d7762f10fd7f4c15.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323556",
+      "categorie": "Skin",
+      "nom": "S.W.A.T.",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0009_l__8b1a4d9fe36b32d3.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323501",
+      "categorie": "Skin",
+      "nom": "Demon King's Power",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0001_l__131214f8245c979a.png",
+      "rarete": ""
+    },
+    {
+      "id": "3323554",
+      "categorie": "Skin",
+      "nom": "Glorious Knighthood Armor",
+      "image": "assets/1945501/images/icon_skin_meliodas_god_0007_l__511bb911f6e2b984.png",
+      "rarete": ""
+    },
+    {
+      "id": "876101",
+      "categorie": "Weapon",
+      "nom": "Demon Sword Lostvayne",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0001_l__b36b83ba2849ef9e.png",
+      "rarete": ""
+    },
+    {
+      "id": "876105",
+      "categorie": "Weapon",
+      "nom": "3.5th Anniversary Souvenir",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0008_l__f6dc9a9f5ce98e36.png",
+      "rarete": ""
+    },
+    {
+      "id": "876102",
+      "categorie": "Weapon",
+      "nom": "Treasured Sword of Eden",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0003_l__0c3e5865b81bfdf2.png",
+      "rarete": ""
+    },
+    {
+      "id": "876103",
+      "categorie": "Weapon",
+      "nom": "Vampiric Sword",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0004_l__f1a943004f9796cc.png",
+      "rarete": ""
+    },
+    {
+      "id": "876104",
+      "categorie": "Weapon",
+      "nom": "Dragon Sword",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0005_l__7db67a08b5bd15cf.png",
+      "rarete": ""
+    },
+    {
+      "id": "876106",
+      "categorie": "Weapon",
+      "nom": "Three-section Staff",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0009_l__27c9f21ffb397edc.png",
+      "rarete": ""
+    },
+    {
+      "id": "876107",
+      "categorie": "Weapon",
+      "nom": "Gullinbursti's Tusk",
+      "image": "assets/1945501/images/icon_weapon_meliodas_god_0001_l__b36b83ba2849ef9e.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004901",
+      "categorie": "Head",
+      "nom": "Usual Hairstyle",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0001_l__ce45fb9d1f02505f.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004906",
+      "categorie": "Head",
+      "nom": "Fancy Celebratory Crown",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0008_l__0cb7e165ce333248.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004908",
+      "categorie": "Head",
+      "nom": "Cozy Winter Hat",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0011_l__d4623a48bf029348.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004902",
+      "categorie": "Head",
+      "nom": "Brilliant Gold Crown",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0003_l__38c2e773f5764051.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004903",
+      "categorie": "Head",
+      "nom": "Mask of Insurrection",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0004_l__c14a324deffca5cd.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004904",
+      "categorie": "Head",
+      "nom": "Dragon's Fighting Spirit",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0005_l__671a4c8336e74682.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004907",
+      "categorie": "Head",
+      "nom": "Riot Helmet",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0009_l__82ef9a5066124c2b.png",
+      "rarete": ""
+    },
+    {
+      "id": "4004905",
+      "categorie": "Head",
+      "nom": "Fearless Cat",
+      "image": "assets/1945501/images/icon_head_meliodas_god_0501_l__5cbddcbd88c86014.png",
+      "rarete": ""
+    }
+  ],
+  "relique": {
+    "nom": "Gullinbursti's Tusk",
+    "image": "assets/1945501/images/icon_weapon_meliodas_god_0551_s__cb76dfaf46582122.png",
+    "description": "Demon King Meliodas's Holy Relic (Weapon).\\n[DC143C]A sword forged from the tusk of Gullinbursti, the golden, lightning-speed boar ridden by Sun God Freyr. It is said that wherever this blade strikes, only a golden afterimage remains.[-]",
+    "passif": {
+      "nom": "Gullinbursti's Tusk",
+      "image": "assets/commun/icon_setcostume_craft_001__d025bdbd539c2c8e.png",
+      "description": "Increases all stats of the hero by [FFAE00]5%[-] for [FFAE00]each[-] [00D5FF]Applicable Ally[-] participating in battle.\\n[i][C0C0C0]※Applicable Ally: Demons and [The Seven Deadly Sins][-][/i]\\n\\nThe hero gains [00D5FF]Dark Energy[-] and inflicts [00D5FF]Seed of the End[-] on all enemies at the start of the battle.\\n\\nThe hero gains [00D5FF]Dark Energy[-] and inflicts [00D5FF]Seed of the End[-] on all enemies when [00D5FF]All Creation[-] is removed from the hero.\\n\\nEach time the [00D5FF]hero's skills rank up[-] through the Unique ability, [00D5FF]Applicable Allies'[-] basic stats increase by [FFAE00]7%[-].\\n[00D5FF](Limit [FFAE00]5 times[-])[-]"
+    },
+    "bonus": [
+      {
+        "nom": "@stat.attack",
+        "valeur": 500.0
+      },
+      {
+        "nom": "@stat.defense",
+        "valeur": 300.0
+      },
+      {
+        "nom": "@stat.hp",
+        "valeur": 3800.0
+      }
+    ],
+    "materiaux": [
+      {
+        "nom": "Gold",
+        "image": "assets/commun/icon_item_money_gold__f3bf90ba36454792.png",
+        "quantite": 5000000
+      },
+      {
+        "nom": "Twilight Source",
+        "image": "assets/commun/icon_craft_costume_rare_material_03__633922237ffc6bf3.png",
+        "quantite": 15
+      },
+      {
+        "nom": "Honor of the Einherjar",
+        "image": "assets/commun/icon_craft_costume_material_01__49ff86632bcd1bc8.png",
+        "quantite": 30
+      },
+      {
+        "nom": "Black Magic Essence",
+        "image": "assets/commun/icon_craft_costume_key_material_02__c45289b47672f7a7.png",
+        "quantite": 80
+      },
+      {
+        "nom": "Eitri's Meticulousness",
+        "image": "assets/commun/icon_craft_costume_material_07__ee745c99ba8751db.png",
+        "quantite": 80
+      }
+    ],
+    "provenance": "Skoll and Hati"
+  }
+}
